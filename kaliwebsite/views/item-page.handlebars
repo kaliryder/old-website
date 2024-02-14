@@ -1,0 +1,53 @@
+<!--header-->
+<div class="section-divider" id="about"></div>
+<h1 class="color1 dawningOfANewDay">{{product.title}}</h1>
+
+<!-- display details of the selected product -->
+<div>
+    <h5>{{product.price}}</h5>
+    <h5>One of our many fun and trendy {{product.category}}</h5>
+    <!--checkout post button-->
+    <div>
+        <form method="post" action="/addToCart/{{product.id}}">
+            <button type="submit">Add to Cart</button>
+        </form>
+    </div>
+    <img src="{{product.image}}" alt="{{product.title}}" class="img-thumbnail">
+</div>
+
+<!--carousel slider : product pictures-->
+{{#if product}}
+    <div class="section-divider" id="services"></div>
+    <div class="owl-theme owl-carousel owl-packages">
+        {{#each product.images}}
+            <div class="card">
+                <img src="{{this}}" class="card-img-top" alt="{{title}}">
+            </div>
+        {{/each}}
+    </div>
+{{/if}}
+
+<!--label-->
+<h2>Other {{product.category}}</h2>
+
+<!--carousel slider : other products-->
+{{#if otherProducts}}
+<div class="section-divider" id="services"></div>
+<div class="owl-theme owl-carousel owl-packages">
+    {{#each otherProducts}}
+    <div class="card">
+        {{#if this.image}}
+        <a href="/item/{{id}}" class="gallery-img">
+            <img src="{{image}}" class="card-img-top" alt="{{title}}">
+        </a>
+        {{/if}}
+        <div class="card-body">
+            <h5 class="card-title">{{title}}</h5>
+        </div>
+        <ul class="list-group list-group-flush nanumMyeongjo-regular">
+            <li class="list-group-item">{{this.price}}</li>
+        </ul>
+    </div>
+    {{/each}}
+</div>
+{{/if}}

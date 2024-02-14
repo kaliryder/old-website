@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;500&family=Dawning+of+a+New+Day&family=Gwendolyn:wght@400;700&family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+
+/* fonts */
+.nanumMyeongjo-light {font-family: 'Nanum Myeongjo', serif; font-weight: 400}
+.nanumMyeongjo-regular {font-family: 'Nanum Myeongjo', serif; font-weight: 700}
+.nanumMyeongjo-bold {font-family: 'Nanum Myeongjo', serif; font-weight: 800}
+
+.dawningOfANewDay {font-family: 'Dawning of a New Day', cursive}
+
+.gwendolyn-regular {font-family: 'Gwendolyn', cursive; font-weight: 400}
+.gwendolyn-bold {font-family: 'Gwendolyn', cursive; font-weight: 700}
+
+.archivoNarrow-regular {font-family: 'Archivo Narrow', sans-serif; font-weight: 400}
+.archivoNarrow-bold {font-family: 'Archivo Narrow', sans-serif; font-weight: 500}
+
+/* colors */
+.background-color {
+    background-color: #D1EAFF;
+}
+
+.background-color-light {
+    background-color: #DAF4FF;
+}
+
+.background-color-lighter {
+    background-color: #E2FDFF;
+}
+
+.background-color-lightest {
+    background-color: #E9FDFF;
+}
+
+.accent-color {
+    background-color: #5465FF;
+}
+
+.accent-color-light {
+    background-color: #788BFF;
+}
+
+.accent-color-lighter {
+    background-color: #9BB1FF;
+}
+
+.accent-color-lightest {
+    background-color: #ADC4FF;
+}
+
+/* navbar */
+.container-fluid {
+    padding: 1rem;
+}
+
+.nav-content {
+    padding: 1rem;
+}
+
+.nav-item:hover {
+    color: black;
+    background-color: #D1EAFF;
+}
+
+.navbar-logo img {
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.d-flex {
+    padding: 2rem;
+    padding-left: 3rem;
+}
+
+/* basic tags */
+p {
+    padding: 2rem;
+    padding-bottom: 0rem;
+}
+
+h1 {
+    padding: 2rem;
+}
+
+/* structural elements */
+.section-header {
+    padding: 2rem;
+    padding-top: 0rem;
+}
+
+.section-divider {
+    padding: 1rem;
+}
+
+footer {
+    padding: 2rem;
+}
+
+/* owl carousel */
+.owl-dots {
+    padding: 2rem;
+}
+
+.owl-nav {
+    display: none;
+}
+
+.img-fluid {
+    object-fit: cover;
+    height: 15rem;
+    width: 30rem;
+    aspect-ratio: 1/1;
+    padding-left: 5rem;
+}
+
+.carousel-img-fluid {
+    object-fit: cover;
+    height: 5rem;
+    aspect-ratio: 1/2;
+}
+
+/* gallery */
+
+.gallery-img img {
+    object-fit: cover;
+    height: 20rem;
+    aspect-ratio: 1/1;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 20rem;
+    aspect-ratio: 1/1;
+}
+
+.card-text {
+    padding: 2rem;
+}
+
+.img-thumbnail {
+    height: 30rem;
+    display: block;
+    margin: auto;
+}
+
+/* cart styles */
+
+ul.cart-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.cart-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cart-img {
+    width: 10rem; 
+    height: auto;
+    margin-right: 20px; 
+}
+
+ul.cart-item-details {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.cart-item-details li {
+    padding: 5px;
+}
+
+/* form styles */
+
+#checkout-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px; 
+    margin: 0; 
+}
+
+#checkout-form label {
+    margin-bottom: 5px; 
+}
+
+#checkout-form input, 
+#checkout-form button {
+    margin-bottom: 10px; 
+}
