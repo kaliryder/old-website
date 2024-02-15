@@ -35,11 +35,11 @@ app.get('/',(req,res)=>{
     const slideshowItems = chooseRandomItems(allItems, 5);
 
     //sort items of each category into their own consts
-    const sculptureItems = itemData.items.filter(item => getCategoryFromId(item.id) === 'sculpture');
-    const paperItems = itemData.items.filter(item => getCategoryFromId(item.id) === 'paper');
-    const codeItems = itemData.items.filter(item => getCategoryFromId(item.id) === 'code');
-    const digitalItems = itemData.items.filter(item => getCategoryFromId(item.id) === 'digital');
-    const fashionItems = itemData.items.filter(item => getCategoryFromId(item.id) === 'fashion');
+    const sculptureItems = itemData.items.filter(item => item.category === "Sculpture");
+    const paperItems = itemData.items.filter(item => item.category === "Paper");
+    const codeItems = itemData.items.filter(item => item.category === "Code");
+    const digitalItems = itemData.items.filter(item => item.category === "Digital");
+    const fashionItems = itemData.items.filter(item => item.category === "Fashion");
 
     //choose one random item from each category
     const sculptureItem = chooseRandomItems(sculptureItems, 1);
@@ -49,74 +49,90 @@ app.get('/',(req,res)=>{
     const fashionItem = chooseRandomItems(fashionItems, 1);
     
     //render home view
-    res.render('home-page',{ data, products: selectedProducts, slideshow: slideshowProducts, top: topProduct, bottom: bottomsProduct, outerwear: outerwearProduct, digital: digitalItem, fashion: fashionItem })
+    res.render('home-page',{ data, items: selectedItems, slideshow: slideshowItems, sculpture: sculptureItem, paper: paperItem, code: codeItem, digital: digitalItem, fashion: fashionItem })
 })
 
 //helper functions for home route
 
-    //function to choose a random subset of products
-    function chooseRandomProducts(allProducts, numProducts) {
-        //spread operator creates temp copy of allProducts, sorts and assigns to shuffledProducts
-        const shuffledProducts = [...allProducts].sort(() => 0.5 - Math.random()); //0.5 - Math.random creates roughly 50% negative 50% positive values
-        //slice selected first numProducts of shuffled allProducts array
-        return shuffledProducts.slice(0, numProducts);
+    //function to choose a random subset of items
+    function chooseRandomItems(allItems, numItems) {
+        //spread operator creates temp copy of allItems, sorts and assigns to shuffledItems
+        const shuffledItems = [...allItems].sort(() => 0.5 - Math.random()); //0.5 - Math.random creates roughly 50% negative 50% positive values
+        //slice selected first numItems of shuffled allItems array
+        return shuffledItems.slice(0, numItems);
     }
 
-    //function to determine the category based on the productId range
-    function getCategoryFromId(productId) {
-        if (productId >= 1 && productId <= 12) {
-            return 'outerwear';
-        } else if (productId >= 13 && productId <= 24) {
-            return 'tops';
-        } else if (productId >= 25 && productId <= 36) {
-            return 'bottoms';
+    function getCategory(itemCategory) {
+        if(itemCategory == "Sculpture") {
+            return 'sculpture';
+        } else if (itemCategory == "Paper") {
+            return 'paper';
+        } else if (itemCategory == "Code") {
+            return 'code';
+        } else if (itemCategory == "Digital") {
+            return 'digital';
+        } else if (itemCategory == "Fashion") {
+            return 'fashion';
         }
-        //handle else
-        return null;
+        return null
     }
 
-//individual product routes from home, category and product pages using productId
-app.get(['/item/:id', '/product/:id'], (req, res) => {
-    const productId = req.params.id;
+//individual item routes from home, category and item pages using itemId
+app.get(['/item/:id'], (req, res) => {
+    const itemId = req.params.id;
 
-    //find the product with matching id in productData
-    const selectedProduct = productData.products.find(item => item.id === parseInt(productId, 10)); //parseInt converts productId to int (base 10)
+    //find the item with matching id in itemData
+    const selectedItem = itemData.items.find(item => item.id === itemId);
 
-    if (!selectedProduct) {
-        //if product is not found
-        res.status(404).send('Product not found');
+    if (!selectedItem) {
+        //if item is not found
+        res.status(404).send('Item not found');
         return;
     }
 
-    const category = getCategoryFromId(productId);
-    //take all category products from productData and store in categoryData
-    const categoryData = productData.products.filter(product => getCategoryFromId(product.id) === category);
-    //choose four other products from the same category
-    const otherProducts = chooseRandomProducts(categoryData, 4);
+    const category = item.category;
+    //take all category items from itemData and store in categoryData
+    const categoryData = itemData.items.filter(item => item.category === category);
+    //choose four other items from the same category
+    const otherItems = chooseRandomItems(categoryData, 4);
 
-    //render view with the selected product and other products in category
-    res.render('itemdetails-page', { product: selectedProduct, otherProducts, productData });
+    //render view with the selected item and other items in category
+    res.render('item-page', { item: selectedItem, otherItems, itemData });
 });
 
-//route for Tops page
-app.get('/tops', (req, res) => {
-    const topsData = require('./data/products.json');
-    const topsProducts = productData.products.filter(product => getCategoryFromId(product.id) === 'tops');
-    res.render('category-page', { data: topsData, products: topsProducts, category: 'Tops' });
+//route for Sculpture page
+app.get('/sculpture', (req, res) => {
+    const sculptureData = require('./data/items.json');
+    const sculptureItems = itemData.items.filter(item => getCategory(item.category) === 'sculpture');
+    res.render('category-page', { data: sculptureData, items: sculptureItems, category: 'Sculpture' });
 });
 
-//route for Bottoms page
-app.get('/bottoms', (req, res) => {
-    const bottomsData = require('./data/products.json');
-    const bottomsProducts = productData.products.filter(product => getCategoryFromId(product.id) === 'bottoms');
-    res.render('category-page', { data: bottomsData, products: bottomsProducts, category: 'Bottoms' });
+//route for Paper page
+app.get('/paper', (req, res) => {
+    const paperData = require('./data/items.json');
+    const paperItems = itemData.items.filter(item => getCategory(item.category) === 'paper');
+    res.render('category-page', { data: paperData, items: paperItems, category: 'Paper' });
 });
 
-//route for Outerwear page
-app.get('/outerwear', (req, res) => {
-    const outerwearData = require('./data/products.json');
-    const outerwearProducts = productData.products.filter(product => getCategoryFromId(product.id) === 'outerwear');
-    res.render('category-page', { data: outerwearData, products: outerwearProducts, category: 'Outerwear' });
+//route for Code page
+app.get('/code', (req, res) => {
+    const codeData = require('./data/items.json');
+    const codeItems = itemData.items.filter(item => getCategory(item.category) === 'code');
+    res.render('category-page', { data: codeData, items: codeItems, category: 'Code' });
+});
+
+//route for Digital page
+app.get('/digital', (req, res) => {
+    const digitalData = require('./data/items.json');
+    const digitalItems = itemData.items.filter(item => getCategory(item.category) === 'digital');
+    res.render('category-page', { data: digitalData, items: digitalItems, category: 'Digital' });
+});
+
+//route for Fashion page
+app.get('/fashion', (req, res) => {
+    const fashionData = require('./data/items.json');
+    const fashionItems = itemData.items.filter(item => getCategory(item.category) === 'fashion');
+    res.render('category-page', { data: fashionData, items: fashionItems, category: 'Fashion' });
 });
 
 //route for About page
