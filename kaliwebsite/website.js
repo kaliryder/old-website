@@ -79,7 +79,7 @@ app.get('/',(req,res)=>{
 
 //individual item routes from home, category and item pages using itemId
 app.get(['/item/:id'], (req, res) => {
-    const itemId = req.params.id;
+    const itemId = parseInt(req.params.id, 10); 
 
     //find the item with matching id in itemData
     const selectedItem = itemData.items.find(item => item.id === itemId);
@@ -90,7 +90,7 @@ app.get(['/item/:id'], (req, res) => {
         return;
     }
 
-    const category = item.category;
+    const category = selectedItem.category;
     //take all category items from itemData and store in categoryData
     const categoryData = itemData.items.filter(item => item.category === category);
     //choose four other items from the same category

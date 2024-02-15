@@ -11,6 +11,9 @@
                 "/img/sculpture/sculpture-1-c.jpg",
                 "/img/sculpture/sculpture-1-d.jpg"
             ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
+            ],
             "date":"$80",
             "medium":"charcoal",
             "description":"lalalala"
@@ -25,6 +28,9 @@
                 "/img/sculpture/sculpture-2-b.jpg",
                 "/img/sculpture/sculpture-2-c.jpg",
                 "/img/sculpture/sculpture-2-d.jpg"
+            ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-2-a"
             ],
             "date":"$30",
             "medium":"charcoal",
@@ -41,6 +47,9 @@
                 "/img/sculpture/sculpture-3-c.jpg",
                 "/img/sculpture/sculpture-3-d.jpg"
             ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-3-a"
+            ],
             "date":"$30",
             "medium":"charcoal",
             "description":"lalalala"
@@ -55,6 +64,9 @@
                 "/img/sculpture/sculpture-4-b.jpg",
                 "/img/sculpture/sculpture-4-c.jpg",
                 "/img/sculpture/sculpture-4-d.jpg"
+            ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-4-a"
             ],
             "date":"$50",
             "medium":"charcoal",
@@ -71,6 +83,9 @@
                 "/img/sculpture/sculpture-5-c.jpg",
                 "/img/sculpture/sculpture-5-d.jpg"
             ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-5-a"
+            ],
             "date":"$30",
             "medium":"charcoal",
             "description":"lalalala"
@@ -85,6 +100,9 @@
                 "/img/sculpture/sculpture-6-b.jpg",
                 "/img/sculpture/sculpture-6-c.jpg",
                 "/img/sculpture/sculpture-6-d.jpg"
+            ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
             ],
             "date":"$50",
             "medium":"charcoal",
@@ -101,6 +119,9 @@
                 "/img/sculpture/sculpture-7-c.jpg",
                 "/img/sculpture/sculpture-7-d.jpg"
             ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
+            ],
             "date":"$50",
             "medium":"charcoal",
             "description":"lalalala"
@@ -115,6 +136,9 @@
                 "/img/sculpture/sculpture-8-b.jpg",
                 "/img/sculpture/sculpture-8-c.jpg",
                 "/img/sculpture/sculpture-8-d.jpg"
+            ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
             ],
             "date":"$40",
             "medium":"charcoal",
@@ -131,6 +155,9 @@
                 "/img/sculpture/sculpture-9-c.jpg",
                 "/img/sculpture/sculpture-9-d.jpg"
             ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
+            ],
             "date":"$80",
             "medium":"charcoal",
             "description":"lalalala"
@@ -145,6 +172,9 @@
                 "/img/sculpture/sculpture-10-b.jpg",
                 "/img/sculpture/sculpture-10-c.jpg",
                 "/img/sculpture/sculpture-10-d.jpg"
+            ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
             ],
             "date":"$100",
             "medium":"charcoal",
@@ -161,6 +191,9 @@
                 "/img/sculpture/sculpture-11-c.jpg",
                 "/img/sculpture/sculpture-11-d.jpg"
             ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
+            ],
             "date":"$30",
             "medium":"charcoal",
             "description":"lalalala"
@@ -175,6 +208,9 @@
                 "/img/sculpture/sculpture-12-b.jpg",
                 "/img/sculpture/sculpture-12-c.jpg",
                 "/img/sculpture/sculpture-12-d.jpg"
+            ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
             ],
             "date":"$40",
             "medium":"charcoal",
@@ -191,6 +227,9 @@
                 "/img/paper/paper-1-c.jpg",
                 "/img/paper/paper-1-d.jpg"
             ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
+            ],
             "date":"$50",
             "medium":"charcoal",
             "description":"lalalala"
@@ -205,6 +244,9 @@
                 "/img/paper/paper-2-b.jpg",
                 "/img/paper/paper-2-c.jpg",
                 "/img/paper/paper-2-d.jpg"
+            ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
             ],
             "date":"$60",
             "medium":"charcoal",
@@ -221,6 +263,9 @@
                 "/img/paper/paper-3-c.jpg",
                 "/img/paper/paper-3-d.jpg"
             ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
+            ],
             "date":"$30",
             "medium":"charcoal",
             "description":"lalalala"
@@ -235,6 +280,9 @@
                 "/img/paper/paper-4-b.jpg",
                 "/img/paper/paper-4-c.jpg",
                 "/img/paper/paper-4-d.jpg"
+            ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
             ],
             "date":"$20",
             "medium":"charcoal",
@@ -251,6 +299,9 @@
                 "/img/paper/paper-5-c.jpg",
                 "/img/paper/paper-5-d.jpg"
             ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
+            ],
             "date":"$30",
             "medium":"charcoal",
             "description":"lalalala"
@@ -265,6 +316,9 @@
                 "/img/paper/paper-6-b.jpg",
                 "/img/paper/paper-6-c.jpg",
                 "/img/paper/paper-6-d.jpg"
+            ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
             ],
             "date":"$20",
             "medium":"charcoal",
@@ -281,6 +335,9 @@
                 "/img/paper/paper-7-c.jpg",
                 "/img/paper/paper-7-d.jpg"
             ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
+            ],
             "date":"$20",
             "medium":"charcoal",
             "description":"lalalala"
@@ -295,6 +352,9 @@
                 "/img/paper/paper-8-b.jpg",
                 "/img/paper/paper-8-c.jpg",
                 "/img/paper/paper-8-d.jpg"
+            ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
             ],
             "date":"$30",
             "medium":"charcoal",
@@ -311,6 +371,9 @@
                 "/img/paper/paper-9-c.jpg",
                 "/img/paper/paper-9-d.jpg"
             ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
+            ],
             "date":"$50",
             "medium":"charcoal",
             "description":"lalalala"
@@ -325,6 +388,9 @@
                 "/img/paper/paper-10-b.jpg",
                 "/img/paper/paper-10-c.jpg",
                 "/img/paper/paper-10-d.jpg"
+            ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
             ],
             "date":"$60",
             "medium":"charcoal",
@@ -341,6 +407,9 @@
                 "/img/paper/paper-11-c.jpg",
                 "/img/paper/paper-11-d.jpg"
             ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
+            ],
             "date":"$60",
             "medium":"charcoal",
             "description":"lalalala"
@@ -355,6 +424,9 @@
                 "/img/paper/paper-12-b.jpg",
                 "/img/paper/paper-12-c.jpg",
                 "/img/paper/paper-12-d.jpg"
+            ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
             ],
             "date":"$50",
             "medium":"charcoal",
@@ -371,6 +443,9 @@
                 "/img/code/code-1-c.jpg",
                 "/img/code/code-1-d.jpg"
             ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
+            ],
             "date":"$60",
             "medium":"charcoal",
             "description":"lalalala"
@@ -385,6 +460,9 @@
                 "/img/code/code-2-b.jpg",
                 "/img/code/code-2-c.jpg",
                 "/img/code/code-2-d.jpg"
+            ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
             ],
             "date":"$40",
             "medium":"charcoal",
@@ -401,6 +479,9 @@
                 "/img/code/code-3-c.jpg",
                 "/img/code/code-3-d.jpg"
             ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
+            ],
             "date":"$40",
             "medium":"charcoal",
             "description":"lalalala"
@@ -415,6 +496,9 @@
                 "/img/code/code-4-b.jpg",
                 "/img/code/code-4-c.jpg",
                 "/img/code/code-4-d.jpg"
+            ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
             ],
             "date":"$70",
             "medium":"charcoal",
@@ -431,6 +515,9 @@
                 "/img/code/code-5-c.jpg",
                 "/img/code/code-5-d.jpg"
             ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
+            ],
             "date":"$50",
             "medium":"charcoal",
             "description":"lalalala"
@@ -445,6 +532,9 @@
                 "/img/code/code-6-b.jpg",
                 "/img/code/code-6-c.jpg",
                 "/img/code/code-6-d.jpg"
+            ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
             ],
             "date":"$40",
             "medium":"charcoal",
@@ -461,6 +551,9 @@
                 "/img/code/code-7-c.jpg",
                 "/img/code/code-7-d.jpg"
             ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
+            ],
             "date":"$50",
             "medium":"charcoal",
             "description":"lalalala"
@@ -475,6 +568,9 @@
                 "/img/code/code-8-b.jpg",
                 "/img/code/code-8-c.jpg",
                 "/img/code/code-8-d.jpg"
+            ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
             ],
             "date":"$40",
             "medium":"charcoal",
@@ -491,6 +587,9 @@
                 "/img/code/code-9-c.jpg",
                 "/img/code/code-9-d.jpg"
             ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
+            ],
             "date":"$60",
             "medium":"charcoal",
             "description":"lalalala"
@@ -505,6 +604,9 @@
                 "/img/code/code-10-b.jpg",
                 "/img/code/code-10-c.jpg",
                 "/img/code/code-10-d.jpg"
+            ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
             ],
             "date":"$80",
             "medium":"charcoal",
@@ -521,6 +623,9 @@
                 "/img/code/code-11-c.jpg",
                 "/img/code/code-11-d.jpg"
             ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
+            ],
             "date":"$60",
             "medium":"charcoal",
             "description":"lalalala"
@@ -535,6 +640,9 @@
                 "/img/code/code-12-b.jpg",
                 "/img/code/code-12-c.jpg",
                 "/img/code/code-12-d.jpg"
+            ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
             ],
             "date":"$30",
             "medium":"charcoal",
@@ -551,6 +659,9 @@
                 "/img/digital/digital-1-c.jpg",
                 "/img/digital/digital-1-d.jpg"
             ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
+            ],
             "date":"$30",
             "medium":"charcoal",
             "description":"lalalala"
@@ -565,6 +676,9 @@
                 "/img/digital/digital-2-b.jpg",
                 "/img/digital/digital-2-c.jpg",
                 "/img/digital/digital-2-d.jpg"
+            ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
             ],
             "date":"$30",
             "medium":"charcoal",
@@ -581,6 +695,9 @@
                 "/img/digital/digital-3-c.jpg",
                 "/img/digital/digital-3-d.jpg"
             ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
+            ],
             "date":"$30",
             "medium":"charcoal",
             "description":"lalalala"
@@ -595,6 +712,9 @@
                 "/img/digital/digital-4-b.jpg",
                 "/img/digital/digital-4-c.jpg",
                 "/img/digital/digital-4-d.jpg"
+            ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
             ],
             "date":"$30",
             "medium":"charcoal",
@@ -611,6 +731,9 @@
                 "/img/digital/digital-5-c.jpg",
                 "/img/digital/digital-5-d.jpg"
             ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
+            ],
             "date":"$30",
             "medium":"charcoal",
             "description":"lalalala"
@@ -625,6 +748,9 @@
                 "/img/digital/digital-6-b.jpg",
                 "/img/digital/digital-6-c.jpg",
                 "/img/digital/digital-6-d.jpg"
+            ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
             ],
             "date":"$30",
             "medium":"charcoal",
@@ -641,6 +767,9 @@
                 "/img/digital/digital-7-c.jpg",
                 "/img/digital/digital-7-d.jpg"
             ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
+            ],
             "date":"$30",
             "medium":"charcoal",
             "description":"lalalala"
@@ -655,6 +784,9 @@
                 "/img/digital/digital-8-b.jpg",
                 "/img/digital/digital-8-c.jpg",
                 "/img/digital/digital-8-d.jpg"
+            ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
             ],
             "date":"$30",
             "medium":"charcoal",
@@ -671,6 +803,9 @@
                 "/img/digital/digital-9-c.jpg",
                 "/img/digital/digital-9-d.jpg"
             ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
+            ],
             "date":"$30",
             "medium":"charcoal",
             "description":"lalalala"
@@ -685,6 +820,9 @@
                 "/img/digital/digital-10-b.jpg",
                 "/img/digital/digital-10-c.jpg",
                 "/img/digital/digital-10-d.jpg"
+            ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
             ],
             "date":"$30",
             "medium":"charcoal",
@@ -701,6 +839,9 @@
                 "/img/digital/digital-11-c.jpg",
                 "/img/digital/digital-11-d.jpg"
             ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
+            ],
             "date":"$30",
             "medium":"charcoal",
             "description":"lalalala"
@@ -715,6 +856,9 @@
                 "/img/digital/digital-12-b.jpg",
                 "/img/digital/digital-12-c.jpg",
                 "/img/digital/digital-12-d.jpg"
+            ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
             ],
             "date":"$30",
             "medium":"charcoal",
@@ -731,6 +875,9 @@
                 "/img/fashion/fashion-1-c.jpg",
                 "/img/fashion/fashion-1-d.jpg"
             ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
+            ],
             "date":"$30",
             "medium":"charcoal",
             "description":"lalalala"
@@ -745,6 +892,9 @@
                 "/img/fashion/fashion-2-b.jpg",
                 "/img/fashion/fashion-2-c.jpg",
                 "/img/fashion/fashion-2-d.jpg"
+            ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
             ],
             "date":"$30",
             "medium":"charcoal",
@@ -761,6 +911,9 @@
                 "/img/fashion/fashion-3-c.jpg",
                 "/img/fashion/fashion-3-d.jpg"
             ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
+            ],
             "date":"$30",
             "medium":"charcoal",
             "description":"lalalala"
@@ -775,6 +928,9 @@
                 "/img/fashion/fashion-4-b.jpg",
                 "/img/fashion/fashion-4-c.jpg",
                 "/img/fashion/fashion-4-d.jpg"
+            ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
             ],
             "date":"$30",
             "medium":"charcoal",
@@ -791,6 +947,9 @@
                 "/img/fashion/fashion-5-c.jpg",
                 "/img/fashion/fashion-5-d.jpg"
             ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
+            ],
             "date":"$30",
             "medium":"charcoal",
             "description":"lalalala"
@@ -805,6 +964,9 @@
                 "/img/fashion/fashion-6-b.jpg",
                 "/img/fashion/fashion-6-c.jpg",
                 "/img/fashion/fashion-6-d.jpg"
+            ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
             ],
             "date":"$30",
             "medium":"charcoal",
@@ -821,6 +983,9 @@
                 "/img/fashion/fashion-7-c.jpg",
                 "/img/fashion/fashion-7-d.jpg"
             ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
+            ],
             "date":"$30",
             "medium":"charcoal",
             "description":"lalalala"
@@ -835,6 +1000,9 @@
                 "/img/fashion/fashion-8-b.jpg",
                 "/img/fashion/fashion-8-c.jpg",
                 "/img/fashion/fashion-8-d.jpg"
+            ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
             ],
             "date":"$30",
             "medium":"charcoal",
@@ -851,6 +1019,9 @@
                 "/img/fashion/fashion-9-c.jpg",
                 "/img/fashion/fashion-9-d.jpg"
             ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
+            ],
             "date":"$30",
             "medium":"charcoal",
             "description":"lalalala"
@@ -865,6 +1036,9 @@
                 "/img/fashion/fashion-10-b.jpg",
                 "/img/fashion/fashion-10-c.jpg",
                 "/img/fashion/fashion-10-d.jpg"
+            ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
             ],
             "date":"$30",
             "medium":"charcoal",
@@ -881,6 +1055,9 @@
                 "/img/fashion/fashion-11-c.jpg",
                 "/img/fashion/fashion-11-d.jpg"
             ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
+            ],
             "date":"$30",
             "medium":"charcoal",
             "description":"lalalala"
@@ -895,6 +1072,9 @@
                 "/img/fashion/fashion-12-b.jpg",
                 "/img/fashion/fashion-12-c.jpg",
                 "/img/fashion/fashion-12-d.jpg"
+            ],
+            "videos":[
+                "/vid/sculpture/sculpture-vid-1-a"
             ],
             "date":"$30",
             "medium":"charcoal",
