@@ -6,7 +6,7 @@
 <div>
     <h5>{{item.date}}</h5>
     <h5>One of our many fun and trendy {{item.category}}s</h5>
-    <div class="col-sm-12 col-md-6 col-lg-4">
+    <div class="col-12 col-md-6 col-lg-3 mb-4">
         {{#if item.cover}}
             <div class="media-container">
                 {{#isVideo item.cover}}
@@ -15,7 +15,7 @@
                         Your browser does not support the video tag.
                     </video>
                     {{else}}
-                        <img src="{{item.cover}}" alt="{{item.title}}" class="img-fluid img-thumbnail">
+                        <img src="{{item.cover}}" alt="{{item.title}}" class="media-object">
                 {{/isVideo}}
             </div>
         {{/if}}
@@ -27,7 +27,7 @@
     <div class="section-divider" id="services"></div>
     <div class="owl-theme owl-carousel owl-packages">
         {{#each item.images}}
-            <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
                 {{#if cover}}
                     <div class="media-container">
                         {{#isVideo cover}}
@@ -36,7 +36,7 @@
                                 Your browser does not support the video tag.
                             </video>
                             {{else}}
-                                <img src="{{cover}}" alt="{{title}}" class="img-fluid img-thumbnail">
+                                <img src="{{cover}}" alt="{{title}}" class="media-object">
                         {{/isVideo}}
                     </div>
                 {{/if}}
@@ -53,7 +53,7 @@
 <div class="section-divider" id="services"></div>
 <div class="owl-theme owl-carousel owl-packages">
     {{#each otherItems}}
-        <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
             <div class="media-container">
                 {{#if this.cover}}
                     <a href="/item/{{id}}" class="gallery-img">
@@ -63,7 +63,7 @@
                                 Your browser does not support the video tag.
                             </video>
                             {{else}}
-                                <img src="{{cover}}" alt="{{title}}" class="img-thumbnail img-fluid">
+                                <img src="{{cover}}" alt="{{title}}" class="media-object">
                         {{/isVideo}}
                     </a>
                 {{/if}}
