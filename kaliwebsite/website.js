@@ -20,6 +20,15 @@ app.set('view engine','handlebars')
 //set products.json data to const
 const itemData = JSON.parse(fs.readFileSync('data/items.json', 'utf-8'));
 
+const animationData = JSON.parse(fs.reafFileSync('data/animation.json','utf-8'));
+const codeData = JSON.parse(fs.reafFileSync('data/code.json','utf-8'));
+const digitalArtData = JSON.parse(fs.reafFileSync('data/digital-art.json','utf-8'));
+const fashionData = JSON.parse(fs.reafFileSync('data/fashion.json','utf-8'));
+const graphicDesignData = JSON.parse(fs.reafFileSync('data/graphic-design.json','utf-8'));
+const paperData = JSON.parse(fs.reafFileSync('data/paper.json','utf-8'));
+const sculptureData = JSON.parse(fs.reafFileSync('data/sculpture.json','utf-8'));
+const uxuiData = JSON.parse(fs.reafFileSync('data/ux-ui.json','utf-8'));
+
 //setup port
 const port = process.env.port || 3000
 
@@ -37,31 +46,71 @@ app.set('view engine', 'handlebars');
 
 //home route
 app.get('/',(req,res)=>{
-    const allItems = itemData.items;
-    var data = require('./data/items.json')
+    /* create vars for all subcategories */
+    const animationItems = animationData.items;
+    var animationDataVar = require('./data/animation.json');
+    const codeItems = codeData.items;
+    var codeDataVar = require('./data/code.json');
+    const digitalArtItems = digitalArtData.items;
+    var digitalArtDataVar = require('./data/digital-art.json');
+    const fashionItems = fashionData.items;
+    var fashionDataVar = require('./data/fashion.json');
+    const graphicDesignItems = graphicDesignData.items;
+    var graphicDesignDataVar = require('./data/graphic-design.json');
+    const paperItems = paperData.items;
+    var paperDataVar = require('./data/paper.json');
+    const sculptureItems = sculptureData.items;
+    var sculptureDataVar = require('./data/sculpture.json');
+    const uxuiItems = uxuiData.items;
+    var uxuiDataVar = require('./data/ux-ui.json');
 
-    //choose a subset of 5 random items for featured items
-    const selectedItems = chooseRandomItems(allItems, 5);
+    /* choose one random item from each subcategory for item links */
+    const animationRandomItem = chooseRandomItems(animationItems, 1);
+    const codeRandomItem = chooseRandomItems(codeItems, 1);
+    const digitalArtRandomItem = chooseRandomItems(digitalArtItems, 1);
+    const fashionRandomItem = chooseRandomItems(fashionItems, 1);
+    const graphicDesignRandomItem = chooseRandomItems(graphicDesignItems, 1);
+    const paperRandomItem = chooseRandomItems(paperItems, 1);
+    const sculptureRandomItem = chooseRandomItems(sculptureItems, 1);
+    const uxuiRandomItem = chooseRandomItems(uxuiItems, 1);
 
-    //choose a subset of 5 random items for slideshow
-    const slideshowItems = chooseRandomItems(allItems, 5);
-
-    //sort items of each subcategory into their own consts
-    const sculptureItems = itemData.items.filter(item => item.subcategory === "Sculpture");
-    const paperItems = itemData.items.filter(item => item.subcategory === "Paper");
-    const codeItems = itemData.items.filter(item => item.subcategory === "Code");
-    const digitalItems = itemData.items.filter(item => item.subcategory === "Digital");
-    const fashionItems = itemData.items.filter(item => item.subcategory === "Fashion");
-
-    //choose one random item from each subcategory
-    const sculptureItem = chooseRandomItems(sculptureItems, 1);
-    const paperItem = chooseRandomItems(paperItems, 1);
-    const codeItem = chooseRandomItems(codeItems, 1);
-    const digitalItem = chooseRandomItems(digitalItems, 1);
-    const fashionItem = chooseRandomItems(fashionItems, 1);
+    /* choose one random item from each subcategory for item links */
+    const animationRandomSubcategoryItem = chooseRandomItems(animationItems, 1);
+    const codeRandomSubcategoryItem = chooseRandomItems(codeItems, 1);
+    const digitalArtRandomSubcategoryItem = chooseRandomItems(digitalArtItems, 1);
+    const fashionRandomSubcategoryItem = chooseRandomItems(fashionItems, 1);
+    const graphicDesignRandomSubcategoryItem = chooseRandomItems(graphicDesignItems, 1);
+    const paperRandomSubcategoryItem = chooseRandomItems(paperItems, 1);
+    const sculptureRandomSubcategoryItem = chooseRandomItems(sculptureItems, 1);
+    const uxuiRandomSubcategoryItem = chooseRandomItems(uxuiItems, 1);
     
     //render home view
-    res.render('home-page',{ data, items: selectedItems, slideshow: slideshowItems, sculpture: sculptureItem, paper: paperItem, code: codeItem, digital: digitalItem, fashion: fashionItem })
+    res.render('home-page',{ 
+        animationDataVar,
+        codeDataVar,
+        digitalArtDataVar,
+        fashionDataVar,
+        graphicDesignDataVar,
+        paperDataVar,
+        sculptureDataVar,
+        uxuiDataVar,
+        animationRandomItem,
+        codeRandomItem,
+        digitalArtRandomItem,
+        fashionRandomItem,
+        graphicDesignRandomItem,
+        paperRandomItem,
+        sculptureRandomItem,
+        uxuiRandomItem,
+        animationRandomSubcategoryItem,
+        codeRandomSubcategoryItem,
+        digitalArtRandomSubcategoryItem,
+        fashionRandomSubcategoryItem,
+        graphicDesignRandomSubcategoryItem,
+        paperRandomSubcategoryItem,
+        sculptureRandomSubcategoryItem,
+        uxuiRandomSubcategoryItem 
+    })
 })
 
 //helper functions for home route
@@ -112,39 +161,125 @@ app.get(['/item/:id'], (req, res) => {
     res.render('item-page', { item: selectedItem, otherItems, itemData });
 });
 
-//route for Sculpture page
-app.get('/sculpture', (req, res) => {
-    const sculptureData = require('./data/items.json');
-    const sculptureItems = itemData.items.filter(item => getCategory(item.subcategory) === 'sculpture');
-    res.render('subcategory-page', { data: sculptureData, items: sculptureItems, subcategory: 'Sculpture' });
-});
+/* Category Pages */
 
-//route for Paper page
-app.get('/paper', (req, res) => {
-    const paperData = require('./data/items.json');
-    const paperItems = itemData.items.filter(item => getCategory(item.subcategory) === 'paper');
-    res.render('subcategory-page', { data: paperData, items: paperItems, subcategory: 'Paper' });
-});
+//route for Physical page
+app.get('/physical', (req, res) => {
+    const sculptureData = require('./data/sculpture.json');
+    const sculptureItems = sculptureData.items;
 
-//route for Code page
-app.get('/code', (req, res) => {
-    const codeData = require('./data/items.json');
-    const codeItems = itemData.items.filter(item => getCategory(item.subcategory) === 'code');
-    res.render('subcategory-page', { data: codeData, items: codeItems, subcategory: 'Code' });
+    const paperData = require('./data/paper.json');
+    const paperItems = paperData.items;
+
+    const fashionData = require('./data/fashion.json');
+    const fashionItems = fashionData.items;
+
+    res.render('subcategory-page', { 
+        data: animationData, 
+        items: animationItems, 
+        subcategory: 'Animation' });
 });
 
 //route for Digital page
 app.get('/digital', (req, res) => {
-    const digitalData = require('./data/items.json');
-    const digitalItems = itemData.items.filter(item => getCategory(item.subcategory) === 'digital');
-    res.render('subcategory-page', { data: digitalData, items: digitalItems, subcategory: 'Digital' });
+    const animationData = require('./data/animation.json');
+    const animationItems = animationData.items;
+    res.render('subcategory-page', { 
+        data: animationData, 
+        items: animationItems, 
+        subcategory: 'Animation' });
+});
+
+//route for About page
+app.get('/about', (req, res) => {
+    const animationData = require('./data/animation.json');
+    const animationItems = animationData.items;
+    res.render('subcategory-page', { 
+        data: animationData, 
+        items: animationItems, 
+        subcategory: 'Animation' });
+});
+
+/* Subcategory Pages */
+
+//route for Animation page
+app.get('/animation', (req, res) => {
+    const animationData = require('./data/animation.json');
+    const animationItems = animationData.items;
+    res.render('subcategory-page', { 
+        data: animationData, 
+        items: animationItems, 
+        subcategory: 'Animation' });
+});
+
+//route for Code page
+app.get('/code', (req, res) => {
+    const codeData = require('./data/code.json');
+    const codeItems = codeData.items;
+    res.render('subcategory-page', { 
+        data: codeData, 
+        items: codeItems, 
+        subcategory: 'Code' });
+});
+
+//route for Digital Art page
+app.get('/digitalart', (req, res) => {
+    const digitalArtData = require('./data/digital-art.json');
+    const digitalArtItems = digitalArtData.items;
+    res.render('subcategory-page', { 
+        data: digitalArtData, 
+        items: digitalArtItems, 
+        subcategory: 'Digital Art' });
 });
 
 //route for Fashion page
 app.get('/fashion', (req, res) => {
-    const fashionData = require('./data/items.json');
-    const fashionItems = itemData.items.filter(item => getCategory(item.subcategory) === 'fashion');
-    res.render('subcategory-page', { data: fashionData, items: fashionItems, subcategory: 'Fashion' });
+    const fashionData = require('./data/fashion.json');
+    const fashionItems = fashionData.items;
+    res.render('subcategory-page', { 
+        data: fashionData, 
+        items: fashionItems, 
+        subcategory: 'Fashion' });
+});
+
+//route for Graphic Design page
+app.get('/graphicdesign', (req, res) => {
+    const graphicDesignData = require('./data/graphic-design.json');
+    const graphicDesignItems = graphicDesignData.items;
+    res.render('subcategory-page', { 
+        data: graphicDesignData, 
+        items: graphicDesignItems, 
+        subcategory: 'Graphic Design' });
+});
+
+//route for Paper page
+app.get('/paper', (req, res) => {
+    const paperData = require('./data/paper.json');
+    const paperItems = paperData.items;
+    res.render('subcategory-page', { 
+        data: paperData, 
+        items: paperItems, 
+        subcategory: 'Paper' });
+});
+
+//route for Sculpture page
+app.get('/sculpture', (req, res) => {
+    const sculptureData = require('./data/sculpture.json');
+    const sculptureItems = sculptureData.items;
+    res.render('subcategory-page', { 
+        data: sculptureData, 
+        items: sculptureItems, 
+        subcategory: 'Sculpture' });
+});
+
+//route for UX/UI page
+app.get('/uxui', (req, res) => {
+    const uxuiData = require('./data/ux-ui.json');
+    const uxuiItems = uxuiData.items;
+    res.render('subcategory-page', { 
+        data: uxuiData, 
+        items: uxuiItems, 
+        subcategory: 'UX UI' });
 });
 
 //route for About page

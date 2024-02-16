@@ -1,0 +1,185 @@
+{
+    "items":[
+        {
+            "id": 1,
+            "category":"Physical",
+            "subcategory": "Sculpture",
+            "title":"Monkey Head",
+            "cover":"/img/sculpture/sculpture-1-a.jpg",
+            "images":[
+                "/img/sculpture/sculpture-1-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"2021",
+            "medium":"wood",
+            "description":"this piece made itself"
+        },
+        {
+            "id": 2,
+            "category":"Physical",
+            "subcategory": "Sculpture",
+            "title":"Teddy Bear",
+            "cover":"/img/sculpture/sculpture-2-a.jpg",
+            "images":[
+                "/img/sculpture/sculpture-2-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"2021",
+            "medium":"wood, ink",
+            "description":"an abstracted puzzle"
+        },
+        {
+            "id": 3,
+            "category":"Physical",
+            "subcategory": "Sculpture",
+            "title":"8s",
+            "cover":"/img/sculpture/sculpture-3-a.jpg",
+            "images":[
+                "/img/sculpture/sculpture-3-a.jpg"
+            ],
+            "videos":[
+                "/img/sculpture/sculpture-vid-3-a.mp4"
+            ],
+            "date":"2021",
+            "medium":"metal",
+            "description":"an ode to 8 and my introduction to welding"
+        },
+        {
+            "id": 4,
+            "category":"Physical",
+            "subcategory": "Sculpture",
+            "title":"Kevin",
+            "cover":"/img/sculpture/sculpture-4-a.jpg",
+            "images":[
+                "/img/sculpture/sculpture-4-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"2021",
+            "medium":"ceramic",
+            "description":"Kevin is a cockroach"
+        },
+        {
+            "id": 5,
+            "category":"Physical",
+            "subcategory": "Sculpture",
+            "title":"Double Lips",
+            "cover":"/img/sculpture/sculpture-5-a.jpg",
+            "images":[
+                "/img/sculpture/sculpture-5-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"2021",
+            "medium":"wood",
+            "description":"carved lips from wood"
+        },
+        {
+            "id": 6,
+            "category":"Physical",
+            "subcategory": "Sculpture",
+            "title":"Nah She's Good",
+            "cover":"/img/sculpture/sculpture-6-a.jpg",
+            "images":[
+                "/img/sculpture/sculpture-6-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"2022",
+            "medium":"found mannequin head, paint, metal rod, marker, hot glue",
+            "description":"a de-and-re-construction of her"
+        },
+        {
+            "id": 7,
+            "category":"Physical",
+            "subcategory": "Sculpture",
+            "title":"Tall Doll",
+            "cover":"/img/sculpture/sculpture-7-a.jpg",
+            "images":[
+                "/img/sculpture/sculpture-7-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"2023",
+            "medium":"fabric, wood, string, thread, pillow stuffing",
+            "description":"my big marionette"
+        },
+        {
+            "id": 8,
+            "category":"Physical",
+            "subcategory": "Sculpture",
+            "title":"Empty 1",
+            "cover":"/img/sculpture/sculpture-7-a.jpg",
+            "images":[
+                "/img/sculpture/sculpture-7-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"Empty 1",
+            "medium":"Empty 1",
+            "description":"Empty 1"
+        },
+        {
+            "id": 9,
+            "category":"Physical",
+            "subcategory": "Sculpture",
+            "title":"Empty 2",
+            "cover":"/img/sculpture/sculpture-7-a.jpg",
+            "images":[
+                "/img/sculpture/sculpture-7-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"Empty 2",
+            "medium":"Empty 2",
+            "description":"Empty 2"
+        },
+        {
+            "id": 10,
+            "category":"Physical",
+            "subcategory": "Sculpture",
+            "title":"Empty 3",
+            "cover":"/img/sculpture/sculpture-7-a.jpg",
+            "images":[
+                "/img/sculpture/sculpture-7-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"Empty 3",
+            "medium":"Empty 3",
+            "description":"Empty 3"
+        },
+        {
+            "id": 11,
+            "category":"Physical",
+            "subcategory": "Sculpture",
+            "title":"Empty 4",
+            "cover":"/img/sculpture/sculpture-7-a.jpg",
+            "images":[
+                "/img/sculpture/sculpture-7-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"Empty 4",
+            "medium":"Empty 4",
+            "description":"Empty 4"
+        },
+        {
+            "id": 12,
+            "category":"Physical",
+            "subcategory": "Sculpture",
+            "title":"Empty 5",
+            "cover":"/img/sculpture/sculpture-7-a.jpg",
+            "images":[
+                "/img/sculpture/sculpture-7-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"Empty 5",
+            "medium":"Empty 5",
+            "description":"Empty 5"
+        }
+    ]
+}

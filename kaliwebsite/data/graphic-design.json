@@ -1,0 +1,245 @@
+{
+    "items":[
+        {
+            "id": 1,
+            "category":"Digital",
+            "subcategory": "Digital",
+            "title":"Collective",
+            "cover":"/img/digital/digital-1-a.jpg",
+            "images":[
+                "/img/digital/digital-1-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"2019",
+            "medium":"pen, acrylic, digital remaster",
+            "description":"a fun scene"
+        },
+        {
+            "id": 2,
+            "category":"Digital",
+            "subcategory": "Digital",
+            "title":"Dead Entrance Logo",
+            "cover":"/img/digital/digital-2-a.jpg",
+            "images":[
+                "/img/digital/digital-2-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"2023",
+            "medium":"Adobe Illustrator",
+            "description":"a logo for my clothing brand Dead Entrance"
+        },
+        {
+            "id": 3,
+            "category":"Digital",
+            "subcategory": "Digital",
+            "title":"Devil Calling",
+            "cover":"/img/digital/digital-3-a.jpg",
+            "images":[
+                "/img/digital/digital-3-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"2020",
+            "medium":"Infinite Painter",
+            "description":"drugs are bad"
+        },
+        {
+            "id": 4,
+            "category":"Digital",
+            "subcategory": "Digital",
+            "title":"Falling",
+            "cover":"/img/digital/digital-4-a.jpg",
+            "images":[
+                "/img/digital/digital-4-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"2020",
+            "medium":"Infinite Painter",
+            "description":"where do we go from here?"
+        },
+        {
+            "id": 5,
+            "category":"Digital",
+            "subcategory": "Digital",
+            "title":"Fish Me",
+            "cover":"/img/digital/digital-5-a.jpg",
+            "images":[
+                "/img/digital/digital-5-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"2019",
+            "medium":"Infinite Painter",
+            "description":"me but like a fish"
+        },
+        {
+            "id": 6,
+            "category":"Digital",
+            "subcategory": "Digital",
+            "title":"Triz",
+            "cover":"/img/digital/digital-6-a.jpg",
+            "images":[
+                "/img/digital/digital-6-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"2020",
+            "medium":"Infinite Painter",
+            "description":"my friend Isabel"
+        },
+        {
+            "id": 7,
+            "category":"Digital",
+            "subcategory": "Digital",
+            "title":"In My Room",
+            "cover":"/img/digital/digital-7-a.jpg",
+            "images":[
+                "/img/digital/digital-7-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"2020",
+            "medium":"Infinite Painter",
+            "description":"my freshman year college dorm room"
+        },
+        {
+            "id": 8,
+            "category":"Digital",
+            "subcategory": "Digital",
+            "title":"Free Ross",
+            "cover":"/img/digital/digital-8-a.jpg",
+            "images":[
+                "/img/digital/digital-8-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"2019",
+            "medium":"Infinite Painter",
+            "description":"free Ross Ulbricht, the only of numerous Silk Road founders to be serving life in prison for non-violent crimes"
+        },
+        {
+            "id": 9,
+            "category":"Digital",
+            "subcategory": "Digital",
+            "title":"Dreams",
+            "cover":"/img/digital/digital-9-a.jpg",
+            "images":[
+                "/img/digital/digital-9-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"2022",
+            "medium":"charcoal",
+            "description":"lalalala"
+        },
+        {
+            "id": 10,
+            "category":"Digital",
+            "subcategory": "Digital",
+            "title":"Blue Shorts",
+            "cover":"/img/digital/digital-10-a.jpg",
+            "images":[
+                "/img/digital/digital-10-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"$30",
+            "medium":"charcoal",
+            "description":"lalalala"
+        },
+        {
+            "id": 11,
+            "category":"Digital",
+            "subcategory": "Digital",
+            "title":"Blue Shorts",
+            "cover":"/img/digital/digital-vid-11-a.mp4",
+            "images":[
+            ],
+            "videos":[
+                "/img/digital/digital-vid-11-a.mp4"
+            ],
+            "date":"$30",
+            "medium":"charcoal",
+            "description":"lalalala"
+        },
+        {
+            "id": 12,
+            "category":"Digital",
+            "subcategory": "Digital",
+            "title":"Blue Shorts",
+            "cover":"/img/digital/digital-vid-12-a.mp4",
+            "images":[
+            ],
+            "videos":[
+                "/img/digital/digital-vid-12-a.mp4"
+            ],
+            "date":"$30",
+            "medium":"charcoal",
+            "description":"lalalala"
+        },
+        {
+            "id": 13,
+            "category":"Digital",
+            "subcategory": "Digital",
+            "title":"Blue Shorts",
+            "cover":"/img/digital/digital-13-a.jpg",
+            "images":[
+            ],
+            "videos":[
+                "/img/digital/digital-vid-13-a.mp4",
+                "/img/digital/digital-vid-13-b.mp4"
+            ],
+            "date":"$30",
+            "medium":"charcoal",
+            "description":"lalalala"
+        },
+        {
+            "id": 14,
+            "category":"Digital",
+            "subcategory": "Digital",
+            "title":"Blue Shorts",
+            "cover":"/img/digital/digital-vid-14-a.mp4",
+            "images":[
+            ],
+            "videos":[
+                "/img/digital/digital-vid-14-a.mp4"
+            ],
+            "date":"$30",
+            "medium":"charcoal",
+            "description":"lalalala"
+        },
+        {
+            "id": 15,
+            "category":"Digital",
+            "subcategory": "Digital",
+            "title":"Blue Shorts",
+            "cover":"/img/digital/digital-vid-15-a.mp4",
+            "images":[
+            ],
+            "videos":[
+                "/img/digital/digital-vid-15-a.mp4"
+            ],
+            "date":"$30",
+            "medium":"charcoal",
+            "description":"lalalala"
+        },
+        {
+            "id": 16,
+            "category":"Digital",
+            "subcategory": "Digital",
+            "title":"Blue Shorts",
+            "cover":"/img/digital/digital-vid-16-a.mp4",
+            "images":[
+            ],
+            "videos":[
+                "/img/digital/digital-vid-16-a.mp4"
+            ],
+            "date":"$30",
+            "medium":"charcoal",
+            "description":"lalalala"
+        }
+    ]
+}

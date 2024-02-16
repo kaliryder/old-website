@@ -1,0 +1,184 @@
+{
+    "items":[
+        {
+            "id": 1,
+            "category":"Physical",
+            "subcategory": "Paper",
+            "title":"Alexa",
+            "cover":"/img/paper/paper-1-a.jpg",
+            "images":[
+                "/img/paper/paper-1-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"2018",
+            "medium":"charcoal, graphite, acrylic",
+            "description":"my friend Alexa"
+        },
+        {
+            "id": 2,
+            "category":"Physical",
+            "subcategory": "Paper",
+            "title":"Cherry",
+            "cover":"/img/paper/paper-2-a.jpg",
+            "images":[
+                "/img/paper/paper-2-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"2018",
+            "medium":"charcoal, graphite, acrylic",
+            "description":"real skin"
+        },
+        {
+            "id": 3,
+            "category":"Physical",
+            "subcategory": "Paper",
+            "title":"Hadley",
+            "cover":"/img/paper/paper-3-a.jpg",
+            "images":[
+                "/img/paper/paper-3-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"2018",
+            "medium":"graphite, digital restoration",
+            "description":"Hadley scrolling"
+        },
+        {
+            "id": 4,
+            "category":"Physical",
+            "subcategory": "Paper",
+            "title":"Playtime",
+            "cover":"/img/paper/paper-4-a.jpg",
+            "images":[
+                "/img/paper/paper-4-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"2021",
+            "medium":"graphite",
+            "description":"realism study for my Intro to Drawing class"
+        },
+        {
+            "id": 5,
+            "category":"Physical",
+            "subcategory": "Paper",
+            "title":"Jenna",
+            "cover":"/img/paper/paper-5-a.jpg",
+            "images":[
+                "/img/paper/paper-5-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"2018",
+            "medium":"charcoal, graphite, acrylic",
+            "description":"my friend Jenna"
+        },
+        {
+            "id": 6,
+            "category":"Physical",
+            "subcategory": "Paper",
+            "title":"JP",
+            "cover":"/img/paper/paper-6-a.jpg",
+            "images":[
+                "/img/paper/paper-6-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"2018",
+            "medium":"ink, relief prints, collage",
+            "description":"a collage abstracting my friend JP"
+        },
+        {
+            "id": 7,
+            "category":"Physical",
+            "subcategory": "Paper",
+            "title":"Lauren",
+            "cover":"/img/paper/paper-7-a.jpg",
+            "images":[
+                "/img/paper/paper-7-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"2018",
+            "medium":"charcoal, graphite, acrylic",
+            "description":"my friend Lauren"
+        },
+        {
+            "id": 8,
+            "category":"Physical",
+            "subcategory": "Paper",
+            "title":"Clown Lean",
+            "cover":"/img/paper/paper-8-a.jpg",
+            "images":[
+                "/img/paper/paper-8-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"2023",
+            "medium":"graphite, watercolor, marker",
+            "description":"mirrored clown Yung Lean"
+        },
+        {
+            "id": 9,
+            "category":"Physical",
+            "subcategory": "Paper",
+            "title":"Milk Shoe",
+            "cover":"/img/paper/paper-9-a.jpg",
+            "images":[
+                "/img/paper/paper-9-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"2018",
+            "medium":"relief print, ink",
+            "description":"abstraction of my friend Jenna"
+        },
+        {
+            "id": 10,
+            "category":"Physical",
+            "subcategory": "Paper",
+            "title":"Snake Mouse",
+            "cover":"/img/paper/paper-10-a.jpg",
+            "images":[
+                "/img/paper/paper-10-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"2021",
+            "medium":"graphite",
+            "description":"abstraction study for my Intro to Drawing class"
+        },
+        {
+            "id": 11,
+            "category":"Physical",
+            "subcategory": "Paper",
+            "title":"Hungry",
+            "cover":"/img/paper/paper-11-a.jpg",
+            "images":[
+                "/img/paper/paper-11-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"2021",
+            "medium":"watercolor",
+            "description":"I was hungry"
+        },
+        {
+            "id": 12,
+            "category":"Physical",
+            "subcategory": "Paper",
+            "title":"Why",
+            "cover":"/img/paper/paper-12-a.jpg",
+            "images":[
+                "/img/paper/paper-12-a.jpg"
+            ],
+            "videos":[
+            ],
+            "date":"2021",
+            "medium":"watercolor",
+            "description":"trust the process"
+        }
+    ]
+}
