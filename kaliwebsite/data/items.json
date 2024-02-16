@@ -172,406 +172,406 @@
         {
             "id": 13,
             "category": "Paper",
-            "title":"Patchwork Collared Shirt",
+            "title":"Alexa",
             "cover":"/img/paper/paper-1-a",
             "images":[
                 "/img/paper/paper-1-a"
             ],
             "videos":[
             ],
-            "date":"$50",
-            "medium":"charcoal",
-            "description":"lalalala"
+            "date":"2018",
+            "medium":"charcoal, graphite, acrylic",
+            "description":"my friend Alexa"
         },
         {
             "id": 14,
             "category": "Paper",
-            "title":"Red Crop Top",
+            "title":"Cherry",
             "cover":"/img/paper/paper-2-a",
             "images":[
                 "/img/paper/paper-2-a"
             ],
             "videos":[
             ],
-            "date":"$60",
-            "medium":"charcoal",
-            "description":"lalalala"
+            "date":"2018",
+            "medium":"charcoal, graphite, acrylic",
+            "description":"real skin"
         },
         {
             "id": 15,
             "category": "Paper",
-            "title":"Blue Patchwork Tank Top",
+            "title":"Hadley",
             "cover":"/img/paper/paper-3-a",
             "images":[
                 "/img/paper/paper-3-a"
             ],
             "videos":[
             ],
-            "date":"$30",
-            "medium":"charcoal",
-            "description":"lalalala"
+            "date":"2018",
+            "medium":"graphite, digital restoration",
+            "description":"Hadley scrolling"
         },
         {
             "id": 16,
             "category": "Paper",
-            "title":"Red Tie Dye Tee",
+            "title":"Playtime",
             "cover":"/img/paper/paper-4-a",
             "images":[
                 "/img/paper/paper-4-a"
             ],
             "videos":[
             ],
-            "date":"$20",
-            "medium":"charcoal",
-            "description":"lalalala"
+            "date":"2021",
+            "medium":"graphite",
+            "description":"realism study for my Intro to Drawing class"
         },
         {
             "id": 17,
             "category": "Paper",
-            "title":"Green Tie Dye Tee",
+            "title":"Jenna",
             "cover":"/img/paper/paper-5-a",
             "images":[
                 "/img/paper/paper-5-a"
             ],
             "videos":[
             ],
-            "date":"$30",
-            "medium":"charcoal",
-            "description":"lalalala"
+            "date":"2018",
+            "medium":"charcoal, graphite, acrylic",
+            "description":"my friend Jenna"
         },
         {
             "id": 18,
             "category": "Paper",
-            "title":"White Tee",
+            "title":"JP",
             "cover":"/img/paper/paper-6-a",
             "images":[
                 "/img/paper/paper-6-a"
             ],
             "videos":[
             ],
-            "date":"$20",
-            "medium":"charcoal",
-            "description":"lalalala"
+            "date":"2018",
+            "medium":"ink, relief prints, collage",
+            "description":"a collage abstracting my friend JP"
         },
         {
             "id": 19,
             "category": "Paper",
-            "title":"Striped Tank Top",
+            "title":"Lauren",
             "cover":"/img/paper/paper-7-a",
             "images":[
                 "/img/paper/paper-7-a"
             ],
             "videos":[
             ],
-            "date":"$20",
-            "medium":"charcoal",
-            "description":"lalalala"
+            "date":"2018",
+            "medium":"charcoal, graphite, acrylic",
+            "description":"my friend Lauren"
         },
         {
             "id": 20,
             "category": "Paper",
-            "title":"Blue Tie Dye Tank Top",
+            "title":"Clown Lean",
             "cover":"/img/paper/paper-8-a",
             "images":[
                 "/img/paper/paper-8-a"
             ],
             "videos":[
             ],
-            "date":"$30",
-            "medium":"charcoal",
-            "description":"lalalala"
+            "date":"2023",
+            "medium":"graphite, watercolor, marker",
+            "description":"mirrored clown Yung Lean"
         },
         {
             "id": 21,
             "category": "Paper",
-            "title":"Graphic Tank Top",
+            "title":"Milk Shoe",
             "cover":"/img/paper/paper-9-a",
             "images":[
                 "/img/paper/paper-9-a"
             ],
             "videos":[
             ],
-            "date":"$50",
-            "medium":"charcoal",
-            "description":"lalalala"
+            "date":"2018",
+            "medium":"relief print, ink",
+            "description":"abstraction of my friend Jenna"
         },
         {
             "id": 22,
             "category": "Paper",
-            "title":"White Bodysuit",
+            "title":"Snake Mouse",
             "cover":"/img/paper/paper-10-a",
             "images":[
                 "/img/paper/paper-10-a"
             ],
             "videos":[
             ],
-            "date":"$60",
-            "medium":"charcoal",
-            "description":"lalalala"
+            "date":"2021",
+            "medium":"graphite",
+            "description":"abstraction study for my Intro to Drawing class"
         },
         {
             "id": 23,
             "category": "Paper",
-            "title":"Grey Bodysuit",
+            "title":"Hungry",
             "cover":"/img/paper/paper-11-a",
             "images":[
                 "/img/paper/paper-11-a"
             ],
             "videos":[
             ],
-            "date":"$60",
-            "medium":"charcoal",
-            "description":"lalalala"
+            "date":"2021",
+            "medium":"watercolor",
+            "description":"I was hungry"
         },
         {
             "id": 24,
             "category": "Paper",
-            "title":"Red Tank Top",
+            "title":"Why",
             "cover":"/img/paper/paper-12-a",
             "images":[
                 "/img/paper/paper-12-a"
             ],
             "videos":[
             ],
-            "date":"$50",
-            "medium":"charcoal",
-            "description":"lalalala"
+            "date":"2021",
+            "medium":"watercolor",
+            "description":"trust the process"
         },
         {
             "id": 25,
             "category": "Code",
-            "title":"Black Bootcut Jeans",
+            "title":"Bouncy",
             "cover":"/img/code/code-vid-1-a",
             "images":[
             ],
             "videos":[
                 "/img/code/code-vid-1-a"
             ],
-            "date":"$60",
-            "medium":"charcoal",
-            "description":"lalalala"
+            "date":"2022",
+            "medium":"Unity / C#",
+            "description":"a Unity physics study using all original artwork as materials"
         },
         {
             "id": 26,
             "category": "Code",
-            "title":"Blue Jeans",
+            "title":"Dimensions",
             "cover":"/img/code/code-vid-2-a",
             "images":[
             ],
             "videos":[
                 "/img/code/code-vid-2-a"
             ],
-            "date":"$40",
-            "medium":"charcoal",
-            "description":"lalalala"
+            "date":"2022",
+            "medium":"Unity / C#",
+            "description":"a trip through dimensions"
         },
         {
             "id": 27,
             "category": "Code",
-            "title":"Brown Velour Sweatpants",
+            "title":"Floppy Fish",
             "cover":"/img/code/code-vid-3-a",
             "images":[
             ],
             "videos":[
                 "/img/code/code-vid-3-a"
             ],
-            "date":"$40",
-            "medium":"charcoal",
-            "description":"lalalala"
+            "date":"2018",
+            "medium":"JGrasp / Java",
+            "description":"my first code project! a recreation of Flappy Bird using original artwork"
         },
         {
             "id": 28,
             "category": "Code",
-            "title":"White Track Pants",
+            "title":"Selection Ring",
             "cover":"/img/code/code-vid-4-a",
             "images":[
             ],
             "videos":[
                 "/img/code/code-vid-4-a"
             ],
-            "date":"$70",
-            "medium":"charcoal",
-            "description":"lalalala"
+            "date":"2022",
+            "medium":"Unity / C#",
+            "description":"a study in programmatic interaction design"
         },
         {
             "id": 29,
             "category": "Code",
-            "title":"Dark Brown Velour Sweatpants",
+            "title":"Sudoku",
             "cover":"/img/code/code-vid-5-a",
             "images":[
             ],
             "videos":[
                 "/img/code/code-vid-5-a"
             ],
-            "date":"$50",
-            "medium":"charcoal",
-            "description":"lalalala"
+            "date":"2022",
+            "medium":"Unity / C#",
+            "description":"a prototype of a mobile sudoku app with custom UX/UI and game elements"
         },
         {
             "id": 30,
             "category": "Code",
-            "title":"Plaid Pants",
+            "title":"Empty 1",
             "cover":"/img/code/code-vid-5-a",
             "images":[
             ],
             "videos":[
                 "/img/code/code-vid-5-a"
             ],
-            "date":"$40",
-            "medium":"charcoal",
-            "description":"lalalala"
+            "date":"Empty 1",
+            "medium":"Empty 1",
+            "description":"Empty 1"
         },
         {
             "id": 31,
             "category": "Code",
-            "title":"Black Drawstring Pants",
+            "title":"Empty 2",
             "cover":"/img/code/code-vid-5-a",
             "images":[
             ],
             "videos":[
                 "/img/code/code-vid-5-a"
             ],
-            "date":"$50",
-            "medium":"charcoal",
-            "description":"lalalala"
+            "date":"Empty 2",
+            "medium":"Empty 2",
+            "description":"Empty 2"
         },
         {
             "id": 32,
             "category": "Code",
-            "title":"Denim Shorts",
+            "title":"Empty 3",
             "cover":"/img/code/code-vid-5-a",
             "images":[
             ],
             "videos":[
                 "/img/code/code-vid-5-a"
             ],
-            "date":"$40",
-            "medium":"charcoal",
-            "description":"lalalala"
+            "date":"Empty 3",
+            "medium":"Empty 3",
+            "description":"Empty 3"
         },
         {
             "id": 33,
             "category": "Digital",
-            "title":"Blue Bootcut Jeans",
+            "title":"Collective",
             "cover":"/img/digital/digital-1-a",
             "images":[
                 "/img/digital/digital-1-a"
             ],
             "videos":[
             ],
-            "date":"$60",
-            "medium":"charcoal",
-            "description":"lalalala"
+            "date":"2019",
+            "medium":"pen, acrylic, digital remaster",
+            "description":"a fun scene"
         },
         {
             "id": 34,
             "category": "Digital",
-            "title":"Blue Folded Jeans",
+            "title":"Dead Entrance Logo",
             "cover":"/img/digital/digital-2-a",
             "images":[
                 "/img/digital/digital-2-a"
             ],
             "videos":[
             ],
-            "date":"$80",
-            "medium":"charcoal",
-            "description":"lalalala"
+            "date":"2023",
+            "medium":"Adobe Illustrator",
+            "description":"a logo for my clothing brand Dead Entrance"
         },
         {
             "id": 35,
             "category": "Digital",
-            "title":"Black Skinny Jeans",
+            "title":"Devil Calling",
             "cover":"/img/digital/digital-3-a",
             "images":[
                 "/img/digital/digital-3-a"
             ],
             "videos":[
             ],
-            "date":"$60",
-            "medium":"charcoal",
-            "description":"lalalala"
+            "date":"2020",
+            "medium":"Infinite Painter",
+            "description":"drugs are bad"
         },
         {
             "id": 36,
             "category": "Digital",
-            "title":"Blue Shorts",
+            "title":"Falling",
             "cover":"/img/digital/digital-4-a",
             "images":[
                 "/img/digital/digital-4-a"
             ],
             "videos":[
             ],
-            "date":"$30",
-            "medium":"charcoal",
-            "description":"lalalala"
+            "date":"2020",
+            "medium":"Infinite Painter",
+            "description":"where do we go from here?"
         },
         {
             "id": 37,
             "category": "Digital",
-            "title":"Blue Shorts",
+            "title":"Fish Me",
             "cover":"/img/digital/digital-5-a",
             "images":[
                 "/img/digital/digital-5-a"
             ],
             "videos":[
             ],
-            "date":"$30",
-            "medium":"charcoal",
-            "description":"lalalala"
+            "date":"2019",
+            "medium":"Infinite Painter",
+            "description":"me but like a fish"
         },
         {
             "id": 38,
             "category": "Digital",
-            "title":"Blue Shorts",
+            "title":"Triz",
             "cover":"/img/digital/digital-6-a",
             "images":[
                 "/img/digital/digital-6-a"
             ],
             "videos":[
             ],
-            "date":"$30",
-            "medium":"charcoal",
-            "description":"lalalala"
+            "date":"2020",
+            "medium":"Infinite Painter",
+            "description":"my friend Isabel"
         },
         {
             "id": 39,
             "category": "Digital",
-            "title":"Blue Shorts",
+            "title":"In My Room",
             "cover":"/img/digital/digital-7-a",
             "images":[
                 "/img/digital/digital-7-a"
             ],
             "videos":[
             ],
-            "date":"$30",
-            "medium":"charcoal",
-            "description":"lalalala"
+            "date":"2020",
+            "medium":"Infinite Painter",
+            "description":"my freshman year college dorm room"
         },
         {
             "id": 40,
             "category": "Digital",
-            "title":"Blue Shorts",
+            "title":"Free Ross",
             "cover":"/img/digital/digital-8-a",
             "images":[
                 "/img/digital/digital-8-a"
             ],
             "videos":[
             ],
-            "date":"$30",
-            "medium":"charcoal",
-            "description":"lalalala"
+            "date":"2019",
+            "medium":"Infinite Painter",
+            "description":"free Ross Ulbricht, the only of numerous Silk Road founders to be serving life in prison for non-violent crimes"
         },
         {
             "id": 41,
             "category": "Digital",
-            "title":"Blue Shorts",
+            "title":"Dreams",
             "cover":"/img/digital/digital-9-a",
             "images":[
                 "/img/digital/digital-9-a"
             ],
             "videos":[
             ],
-            "date":"$30",
+            "date":"2022",
             "medium":"charcoal",
             "description":"lalalala"
         },
@@ -911,6 +911,20 @@
             "date":"$30",
             "medium":"charcoal",
             "description":"lalalala"
+        },
+        {
+            "id": 66,
+            "category": "Paper",
+            "title":"USPS",
+            "cover":"/img/paper/paper-13-a",
+            "images":[
+                "/img/paper/paper-13-a"
+            ],
+            "videos":[
+            ],
+            "date":"2018",
+            "medium":"found paper scraps, tape, collage",
+            "description":"I'm going to the post office"
         }
     ]
 }
