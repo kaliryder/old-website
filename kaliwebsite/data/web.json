@@ -3,7 +3,7 @@
         {
             "id": 1,
             "category":"digital",
-            "subcategory": "animation",
+            "subcategory": "web",
             "title":"Bouncy",
             "cover":"/img/code/code-vid-1-a.mp4",
             "images":[
@@ -18,7 +18,7 @@
         {
             "id": 2,
             "category":"digital",
-            "subcategory": "animation",
+            "subcategory": "web",
             "title":"Dimensions",
             "cover":"/img/code/code-vid-2-a.mp4",
             "images":[
@@ -33,7 +33,7 @@
         {
             "id": 3,
             "category":"digital",
-            "subcategory": "animation",
+            "subcategory": "web",
             "title":"Floppy Fish",
             "cover":"/img/code/code-vid-3-a.mp4",
             "images":[
@@ -48,7 +48,7 @@
         {
             "id": 4,
             "category":"digital",
-            "subcategory": "animation",
+            "subcategory": "web",
             "title":"Selection Ring",
             "cover":"/img/code/code-vid-4-a.mp4",
             "images":[
@@ -63,7 +63,7 @@
         {
             "id": 5,
             "category":"digital",
-            "subcategory": "animation",
+            "subcategory": "web",
             "title":"Sudoku",
             "cover":"/img/code/code-vid-5-a.mp4",
             "images":[
@@ -78,7 +78,7 @@
         {
             "id": 6,
             "category":"digital",
-            "subcategory": "animation",
+            "subcategory": "web",
             "title":"Empty 1",
             "cover":"/img/code/code-vid-5-a.mp4",
             "images":[
@@ -93,7 +93,7 @@
         {
             "id": 7,
             "category":"digital",
-            "subcategory": "animation",
+            "subcategory": "web",
             "title":"Empty 2",
             "cover":"/img/code/code-vid-5-a.mp4",
             "images":[
@@ -108,7 +108,7 @@
         {
             "id": 8,
             "category":"digital",
-            "subcategory": "animation",
+            "subcategory": "web",
             "title":"Empty 3",
             "cover":"/img/code/code-vid-5-a.mp4",
             "images":[

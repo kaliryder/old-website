@@ -3,7 +3,7 @@
         {
             "id": 1,
             "category":"physical",
-            "subcategory": "paper",
+            "subcategory": "writing",
             "title":"Alexa",
             "cover":"/img/paper/paper-1-a.jpg",
             "images":[
@@ -18,7 +18,7 @@
         {
             "id": 2,
             "category":"physical",
-            "subcategory": "paper",
+            "subcategory": "writing",
             "title":"Cherry",
             "cover":"/img/paper/paper-2-a.jpg",
             "images":[
@@ -33,7 +33,7 @@
         {
             "id": 3,
             "category":"physical",
-            "subcategory": "paper",
+            "subcategory": "writing",
             "title":"Hadley",
             "cover":"/img/paper/paper-3-a.jpg",
             "images":[
@@ -48,7 +48,7 @@
         {
             "id": 4,
             "category":"physical",
-            "subcategory": "paper",
+            "subcategory": "writing",
             "title":"Playtime",
             "cover":"/img/paper/paper-4-a.jpg",
             "images":[
@@ -63,7 +63,7 @@
         {
             "id": 5,
             "category":"physical",
-            "subcategory": "paper",
+            "subcategory": "writing",
             "title":"Jenna",
             "cover":"/img/paper/paper-5-a.jpg",
             "images":[
@@ -78,7 +78,7 @@
         {
             "id": 6,
             "category":"physical",
-            "subcategory": "paper",
+            "subcategory": "writing",
             "title":"JP",
             "cover":"/img/paper/paper-6-a.jpg",
             "images":[
@@ -93,7 +93,7 @@
         {
             "id": 7,
             "category":"physical",
-            "subcategory": "paper",
+            "subcategory": "writing",
             "title":"Lauren",
             "cover":"/img/paper/paper-7-a.jpg",
             "images":[
@@ -108,7 +108,7 @@
         {
             "id": 8,
             "category":"physical",
-            "subcategory": "paper",
+            "subcategory": "writing",
             "title":"Clown Lean",
             "cover":"/img/paper/paper-8-a.jpg",
             "images":[
@@ -123,7 +123,7 @@
         {
             "id": 9,
             "category":"physical",
-            "subcategory": "paper",
+            "subcategory": "writing",
             "title":"Milk Shoe",
             "cover":"/img/paper/paper-9-a.jpg",
             "images":[
@@ -138,7 +138,7 @@
         {
             "id": 10,
             "category":"physical",
-            "subcategory": "paper",
+            "subcategory": "writing",
             "title":"Snake Mouse",
             "cover":"/img/paper/paper-10-a.jpg",
             "images":[
@@ -153,7 +153,7 @@
         {
             "id": 11,
             "category":"physical",
-            "subcategory": "paper",
+            "subcategory": "writing",
             "title":"Hungry",
             "cover":"/img/paper/paper-11-a.jpg",
             "images":[
@@ -168,7 +168,7 @@
         {
             "id": 12,
             "category":"physical",
-            "subcategory": "paper",
+            "subcategory": "writing",
             "title":"Why",
             "cover":"/img/paper/paper-12-a.jpg",
             "images":[

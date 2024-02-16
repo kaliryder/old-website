@@ -2,8 +2,8 @@
     "items":[
         {
             "id": 1,
-            "category":"Digital",
-            "subcategory": "Digital",
+            "category":"digital",
+            "subcategory": "graphic-design",
             "title":"Collective",
             "cover":"/img/digital/digital-1-a.jpg",
             "images":[
@@ -17,8 +17,8 @@
         },
         {
             "id": 2,
-            "category":"Digital",
-            "subcategory": "Digital",
+            "category":"digital",
+            "subcategory": "graphic-design",
             "title":"Dead Entrance Logo",
             "cover":"/img/digital/digital-2-a.jpg",
             "images":[
@@ -32,8 +32,8 @@
         },
         {
             "id": 3,
-            "category":"Digital",
-            "subcategory": "Digital",
+            "category":"digital",
+            "subcategory": "graphic-design",
             "title":"Devil Calling",
             "cover":"/img/digital/digital-3-a.jpg",
             "images":[
@@ -47,8 +47,8 @@
         },
         {
             "id": 4,
-            "category":"Digital",
-            "subcategory": "Digital",
+            "category":"digital",
+            "subcategory": "graphic-design",
             "title":"Falling",
             "cover":"/img/digital/digital-4-a.jpg",
             "images":[
@@ -62,8 +62,8 @@
         },
         {
             "id": 5,
-            "category":"Digital",
-            "subcategory": "Digital",
+            "category":"digital",
+            "subcategory": "graphic-design",
             "title":"Fish Me",
             "cover":"/img/digital/digital-5-a.jpg",
             "images":[
@@ -77,8 +77,8 @@
         },
         {
             "id": 6,
-            "category":"Digital",
-            "subcategory": "Digital",
+            "category":"digital",
+            "subcategory": "graphic-design",
             "title":"Triz",
             "cover":"/img/digital/digital-6-a.jpg",
             "images":[
@@ -92,8 +92,8 @@
         },
         {
             "id": 7,
-            "category":"Digital",
-            "subcategory": "Digital",
+            "category":"digital",
+            "subcategory": "graphic-design",
             "title":"In My Room",
             "cover":"/img/digital/digital-7-a.jpg",
             "images":[
@@ -107,8 +107,8 @@
         },
         {
             "id": 8,
-            "category":"Digital",
-            "subcategory": "Digital",
+            "category":"digital",
+            "subcategory": "graphic-design",
             "title":"Free Ross",
             "cover":"/img/digital/digital-8-a.jpg",
             "images":[
@@ -122,8 +122,8 @@
         },
         {
             "id": 9,
-            "category":"Digital",
-            "subcategory": "Digital",
+            "category":"digital",
+            "subcategory": "graphic-design",
             "title":"Dreams",
             "cover":"/img/digital/digital-9-a.jpg",
             "images":[
@@ -137,8 +137,8 @@
         },
         {
             "id": 10,
-            "category":"Digital",
-            "subcategory": "Digital",
+            "category":"digital",
+            "subcategory": "graphic-design",
             "title":"Blue Shorts",
             "cover":"/img/digital/digital-10-a.jpg",
             "images":[
@@ -152,8 +152,8 @@
         },
         {
             "id": 11,
-            "category":"Digital",
-            "subcategory": "Digital",
+            "category":"digital",
+            "subcategory": "graphic-design",
             "title":"Blue Shorts",
             "cover":"/img/digital/digital-vid-11-a.mp4",
             "images":[
@@ -167,8 +167,8 @@
         },
         {
             "id": 12,
-            "category":"Digital",
-            "subcategory": "Digital",
+            "category":"digital",
+            "subcategory": "graphic-design",
             "title":"Blue Shorts",
             "cover":"/img/digital/digital-vid-12-a.mp4",
             "images":[
@@ -182,8 +182,8 @@
         },
         {
             "id": 13,
-            "category":"Digital",
-            "subcategory": "Digital",
+            "category":"digital",
+            "subcategory": "graphic-design",
             "title":"Blue Shorts",
             "cover":"/img/digital/digital-13-a.jpg",
             "images":[
@@ -198,8 +198,8 @@
         },
         {
             "id": 14,
-            "category":"Digital",
-            "subcategory": "Digital",
+            "category":"digital",
+            "subcategory": "graphic-design",
             "title":"Blue Shorts",
             "cover":"/img/digital/digital-vid-14-a.mp4",
             "images":[
@@ -213,8 +213,8 @@
         },
         {
             "id": 15,
-            "category":"Digital",
-            "subcategory": "Digital",
+            "category":"digital",
+            "subcategory": "graphic-design",
             "title":"Blue Shorts",
             "cover":"/img/digital/digital-vid-15-a.mp4",
             "images":[
@@ -228,8 +228,8 @@
         },
         {
             "id": 16,
-            "category":"Digital",
-            "subcategory": "Digital",
+            "category":"digital",
+            "subcategory": "graphic-design",
             "title":"Blue Shorts",
             "cover":"/img/digital/digital-vid-16-a.mp4",
             "images":[

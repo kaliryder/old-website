@@ -2,8 +2,8 @@
     "items":[
         {
             "id": 1,
-            "category":"Digital",
-            "subcategory": "Code",
+            "category":"digital",
+            "subcategory": "code",
             "title":"Bouncy",
             "cover":"/img/code/code-vid-1-a.mp4",
             "images":[
@@ -17,8 +17,8 @@
         },
         {
             "id": 2,
-            "category":"Digital",
-            "subcategory": "Code",
+            "category":"digital",
+            "subcategory": "code",
             "title":"Dimensions",
             "cover":"/img/code/code-vid-2-a.mp4",
             "images":[
@@ -32,8 +32,8 @@
         },
         {
             "id": 3,
-            "category":"Digital",
-            "subcategory": "Code",
+            "category":"digital",
+            "subcategory": "code",
             "title":"Floppy Fish",
             "cover":"/img/code/code-vid-3-a.mp4",
             "images":[
@@ -47,8 +47,8 @@
         },
         {
             "id": 4,
-            "category":"Digital",
-            "subcategory": "Code",
+            "category":"digital",
+            "subcategory": "code",
             "title":"Selection Ring",
             "cover":"/img/code/code-vid-4-a.mp4",
             "images":[
@@ -62,8 +62,8 @@
         },
         {
             "id": 5,
-            "category":"Digital",
-            "subcategory": "Code",
+            "category":"digital",
+            "subcategory": "code",
             "title":"Sudoku",
             "cover":"/img/code/code-vid-5-a.mp4",
             "images":[
@@ -77,8 +77,8 @@
         },
         {
             "id": 6,
-            "category":"Digital",
-            "subcategory": "Code",
+            "category":"digital",
+            "subcategory": "code",
             "title":"Empty 1",
             "cover":"/img/code/code-vid-5-a.mp4",
             "images":[
@@ -92,8 +92,8 @@
         },
         {
             "id": 7,
-            "category":"Digital",
-            "subcategory": "Code",
+            "category":"digital",
+            "subcategory": "code",
             "title":"Empty 2",
             "cover":"/img/code/code-vid-5-a.mp4",
             "images":[
@@ -107,8 +107,8 @@
         },
         {
             "id": 8,
-            "category":"Digital",
-            "subcategory": "Code",
+            "category":"digital",
+            "subcategory": "code",
             "title":"Empty 3",
             "cover":"/img/code/code-vid-5-a.mp4",
             "images":[

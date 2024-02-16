@@ -2,8 +2,8 @@
     "items":[
         {
             "id": 1,
-            "category":"Physical",
-            "subcategory": "Fashion",
+            "category":"physical",
+            "subcategory": "fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-1-a.jpg",
             "images":[
@@ -17,8 +17,8 @@
         },
         {
             "id": 2,
-            "category":"Physical",
-            "subcategory": "Fashion",
+            "category":"physical",
+            "subcategory": "fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-2-a.jpg",
             "images":[
@@ -32,8 +32,8 @@
         },
         {
             "id": 3,
-            "category":"Physical",
-            "subcategory": "Fashion",
+            "category":"physical",
+            "subcategory": "fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-3-a.jpg",
             "images":[
@@ -47,8 +47,8 @@
         },
         {
             "id": 4,
-            "category":"Physical",
-            "subcategory": "Fashion",
+            "category":"physical",
+            "subcategory": "fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-4-a.jpg",
             "images":[
@@ -62,8 +62,8 @@
         },
         {
             "id": 5,
-            "category":"Physical",
-            "subcategory": "Fashion",
+            "category":"physical",
+            "subcategory": "fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-5-a.jpg",
             "images":[
@@ -77,8 +77,8 @@
         },
         {
             "id": 6,
-            "category":"Physical",
-            "subcategory": "Fashion",
+            "category":"physical",
+            "subcategory": "fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-6-a.jpg",
             "images":[
@@ -92,8 +92,8 @@
         },
         {
             "id": 7,
-            "category":"Physical",
-            "subcategory": "Fashion",
+            "category":"physical",
+            "subcategory": "fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-7-a.jpg",
             "images":[
@@ -107,8 +107,8 @@
         },
         {
             "id": 8,
-            "category":"Physical",
-            "subcategory": "Fashion",
+            "category":"physical",
+            "subcategory": "fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-8-a.jpg",
             "images":[
@@ -122,8 +122,8 @@
         },
         {
             "id": 9,
-            "category":"Physical",
-            "subcategory": "Fashion",
+            "category":"physical",
+            "subcategory": "fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-9-a.jpg",
             "images":[
@@ -137,8 +137,8 @@
         },
         {
             "id": 10,
-            "category":"Physical",
-            "subcategory": "Fashion",
+            "category":"physical",
+            "subcategory": "fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-10-a.jpg",
             "images":[
@@ -152,8 +152,8 @@
         },
         {
             "id": 11,
-            "category":"Physical",
-            "subcategory": "Fashion",
+            "category":"physical",
+            "subcategory": "fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-11-a.jpg",
             "images":[
@@ -167,8 +167,8 @@
         },
         {
             "id": 12,
-            "category":"Physical",
-            "subcategory": "Fashion",
+            "category":"physical",
+            "subcategory": "fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-12-a.jpg",
             "images":[
@@ -182,8 +182,8 @@
         },
         {
             "id": 13,
-            "category":"Physical",
-            "subcategory": "Fashion",
+            "category":"physical",
+            "subcategory": "fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-13-a.jpg",
             "images":[
@@ -197,8 +197,8 @@
         },
         {
             "id": 14,
-            "category":"Physical",
-            "subcategory": "Fashion",
+            "category":"physical",
+            "subcategory": "fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-12-a.jpg",
             "images":[
@@ -212,8 +212,8 @@
         },
         {
             "id": 15,
-            "category":"Physical",
-            "subcategory": "Fashion",
+            "category":"physical",
+            "subcategory": "fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-12-a.jpg",
             "images":[
@@ -227,8 +227,8 @@
         },
         {
             "id": 16,
-            "category":"Physical",
-            "subcategory": "Fashion",
+            "category":"physical",
+            "subcategory": "fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-12-a.jpg",
             "images":[
@@ -242,8 +242,8 @@
         },
         {
             "id": 17,
-            "category":"Physical",
-            "subcategory": "Fashion",
+            "category":"physical",
+            "subcategory": "fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-12-a.jpg",
             "images":[

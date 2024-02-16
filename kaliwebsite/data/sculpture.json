@@ -2,8 +2,8 @@
     "items":[
         {
             "id": 1,
-            "category":"Physical",
-            "subcategory": "Sculpture",
+            "category":"physical",
+            "subcategory": "sculpture",
             "title":"Monkey Head",
             "cover":"/img/sculpture/sculpture-1-a.jpg",
             "images":[
@@ -17,8 +17,8 @@
         },
         {
             "id": 2,
-            "category":"Physical",
-            "subcategory": "Sculpture",
+            "category":"physical",
+            "subcategory": "sculpture",
             "title":"Teddy Bear",
             "cover":"/img/sculpture/sculpture-2-a.jpg",
             "images":[
@@ -32,8 +32,8 @@
         },
         {
             "id": 3,
-            "category":"Physical",
-            "subcategory": "Sculpture",
+            "category":"physical",
+            "subcategory": "sculpture",
             "title":"8s",
             "cover":"/img/sculpture/sculpture-3-a.jpg",
             "images":[
@@ -48,8 +48,8 @@
         },
         {
             "id": 4,
-            "category":"Physical",
-            "subcategory": "Sculpture",
+            "category":"physical",
+            "subcategory": "sculpture",
             "title":"Kevin",
             "cover":"/img/sculpture/sculpture-4-a.jpg",
             "images":[
@@ -63,8 +63,8 @@
         },
         {
             "id": 5,
-            "category":"Physical",
-            "subcategory": "Sculpture",
+            "category":"physical",
+            "subcategory": "sculpture",
             "title":"Double Lips",
             "cover":"/img/sculpture/sculpture-5-a.jpg",
             "images":[
@@ -78,8 +78,8 @@
         },
         {
             "id": 6,
-            "category":"Physical",
-            "subcategory": "Sculpture",
+            "category":"physical",
+            "subcategory": "sculpture",
             "title":"Nah She's Good",
             "cover":"/img/sculpture/sculpture-6-a.jpg",
             "images":[
@@ -93,8 +93,8 @@
         },
         {
             "id": 7,
-            "category":"Physical",
-            "subcategory": "Sculpture",
+            "category":"physical",
+            "subcategory": "sculpture",
             "title":"Tall Doll",
             "cover":"/img/sculpture/sculpture-7-a.jpg",
             "images":[
@@ -108,8 +108,8 @@
         },
         {
             "id": 8,
-            "category":"Physical",
-            "subcategory": "Sculpture",
+            "category":"physical",
+            "subcategory": "sculpture",
             "title":"Empty 1",
             "cover":"/img/sculpture/sculpture-7-a.jpg",
             "images":[
@@ -123,8 +123,8 @@
         },
         {
             "id": 9,
-            "category":"Physical",
-            "subcategory": "Sculpture",
+            "category":"physical",
+            "subcategory": "sculpture",
             "title":"Empty 2",
             "cover":"/img/sculpture/sculpture-7-a.jpg",
             "images":[
@@ -138,8 +138,8 @@
         },
         {
             "id": 10,
-            "category":"Physical",
-            "subcategory": "Sculpture",
+            "category":"physical",
+            "subcategory": "sculpture",
             "title":"Empty 3",
             "cover":"/img/sculpture/sculpture-7-a.jpg",
             "images":[
@@ -153,8 +153,8 @@
         },
         {
             "id": 11,
-            "category":"Physical",
-            "subcategory": "Sculpture",
+            "category":"physical",
+            "subcategory": "sculpture",
             "title":"Empty 4",
             "cover":"/img/sculpture/sculpture-7-a.jpg",
             "images":[
@@ -168,8 +168,8 @@
         },
         {
             "id": 12,
-            "category":"Physical",
-            "subcategory": "Sculpture",
+            "category":"physical",
+            "subcategory": "sculpture",
             "title":"Empty 5",
             "cover":"/img/sculpture/sculpture-7-a.jpg",
             "images":[

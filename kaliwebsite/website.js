@@ -17,17 +17,15 @@ app.engine('handlebars', expressHandlebars.engine({
 
 app.set('view engine','handlebars')
 
-//set products.json data to const
-const itemData = JSON.parse(fs.readFileSync('data/items.json', 'utf-8'));
-
-const animationData = JSON.parse(fs.reafFileSync('data/animation.json','utf-8'));
-const codeData = JSON.parse(fs.reafFileSync('data/code.json','utf-8'));
-const digitalArtData = JSON.parse(fs.reafFileSync('data/digital-art.json','utf-8'));
-const fashionData = JSON.parse(fs.reafFileSync('data/fashion.json','utf-8'));
-const graphicDesignData = JSON.parse(fs.reafFileSync('data/graphic-design.json','utf-8'));
-const paperData = JSON.parse(fs.reafFileSync('data/paper.json','utf-8'));
-const sculptureData = JSON.parse(fs.reafFileSync('data/sculpture.json','utf-8'));
-const uxuiData = JSON.parse(fs.reafFileSync('data/ux-ui.json','utf-8'));
+//json consts
+const animationData = JSON.parse(fs.readFileSync('data/animation.json','utf-8'));
+const codeData = JSON.parse(fs.readFileSync('data/code.json','utf-8'));
+const digitalArtData = JSON.parse(fs.readFileSync('data/digital-art.json','utf-8'));
+const fashionData = JSON.parse(fs.readFileSync('data/fashion.json','utf-8'));
+const graphicDesignData = JSON.parse(fs.readFileSync('data/graphic-design.json','utf-8'));
+const paperData = JSON.parse(fs.readFileSync('data/paper.json','utf-8'));
+const sculptureData = JSON.parse(fs.readFileSync('data/sculpture.json','utf-8'));
+const uxuiData = JSON.parse(fs.readFileSync('data/ux-ui.json','utf-8'));
 
 //setup port
 const port = process.env.port || 3000
@@ -123,27 +121,14 @@ app.get('/',(req,res)=>{
         return shuffledItems.slice(0, numItems);
     }
 
-    function getCategory(itemCategory) {
-        if(itemCategory == "Sculpture") {
-            return 'sculpture';
-        } else if (itemCategory == "Paper") {
-            return 'paper';
-        } else if (itemCategory == "Code") {
-            return 'code';
-        } else if (itemCategory == "Digital") {
-            return 'digital';
-        } else if (itemCategory == "Fashion") {
-            return 'fashion';
-        }
-        return null
-    }
-
 //individual item routes from home, subcategory and item pages using itemId
-app.get(['/item/:id'], (req, res) => {
-    const itemId = parseInt(req.params.id, 10); 
+app.get(['/item/:subcategory/:id'], (req, res) => {
+    const { subcategory, id } = req.params;
+    const itemId = parseInt(id, 10); 
 
-    //find the item with matching id in itemData
-    const selectedItem = itemData.items.find(item => item.id === itemId);
+    const subcategoryData = JSON.parse(fs.readFileSync(`data/${subcategory}.json`, 'utf-8'));
+
+    const selectedItem = subcategoryData.items.find(item => item.id === itemId);
 
     if (!selectedItem) {
         //if item is not found
@@ -151,14 +136,13 @@ app.get(['/item/:id'], (req, res) => {
         return;
     }
 
-    const subcategory = selectedItem.subcategory;
-    //take all subcategory items from itemData and store in categoryData
-    const categoryData = itemData.items.filter(item => item.subcategory === subcategory);
-    //choose four other items from the same subcategory
-    const otherItems = chooseRandomItems(categoryData, 4);
+    // filter other items from the same subcategory
+    const otherItems = subcategoryData.items.filter(item => item.id !== itemId);
+    // choose four random items from the other items
+    const randomOtherItems = chooseRandomItems(otherItems, 4);
 
     //render view with the selected item and other items in subcategory
-    res.render('item-page', { item: selectedItem, otherItems, itemData });
+    res.render('item-page', { item: selectedItem, otherItems: randomOtherItems });
 });
 
 /* Category Pages */
@@ -167,37 +151,65 @@ app.get(['/item/:id'], (req, res) => {
 app.get('/physical', (req, res) => {
     const sculptureData = require('./data/sculpture.json');
     const sculptureItems = sculptureData.items;
+    const sculptureRandomItem = chooseRandomItems(sculptureItems, 1);
 
     const paperData = require('./data/paper.json');
     const paperItems = paperData.items;
+    const paperRandomItem = chooseRandomItems(paperItems, 1);
 
     const fashionData = require('./data/fashion.json');
     const fashionItems = fashionData.items;
+    const fashionRandomItem = chooseRandomItems(fashionItems, 1);
 
     res.render('subcategory-page', { 
-        data: animationData, 
-        items: animationItems, 
-        subcategory: 'Animation' });
+        sculptureRandomItem,
+        paperRandomItem,
+        fashionRandomItem
+    });
 });
 
 //route for Digital page
 app.get('/digital', (req, res) => {
     const animationData = require('./data/animation.json');
     const animationItems = animationData.items;
+    const animationRandomItem = chooseRandomItems(animationItems, 1);
+
+    const codeData = require('./data/code.json');
+    const codeItems = codeData.items;
+    const codeRandomItem = chooseRandomItems(codeItems, 1);
+
+    const graphicDesignData = require('./data/graphic-design.json');
+    const graphicDesignItems = graphicDesignData.items;
+    const graphicDesignRandomItem = chooseRandomItems(graphicDesignItems, 1);
+
+    const uxuiData = require('./data/ux-ui.json');
+    const uxuiItems = uxuiData.items;
+    const uxuiRandomItem = chooseRandomItems(uxuiItems, 1);
+
+    const webData = require('./data/web.json');
+    const webItems = webData.items;
+    const webRandomItem = chooseRandomItems(webItems, 1);
+
     res.render('subcategory-page', { 
-        data: animationData, 
-        items: animationItems, 
-        subcategory: 'Animation' });
+        animationRandomItem,
+        codeRandomItem,
+        graphicDesignRandomItem,
+        uxuiRandomItem,
+        webRandomItem
+    });
 });
 
 //route for About page
 app.get('/about', (req, res) => {
-    const animationData = require('./data/animation.json');
-    const animationItems = animationData.items;
-    res.render('subcategory-page', { 
-        data: animationData, 
-        items: animationItems, 
-        subcategory: 'Animation' });
+    const aboutData = require('./data/about.json');
+
+    const writingData = require('./data/writing.json');
+    const writingItems = writingData.items;
+
+    res.render('about-page', { 
+        aboutData,
+        writingItems
+    });
 });
 
 /* Subcategory Pages */
