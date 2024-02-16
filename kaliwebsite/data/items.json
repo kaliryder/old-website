@@ -4,9 +4,9 @@
             "id": 1,
             "category": "Sculpture",
             "title":"Monkey Head",
-            "cover":"/img/sculpture/sculpture-1-a",
+            "cover":"/img/sculpture/sculpture-1-a.jpg",
             "images":[
-                "/img/sculpture/sculpture-1-a"
+                "/img/sculpture/sculpture-1-a.jpg"
             ],
             "videos":[
             ],
@@ -18,9 +18,9 @@
             "id": 2,
             "category": "Sculpture",
             "title":"Teddy Bear",
-            "cover":"/img/sculpture/sculpture-2-a",
+            "cover":"/img/sculpture/sculpture-2-a.jpg",
             "images":[
-                "/img/sculpture/sculpture-2-a"
+                "/img/sculpture/sculpture-2-a.jpg"
             ],
             "videos":[
             ],
@@ -32,12 +32,12 @@
             "id": 3,
             "category": "Sculpture",
             "title":"8s",
-            "cover":"/img/sculpture/sculpture-3-a",
+            "cover":"/img/sculpture/sculpture-3-a.jpg",
             "images":[
-                "/img/sculpture/sculpture-3-a"
+                "/img/sculpture/sculpture-3-a.jpg"
             ],
             "videos":[
-                "/img/sculpture/sculpture-vid-3-a"
+                "/img/sculpture/sculpture-vid-3-a.mp4"
             ],
             "date":"2021",
             "medium":"metal",
@@ -47,9 +47,9 @@
             "id": 4,
             "category": "Sculpture",
             "title":"Kevin",
-            "cover":"/img/sculpture/sculpture-4-a",
+            "cover":"/img/sculpture/sculpture-4-a.jpg",
             "images":[
-                "/img/sculpture/sculpture-4-a"
+                "/img/sculpture/sculpture-4-a.jpg"
             ],
             "videos":[
             ],
@@ -61,9 +61,9 @@
             "id": 5,
             "category": "Sculpture",
             "title":"Double Lips",
-            "cover":"/img/sculpture/sculpture-5-a",
+            "cover":"/img/sculpture/sculpture-5-a.jpg",
             "images":[
-                "/img/sculpture/sculpture-5-a"
+                "/img/sculpture/sculpture-5-a.jpg"
             ],
             "videos":[
             ],
@@ -75,9 +75,9 @@
             "id": 6,
             "category": "Sculpture",
             "title":"Nah She's Good",
-            "cover":"/img/sculpture/sculpture-6-a",
+            "cover":"/img/sculpture/sculpture-6-a.jpg",
             "images":[
-                "/img/sculpture/sculpture-6-a"
+                "/img/sculpture/sculpture-6-a.jpg"
             ],
             "videos":[
             ],
@@ -89,9 +89,9 @@
             "id": 7,
             "category": "Sculpture",
             "title":"Tall Doll",
-            "cover":"/img/sculpture/sculpture-7-a",
+            "cover":"/img/sculpture/sculpture-7-a.jpg",
             "images":[
-                "/img/sculpture/sculpture-7-a"
+                "/img/sculpture/sculpture-7-a.jpg"
             ],
             "videos":[
             ],
@@ -103,9 +103,9 @@
             "id": 8,
             "category": "Sculpture",
             "title":"Empty 1",
-            "cover":"/img/sculpture/sculpture-7-a",
+            "cover":"/img/sculpture/sculpture-7-a.jpg",
             "images":[
-                "/img/sculpture/sculpture-7-a"
+                "/img/sculpture/sculpture-7-a.jpg"
             ],
             "videos":[
             ],
@@ -117,9 +117,9 @@
             "id": 9,
             "category": "Sculpture",
             "title":"Empty 2",
-            "cover":"/img/sculpture/sculpture-7-a",
+            "cover":"/img/sculpture/sculpture-7-a.jpg",
             "images":[
-                "/img/sculpture/sculpture-7-a"
+                "/img/sculpture/sculpture-7-a.jpg"
             ],
             "videos":[
             ],
@@ -131,9 +131,9 @@
             "id": 10,
             "category": "Sculpture",
             "title":"Empty 3",
-            "cover":"/img/sculpture/sculpture-7-a",
+            "cover":"/img/sculpture/sculpture-7-a.jpg",
             "images":[
-                "/img/sculpture/sculpture-7-a"
+                "/img/sculpture/sculpture-7-a.jpg"
             ],
             "videos":[
             ],
@@ -145,9 +145,9 @@
             "id": 11,
             "category": "Sculpture",
             "title":"Empty 4",
-            "cover":"/img/sculpture/sculpture-7-a",
+            "cover":"/img/sculpture/sculpture-7-a.jpg",
             "images":[
-                "/img/sculpture/sculpture-7-a"
+                "/img/sculpture/sculpture-7-a.jpg"
             ],
             "videos":[
             ],
@@ -159,9 +159,9 @@
             "id": 12,
             "category": "Sculpture",
             "title":"Empty 5",
-            "cover":"/img/sculpture/sculpture-7-a",
+            "cover":"/img/sculpture/sculpture-7-a.jpg",
             "images":[
-                "/img/sculpture/sculpture-7-a"
+                "/img/sculpture/sculpture-7-a.jpg"
             ],
             "videos":[
             ],
@@ -173,9 +173,9 @@
             "id": 13,
             "category": "Paper",
             "title":"Alexa",
-            "cover":"/img/paper/paper-1-a",
+            "cover":"/img/paper/paper-1-a.jpg",
             "images":[
-                "/img/paper/paper-1-a"
+                "/img/paper/paper-1-a.jpg"
             ],
             "videos":[
             ],
@@ -187,9 +187,9 @@
             "id": 14,
             "category": "Paper",
             "title":"Cherry",
-            "cover":"/img/paper/paper-2-a",
+            "cover":"/img/paper/paper-2-a.jpg",
             "images":[
-                "/img/paper/paper-2-a"
+                "/img/paper/paper-2-a.jpg"
             ],
             "videos":[
             ],
@@ -201,9 +201,9 @@
             "id": 15,
             "category": "Paper",
             "title":"Hadley",
-            "cover":"/img/paper/paper-3-a",
+            "cover":"/img/paper/paper-3-a.jpg",
             "images":[
-                "/img/paper/paper-3-a"
+                "/img/paper/paper-3-a.jpg"
             ],
             "videos":[
             ],
@@ -215,9 +215,9 @@
             "id": 16,
             "category": "Paper",
             "title":"Playtime",
-            "cover":"/img/paper/paper-4-a",
+            "cover":"/img/paper/paper-4-a.jpg",
             "images":[
-                "/img/paper/paper-4-a"
+                "/img/paper/paper-4-a.jpg"
             ],
             "videos":[
             ],
@@ -229,9 +229,9 @@
             "id": 17,
             "category": "Paper",
             "title":"Jenna",
-            "cover":"/img/paper/paper-5-a",
+            "cover":"/img/paper/paper-5-a.jpg",
             "images":[
-                "/img/paper/paper-5-a"
+                "/img/paper/paper-5-a.jpg"
             ],
             "videos":[
             ],
@@ -243,9 +243,9 @@
             "id": 18,
             "category": "Paper",
             "title":"JP",
-            "cover":"/img/paper/paper-6-a",
+            "cover":"/img/paper/paper-6-a.jpg",
             "images":[
-                "/img/paper/paper-6-a"
+                "/img/paper/paper-6-a.jpg"
             ],
             "videos":[
             ],
@@ -257,9 +257,9 @@
             "id": 19,
             "category": "Paper",
             "title":"Lauren",
-            "cover":"/img/paper/paper-7-a",
+            "cover":"/img/paper/paper-7-a.jpg",
             "images":[
-                "/img/paper/paper-7-a"
+                "/img/paper/paper-7-a.jpg"
             ],
             "videos":[
             ],
@@ -271,9 +271,9 @@
             "id": 20,
             "category": "Paper",
             "title":"Clown Lean",
-            "cover":"/img/paper/paper-8-a",
+            "cover":"/img/paper/paper-8-a.jpg",
             "images":[
-                "/img/paper/paper-8-a"
+                "/img/paper/paper-8-a.jpg"
             ],
             "videos":[
             ],
@@ -285,9 +285,9 @@
             "id": 21,
             "category": "Paper",
             "title":"Milk Shoe",
-            "cover":"/img/paper/paper-9-a",
+            "cover":"/img/paper/paper-9-a.jpg",
             "images":[
-                "/img/paper/paper-9-a"
+                "/img/paper/paper-9-a.jpg"
             ],
             "videos":[
             ],
@@ -299,9 +299,9 @@
             "id": 22,
             "category": "Paper",
             "title":"Snake Mouse",
-            "cover":"/img/paper/paper-10-a",
+            "cover":"/img/paper/paper-10-a.jpg",
             "images":[
-                "/img/paper/paper-10-a"
+                "/img/paper/paper-10-a.jpg"
             ],
             "videos":[
             ],
@@ -313,9 +313,9 @@
             "id": 23,
             "category": "Paper",
             "title":"Hungry",
-            "cover":"/img/paper/paper-11-a",
+            "cover":"/img/paper/paper-11-a.jpg",
             "images":[
-                "/img/paper/paper-11-a"
+                "/img/paper/paper-11-a.jpg"
             ],
             "videos":[
             ],
@@ -327,9 +327,9 @@
             "id": 24,
             "category": "Paper",
             "title":"Why",
-            "cover":"/img/paper/paper-12-a",
+            "cover":"/img/paper/paper-12-a.jpg",
             "images":[
-                "/img/paper/paper-12-a"
+                "/img/paper/paper-12-a.jpg"
             ],
             "videos":[
             ],
@@ -341,11 +341,11 @@
             "id": 25,
             "category": "Code",
             "title":"Bouncy",
-            "cover":"/img/code/code-vid-1-a",
+            "cover":"/img/code/code-vid-1-a.mp4",
             "images":[
             ],
             "videos":[
-                "/img/code/code-vid-1-a"
+                "/img/code/code-vid-1-a.mp4"
             ],
             "date":"2022",
             "medium":"Unity / C#",
@@ -355,11 +355,11 @@
             "id": 26,
             "category": "Code",
             "title":"Dimensions",
-            "cover":"/img/code/code-vid-2-a",
+            "cover":"/img/code/code-vid-2-a.mp4",
             "images":[
             ],
             "videos":[
-                "/img/code/code-vid-2-a"
+                "/img/code/code-vid-2-a.mp4"
             ],
             "date":"2022",
             "medium":"Unity / C#",
@@ -369,11 +369,11 @@
             "id": 27,
             "category": "Code",
             "title":"Floppy Fish",
-            "cover":"/img/code/code-vid-3-a",
+            "cover":"/img/code/code-vid-3-a.mp4",
             "images":[
             ],
             "videos":[
-                "/img/code/code-vid-3-a"
+                "/img/code/code-vid-3-a.mp4"
             ],
             "date":"2018",
             "medium":"JGrasp / Java",
@@ -383,11 +383,11 @@
             "id": 28,
             "category": "Code",
             "title":"Selection Ring",
-            "cover":"/img/code/code-vid-4-a",
+            "cover":"/img/code/code-vid-4-a.mp4",
             "images":[
             ],
             "videos":[
-                "/img/code/code-vid-4-a"
+                "/img/code/code-vid-4-a.mp4"
             ],
             "date":"2022",
             "medium":"Unity / C#",
@@ -397,11 +397,11 @@
             "id": 29,
             "category": "Code",
             "title":"Sudoku",
-            "cover":"/img/code/code-vid-5-a",
+            "cover":"/img/code/code-vid-5-a.mp4",
             "images":[
             ],
             "videos":[
-                "/img/code/code-vid-5-a"
+                "/img/code/code-vid-5-a.mp4"
             ],
             "date":"2022",
             "medium":"Unity / C#",
@@ -411,11 +411,11 @@
             "id": 30,
             "category": "Code",
             "title":"Empty 1",
-            "cover":"/img/code/code-vid-5-a",
+            "cover":"/img/code/code-vid-5-a.mp4",
             "images":[
             ],
             "videos":[
-                "/img/code/code-vid-5-a"
+                "/img/code/code-vid-5-a.mp4"
             ],
             "date":"Empty 1",
             "medium":"Empty 1",
@@ -425,11 +425,11 @@
             "id": 31,
             "category": "Code",
             "title":"Empty 2",
-            "cover":"/img/code/code-vid-5-a",
+            "cover":"/img/code/code-vid-5-a.mp4",
             "images":[
             ],
             "videos":[
-                "/img/code/code-vid-5-a"
+                "/img/code/code-vid-5-a.mp4"
             ],
             "date":"Empty 2",
             "medium":"Empty 2",
@@ -439,11 +439,11 @@
             "id": 32,
             "category": "Code",
             "title":"Empty 3",
-            "cover":"/img/code/code-vid-5-a",
+            "cover":"/img/code/code-vid-5-a.mp4",
             "images":[
             ],
             "videos":[
-                "/img/code/code-vid-5-a"
+                "/img/code/code-vid-5-a.mp4"
             ],
             "date":"Empty 3",
             "medium":"Empty 3",
@@ -453,9 +453,9 @@
             "id": 33,
             "category": "Digital",
             "title":"Collective",
-            "cover":"/img/digital/digital-1-a",
+            "cover":"/img/digital/digital-1-a.jpg",
             "images":[
-                "/img/digital/digital-1-a"
+                "/img/digital/digital-1-a.jpg"
             ],
             "videos":[
             ],
@@ -467,9 +467,9 @@
             "id": 34,
             "category": "Digital",
             "title":"Dead Entrance Logo",
-            "cover":"/img/digital/digital-2-a",
+            "cover":"/img/digital/digital-2-a.jpg",
             "images":[
-                "/img/digital/digital-2-a"
+                "/img/digital/digital-2-a.jpg"
             ],
             "videos":[
             ],
@@ -481,9 +481,9 @@
             "id": 35,
             "category": "Digital",
             "title":"Devil Calling",
-            "cover":"/img/digital/digital-3-a",
+            "cover":"/img/digital/digital-3-a.jpg",
             "images":[
-                "/img/digital/digital-3-a"
+                "/img/digital/digital-3-a.jpg"
             ],
             "videos":[
             ],
@@ -495,9 +495,9 @@
             "id": 36,
             "category": "Digital",
             "title":"Falling",
-            "cover":"/img/digital/digital-4-a",
+            "cover":"/img/digital/digital-4-a.jpg",
             "images":[
-                "/img/digital/digital-4-a"
+                "/img/digital/digital-4-a.jpg"
             ],
             "videos":[
             ],
@@ -509,9 +509,9 @@
             "id": 37,
             "category": "Digital",
             "title":"Fish Me",
-            "cover":"/img/digital/digital-5-a",
+            "cover":"/img/digital/digital-5-a.jpg",
             "images":[
-                "/img/digital/digital-5-a"
+                "/img/digital/digital-5-a.jpg"
             ],
             "videos":[
             ],
@@ -523,9 +523,9 @@
             "id": 38,
             "category": "Digital",
             "title":"Triz",
-            "cover":"/img/digital/digital-6-a",
+            "cover":"/img/digital/digital-6-a.jpg",
             "images":[
-                "/img/digital/digital-6-a"
+                "/img/digital/digital-6-a.jpg"
             ],
             "videos":[
             ],
@@ -537,9 +537,9 @@
             "id": 39,
             "category": "Digital",
             "title":"In My Room",
-            "cover":"/img/digital/digital-7-a",
+            "cover":"/img/digital/digital-7-a.jpg",
             "images":[
-                "/img/digital/digital-7-a"
+                "/img/digital/digital-7-a.jpg"
             ],
             "videos":[
             ],
@@ -551,9 +551,9 @@
             "id": 40,
             "category": "Digital",
             "title":"Free Ross",
-            "cover":"/img/digital/digital-8-a",
+            "cover":"/img/digital/digital-8-a.jpg",
             "images":[
-                "/img/digital/digital-8-a"
+                "/img/digital/digital-8-a.jpg"
             ],
             "videos":[
             ],
@@ -565,9 +565,9 @@
             "id": 41,
             "category": "Digital",
             "title":"Dreams",
-            "cover":"/img/digital/digital-9-a",
+            "cover":"/img/digital/digital-9-a.jpg",
             "images":[
-                "/img/digital/digital-9-a"
+                "/img/digital/digital-9-a.jpg"
             ],
             "videos":[
             ],
@@ -579,9 +579,9 @@
             "id": 42,
             "category": "Digital",
             "title":"Blue Shorts",
-            "cover":"/img/digital/digital-10-a",
+            "cover":"/img/digital/digital-10-a.jpg",
             "images":[
-                "/img/digital/digital-10-a"
+                "/img/digital/digital-10-a.jpg"
             ],
             "videos":[
             ],
@@ -593,11 +593,11 @@
             "id": 43,
             "category": "Digital",
             "title":"Blue Shorts",
-            "cover":"/img/digital/digital-vid-11-a",
+            "cover":"/img/digital/digital-vid-11-a.mp4",
             "images":[
             ],
             "videos":[
-                "/img/digital/digital-vid-11-a"
+                "/img/digital/digital-vid-11-a.mp4"
             ],
             "date":"$30",
             "medium":"charcoal",
@@ -607,11 +607,11 @@
             "id": 44,
             "category": "Digital",
             "title":"Blue Shorts",
-            "cover":"/img/digital/digital-vid-12-a",
+            "cover":"/img/digital/digital-vid-12-a.mp4",
             "images":[
             ],
             "videos":[
-                "/img/digital/digital-vid-12-a"
+                "/img/digital/digital-vid-12-a.mp4"
             ],
             "date":"$30",
             "medium":"charcoal",
@@ -621,12 +621,12 @@
             "id": 45,
             "category": "Digital",
             "title":"Blue Shorts",
-            "cover":"/img/digital/digital-13-a",
+            "cover":"/img/digital/digital-13-a.jpg",
             "images":[
             ],
             "videos":[
-                "/img/digital/digital-vid-13-a",
-                "/img/digital/digital-vid-13-b"
+                "/img/digital/digital-vid-13-a.mp4",
+                "/img/digital/digital-vid-13-b.mp4"
             ],
             "date":"$30",
             "medium":"charcoal",
@@ -636,11 +636,11 @@
             "id": 46,
             "category": "Digital",
             "title":"Blue Shorts",
-            "cover":"/img/digital/digital-vid-14-a",
+            "cover":"/img/digital/digital-vid-14-a.mp4",
             "images":[
             ],
             "videos":[
-                "/img/digital/digital-vid-14-a"
+                "/img/digital/digital-vid-14-a.mp4"
             ],
             "date":"$30",
             "medium":"charcoal",
@@ -650,11 +650,11 @@
             "id": 47,
             "category": "Digital",
             "title":"Blue Shorts",
-            "cover":"/img/digital/digital-vid-15-a",
+            "cover":"/img/digital/digital-vid-15-a.mp4",
             "images":[
             ],
             "videos":[
-                "/img/digital/digital-vid-15-a"
+                "/img/digital/digital-vid-15-a.mp4"
             ],
             "date":"$30",
             "medium":"charcoal",
@@ -664,11 +664,11 @@
             "id": 48,
             "category": "Digital",
             "title":"Blue Shorts",
-            "cover":"/img/digital/digital-vid-16-a",
+            "cover":"/img/digital/digital-vid-16-a.mp4",
             "images":[
             ],
             "videos":[
-                "/img/digital/digital-vid-16-a"
+                "/img/digital/digital-vid-16-a.mp4"
             ],
             "date":"$30",
             "medium":"charcoal",
@@ -678,9 +678,9 @@
             "id": 49,
             "category": "Fashion",
             "title":"Blue Shorts",
-            "cover":"/img/fashion/fashion-1-a",
+            "cover":"/img/fashion/fashion-1-a.jpg",
             "images":[
-                "/img/fashion/fashion-1-a"
+                "/img/fashion/fashion-1-a.jpg"
             ],
             "videos":[
             ],
@@ -692,9 +692,9 @@
             "id": 50,
             "category": "Fashion",
             "title":"Blue Shorts",
-            "cover":"/img/fashion/fashion-2-a",
+            "cover":"/img/fashion/fashion-2-a.jpg",
             "images":[
-                "/img/fashion/fashion-2-a"
+                "/img/fashion/fashion-2-a.jpg"
             ],
             "videos":[
             ],
@@ -706,9 +706,9 @@
             "id": 51,
             "category": "Fashion",
             "title":"Blue Shorts",
-            "cover":"/img/fashion/fashion-3-a",
+            "cover":"/img/fashion/fashion-3-a.jpg",
             "images":[
-                "/img/fashion/fashion-3-a"
+                "/img/fashion/fashion-3-a.jpg"
             ],
             "videos":[
             ],
@@ -720,9 +720,9 @@
             "id": 52,
             "category": "Fashion",
             "title":"Blue Shorts",
-            "cover":"/img/fashion/fashion-4-a",
+            "cover":"/img/fashion/fashion-4-a.jpg",
             "images":[
-                "/img/fashion/fashion-4-a"
+                "/img/fashion/fashion-4-a.jpg"
             ],
             "videos":[
             ],
@@ -734,9 +734,9 @@
             "id": 53,
             "category": "Fashion",
             "title":"Blue Shorts",
-            "cover":"/img/fashion/fashion-5-a",
+            "cover":"/img/fashion/fashion-5-a.jpg",
             "images":[
-                "/img/fashion/fashion-5-a"
+                "/img/fashion/fashion-5-a.jpg"
             ],
             "videos":[
             ],
@@ -748,9 +748,9 @@
             "id": 54,
             "category": "Fashion",
             "title":"Blue Shorts",
-            "cover":"/img/fashion/fashion-6-a",
+            "cover":"/img/fashion/fashion-6-a.jpg",
             "images":[
-                "/img/fashion/fashion-6-a"
+                "/img/fashion/fashion-6-a.jpg"
             ],
             "videos":[
             ],
@@ -762,9 +762,9 @@
             "id": 55,
             "category": "Fashion",
             "title":"Blue Shorts",
-            "cover":"/img/fashion/fashion-7-a",
+            "cover":"/img/fashion/fashion-7-a.jpg",
             "images":[
-                "/img/fashion/fashion-7-a"
+                "/img/fashion/fashion-7-a.jpg"
             ],
             "videos":[
             ],
@@ -776,9 +776,9 @@
             "id": 56,
             "category": "Fashion",
             "title":"Blue Shorts",
-            "cover":"/img/fashion/fashion-8-a",
+            "cover":"/img/fashion/fashion-8-a.jpg",
             "images":[
-                "/img/fashion/fashion-8-a"
+                "/img/fashion/fashion-8-a.jpg"
             ],
             "videos":[
             ],
@@ -790,9 +790,9 @@
             "id": 57,
             "category": "Fashion",
             "title":"Blue Shorts",
-            "cover":"/img/fashion/fashion-9-a",
+            "cover":"/img/fashion/fashion-9-a.jpg",
             "images":[
-                "/img/fashion/fashion-9-a"
+                "/img/fashion/fashion-9-a.jpg"
             ],
             "videos":[
             ],
@@ -804,9 +804,9 @@
             "id": 58,
             "category": "Fashion",
             "title":"Blue Shorts",
-            "cover":"/img/fashion/fashion-10-a",
+            "cover":"/img/fashion/fashion-10-a.jpg",
             "images":[
-                "/img/fashion/fashion-10-a"
+                "/img/fashion/fashion-10-a.jpg"
             ],
             "videos":[
             ],
@@ -818,9 +818,9 @@
             "id": 59,
             "category": "Fashion",
             "title":"Blue Shorts",
-            "cover":"/img/fashion/fashion-11-a",
+            "cover":"/img/fashion/fashion-11-a.jpg",
             "images":[
-                "/img/fashion/fashion-11-a"
+                "/img/fashion/fashion-11-a.jpg"
             ],
             "videos":[
             ],
@@ -832,9 +832,9 @@
             "id": 60,
             "category": "Fashion",
             "title":"Blue Shorts",
-            "cover":"/img/fashion/fashion-12-a",
+            "cover":"/img/fashion/fashion-12-a.jpg",
             "images":[
-                "/img/fashion/fashion-12-a"
+                "/img/fashion/fashion-12-a.jpg"
             ],
             "videos":[
             ],
@@ -846,9 +846,9 @@
             "id": 61,
             "category": "Fashion",
             "title":"Blue Shorts",
-            "cover":"/img/fashion/fashion-13-a",
+            "cover":"/img/fashion/fashion-13-a.jpg",
             "images":[
-                "/img/fashion/fashion-13-a"
+                "/img/fashion/fashion-13-a.jpg"
             ],
             "videos":[
             ],
@@ -860,9 +860,9 @@
             "id": 62,
             "category": "Fashion",
             "title":"Blue Shorts",
-            "cover":"/img/fashion/fashion-12-a",
+            "cover":"/img/fashion/fashion-12-a.jpg",
             "images":[
-                "/img/fashion/fashion-12-a"
+                "/img/fashion/fashion-12-a.jpg"
             ],
             "videos":[
             ],
@@ -874,9 +874,9 @@
             "id": 63,
             "category": "Fashion",
             "title":"Blue Shorts",
-            "cover":"/img/fashion/fashion-12-a",
+            "cover":"/img/fashion/fashion-12-a.jpg",
             "images":[
-                "/img/fashion/fashion-12-a"
+                "/img/fashion/fashion-12-a.jpg"
             ],
             "videos":[
             ],
@@ -888,9 +888,9 @@
             "id": 64,
             "category": "Fashion",
             "title":"Blue Shorts",
-            "cover":"/img/fashion/fashion-12-a",
+            "cover":"/img/fashion/fashion-12-a.jpg",
             "images":[
-                "/img/fashion/fashion-12-a"
+                "/img/fashion/fashion-12-a.jpg"
             ],
             "videos":[
             ],
@@ -902,9 +902,9 @@
             "id": 65,
             "category": "Fashion",
             "title":"Blue Shorts",
-            "cover":"/img/fashion/fashion-12-a",
+            "cover":"/img/fashion/fashion-12-a.jpg",
             "images":[
-                "/img/fashion/fashion-12-a"
+                "/img/fashion/fashion-12-a.jpg"
             ],
             "videos":[
             ],
@@ -916,9 +916,9 @@
             "id": 66,
             "category": "Paper",
             "title":"USPS",
-            "cover":"/img/paper/paper-13-a",
+            "cover":"/img/paper/paper-13-a.jpg",
             "images":[
-                "/img/paper/paper-13-a"
+                "/img/paper/paper-13-a.jpg"
             ],
             "videos":[
             ],

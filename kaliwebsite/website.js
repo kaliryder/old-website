@@ -23,6 +23,18 @@ const itemData = JSON.parse(fs.readFileSync('data/items.json', 'utf-8'));
 //setup port
 const port = process.env.port || 3000
 
+//helper function to see if file is mp4
+const hbs = expressHandlebars.create({
+    helpers: {
+        isVideo: function (filename, options) {
+            return filename.endsWith('.mp4') ? options.fn(this) : options.inverse(this);
+        }
+    }
+});
+
+app.engine('handlebars', hbs.engine);
+app.set('view engine', 'handlebars');
+
 //home route
 app.get('/',(req,res)=>{
     const allItems = itemData.items;

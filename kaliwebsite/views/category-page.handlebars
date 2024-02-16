@@ -9,8 +9,20 @@
   {{#each items}}
     <div class="col-3">
       <!--gallery item-->
-      <a href="/item/{{this.id}}" class="gallery-img">
-        <img src="{{image}}" alt="{{title}}" class="img-thumbnail">
+        <div class="media-container">
+            {{#if this.cover}}
+                <a href="/item/{{this.id}}" class="gallery-img">
+                {{#isVideo cover}}
+                    <video controls>
+                        <source src="{{cover}}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    {{else}}
+                        <img src="{{cover}}" alt="{{title}}" class="img-thumbnail">
+                {{/isVideo}}
+                </a>
+            {{/if}}
+        </div>
         <h5>{{this.title}}</h5>
         <h7>{{this.date}}</h7>
       </a>
@@ -20,6 +32,6 @@
 {{/if}}
 
 <!--footer-->
-<footer class="white-bg">
+<footer>
   Copyright 2023 - Kali Ryder
 </footer>

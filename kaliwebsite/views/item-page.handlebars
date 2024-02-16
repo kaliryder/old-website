@@ -5,8 +5,21 @@
 <!-- display details of the selected item -->
 <div>
     <h5>{{item.date}}</h5>
-    <h5>One of our many fun and trendy {{item.category}}</h5>
-    <img src="{{item.image}}" alt="{{item.title}}" class="img-thumbnail">
+    <h5>One of our many fun and trendy {{item.category}}s</h5>
+    <div class="col-sm-12 col-md-6 col-lg-4">
+        {{#if item.cover}}
+            <div class="media-container">
+                {{#isVideo item.cover}}
+                    <video controls>
+                        <source src="{{item.cover}}" type="video/mp4">                    
+                        Your browser does not support the video tag.
+                    </video>
+                    {{else}}
+                        <img src="{{item.cover}}" alt="{{item.title}}" class="img-fluid img-thumbnail">
+                {{/isVideo}}
+            </div>
+        {{/if}}
+    </div>
 </div>
 
 <!--carousel slider : item pictures-->
@@ -14,34 +27,51 @@
     <div class="section-divider" id="services"></div>
     <div class="owl-theme owl-carousel owl-packages">
         {{#each item.images}}
-            <div class="card">
-                <img src="{{this}}" class="card-img-top" alt="{{title}}">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                {{#if cover}}
+                    <div class="media-container">
+                        {{#isVideo cover}}
+                            <video controls>
+                                <source src="{{cover}}" type="video/mp4">                    
+                                Your browser does not support the video tag.
+                            </video>
+                            {{else}}
+                                <img src="{{cover}}" alt="{{title}}" class="img-fluid img-thumbnail">
+                        {{/isVideo}}
+                    </div>
+                {{/if}}
             </div>
         {{/each}}
     </div>
 {{/if}}
 
 <!--label-->
-<h2>Other {{item.category}}</h2>
+<h2>Other {{item.category}}s</h2>
 
 <!--carousel slider : other items-->
 {{#if otherItems}}
 <div class="section-divider" id="services"></div>
 <div class="owl-theme owl-carousel owl-packages">
     {{#each otherItems}}
-    <div class="card">
-        {{#if this.image}}
-        <a href="/item/{{id}}" class="gallery-img">
-            <img src="{{image}}" class="card-img-top" alt="{{title}}">
-        </a>
-        {{/if}}
-        <div class="card-body">
-            <h5 class="card-title">{{title}}</h5>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="media-container">
+                {{#if this.cover}}
+                    <a href="/item/{{id}}" class="gallery-img">
+                        {{#isVideo cover}}
+                            <video controls>
+                                <source src="{{cover}}" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            {{else}}
+                                <img src="{{cover}}" alt="{{title}}" class="img-thumbnail img-fluid">
+                        {{/isVideo}}
+                    </a>
+                {{/if}}
+            </div>
         </div>
         <ul class="list-group list-group-flush nanumMyeongjo-regular">
-            <li class="list-group-item">{{this.date}}</li>
+            <li class="list-group-item">{{this.title}}</li>
         </ul>
-    </div>
     {{/each}}
 </div>
 {{/if}}

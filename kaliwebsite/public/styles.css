@@ -189,3 +189,16 @@ ul.cart-item-details li {
 #checkout-form button {
     margin-bottom: 10px; 
 }
+
+.media-container {
+    width: 300px; /* Set your desired width */
+    height: 200px; /* Set your desired height */
+    padding: 10px; /* Uniform padding */
+    overflow: hidden; /* To handle excess content */
+}
+
+.media-container img, .media-container video {
+    width: 100%; /* Scale to fill the container width */
+    height: 100%; /* Scale to fill the container height */
+    object-fit: cover; /* Cover the container while preserving aspect ratio */
+}
