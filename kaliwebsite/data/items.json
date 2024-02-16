@@ -2,7 +2,8 @@
     "items":[
         {
             "id": 1,
-            "category": "Sculpture",
+            "category":"Physical",
+            "subcategory": "Sculpture",
             "title":"Monkey Head",
             "cover":"/img/sculpture/sculpture-1-a.jpg",
             "images":[
@@ -16,7 +17,8 @@
         },
         {
             "id": 2,
-            "category": "Sculpture",
+            "category":"Physical",
+            "subcategory": "Sculpture",
             "title":"Teddy Bear",
             "cover":"/img/sculpture/sculpture-2-a.jpg",
             "images":[
@@ -30,7 +32,8 @@
         },
         {
             "id": 3,
-            "category": "Sculpture",
+            "category":"Physical",
+            "subcategory": "Sculpture",
             "title":"8s",
             "cover":"/img/sculpture/sculpture-3-a.jpg",
             "images":[
@@ -45,7 +48,8 @@
         },
         {
             "id": 4,
-            "category": "Sculpture",
+            "category":"Physical",
+            "subcategory": "Sculpture",
             "title":"Kevin",
             "cover":"/img/sculpture/sculpture-4-a.jpg",
             "images":[
@@ -59,7 +63,8 @@
         },
         {
             "id": 5,
-            "category": "Sculpture",
+            "category":"Physical",
+            "subcategory": "Sculpture",
             "title":"Double Lips",
             "cover":"/img/sculpture/sculpture-5-a.jpg",
             "images":[
@@ -73,7 +78,8 @@
         },
         {
             "id": 6,
-            "category": "Sculpture",
+            "category":"Physical",
+            "subcategory": "Sculpture",
             "title":"Nah She's Good",
             "cover":"/img/sculpture/sculpture-6-a.jpg",
             "images":[
@@ -87,7 +93,8 @@
         },
         {
             "id": 7,
-            "category": "Sculpture",
+            "category":"Physical",
+            "subcategory": "Sculpture",
             "title":"Tall Doll",
             "cover":"/img/sculpture/sculpture-7-a.jpg",
             "images":[
@@ -101,7 +108,8 @@
         },
         {
             "id": 8,
-            "category": "Sculpture",
+            "category":"Physical",
+            "subcategory": "Sculpture",
             "title":"Empty 1",
             "cover":"/img/sculpture/sculpture-7-a.jpg",
             "images":[
@@ -115,7 +123,8 @@
         },
         {
             "id": 9,
-            "category": "Sculpture",
+            "category":"Physical",
+            "subcategory": "Sculpture",
             "title":"Empty 2",
             "cover":"/img/sculpture/sculpture-7-a.jpg",
             "images":[
@@ -129,7 +138,8 @@
         },
         {
             "id": 10,
-            "category": "Sculpture",
+            "category":"Physical",
+            "subcategory": "Sculpture",
             "title":"Empty 3",
             "cover":"/img/sculpture/sculpture-7-a.jpg",
             "images":[
@@ -143,7 +153,8 @@
         },
         {
             "id": 11,
-            "category": "Sculpture",
+            "category":"Physical",
+            "subcategory": "Sculpture",
             "title":"Empty 4",
             "cover":"/img/sculpture/sculpture-7-a.jpg",
             "images":[
@@ -157,7 +168,8 @@
         },
         {
             "id": 12,
-            "category": "Sculpture",
+            "category":"Physical",
+            "subcategory": "Sculpture",
             "title":"Empty 5",
             "cover":"/img/sculpture/sculpture-7-a.jpg",
             "images":[
@@ -171,7 +183,8 @@
         },
         {
             "id": 13,
-            "category": "Paper",
+            "category":"Physical",
+            "subcategory": "Paper",
             "title":"Alexa",
             "cover":"/img/paper/paper-1-a.jpg",
             "images":[
@@ -185,7 +198,8 @@
         },
         {
             "id": 14,
-            "category": "Paper",
+            "category":"Physical",
+            "subcategory": "Paper",
             "title":"Cherry",
             "cover":"/img/paper/paper-2-a.jpg",
             "images":[
@@ -199,7 +213,8 @@
         },
         {
             "id": 15,
-            "category": "Paper",
+            "category":"Physical",
+            "subcategory": "Paper",
             "title":"Hadley",
             "cover":"/img/paper/paper-3-a.jpg",
             "images":[
@@ -213,7 +228,8 @@
         },
         {
             "id": 16,
-            "category": "Paper",
+            "category":"Physical",
+            "subcategory": "Paper",
             "title":"Playtime",
             "cover":"/img/paper/paper-4-a.jpg",
             "images":[
@@ -227,7 +243,8 @@
         },
         {
             "id": 17,
-            "category": "Paper",
+            "category":"Physical",
+            "subcategory": "Paper",
             "title":"Jenna",
             "cover":"/img/paper/paper-5-a.jpg",
             "images":[
@@ -241,7 +258,8 @@
         },
         {
             "id": 18,
-            "category": "Paper",
+            "category":"Physical",
+            "subcategory": "Paper",
             "title":"JP",
             "cover":"/img/paper/paper-6-a.jpg",
             "images":[
@@ -255,7 +273,8 @@
         },
         {
             "id": 19,
-            "category": "Paper",
+            "category":"Physical",
+            "subcategory": "Paper",
             "title":"Lauren",
             "cover":"/img/paper/paper-7-a.jpg",
             "images":[
@@ -269,7 +288,8 @@
         },
         {
             "id": 20,
-            "category": "Paper",
+            "category":"Physical",
+            "subcategory": "Paper",
             "title":"Clown Lean",
             "cover":"/img/paper/paper-8-a.jpg",
             "images":[
@@ -283,7 +303,8 @@
         },
         {
             "id": 21,
-            "category": "Paper",
+            "category":"Physical",
+            "subcategory": "Paper",
             "title":"Milk Shoe",
             "cover":"/img/paper/paper-9-a.jpg",
             "images":[
@@ -297,7 +318,8 @@
         },
         {
             "id": 22,
-            "category": "Paper",
+            "category":"Physical",
+            "subcategory": "Paper",
             "title":"Snake Mouse",
             "cover":"/img/paper/paper-10-a.jpg",
             "images":[
@@ -311,7 +333,8 @@
         },
         {
             "id": 23,
-            "category": "Paper",
+            "category":"Physical",
+            "subcategory": "Paper",
             "title":"Hungry",
             "cover":"/img/paper/paper-11-a.jpg",
             "images":[
@@ -325,7 +348,8 @@
         },
         {
             "id": 24,
-            "category": "Paper",
+            "category":"Physical",
+            "subcategory": "Paper",
             "title":"Why",
             "cover":"/img/paper/paper-12-a.jpg",
             "images":[
@@ -339,7 +363,8 @@
         },
         {
             "id": 25,
-            "category": "Code",
+            "category":"Digital",
+            "subcategory": "Code",
             "title":"Bouncy",
             "cover":"/img/code/code-vid-1-a.mp4",
             "images":[
@@ -353,7 +378,8 @@
         },
         {
             "id": 26,
-            "category": "Code",
+            "category":"Digital",
+            "subcategory": "Code",
             "title":"Dimensions",
             "cover":"/img/code/code-vid-2-a.mp4",
             "images":[
@@ -367,7 +393,8 @@
         },
         {
             "id": 27,
-            "category": "Code",
+            "category":"Digital",
+            "subcategory": "Code",
             "title":"Floppy Fish",
             "cover":"/img/code/code-vid-3-a.mp4",
             "images":[
@@ -381,7 +408,8 @@
         },
         {
             "id": 28,
-            "category": "Code",
+            "category":"Digital",
+            "subcategory": "Code",
             "title":"Selection Ring",
             "cover":"/img/code/code-vid-4-a.mp4",
             "images":[
@@ -395,7 +423,8 @@
         },
         {
             "id": 29,
-            "category": "Code",
+            "category":"Digital",
+            "subcategory": "Code",
             "title":"Sudoku",
             "cover":"/img/code/code-vid-5-a.mp4",
             "images":[
@@ -409,7 +438,8 @@
         },
         {
             "id": 30,
-            "category": "Code",
+            "category":"Digital",
+            "subcategory": "Code",
             "title":"Empty 1",
             "cover":"/img/code/code-vid-5-a.mp4",
             "images":[
@@ -423,7 +453,8 @@
         },
         {
             "id": 31,
-            "category": "Code",
+            "category":"Digital",
+            "subcategory": "Code",
             "title":"Empty 2",
             "cover":"/img/code/code-vid-5-a.mp4",
             "images":[
@@ -437,7 +468,8 @@
         },
         {
             "id": 32,
-            "category": "Code",
+            "category":"Digital",
+            "subcategory": "Code",
             "title":"Empty 3",
             "cover":"/img/code/code-vid-5-a.mp4",
             "images":[
@@ -451,7 +483,8 @@
         },
         {
             "id": 33,
-            "category": "Digital",
+            "category":"Digital",
+            "subcategory": "Digital",
             "title":"Collective",
             "cover":"/img/digital/digital-1-a.jpg",
             "images":[
@@ -465,7 +498,8 @@
         },
         {
             "id": 34,
-            "category": "Digital",
+            "category":"Digital",
+            "subcategory": "Digital",
             "title":"Dead Entrance Logo",
             "cover":"/img/digital/digital-2-a.jpg",
             "images":[
@@ -479,7 +513,8 @@
         },
         {
             "id": 35,
-            "category": "Digital",
+            "category":"Digital",
+            "subcategory": "Digital",
             "title":"Devil Calling",
             "cover":"/img/digital/digital-3-a.jpg",
             "images":[
@@ -493,7 +528,8 @@
         },
         {
             "id": 36,
-            "category": "Digital",
+            "category":"Digital",
+            "subcategory": "Digital",
             "title":"Falling",
             "cover":"/img/digital/digital-4-a.jpg",
             "images":[
@@ -507,7 +543,8 @@
         },
         {
             "id": 37,
-            "category": "Digital",
+            "category":"Digital",
+            "subcategory": "Digital",
             "title":"Fish Me",
             "cover":"/img/digital/digital-5-a.jpg",
             "images":[
@@ -521,7 +558,8 @@
         },
         {
             "id": 38,
-            "category": "Digital",
+            "category":"Digital",
+            "subcategory": "Digital",
             "title":"Triz",
             "cover":"/img/digital/digital-6-a.jpg",
             "images":[
@@ -535,7 +573,8 @@
         },
         {
             "id": 39,
-            "category": "Digital",
+            "category":"Digital",
+            "subcategory": "Digital",
             "title":"In My Room",
             "cover":"/img/digital/digital-7-a.jpg",
             "images":[
@@ -549,7 +588,8 @@
         },
         {
             "id": 40,
-            "category": "Digital",
+            "category":"Digital",
+            "subcategory": "Digital",
             "title":"Free Ross",
             "cover":"/img/digital/digital-8-a.jpg",
             "images":[
@@ -563,7 +603,8 @@
         },
         {
             "id": 41,
-            "category": "Digital",
+            "category":"Digital",
+            "subcategory": "Digital",
             "title":"Dreams",
             "cover":"/img/digital/digital-9-a.jpg",
             "images":[
@@ -577,7 +618,8 @@
         },
         {
             "id": 42,
-            "category": "Digital",
+            "category":"Digital",
+            "subcategory": "Digital",
             "title":"Blue Shorts",
             "cover":"/img/digital/digital-10-a.jpg",
             "images":[
@@ -591,7 +633,8 @@
         },
         {
             "id": 43,
-            "category": "Digital",
+            "category":"Digital",
+            "subcategory": "Digital",
             "title":"Blue Shorts",
             "cover":"/img/digital/digital-vid-11-a.mp4",
             "images":[
@@ -605,7 +648,8 @@
         },
         {
             "id": 44,
-            "category": "Digital",
+            "category":"Digital",
+            "subcategory": "Digital",
             "title":"Blue Shorts",
             "cover":"/img/digital/digital-vid-12-a.mp4",
             "images":[
@@ -619,7 +663,8 @@
         },
         {
             "id": 45,
-            "category": "Digital",
+            "category":"Digital",
+            "subcategory": "Digital",
             "title":"Blue Shorts",
             "cover":"/img/digital/digital-13-a.jpg",
             "images":[
@@ -634,7 +679,8 @@
         },
         {
             "id": 46,
-            "category": "Digital",
+            "category":"Digital",
+            "subcategory": "Digital",
             "title":"Blue Shorts",
             "cover":"/img/digital/digital-vid-14-a.mp4",
             "images":[
@@ -648,7 +694,8 @@
         },
         {
             "id": 47,
-            "category": "Digital",
+            "category":"Digital",
+            "subcategory": "Digital",
             "title":"Blue Shorts",
             "cover":"/img/digital/digital-vid-15-a.mp4",
             "images":[
@@ -662,7 +709,8 @@
         },
         {
             "id": 48,
-            "category": "Digital",
+            "category":"Digital",
+            "subcategory": "Digital",
             "title":"Blue Shorts",
             "cover":"/img/digital/digital-vid-16-a.mp4",
             "images":[
@@ -676,7 +724,8 @@
         },
         {
             "id": 49,
-            "category": "Fashion",
+            "category":"Physical",
+            "subcategory": "Fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-1-a.jpg",
             "images":[
@@ -690,7 +739,8 @@
         },
         {
             "id": 50,
-            "category": "Fashion",
+            "category":"Physical",
+            "subcategory": "Fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-2-a.jpg",
             "images":[
@@ -704,7 +754,8 @@
         },
         {
             "id": 51,
-            "category": "Fashion",
+            "category":"Physical",
+            "subcategory": "Fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-3-a.jpg",
             "images":[
@@ -718,7 +769,8 @@
         },
         {
             "id": 52,
-            "category": "Fashion",
+            "category":"Physical",
+            "subcategory": "Fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-4-a.jpg",
             "images":[
@@ -732,7 +784,8 @@
         },
         {
             "id": 53,
-            "category": "Fashion",
+            "category":"Physical",
+            "subcategory": "Fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-5-a.jpg",
             "images":[
@@ -746,7 +799,8 @@
         },
         {
             "id": 54,
-            "category": "Fashion",
+            "category":"Physical",
+            "subcategory": "Fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-6-a.jpg",
             "images":[
@@ -760,7 +814,8 @@
         },
         {
             "id": 55,
-            "category": "Fashion",
+            "category":"Physical",
+            "subcategory": "Fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-7-a.jpg",
             "images":[
@@ -774,7 +829,8 @@
         },
         {
             "id": 56,
-            "category": "Fashion",
+            "category":"Physical",
+            "subcategory": "Fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-8-a.jpg",
             "images":[
@@ -788,7 +844,8 @@
         },
         {
             "id": 57,
-            "category": "Fashion",
+            "category":"Physical",
+            "subcategory": "Fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-9-a.jpg",
             "images":[
@@ -802,7 +859,8 @@
         },
         {
             "id": 58,
-            "category": "Fashion",
+            "category":"Physical",
+            "subcategory": "Fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-10-a.jpg",
             "images":[
@@ -816,7 +874,8 @@
         },
         {
             "id": 59,
-            "category": "Fashion",
+            "category":"Physical",
+            "subcategory": "Fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-11-a.jpg",
             "images":[
@@ -830,7 +889,8 @@
         },
         {
             "id": 60,
-            "category": "Fashion",
+            "category":"Physical",
+            "subcategory": "Fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-12-a.jpg",
             "images":[
@@ -844,7 +904,8 @@
         },
         {
             "id": 61,
-            "category": "Fashion",
+            "category":"Physical",
+            "subcategory": "Fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-13-a.jpg",
             "images":[
@@ -858,7 +919,8 @@
         },
         {
             "id": 62,
-            "category": "Fashion",
+            "category":"Physical",
+            "subcategory": "Fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-12-a.jpg",
             "images":[
@@ -872,7 +934,8 @@
         },
         {
             "id": 63,
-            "category": "Fashion",
+            "category":"Physical",
+            "subcategory": "Fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-12-a.jpg",
             "images":[
@@ -886,7 +949,8 @@
         },
         {
             "id": 64,
-            "category": "Fashion",
+            "category":"Physical",
+            "subcategory": "Fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-12-a.jpg",
             "images":[
@@ -900,7 +964,8 @@
         },
         {
             "id": 65,
-            "category": "Fashion",
+            "category":"Physical",
+            "subcategory": "Fashion",
             "title":"Blue Shorts",
             "cover":"/img/fashion/fashion-12-a.jpg",
             "images":[
@@ -914,7 +979,8 @@
         },
         {
             "id": 66,
-            "category": "Paper",
+            "category":"Physical",
+            "subcategory": "Paper",
             "title":"USPS",
             "cover":"/img/paper/paper-13-a.jpg",
             "images":[

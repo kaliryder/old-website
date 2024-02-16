@@ -46,14 +46,14 @@ app.get('/',(req,res)=>{
     //choose a subset of 5 random items for slideshow
     const slideshowItems = chooseRandomItems(allItems, 5);
 
-    //sort items of each category into their own consts
-    const sculptureItems = itemData.items.filter(item => item.category === "Sculpture");
-    const paperItems = itemData.items.filter(item => item.category === "Paper");
-    const codeItems = itemData.items.filter(item => item.category === "Code");
-    const digitalItems = itemData.items.filter(item => item.category === "Digital");
-    const fashionItems = itemData.items.filter(item => item.category === "Fashion");
+    //sort items of each subcategory into their own consts
+    const sculptureItems = itemData.items.filter(item => item.subcategory === "Sculpture");
+    const paperItems = itemData.items.filter(item => item.subcategory === "Paper");
+    const codeItems = itemData.items.filter(item => item.subcategory === "Code");
+    const digitalItems = itemData.items.filter(item => item.subcategory === "Digital");
+    const fashionItems = itemData.items.filter(item => item.subcategory === "Fashion");
 
-    //choose one random item from each category
+    //choose one random item from each subcategory
     const sculptureItem = chooseRandomItems(sculptureItems, 1);
     const paperItem = chooseRandomItems(paperItems, 1);
     const codeItem = chooseRandomItems(codeItems, 1);
@@ -89,7 +89,7 @@ app.get('/',(req,res)=>{
         return null
     }
 
-//individual item routes from home, category and item pages using itemId
+//individual item routes from home, subcategory and item pages using itemId
 app.get(['/item/:id'], (req, res) => {
     const itemId = parseInt(req.params.id, 10); 
 
@@ -102,49 +102,49 @@ app.get(['/item/:id'], (req, res) => {
         return;
     }
 
-    const category = selectedItem.category;
-    //take all category items from itemData and store in categoryData
-    const categoryData = itemData.items.filter(item => item.category === category);
-    //choose four other items from the same category
+    const subcategory = selectedItem.subcategory;
+    //take all subcategory items from itemData and store in categoryData
+    const categoryData = itemData.items.filter(item => item.subcategory === subcategory);
+    //choose four other items from the same subcategory
     const otherItems = chooseRandomItems(categoryData, 4);
 
-    //render view with the selected item and other items in category
+    //render view with the selected item and other items in subcategory
     res.render('item-page', { item: selectedItem, otherItems, itemData });
 });
 
 //route for Sculpture page
 app.get('/sculpture', (req, res) => {
     const sculptureData = require('./data/items.json');
-    const sculptureItems = itemData.items.filter(item => getCategory(item.category) === 'sculpture');
-    res.render('category-page', { data: sculptureData, items: sculptureItems, category: 'Sculpture' });
+    const sculptureItems = itemData.items.filter(item => getCategory(item.subcategory) === 'sculpture');
+    res.render('subcategory-page', { data: sculptureData, items: sculptureItems, subcategory: 'Sculpture' });
 });
 
 //route for Paper page
 app.get('/paper', (req, res) => {
     const paperData = require('./data/items.json');
-    const paperItems = itemData.items.filter(item => getCategory(item.category) === 'paper');
-    res.render('category-page', { data: paperData, items: paperItems, category: 'Paper' });
+    const paperItems = itemData.items.filter(item => getCategory(item.subcategory) === 'paper');
+    res.render('subcategory-page', { data: paperData, items: paperItems, subcategory: 'Paper' });
 });
 
 //route for Code page
 app.get('/code', (req, res) => {
     const codeData = require('./data/items.json');
-    const codeItems = itemData.items.filter(item => getCategory(item.category) === 'code');
-    res.render('category-page', { data: codeData, items: codeItems, category: 'Code' });
+    const codeItems = itemData.items.filter(item => getCategory(item.subcategory) === 'code');
+    res.render('subcategory-page', { data: codeData, items: codeItems, subcategory: 'Code' });
 });
 
 //route for Digital page
 app.get('/digital', (req, res) => {
     const digitalData = require('./data/items.json');
-    const digitalItems = itemData.items.filter(item => getCategory(item.category) === 'digital');
-    res.render('category-page', { data: digitalData, items: digitalItems, category: 'Digital' });
+    const digitalItems = itemData.items.filter(item => getCategory(item.subcategory) === 'digital');
+    res.render('subcategory-page', { data: digitalData, items: digitalItems, subcategory: 'Digital' });
 });
 
 //route for Fashion page
 app.get('/fashion', (req, res) => {
     const fashionData = require('./data/items.json');
-    const fashionItems = itemData.items.filter(item => getCategory(item.category) === 'fashion');
-    res.render('category-page', { data: fashionData, items: fashionItems, category: 'Fashion' });
+    const fashionItems = itemData.items.filter(item => getCategory(item.subcategory) === 'fashion');
+    res.render('subcategory-page', { data: fashionData, items: fashionItems, subcategory: 'Fashion' });
 });
 
 //route for About page

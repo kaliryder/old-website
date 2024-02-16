@@ -1,0 +1,29 @@
+{
+    "categories":[
+        {
+            "title":"Physical",
+            "subcategories":[
+                "Sculpture",
+                "Paper",
+                "Fashion"
+            ]
+        },
+        {
+            "title":"Digital",
+            "subcategories":[
+                "Graphic Design",
+                "Animation",
+                "Code",
+                "UX/UI",
+                "Web"
+            ]
+        },
+        {
+            "title":"About",
+            "subcategories":[
+                "Me",
+                "Writing"
+            ]
+        }
+    ]
+}
