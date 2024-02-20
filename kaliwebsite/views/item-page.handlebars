@@ -3,75 +3,85 @@
 <h1 class="color1 dawningOfANewDay">{{item.title}}</h1>
 
 <!-- display details of the selected item -->
-<div>
-    <h5>{{item.date}}</h5>
-    <h5>One of our many fun and trendy {{item.category}}s</h5>
-    <div class="col-12 col-md-6 col-lg-3 mb-4">
-        {{#if item.cover}}
-            <div class="media-container">
-                {{#isVideo item.cover}}
-                    <video controls>
-                        <source src="{{item.cover}}" type="video/mp4">                    
-                        Your browser does not support the video tag.
-                    </video>
-                    {{else}}
-                        <img src="{{item.cover}}" alt="{{item.title}}" class="media-object">
-                {{/isVideo}}
-            </div>
+{{#if item}}
+    <div>
+        {{#if item.date}}
+            <h5>{{item.date}}</h5>
         {{/if}}
+        {{#if item.category}}
+            <h5>One of our many fun and trendy {{item.category}}s</h5>
+        {{/if}}
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            {{#if item.cover}}
+                <div class="media-container">
+                    {{#isVideo item.cover}}
+                        <video controls>
+                            <source src="{{item.cover}}" type="video/mp4">                    
+                            Your browser does not support the video tag.
+                        </video>
+                        {{else}}
+                            <img src="{{item.cover}}" alt="{{item.title}}" class="media-object">
+                    {{/isVideo}}
+                </div>
+            {{/if}}
+        </div>
     </div>
-</div>
+{{/if}}
 
 <!--carousel slider : item pictures-->
 {{#if item}}
     <div class="section-divider" id="services"></div>
     <div class="owl-theme owl-carousel owl-packages">
-        {{#each item.images}}
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                {{#if cover}}
-                    <div class="media-container">
-                        {{#isVideo cover}}
-                            <video controls>
-                                <source src="{{cover}}" type="video/mp4">                    
-                                Your browser does not support the video tag.
-                            </video>
-                            {{else}}
-                                <img src="{{cover}}" alt="{{title}}" class="media-object">
-                        {{/isVideo}}
-                    </div>
-                {{/if}}
-            </div>
-        {{/each}}
+        {{#if item.images}}
+            {{#each item.images}}
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    {{#if cover}}
+                        <div class="media-container">
+                            {{#isVideo cover}}
+                                <video controls>
+                                    <source src="{{cover}}" type="video/mp4">                    
+                                    Your browser does not support the video tag.
+                                </video>
+                                {{else}}
+                                    <img src="{{cover}}" {{#if title}} alt="{{title}}" {{/if}} class="media-object">
+                            {{/isVideo}}
+                        </div>
+                    {{/if}}
+                </div>
+            {{/each}}
+        {{/if}}
     </div>
 {{/if}}
 
 <!--label-->
-<h2>Other {{item.category}}s</h2>
+{{#if item.category}}  
+    <h2>Other {{item.category}}s</h2>
+{{/if}}
 
 <!--carousel slider : other items-->
 {{#if otherItems}}
-<div class="section-divider" id="services"></div>
-<div class="owl-theme owl-carousel owl-packages">
-    {{#each otherItems}}
-        <div class="col-12 col-md-6 col-lg-3 mb-4">
-            <div class="media-container">
-                {{#if this.cover}}
-                    <a href="/item/{{id}}" class="gallery-img">
-                        {{#isVideo cover}}
-                            <video controls>
-                                <source src="{{cover}}" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                            {{else}}
-                                <img src="{{cover}}" alt="{{title}}" class="media-object">
-                        {{/isVideo}}
-                    </a>
-                {{/if}}
+    <div class="section-divider" id="services"></div>
+    <div class="owl-theme owl-carousel owl-packages">
+        {{#each otherItems}}
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                <div class="media-container">
+                    {{#if this.cover}}
+                        <a href="/item/{{this.subcategory}}/{{this.id}}" class="gallery-img">
+                            {{#isVideo cover}}
+                                <video controls>
+                                    <source src="{{this.cover}}" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                                {{else}}
+                                    <img src="{{this.cover}}" alt="{{this.title}}" class="media-object">
+                            {{/isVideo}}
+                        </a>
+                    {{/if}}
+                </div>
             </div>
-        </div>
-        <ul class="list-group list-group-flush nanumMyeongjo-regular">
-            <li class="list-group-item">{{this.title}}</li>
-        </ul>
-    {{/each}}
-</div>
+            <ul class="list-group list-group-flush nanumMyeongjo-regular">
+                <li class="list-group-item">{{this.title}}</li>
+            </ul>
+        {{/each}}
+    </div>
 {{/if}}

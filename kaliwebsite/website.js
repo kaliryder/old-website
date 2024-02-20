@@ -126,6 +126,8 @@ app.get(['/item/:subcategory/:id'], (req, res) => {
     const { subcategory, id } = req.params;
     const itemId = parseInt(id, 10); 
 
+    console.log(`Subcategory: ${subcategory}, ID: ${id}`); // Log the parameters
+
     const subcategoryData = JSON.parse(fs.readFileSync(`data/${subcategory}.json`, 'utf-8'));
 
     const selectedItem = subcategoryData.items.find(item => item.id === itemId);
@@ -235,7 +237,7 @@ app.get('/code', (req, res) => {
 });
 
 //route for Digital Art page
-app.get('/digitalart', (req, res) => {
+app.get('/digital-art', (req, res) => {
     const digitalArtData = require('./data/digital-art.json');
     const digitalArtItems = digitalArtData.items;
     res.render('subcategory-page', { 
@@ -255,7 +257,7 @@ app.get('/fashion', (req, res) => {
 });
 
 //route for Graphic Design page
-app.get('/graphicdesign', (req, res) => {
+app.get('/graphic-design', (req, res) => {
     const graphicDesignData = require('./data/graphic-design.json');
     const graphicDesignItems = graphicDesignData.items;
     res.render('subcategory-page', { 
@@ -285,7 +287,7 @@ app.get('/sculpture', (req, res) => {
 });
 
 //route for UX/UI page
-app.get('/uxui', (req, res) => {
+app.get('/ux-ui', (req, res) => {
     const uxuiData = require('./data/ux-ui.json');
     const uxuiItems = uxuiData.items;
     res.render('subcategory-page', { 
