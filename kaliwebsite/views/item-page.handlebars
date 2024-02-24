@@ -6,17 +6,17 @@
 {{#if item}}
     <div>
         <h5>{{item.date}}</h5>
-        <h5>One of our many fun and trendy {{category}}s</h5>
+        <h5>One of our many fun and trendy {{item.category}}s</h5>
         <div class="col-12 col-md-6 col-lg-3 mb-4">
-            {{#if cover}}
+            {{#if item.cover}}
                 <div class="media-container">
-                    {{#isVideo cover}}
+                    {{#isVideo item.cover}}
                         <video controls>
-                            <source src="{{cover}}" type="video/mp4">                    
+                            <source src="{{item.cover}}" type="video/mp4">                    
                             Your browser does not support the video tag.
                         </video>
                         {{else}}
-                            <img src="{{cover}}" alt="{{title}}" class="media-object">
+                            <img src="{{item.cover}}" alt="{{item.title}}" class="media-object">
                     {{/isVideo}}
                 </div>
             {{/if}}
@@ -31,15 +31,15 @@
         {{#if item.images}}
             {{#each item.images}}
                 <div class="col-12 col-md-6 col-lg-3 mb-4">
-                    {{#if cover}}
+                    {{#if item.cover}}
                         <div class="media-container">
-                            {{#isVideo cover}}
+                            {{#isVideo item.cover}}
                                 <video controls>
                                     <source src="{{cover}}" type="video/mp4">                    
                                     Your browser does not support the video tag.
                                 </video>
                                 {{else}}
-                                    <img src="{{cover}}" {{#if title}} alt="{{title}}" {{/if}} class="media-object">
+                                    <img src="{{item.cover}}" {{#if item.title}} alt="{{item.title}}" {{/if}} class="media-object">
                             {{/isVideo}}
                         </div>
                     {{/if}}
@@ -65,7 +65,7 @@
                         <a href="/item/{{category}}/{{subcategory}}/{{group}}/{{id}}" class="gallery-img">
                             {{#isVideo cover}}
                                 <video controls>
-                                    <source src="{{this.cover}}" type="video/mp4">
+                                    <source src="{{cover}}" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
                                 {{else}}
