@@ -91,9 +91,9 @@
                                     "subcategory": "digital-art",
                                     "group": "digital-painting",
                                     "title":"Collective",
-                                    "cover":"/img/digitalpainting/digitalpainting-1-a.jpg",
+                                    "cover":"/img/digital-painting/digitalpainting-1-a.png",
                                     "images":[
-                                        "/img/digitalpainting/digitalpainting-1-a.jpg"
+                                        "/img/digital-painting/digitalpainting-1-a.png"
                                     ],
                                     "videos":[
                                     ],
@@ -107,9 +107,9 @@
                                     "subcategory": "digital-art",
                                     "group": "digital-painting",
                                     "title":"Dead Entrance Logo",
-                                    "cover":"/img/digitalpainting/digitalpainting-2-a.jpg",
+                                    "cover":"/img/digital-painting/digitalpainting-2-a.jpg",
                                     "images":[
-                                        "/img/digitalpainting/digitalpainting-2-a.jpg"
+                                        "/img/digital-painting/digitalpainting-2-a.jpg"
                                     ],
                                     "videos":[
                                     ],
@@ -123,9 +123,9 @@
                                     "subcategory": "digital-art",
                                     "group": "digital-painting",
                                     "title":"Devil Calling",
-                                    "cover":"/img/digitalpainting/digitalpainting-3-a.jpg",
+                                    "cover":"/img/digital-painting/digitalpainting-3-a.jpg",
                                     "images":[
-                                        "/img/digitalpainting/digitalpainting-3-a.jpg"
+                                        "/img/digital-painting/digitalpainting-3-a.jpg"
                                     ],
                                     "videos":[
                                     ],
@@ -139,9 +139,9 @@
                                     "subcategory": "digital-art",
                                     "group": "digital-painting",
                                     "title":"Falling",
-                                    "cover":"/img/digitalpainting/digitalpainting-4-a.jpg",
+                                    "cover":"/img/digital-painting/digitalpainting-4-a.png",
                                     "images":[
-                                        "/img/digitalpainting/digitalpainting-4-a.jpg"
+                                        "/img/digital-painting/digitalpainting-4-a.png"
                                     ],
                                     "videos":[
                                     ],
@@ -155,9 +155,9 @@
                                     "subcategory": "digital-art",
                                     "group": "digital-painting",
                                     "title":"Fish Me",
-                                    "cover":"/img/digitalpainting/digitalpainting-5-a.jpg",
+                                    "cover":"/img/digital-painting/digitalpainting-5-a.jpg",
                                     "images":[
-                                        "/img/digitalpainting/digitalpainting-5-a.jpg"
+                                        "/img/digital-painting/digitalpainting-5-a.jpg"
                                     ],
                                     "videos":[
                                     ],
@@ -171,9 +171,9 @@
                                     "subcategory": "digital-art",
                                     "group": "digital-painting",
                                     "title":"Triz",
-                                    "cover":"/img/digitalpainting/digitalpainting-6-a.jpg",
+                                    "cover":"/img/digital-painting/digitalpainting-6-a.png",
                                     "images":[
-                                        "/img/digitalpainting/digitalpainting-6-a.jpg"
+                                        "/img/digital-painting/digitalpainting-6-a.png"
                                     ],
                                     "videos":[
                                     ],
@@ -187,9 +187,9 @@
                                     "subcategory": "digital-art",
                                     "group": "digital-painting",
                                     "title":"In My Room",
-                                    "cover":"/img/digitalpainting/digitalpainting-7-a.jpg",
+                                    "cover":"/img/digital-painting/digitalpainting-7-a.png",
                                     "images":[
-                                        "/img/digitalpainting/digitalpainting-7-a.jpg"
+                                        "/img/digital-painting/digitalpainting-7-a.png"
                                     ],
                                     "videos":[
                                     ],
@@ -203,9 +203,9 @@
                                     "subcategory": "digital-art",
                                     "group": "digital-painting",
                                     "title":"Free Ross",
-                                    "cover":"/img/digitalpainting/digitalpainting-8-a.jpg",
+                                    "cover":"/img/digital-painting/digitalpainting-8-a.jpg",
                                     "images":[
-                                        "/img/digitalpainting/digitalpainting-8-a.jpg"
+                                        "/img/digital-painting/digitalpainting-8-a.jpg"
                                     ],
                                     "videos":[
                                     ],
@@ -219,9 +219,9 @@
                                     "subcategory": "digital-art",
                                     "group": "digital-painting",
                                     "title":"Dreams",
-                                    "cover":"/img/digitalpainting/digitalpainting-9-a.jpg",
+                                    "cover":"/img/digital-painting/digitalpainting-9-a.jpg",
                                     "images":[
-                                        "/img/digitalpainting/digitalpainting-9-a.jpg"
+                                        "/img/digital-painting/digitalpainting-9-a.jpg"
                                     ],
                                     "videos":[
                                     ],
@@ -235,9 +235,9 @@
                                     "subcategory": "digital-art",
                                     "group": "digital-painting",
                                     "title":"Blue Shorts",
-                                    "cover":"/img/digitalpainting/digitalpainting-10-a.jpg",
+                                    "cover":"/img/digital-painting/digitalpainting-10-a.png",
                                     "images":[
-                                        "/img/digitalpainting/digitalpainting-10-a.jpg"
+                                        "/img/digital-painting/digitalpainting-10-a.png"
                                     ],
                                     "videos":[
                                     ],
@@ -338,10 +338,10 @@
                                     "subcategory": "code",
                                     "group": "web",
                                     "title": "Bouncy",
-                                    "cover": "/img/web/web-1-a.mp4",
+                                    "cover": "/img/web/web-1-a.jpg",
                                     "images": [],
                                     "videos": [
-                                        "/img/web/web-1-a.mp4"
+                                        "/img/web/web-1-a.jpg"
                                     ],
                                     "date": "2022",
                                     "medium": "Unity / C#",
@@ -353,10 +353,10 @@
                                     "subcategory": "code",
                                     "group": "web",
                                     "title": "Dimensions",
-                                    "cover": "/img/web/web-2-a.mp4",
+                                    "cover": "/img/web/web-2-a.jpg",
                                     "images": [],
                                     "videos": [
-                                        "/img/web/web-2-a.mp4"
+                                        "/img/web/web-2-a.jpg"
                                     ],
                                     "date": "2022",
                                     "medium": "Unity / C#",
@@ -368,10 +368,10 @@
                                     "subcategory": "code",
                                     "group": "web",
                                     "title": "Floppy Fish",
-                                    "cover": "/img/web/web-3-a.mp4",
+                                    "cover": "/img/web/web-3-a.jpg",
                                     "images": [],
                                     "videos": [
-                                        "/img/web/web-3-a.mp4"
+                                        "/img/web/web-3-a.jpg"
                                     ],
                                     "date": "2018",
                                     "medium": "JGrasp / Java",
@@ -391,9 +391,9 @@
                                     "subcategory": "design",
                                     "group": "graphic-design",
                                     "title":"Collective",
-                                    "cover":"/img/graphicdesign/graphicdesign-1-a.jpg",
+                                    "cover":"/img/graphic-design/graphicdesign-1-a.jpg",
                                     "images":[
-                                        "/img/graphicdesign/graphicdesign-1-a.jpg"
+                                        "/img/graphic-design/graphicdesign-1-a.jpg"
                                     ],
                                     "videos":[
                                     ],
@@ -407,9 +407,9 @@
                                     "subcategory": "design",
                                     "group": "graphic-design",
                                     "title":"Dead Entrance Logo",
-                                    "cover":"/img/graphicdesign/graphicdesign-2-a.jpg",
+                                    "cover":"/img/graphic-design/graphicdesign-2-a.jpg",
                                     "images":[
-                                        "/img/graphicdesign/graphicdesign-2-a.jpg"
+                                        "/img/graphic-design/graphicdesign-2-a.jpg"
                                     ],
                                     "videos":[
                                     ],
@@ -423,9 +423,9 @@
                                     "subcategory": "design",
                                     "group": "graphic-design",
                                     "title":"Devil Calling",
-                                    "cover":"/img/graphicdesign/graphicdesign-3-a.jpg",
+                                    "cover":"/img/graphic-design/graphicdesign-3-a.jpg",
                                     "images":[
-                                        "/img/graphicdesign/graphicdesign-3-a.jpg"
+                                        "/img/graphic-design/graphicdesign-3-a.jpg"
                                     ],
                                     "videos":[
                                     ],
@@ -443,10 +443,10 @@
                                     "subcategory": "design",
                                     "group": "ux-ui",
                                     "title": "Bouncy",
-                                    "cover": "/img/uxui/uxui-vid-1-a.mp4",
+                                    "cover": "/img/ux-ui/uxui-vid-1-a.mp4",
                                     "images": [],
                                     "videos": [
-                                        "/img/uxui/uxui-vid-1-a.mp4"
+                                        "/img/ux-ui/uxui-vid-1-a.mp4"
                                     ],
                                     "date": "2022",
                                     "medium": "Unity / C#",
@@ -458,10 +458,10 @@
                                     "subcategory": "design",
                                     "group": "ux-ui",
                                     "title": "Dimensions",
-                                    "cover": "/img/uxui/uxui-vid-2-a.mp4",
+                                    "cover": "/img/ux-ui/uxui-vid-2-a.mp4",
                                     "images": [],
                                     "videos": [
-                                        "/img/uxui/uxui-vid-2-a.mp4"
+                                        "/img/ux-ui/uxui-vid-2-a.mp4"
                                     ],
                                     "date": "2022",
                                     "medium": "Unity / C#",
@@ -473,10 +473,10 @@
                                     "subcategory": "design",
                                     "group": "ux-ui",
                                     "title": "Floppy Fish",
-                                    "cover": "/img/uxui/uxui-vid-3-a.mp4",
+                                    "cover": "/img/ux-ui/uxui-vid-3-a.mp4",
                                     "images": [],
                                     "videos": [
-                                        "/img/uxui/uxui-vid-3-a.mp4"
+                                        "/img/ux-ui/uxui-vid-3-a.mp4"
                                     ],
                                     "date": "2018",
                                     "medium": "JGrasp / Java",
@@ -545,9 +545,9 @@
                                     "subcategory": "physical-art",
                                     "group": "paper",
                                     "title": "Playtime",
-                                    "cover": "/img/paper/paper-4-a.jpg",
+                                    "cover": "/img/paper/paper-4-a.png",
                                     "images": [
-                                        "/img/paper/paper-4-a.jpg"
+                                        "/img/paper/paper-4-a.png"
                                     ],
                                     "videos": [],
                                     "date": "2021",
@@ -635,9 +635,9 @@
                                     "subcategory": "physical-art",
                                     "group": "paper",
                                     "title": "Snake Mouse",
-                                    "cover": "/img/paper/paper-10-a.jpg",
+                                    "cover": "/img/paper/paper-10-a.png",
                                     "images": [
-                                        "/img/paper/paper-10-a.jpg"
+                                        "/img/paper/paper-10-a.png"
                                     ],
                                     "videos": [],
                                     "date": "2021",
@@ -699,9 +699,9 @@
                                     "subcategory": "physical-art",
                                     "group": "sculpture",
                                     "title": "Monkey Head",
-                                    "cover": "/img/sculpture/sculpture-1-a.jpg",
+                                    "cover": "/img/sculpture/sculpture-1-a.png",
                                     "images": [
-                                        "/img/sculpture/sculpture-1-a.jpg"
+                                        "/img/sculpture/sculpture-1-a.png"
                                     ],
                                     "videos": [],
                                     "date": "2021",
@@ -714,9 +714,9 @@
                                     "subcategory": "physical-art",
                                     "group": "sculpture",
                                     "title": "Teddy Bear",
-                                    "cover": "/img/sculpture/sculpture-2-a.jpg",
+                                    "cover": "/img/sculpture/sculpture-2-a.png",
                                     "images": [
-                                        "/img/sculpture/sculpture-2-a.jpg"
+                                        "/img/sculpture/sculpture-2-a.png"
                                     ],
                                     "videos": [],
                                     "date": "2021",
@@ -729,9 +729,9 @@
                                     "subcategory": "physical-art",
                                     "group": "sculpture",
                                     "title": "8s",
-                                    "cover": "/img/sculpture/sculpture-3-a.jpg",
+                                    "cover": "/img/sculpture/sculpture-3-a.png",
                                     "images": [
-                                        "/img/sculpture/sculpture-3-a.jpg"
+                                        "/img/sculpture/sculpture-3-a.png"
                                     ],
                                     "videos": [
                                         "/img/sculpture/sculpture-vid-3-a.mp4"
@@ -761,9 +761,9 @@
                                     "subcategory": "physical-art",
                                     "group": "sculpture",
                                     "title": "Double Lips",
-                                    "cover": "/img/sculpture/sculpture-5-a.jpg",
+                                    "cover": "/img/sculpture/sculpture-5-a.png",
                                     "images": [
-                                        "/img/sculpture/sculpture-5-a.jpg"
+                                        "/img/sculpture/sculpture-5-a.png"
                                     ],
                                     "videos": [],
                                     "date": "2021",
@@ -776,9 +776,9 @@
                                     "subcategory": "physical-art",
                                     "group": "sculpture",
                                     "title": "Nah She's Good",
-                                    "cover": "/img/sculpture/sculpture-6-a.jpg",
+                                    "cover": "/img/sculpture/sculpture-6-a.png",
                                     "images": [
-                                        "/img/sculpture/sculpture-6-a.jpg"
+                                        "/img/sculpture/sculpture-6-a.png"
                                     ],
                                     "videos": [],
                                     "date": "2022",
@@ -791,9 +791,9 @@
                                     "subcategory": "physical-art",
                                     "group": "sculpture",
                                     "title": "Tall Doll",
-                                    "cover": "/img/sculpture/sculpture-7-a.jpg",
+                                    "cover": "/img/sculpture/sculpture-7-a.png",
                                     "images": [
-                                        "/img/sculpture/sculpture-7-a.jpg"
+                                        "/img/sculpture/sculpture-7-a.png"
                                     ],
                                     "videos": [],
                                     "date": "2023",
@@ -814,9 +814,9 @@
                                     "subcategory": "clothes",
                                     "group": "dead-entrance",
                                     "title": "Blue Shorts",
-                                    "cover": "/img/deadentrance/deadentrance-1-a.jpg",
+                                    "cover": "/img/dead-entrance/dead-entrance-1-a.jpg",
                                     "images": [
-                                        "/img/deadentrance/deadentrance-1-a.jpg"
+                                        "/img/dead-entrance/dead-entrance-1-a.jpg"
                                     ],
                                     "videos": [],
                                     "date": "$30",
@@ -829,9 +829,9 @@
                                     "subcategory": "clothes",
                                     "group": "dead-entrance",
                                     "title": "Blue Shorts",
-                                    "cover": "/img/deadentrance/deadentrance-2-a.jpg",
+                                    "cover": "/img/dead-entrance/dead-entrance-2-a.jpg",
                                     "images": [
-                                        "/img/deadentrance/deadentrance-2-a.jpg"
+                                        "/img/dead-entrance/dead-entrance-2-a.jpg"
                                     ],
                                     "videos": [],
                                     "date": "$30",
@@ -844,9 +844,9 @@
                                     "subcategory": "clothes",
                                     "group": "dead-entrance",
                                     "title": "Blue Shorts",
-                                    "cover": "/img/deadentrance/deadentrance-3-a.jpg",
+                                    "cover": "/img/dead-entrance/dead-entrance-3-a.jpg",
                                     "images": [
-                                        "/img/deadentrance/deadentrance-3-a.jpg"
+                                        "/img/dead-entrance/dead-entrance-3-a.jpg"
                                     ],
                                     "videos": [],
                                     "date": "$30",
