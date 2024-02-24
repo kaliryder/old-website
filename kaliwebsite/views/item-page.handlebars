@@ -4,28 +4,30 @@
 
 <!-- display details of the selected item -->
 {{#if item}}
-    <div>
-        {{#if item.date}}
-            <h5>{{item.date}}</h5>
-        {{/if}}
-        {{#if item.category}}
-            <h5>One of our many fun and trendy {{item.category}}s</h5>
-        {{/if}}
-        <div class="col-12 col-md-6 col-lg-3 mb-4">
-            {{#if item.cover}}
-                <div class="media-container">
-                    {{#isVideo item.cover}}
-                        <video controls>
-                            <source src="{{item.cover}}" type="video/mp4">                    
-                            Your browser does not support the video tag.
-                        </video>
-                        {{else}}
-                            <img src="{{item.cover}}" alt="{{item.title}}" class="media-object">
-                    {{/isVideo}}
-                </div>
+    {{#each item}}
+        <div>
+            {{#if date}}
+                <h5>{{date}}</h5>
             {{/if}}
+            {{#if category}}
+                <h5>One of our many fun and trendy {{category}}s</h5>
+            {{/if}}
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                {{#if cover}}
+                    <div class="media-container">
+                        {{#isVideo cover}}
+                            <video controls>
+                                <source src="{{cover}}" type="video/mp4">                    
+                                Your browser does not support the video tag.
+                            </video>
+                            {{else}}
+                                <img src="{{cover}}" alt="{{title}}" class="media-object">
+                        {{/isVideo}}
+                    </div>
+                {{/if}}
+            </div>
         </div>
-    </div>
+    {{/each}}
 {{/if}}
 
 <!--carousel slider : item pictures-->

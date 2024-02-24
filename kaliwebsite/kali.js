@@ -37,13 +37,38 @@ function chooseRandomItems(allItems, numItems) {
     return shuffledItems.slice(0, numItems);
 }
 
+//gets all items from a category
+function getAllItemsFromCategory(categoryName) {
+    const category = data.categories[categoryName];
+    let allItems = [];
+    //parse through and concatonate all items
+    for (const subcategory in category.subcategories) {
+        for(const group in subcategory.groups) {
+            allItems = allItems.concat(category.subcategories[subcategory].groups[group].items);
+        }
+    }
+    return allItems;
+}
+
+//gets all items from a subcategory
+function getAllItemsFromSubcategory(categoryName, subcategoryName) {
+    const subcategory = data.categories[categoryName].subcategories[subcategoryName];
+    let allItems = [];
+
+    for (const group in subcategory.groups) {
+        allItems = allItems.concat(subcategory.groups[group].items);
+    }
+
+    return allItems;
+}
+
 //route for home page
 app.get('/',(req,res)=>{
-    //choose random items for each subcategory
-    const physicalArtRandomItem = chooseRandomItems(data.categories["physical"].subcategories["physical-art"].items, 1);
-    const clothesRandomItem = chooseRandomItems(data.categories["physical"].subcategories["clothes"].items, 1);
-    const digitalArtRandomItem = chooseRandomItems(data.categories["digital"].subcategories["digital-art"].items, 1);
-    const codeRandomItem = chooseRandomItems(data.categories["digital"].subcategories["code"].items, 1);
+    //one random item for each subcategory
+    const physicalArtRandomItem = chooseRandomItems(getAllItemsFromSubcategory("physical", "physical-art"), 1);
+    const clothesRandomItem = chooseRandomItems(getAllItemsFromSubcategory("physical", "clothes"), 1);
+    const digitalArtRandomItem = chooseRandomItems(getAllItemsFromSubcategory("digital", "digital-art"), 1);
+    const codeRandomItem = chooseRandomItems(getAllItemsFromSubcategory("digital", "code"), 1);
     //render home page
     res.render('home-page',{ physicalArtRandomItem, clothesRandomItem, digitalArtRandomItem, codeRandomItem })
 })
@@ -84,7 +109,7 @@ app.get('/:category/:subcategory', (req, res) => {
 app.get('/:category', (req, res) => {
     const { category } = req.params;
     //retrieve category data
-    const categoryData = data.categories[category];
+    const categoryData = getAllItemsFromCategory(category);
     //render category page
     res.render('category-page', { category, categoryData });
 });
