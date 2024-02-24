@@ -4,30 +4,24 @@
 
 <!-- display details of the selected item -->
 {{#if item}}
-    {{#each item}}
-        <div>
-            {{#if date}}
-                <h5>{{date}}</h5>
+    <div>
+        <h5>{{item.date}}</h5>
+        <h5>One of our many fun and trendy {{category}}s</h5>
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            {{#if cover}}
+                <div class="media-container">
+                    {{#isVideo cover}}
+                        <video controls>
+                            <source src="{{cover}}" type="video/mp4">                    
+                            Your browser does not support the video tag.
+                        </video>
+                        {{else}}
+                            <img src="{{cover}}" alt="{{title}}" class="media-object">
+                    {{/isVideo}}
+                </div>
             {{/if}}
-            {{#if category}}
-                <h5>One of our many fun and trendy {{category}}s</h5>
-            {{/if}}
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                {{#if cover}}
-                    <div class="media-container">
-                        {{#isVideo cover}}
-                            <video controls>
-                                <source src="{{cover}}" type="video/mp4">                    
-                                Your browser does not support the video tag.
-                            </video>
-                            {{else}}
-                                <img src="{{cover}}" alt="{{title}}" class="media-object">
-                        {{/isVideo}}
-                    </div>
-                {{/if}}
-            </div>
         </div>
-    {{/each}}
+    </div>
 {{/if}}
 
 <!--carousel slider : item pictures-->
@@ -67,7 +61,7 @@
         {{#each otherItems}}
             <div class="col-12 col-md-6 col-lg-3 mb-4">
                 <div class="media-container">
-                    {{#if this.cover}}
+                    {{#if cover}}
                         <a href="/item/{{category}}/{{subcategory}}/{{group}}/{{id}}" class="gallery-img">
                             {{#isVideo cover}}
                                 <video controls>
@@ -75,14 +69,14 @@
                                     Your browser does not support the video tag.
                                 </video>
                                 {{else}}
-                                    <img src="{{this.cover}}" alt="{{this.title}}" class="media-object">
+                                    <img src="{{cover}}" alt="{{title}}" class="media-object">
                             {{/isVideo}}
                         </a>
                     {{/if}}
                 </div>
             </div>
             <ul class="list-group list-group-flush nanumMyeongjo-regular">
-                <li class="list-group-item">{{this.title}}</li>
+                <li class="list-group-item">{{title}}</li>
             </ul>
         {{/each}}
     </div>

@@ -118,7 +118,7 @@ app.get('/category/:category', (req, res) => {
         randomItemArray = randomItemArray.concat(chooseRandomItems(getAllItemsFromSubcategory(category, subcategory), 1));
     }
 
-    console.log("category: " + category + " subcategoryArray: " + subcategoryArray[0] + " randomItemArray: " + randomItemArray[0]);
+    console.log("category: " + category + " subcategoryArray: " + subcategoryArray[0] + " randomItemArray: " + randomItemArray[0].title);
 
     //render category page
     res.render('category-page', { category: category, subcategoryArray: subcategoryArray, randomItemArray: randomItemArray });

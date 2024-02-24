@@ -210,11 +210,10 @@ ul.cart-item-details li {
     object-fit: cover; /* Cover the container while preserving aspect ratio */
 }
 
-.media-object {
+/* .media-object {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover; /* This will cover the area of the container without stretching the image. If you want to see the whole image without cutting, use 'contain'. */
-}
