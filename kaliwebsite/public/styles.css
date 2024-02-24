@@ -26,6 +26,12 @@
         --letter-size-height: 0px;
         --letter-size-width: 0px;
 
+            --letter-mask-size-height: 0px;
+            --letter-mask-size-width: 0px;
+
+            --letter-media-size-height: 0px;
+            --letter-media-size-width: 0px;
+
         --letter-space-size-height: 0px;
         --letter-space-size-width: 0px;
 }
@@ -64,13 +70,24 @@
     width: var(--name-block-size-width);
 }
     .letter-end-space {
-        width: var(--letter-end-space-size);
+        height: var(--letter-end-space-size-height);
+        width: var(--letter-end-space-size-width);
     }
     .letter {
-        width: var(--letter-size);
+        height: var(--letter-size-height);
+        width: var(--letter-size-width);
     }
+        .letter-mask {
+            height: var(--letter-mask-size-height);
+            width: var(--letter-mask-size-width);
+        }
+        .letter-media {
+            height: var(--letter-media-size-height);
+            width: var(--letter-media-size-width);
+        }
     .letter-space {
-        width: var(--letter-space-size);
+        height: var(--letter-space-size-height);
+        width: var(--letter-space-size-width);
     }
 
 /* font variables */

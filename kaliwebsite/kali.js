@@ -18,9 +18,14 @@ const port = process.env.port || 3000
 const hbs = expressHandlebars.create({
     defaultLayout: 'main',
     helpers: {
-        //helper returns true if file is an mp4
         isVideo: function (filename, options) {
-            return filename.endsWith('.mp4') ? options.fn(this) : options.inverse(this);
+            if (filename && typeof filename === 'string') {
+                return filename.endsWith('.mp4') ? options.fn(this) : options.inverse(this);
+            } else {
+                // Handle the case where filename is undefined or not a string
+                // You can choose to render nothing or some default content
+                return options.inverse(this);
+            }
         }
     }
 });
