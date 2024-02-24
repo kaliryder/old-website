@@ -115,7 +115,7 @@ app.get('/category/:category', (req, res) => {
     let randomItemArray = [];
     for (const subcategory in data.categories[category].subcategories) {
         subcategoryArray = subcategoryArray.concat(subcategory);
-        randomItemArray = randomItemArray.concat(chooseRandomItems(getAllItemsFromSubcategory(category, subcategory)), 1);
+        randomItemArray = randomItemArray.concat(chooseRandomItems(getAllItemsFromSubcategory(category, subcategory), 1));
     }
 
     console.log("category: " + category + " subcategoryArray: " + subcategoryArray[0] + " randomItemArray: " + randomItemArray[0]);
