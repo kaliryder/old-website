@@ -110,13 +110,16 @@ app.get('/subcategory/:category/:subcategory', (req, res) => {
 app.get('/category/:category', (req, res) => {
     const { category } = req.params;
     //create array of subcategories
-    const subcategoryArray = [];
+    let subcategoryArray = [];
     //create array of random items for each subcategory, idx matches subcategoryArray
-    const randomItemArray = [];
-    for (const subcategory in category.subcategories) {
-        subcategoryArray.concat(subcategory);
-        randomItemArray.concat(chooseRandomItems(getAllItemsFromSubcategory(category, subcategory)), 1);
+    let randomItemArray = [];
+    for (const subcategory in data.categories[category].subcategories) {
+        subcategoryArray = subcategoryArray.concat(subcategory);
+        randomItemArray = randomItemArray.concat(chooseRandomItems(getAllItemsFromSubcategory(category, subcategory)), 1);
     }
+
+    console.log("category: " + category + " subcategoryArray: " + subcategoryArray[0] + " randomItemArray: " + randomItemArray[0]);
+
     //render category page
     res.render('category-page', { category: category, subcategoryArray: subcategoryArray, randomItemArray: randomItemArray });
 });

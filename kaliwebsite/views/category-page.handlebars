@@ -10,22 +10,22 @@
             <!--gallery item-->
             <div class="col-12 col-md-6 col-lg-3 mb-4">
                 <div class="media-container">
-                    {{#if cover}}
-                        <a href="/subcategory/{{category}}/{{subcategory}}" class="gallery-img">
-                            {{#isVideo cover}}
+                    {{#if item.cover}}
+                        <a href="/subcategory/{{item.category}}/{{item.subcategory}}" class="gallery-img">
+                            {{#isVideo item.cover}}
                                 <video controls>
-                                    <source src="{{cover}}" type="video/mp4">
+                                    <source src="{{item.cover}}" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
                                 {{else}}
-                                    <img src="{{cover}}" alt="{{title}}" class="img-thumbnail">
+                                    <img src="{{item.cover}}" alt="{{item.title}}" class="img-thumbnail">
                             {{/isVideo}}
                         </a>
                     {{/if}}
                 </div>
                 <div>
-                    {{#if subcategory}}
-                        <h1 class="color3 dawningOfANewDay">{{subcategory}}</h1>
+                    {{#if item.subcategory}}
+                        <h1 class="color3 dawningOfANewDay">{{item.subcategory}}</h1>
                     {{/if}}
                 </div>
             </div>
