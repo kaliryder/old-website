@@ -1,0 +1,19 @@
+<nav class="nav" role="navigation">
+    <div class="nav-block">
+        <!-- logo -->
+        <div class="logo">
+            <a href="/">
+                <img src="/img/misc/logo.png" alt="Logo">
+            </a>
+        </div>
+        <div class="nav-space"></div>
+        <ul class="nav-bar">
+            {{#each navItems}}
+                <li class="nav-item">
+                    <a href="{{this.link}}" class="nav-link">{{this.label}}</a>
+                </li>
+                <div class="nav-space"></div>
+            {{/each}}
+        </ul>
+    </div>
+</nav>

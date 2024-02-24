@@ -1,3 +1,7 @@
+<div class="container-fluid">
+    {{>navbar}}
+</div>
+
 <!--header-->
 <div class="section-divider" id="about"></div>
 
@@ -105,3 +109,20 @@
 <footer>
   Copyright 2023 - Kali Ryder
 </footer>
+
+<script>
+  function calculateSizes() {
+    const screenHeight = window.innerHeight;
+    const screenWidth = window.innerWidth;
+    const navItemCount = document.querySelectorAll('.nav-item').length;
+    const navSpaceSize = /* your calculation based on screenHeight, screenWidth, and navItemCount */;
+
+    // Update CSS Variables
+    document.documentElement.style.setProperty('--nav-space-size', `${navSpaceSize}px`);
+    // Repeat for other sizes
+  }
+
+  // Calculate sizes on initial load and on window resize
+  calculateSizes();
+  window.addEventListener('resize', calculateSizes);
+</script>

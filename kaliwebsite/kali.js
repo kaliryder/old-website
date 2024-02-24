@@ -64,13 +64,22 @@ function getAllItemsFromSubcategory(categoryName, subcategoryName) {
 
 //route for home page
 app.get('/',(req,res)=>{
+    //navbar data
+    const navItems = [
+        { label: 'Home', link: '/' },
+        { label: 'Digital', link: '/category/digital' },
+        { label: 'Physical', link: '/category/physical' },
+        { label: 'About', link: '/about' },
+    ];
+
     //one random item for each subcategory
     const physicalArtRandomItem = chooseRandomItems(getAllItemsFromSubcategory("physical", "physical-art"), 1);
     const clothesRandomItem = chooseRandomItems(getAllItemsFromSubcategory("physical", "clothes"), 1);
     const digitalArtRandomItem = chooseRandomItems(getAllItemsFromSubcategory("digital", "digital-art"), 1);
     const codeRandomItem = chooseRandomItems(getAllItemsFromSubcategory("digital", "code"), 1);
+
     //render home page
-    res.render('home-page',{ physicalArtRandomItem, clothesRandomItem, digitalArtRandomItem, codeRandomItem })
+    res.render('home-page',{ physicalArtRandomItem, clothesRandomItem, digitalArtRandomItem, codeRandomItem, navItems })
 })
 
 //route for item pages
