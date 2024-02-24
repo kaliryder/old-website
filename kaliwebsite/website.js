@@ -17,15 +17,16 @@ app.engine('handlebars', expressHandlebars.engine({
 
 app.set('view engine','handlebars')
 
-//json consts
-const animationData = JSON.parse(fs.readFileSync('data/animation.json','utf-8'));
-const codeData = JSON.parse(fs.readFileSync('data/code.json','utf-8'));
-const digitalArtData = JSON.parse(fs.readFileSync('data/digital-art.json','utf-8'));
-const fashionData = JSON.parse(fs.readFileSync('data/fashion.json','utf-8'));
-const graphicDesignData = JSON.parse(fs.readFileSync('data/graphic-design.json','utf-8'));
-const paperData = JSON.parse(fs.readFileSync('data/paper.json','utf-8'));
-const sculptureData = JSON.parse(fs.readFileSync('data/sculpture.json','utf-8'));
-const uxuiData = JSON.parse(fs.readFileSync('data/ux-ui.json','utf-8'));
+// const animationData = JSON.parse(fs.readFileSync('data/animation.json','utf-8'));
+// const codeData = JSON.parse(fs.readFileSync('data/code.json','utf-8'));
+// const digitalArtData = JSON.parse(fs.readFileSync('data/digital-art.json','utf-8'));
+// const fashionData = JSON.parse(fs.readFileSync('data/fashion.json','utf-8'));
+// const graphicDesignData = JSON.parse(fs.readFileSync('data/graphic-design.json','utf-8'));
+// const paperData = JSON.parse(fs.readFileSync('data/paper.json','utf-8'));
+// const sculptureData = JSON.parse(fs.readFileSync('data/sculpture.json','utf-8'));
+// const uxuiData = JSON.parse(fs.readFileSync('data/ux-ui.json','utf-8'));
+
+const data = JSON.parse(fs.readFileSync('data/data.json','utf-8'));
 
 //setup port
 const port = process.env.port || 3000
@@ -44,23 +45,23 @@ app.set('view engine', 'handlebars');
 
 //home route
 app.get('/',(req,res)=>{
-    /* create vars for all subcategories */
-    const animationItems = animationData.items;
-    var animationDataVar = require('./data/animation.json');
-    const codeItems = codeData.items;
-    var codeDataVar = require('./data/code.json');
-    const digitalArtItems = digitalArtData.items;
-    var digitalArtDataVar = require('./data/digital-art.json');
-    const fashionItems = fashionData.items;
-    var fashionDataVar = require('./data/fashion.json');
-    const graphicDesignItems = graphicDesignData.items;
-    var graphicDesignDataVar = require('./data/graphic-design.json');
-    const paperItems = paperData.items;
-    var paperDataVar = require('./data/paper.json');
-    const sculptureItems = sculptureData.items;
-    var sculptureDataVar = require('./data/sculpture.json');
-    const uxuiItems = uxuiData.items;
-    var uxuiDataVar = require('./data/ux-ui.json');
+    // /* create vars for all subcategories */
+    // const animationItems = animationData.items;
+    // var animationDataVar = require('./data/animation.json');
+    // const codeItems = codeData.items;
+    // var codeDataVar = require('./data/code.json');
+    // const digitalArtItems = digitalArtData.items;
+    // var digitalArtDataVar = require('./data/digital-art.json');
+    // const fashionItems = fashionData.items;
+    // var fashionDataVar = require('./data/fashion.json');
+    // const graphicDesignItems = graphicDesignData.items;
+    // var graphicDesignDataVar = require('./data/graphic-design.json');
+    // const paperItems = paperData.items;
+    // var paperDataVar = require('./data/paper.json');
+    // const sculptureItems = sculptureData.items;
+    // var sculptureDataVar = require('./data/sculpture.json');
+    // const uxuiItems = uxuiData.items;
+    // var uxuiDataVar = require('./data/ux-ui.json');
 
     /* choose one random item from each subcategory for item links */
     const animationRandomItem = chooseRandomItems(animationItems, 1);
