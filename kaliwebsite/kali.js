@@ -4,12 +4,15 @@ const expressHandlebars = require('express-handlebars');
 const fs = require('fs');
 const app = express();
 
-//read and store data.json
-const data = JSON.parse(fs.readFileSync('data/data.json', 'utf-8'));
-
 //set up static files and URL encoding
 app.use(express.static(__dirname + '/public'));
 app.use(express.urlencoded({ extended: true }));
+
+//read and store data.json
+const data = JSON.parse(fs.readFileSync('data/data.json', 'utf-8'));
+
+//setup port
+const port = process.env.port || 3000
 
 //handlebars configuration with custom helper
 const hbs = expressHandlebars.create({
@@ -37,24 +40,30 @@ function chooseRandomItems(allItems, numItems) {
 //route for home page
 app.get('/',(req,res)=>{
     //choose random items for each subcategory
-    const physicalArtRandomItem = chooseRandomItems(data.categories[physical].subcategories[physical-art], 1);
-    const clothesRandomItem = chooseRandomItems(data.categories[physical].subcategories[clothes], 1);
-    const digitalArtRandomItem = chooseRandomItems(data.categories[digital].subcategories[digital-art], 1);
-    const codeRandomItem = chooseRandomItems(data.categories[digital].subcategories[code], 1);
+    const physicalArtRandomItem = chooseRandomItems(data.categories["physical"].subcategories["physical-art"].items, 1);
+    const clothesRandomItem = chooseRandomItems(data.categories["physical"].subcategories["clothes"].items, 1);
+    const digitalArtRandomItem = chooseRandomItems(data.categories["digital"].subcategories["digital-art"].items, 1);
+    const codeRandomItem = chooseRandomItems(data.categories["digital"].subcategories["code"].items, 1);
     //render home page
     res.render('home-page',{ physicalArtRandomItem, clothesRandomItem, digitalArtRandomItem, codeRandomItem })
 })
 
 //route for item pages
-app.get('/:category/:subcategory/:group/:itemId', (req, res) => {
-    const { category, subcategory, group, itemId } = req.params;
+app.get('/item/:category/:subcategory/:group/:id', (req, res) => {
+    const { category, subcategory, group, id } = req.params;
     //retrieve items data from group
     const items = data.categories[category].subcategories[subcategory].groups[group].items;
     //isolate item
-    const item = items.find(item => item.id.toString() === itemId);
+    const item = items.find(item => item.id.toString() === id);
     if (item) {
         //choose four random items from the other items (DEBUG: exclude item)
-        const randomOtherItems = chooseRandomItems(items, 4);
+        const numItems = items.length;
+        var randomOtherItems;
+        if (numItems < 4) {
+            randomOtherItems = chooseRandomItems(items, numItems);
+        } else {
+            randomOtherItems = chooseRandomItems(items, 3);
+        }
         //render item page
         res.render('item-page', { otherItems: randomOtherItems, item: item });
     } else {
@@ -103,6 +112,6 @@ app.use((error,req,res,next) => {
 
 //setup listener
 app.listen(port,()=>{
-    console.log(`server started: http://localhost:${port}`)
-    console.log('to close press Ctrl-C')
+    console.log(`Server started http://localhost:${port}`)
+    console.log('To close press Ctrl-C')
 })

@@ -1,12 +1,12 @@
 <!--header-->
 <div class="section-divider" id="about"></div>
-<h1 class="color3 dawningOfANewDay">{{category}}</h1>
+<h1 class="color3 dawningOfANewDay">{{subcategory}}</h1>
 
 <!--image gallery : items-->
-{{#if items}}
+{{#if subcategoryData.items}}
 <div class="section-divider" id="gallery"></div>
 <div class="row">
-    {{#each items}}
+    {{#each  subcategoryData.items}}
         <div class="col-3">
             <!--gallery item-->
             <div class="col-12 col-md-6 col-lg-3 mb-4">

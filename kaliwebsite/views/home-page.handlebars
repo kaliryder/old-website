@@ -6,14 +6,60 @@
   <div class="section-divider" id="gallery"></div>
   <h2 class="section-header dawningOfANewDay">Item Gallery</h2>
   <div class="row">
-    <!--animation item-->
-    {{#if animationRandomItem}}
+    <!--physical art item-->
+    {{#if physicalArtRandomItem}}
       <div class="col-3">
-        {{#each animationRandomItem}}
+        {{#each physicalArtRandomItem}}
             <div class="col-12 col-md-6 col-lg-3 mb-4">
                 <div class="media-container">
                     {{#if cover}}
-                        <a href="/item/{{subcategory}}/{{id}}" class="gallery-img">
+                        <a href="/item/{{category}}/{{subcategory}}/{{group}}/{{id}}" class="gallery-img">
+                        {{#isVideo cover}}
+                            <video controls>
+                                <source src="{{cover}}" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            {{else}}
+                                <img src="{{cover}}" alt="{{title}}" class="img-thumbnail img-fluid">
+                        {{/isVideo}}
+                        </a>
+                    {{/if}}
+                </div>
+            </div>
+        {{/each}}
+      </div>
+    {{/if}}
+    <!--clothes item-->
+    {{#if clothesRandomItem}}
+      <div class="col-3">
+        {{#each clothesRandomItem}}
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                <div class="media-container">
+                    {{#if cover}}
+                        <a href="/item/{{category}}/{{subcategory}}/{{group}}/{{id}}" class="gallery-img">
+                        {{#isVideo cover}}
+                            <video controls>
+                                <source src="{{cover}}" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            {{else}}
+                                <img src="{{cover}}" alt="{{title}}" class="img-thumbnail img-fluid">
+                        {{/isVideo}}
+                        </a>
+                    {{/if}}
+                </div>
+            </div>
+        {{/each}}
+      </div>
+    {{/if}}
+    <!--digital art item-->
+    {{#if digitalArtRandomItem}}
+      <div class="col-3">
+        {{#each digitalArtRandomItem}}
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                <div class="media-container">
+                    {{#if cover}}
+                        <a href="/item/{{category}}/{{subcategory}}/{{group}}/{{id}}" class="gallery-img"></a>
                         {{#isVideo cover}}
                             <video controls>
                                 <source src="{{cover}}" type="video/mp4">
@@ -36,429 +82,7 @@
             <div class="col-12 col-md-6 col-lg-3 mb-4">
                 <div class="media-container">
                     {{#if cover}}
-                        <a href="/item/{{subcategory}}/{{id}}" class="gallery-img">
-                        {{#isVideo cover}}
-                            <video controls>
-                                <source src="{{cover}}" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                            {{else}}
-                                <img src="{{cover}}" alt="{{title}}" class="img-thumbnail img-fluid">
-                        {{/isVideo}}
-                        </a>
-                    {{/if}}
-                </div>
-            </div>
-        {{/each}}
-      </div>
-    {{/if}}
-    <!--digital-art item-->
-    {{#if digitalArtRandomItem}}
-      <div class="col-3">
-        {{#each digitalArtRandomItem}}
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                <div class="media-container">
-                    {{#if cover}}
-                        <a href="/item/{{subcategory}}/{{id}}" class="gallery-img">
-                        {{#isVideo cover}}
-                            <video controls>
-                                <source src="{{cover}}" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                            {{else}}
-                                <img src="{{cover}}" alt="{{title}}" class="img-thumbnail img-fluid">
-                        {{/isVideo}}
-                        </a>
-                    {{/if}}
-                </div>
-            </div>
-        {{/each}}
-      </div>
-    {{/if}}
-    <!--fashion item-->
-    {{#if fashionRandomItem}}
-      <div class="col-3">
-        {{#each fashionRandomItem}}
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                <div class="media-container">
-                    {{#if cover}}
-                        <a href="/item/{{subcategory}}/{{id}}" class="gallery-img">
-                        {{#isVideo cover}}
-                            <video controls>
-                                <source src="{{cover}}" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                            {{else}}
-                                <img src="{{cover}}" alt="{{title}}" class="img-thumbnail img-fluid">
-                        {{/isVideo}}
-                        </a>
-                    {{/if}}
-                </div>
-            </div>
-        {{/each}}
-      </div>
-    {{/if}}
-    <!--graphic-design item-->
-    {{#if graphicDesignRandomItem}}
-      <div class="col-3">
-        {{#each graphicDesignRandomItem}}
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                <div class="media-container">
-                    {{#if cover}}
-                        <a href="/item/{{subcategory}}/{{id}}" class="gallery-img">
-                        {{#isVideo cover}}
-                            <video controls>
-                                <source src="{{cover}}" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                            {{else}}
-                                <img src="{{cover}}" alt="{{title}}" class="img-thumbnail img-fluid">
-                        {{/isVideo}}
-                        </a>
-                    {{/if}}
-                </div>
-            </div>
-        {{/each}}
-      </div>
-    {{/if}}
-    <!--paper item-->
-    {{#if paperRandomItem}}
-      <div class="col-3">
-        {{#each paperRandomItem}}
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                <div class="media-container">
-                    {{#if cover}}
-                        <a href="/item/{{subcategory}}/{{id}}" class="gallery-img">
-                        {{#isVideo cover}}
-                            <video controls>
-                                <source src="{{cover}}" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                            {{else}}
-                                <img src="{{cover}}" alt="{{title}}" class="img-thumbnail img-fluid">
-                        {{/isVideo}}
-                        </a>
-                    {{/if}}
-                </div>
-            </div>
-        {{/each}}
-      </div>
-    {{/if}}
-    <!--sculpture item-->
-    {{#if sculptureRandomItem}}
-      <div class="col-3">
-        {{#each sculptureRandomItem}}
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                <div class="media-container">
-                    {{#if cover}}
-                        <a href="/item/{{subcategory}}/{{id}}" class="gallery-img">
-                        {{#isVideo cover}}
-                            <video controls>
-                                <source src="{{cover}}" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                            {{else}}
-                                <img src="{{cover}}" alt="{{title}}" class="img-thumbnail img-fluid">
-                        {{/isVideo}}
-                        </a>
-                    {{/if}}
-                </div>
-            </div>
-        {{/each}}
-      </div>
-    {{/if}}
-    <!--ux-ui item-->
-    {{#if uxuiRandomItem}}
-      <div class="col-3">
-        {{#each uxuiRandomItem}}
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                <div class="media-container">
-                    {{#if cover}}
-                        <a href="/item/{{subcategory}}/{{id}}" class="gallery-img">
-                        {{#isVideo cover}}
-                            <video controls>
-                                <source src="{{cover}}" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                            {{else}}
-                                <img src="{{cover}}" alt="{{title}}" class="img-thumbnail img-fluid">
-                        {{/isVideo}}
-                        </a>
-                    {{/if}}
-                </div>
-            </div>
-        {{/each}}
-      </div>
-    {{/if}}
-    <!--web item-->
-    {{#if webRandomItem}}
-      <div class="col-3">
-        {{#each webRandomItem}}
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                <div class="media-container">
-                    {{#if cover}}
-                        <a href="/item/{{subcategory}}/{{id}}" class="gallery-img">
-                        {{#isVideo cover}}
-                            <video controls>
-                                <source src="{{cover}}" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                            {{else}}
-                                <img src="{{cover}}" alt="{{title}}" class="img-thumbnail img-fluid">
-                        {{/isVideo}}
-                        </a>
-                    {{/if}}
-                </div>
-            </div>
-        {{/each}}
-      </div>
-    {{/if}}
-    <!--writing item-->
-    {{#if writingRandomItem}}
-      <div class="col-3">
-        {{#each writingRandomItem}}
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                <div class="media-container">
-                    {{#if cover}}
-                        <a href="/item/{{subcategory}}/{{id}}" class="gallery-img">
-                        {{#isVideo cover}}
-                            <video controls>
-                                <source src="{{cover}}" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                            {{else}}
-                                <img src="{{cover}}" alt="{{title}}" class="img-thumbnail img-fluid">
-                        {{/isVideo}}
-                        </a>
-                    {{/if}}
-                </div>
-            </div>
-        {{/each}}
-      </div>
-    {{/if}}
-  </div>
-</div>
-
-<!--subcategory gallery : featured subcategories-->
-<div class="gallery-container">
-  <div class="section-divider" id="gallery"></div>
-  <h2 class="section-header dawningOfANewDay">Category Gallery</h2>
-  <div class="row">
-    <!--animation item-->
-    {{#if animationRandomSubcategoryItem}}
-      <div class="col-3">
-        {{#each animationRandomSubcategoryItem}}
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                <div class="media-container">
-                    {{#if cover}}
-                        <a href="/{{subcategory}}" class="gallery-img">
-                        {{#isVideo cover}}
-                            <video controls>
-                                <source src="{{cover}}" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                            {{else}}
-                                <img src="{{cover}}" alt="{{title}}" class="img-thumbnail img-fluid">
-                        {{/isVideo}}
-                        </a>
-                    {{/if}}
-                </div>
-            </div>
-        {{/each}}
-      </div>
-    {{/if}}
-    <!--code item-->
-    {{#if codeRandomSubcategoryItem}}
-      <div class="col-3">
-        {{#each codeRandomSubcategoryItem}}
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                <div class="media-container">
-                    {{#if cover}}
-                        <a href="/{{subcategory}}" class="gallery-img">
-                        {{#isVideo cover}}
-                            <video controls>
-                                <source src="{{cover}}" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                            {{else}}
-                                <img src="{{cover}}" alt="{{title}}" class="img-thumbnail img-fluid">
-                        {{/isVideo}}
-                        </a>
-                    {{/if}}
-                </div>
-            </div>
-        {{/each}}
-      </div>
-    {{/if}}
-    <!--digital-art item-->
-    {{#if digitalArtRandomSubcategoryItem}}
-      <div class="col-3">
-        {{#each digitalArtRandomSubcategoryItem}}
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                <div class="media-container">
-                    {{#if cover}}
-                        <a href="/{{subcategory}}" class="gallery-img">
-                        {{#isVideo cover}}
-                            <video controls>
-                                <source src="{{cover}}" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                            {{else}}
-                                <img src="{{cover}}" alt="{{title}}" class="img-thumbnail img-fluid">
-                        {{/isVideo}}
-                        </a>
-                    {{/if}}
-                </div>
-            </div>
-        {{/each}}
-      </div>
-    {{/if}}
-    <!--fashion item-->
-    {{#if fashionRandomSubcategoryItem}}
-      <div class="col-3">
-        {{#each fashionRandomSubcategoryItem}}
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                <div class="media-container">
-                    {{#if cover}}
-                        <a href="/{{subcategory}}" class="gallery-img">
-                        {{#isVideo cover}}
-                            <video controls>
-                                <source src="{{cover}}" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                            {{else}}
-                                <img src="{{cover}}" alt="{{title}}" class="img-thumbnail img-fluid">
-                        {{/isVideo}}
-                        </a>
-                    {{/if}}
-                </div>
-            </div>
-        {{/each}}
-      </div>
-    {{/if}}
-    <!--graphic-design item-->
-    {{#if graphicDesignRandomSubcategoryItem}}
-      <div class="col-3">
-        {{#each graphicDesignRandomSubcategoryItem}}
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                <div class="media-container">
-                    {{#if cover}}
-                        <a href="/{{subcategory}}" class="gallery-img">
-                        {{#isVideo cover}}
-                            <video controls>
-                                <source src="{{cover}}" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                            {{else}}
-                                <img src="{{cover}}" alt="{{title}}" class="img-thumbnail img-fluid">
-                        {{/isVideo}}
-                        </a>
-                    {{/if}}
-                </div>
-            </div>
-        {{/each}}
-      </div>
-    {{/if}}
-    <!--paper item-->
-    {{#if paperRandomSubcategoryItem}}
-      <div class="col-3">
-        {{#each paperRandomSubcategoryItem}}
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                <div class="media-container">
-                    {{#if cover}}
-                        <a href="/{{subcategory}}" class="gallery-img">
-                        {{#isVideo cover}}
-                            <video controls>
-                                <source src="{{cover}}" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                            {{else}}
-                                <img src="{{cover}}" alt="{{title}}" class="img-thumbnail img-fluid">
-                        {{/isVideo}}
-                        </a>
-                    {{/if}}
-                </div>
-            </div>
-        {{/each}}
-      </div>
-    {{/if}}
-    <!--sculpture item-->
-    {{#if sculptureRandomSubcategoryItem}}
-      <div class="col-3">
-        {{#each sculptureRandomSubcategoryItem}}
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                <div class="media-container">
-                    {{#if cover}}
-                        <a href="/{{subcategory}}" class="gallery-img">
-                        {{#isVideo cover}}
-                            <video controls>
-                                <source src="{{cover}}" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                            {{else}}
-                                <img src="{{cover}}" alt="{{title}}" class="img-thumbnail img-fluid">
-                        {{/isVideo}}
-                        </a>
-                    {{/if}}
-                </div>
-            </div>
-        {{/each}}
-      </div>
-    {{/if}}
-    <!--ux-ui item-->
-    {{#if uxuiRandomSubcategoryItem}}
-      <div class="col-3">
-        {{#each uxuiRandomSubcategoryItem}}
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                <div class="media-container">
-                    {{#if cover}}
-                        <a href="/{{subcategory}}" class="gallery-img">
-                        {{#isVideo cover}}
-                            <video controls>
-                                <source src="{{cover}}" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                            {{else}}
-                                <img src="{{cover}}" alt="{{title}}" class="img-thumbnail img-fluid">
-                        {{/isVideo}}
-                        </a>
-                    {{/if}}
-                </div>
-            </div>
-        {{/each}}
-      </div>
-    {{/if}}
-    <!--web item-->
-    {{#if webRandomSubcategoryItem}}
-      <div class="col-3">
-        {{#each webRandomSubcategoryItem}}
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                <div class="media-container">
-                    {{#if cover}}
-                        <a href="/{{subcategory}}" class="gallery-img">
-                        {{#isVideo cover}}
-                            <video controls>
-                                <source src="{{cover}}" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                            {{else}}
-                                <img src="{{cover}}" alt="{{title}}" class="img-thumbnail img-fluid">
-                        {{/isVideo}}
-                        </a>
-                    {{/if}}
-                </div>
-            </div>
-        {{/each}}
-      </div>
-    {{/if}}
-    <!--writing item-->
-    {{#if writingRandomSubcategoryItem}}
-      <div class="col-3">
-        {{#each writingRandomSubcategoryItem}}
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                <div class="media-container">
-                    {{#if cover}}
-                        <a href="/{{subcategory}}" class="gallery-img">
+                        <a href="/item/{{category}}/{{subcategory}}/{{group}}/{{id}}" class="gallery-img">
                         {{#isVideo cover}}
                             <video controls>
                                 <source src="{{cover}}" type="video/mp4">

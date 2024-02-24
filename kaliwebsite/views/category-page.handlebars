@@ -3,23 +3,23 @@
 <h1 class="color3 dawningOfANewDay">{{category}}</h1>
 
 <!--image gallery : items-->
-{{#if items}}
+{{#if categoryData.items}}
 <div class="section-divider" id="gallery"></div>
 <div class="row">
-    {{#each items}}
+    {{#each categoryData.items}}
         <div class="col-3">
             <!--gallery item-->
             <div class="col-12 col-md-6 col-lg-3 mb-4">
                 <div class="media-container">
                     {{#if this.cover}}
-                        <a href="/item/{{this.id}}" class="gallery-img">
-                            {{#isVideo cover}}
+                        <a href="/item/{{this.category}}/{{this.subcategory}}/{{this.group}}/{{this.id}}" class="gallery-img">
+                            {{#isVideo this.cover}}
                                 <video controls>
-                                    <source src="{{cover}}" type="video/mp4">
+                                    <source src="{{this.cover}}" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
                                 {{else}}
-                                    <img src="{{cover}}" alt="{{title}}" class="img-thumbnail">
+                                    <img src="{{this.cover}}" alt="{{this.title}}" class="img-thumbnail">
                             {{/isVideo}}
                         </a>
                     {{/if}}

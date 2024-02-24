@@ -244,103 +244,6 @@
                                     "date":"$30",
                                     "medium":"charcoal",
                                     "description":"lalalala"
-                                },
-                                {
-                                    "id": 11,
-                                    "category":"digital",
-                                    "subcategory": "digital-art",
-                                    "group": "digital-painting",
-                                    "title":"Blue Shorts",
-                                    "cover":"/img/digitalpainting/digitalpainting-vid-11-a.mp4",
-                                    "images":[
-                                    ],
-                                    "videos":[
-                                        "/img/digitalpainting/digitalpainting-vid-11-a.mp4"
-                                    ],
-                                    "date":"$30",
-                                    "medium":"charcoal",
-                                    "description":"lalalala"
-                                },
-                                {
-                                    "id": 12,
-                                    "category":"digital",
-                                    "subcategory": "digital-art",
-                                    "group": "digital-painting",
-                                    "title":"Blue Shorts",
-                                    "cover":"/img/digitalpainting/digitalpainting-vid-12-a.mp4",
-                                    "images":[
-                                    ],
-                                    "videos":[
-                                        "/img/digitalpainting/digitalpainting-vid-12-a.mp4"
-                                    ],
-                                    "date":"$30",
-                                    "medium":"charcoal",
-                                    "description":"lalalala"
-                                },
-                                {
-                                    "id": 13,
-                                    "category":"digital",
-                                    "subcategory": "digital-art",
-                                    "group": "digital-painting",
-                                    "title":"Blue Shorts",
-                                    "cover":"/img/digitalpainting/digitalpainting-13-a.jpg",
-                                    "images":[
-                                    ],
-                                    "videos":[
-                                        "/img/digitalpainting/digitalpainting-vid-13-a.mp4",
-                                        "/img/digitalpainting/digitalpainting-vid-13-b.mp4"
-                                    ],
-                                    "date":"$30",
-                                    "medium":"charcoal",
-                                    "description":"lalalala"
-                                },
-                                {
-                                    "id": 14,
-                                    "category":"digital",
-                                    "subcategory": "digital-art",
-                                    "group": "digital-painting",
-                                    "title":"Blue Shorts",
-                                    "cover":"/img/digitalpainting/digitalpainting-vid-14-a.mp4",
-                                    "images":[
-                                    ],
-                                    "videos":[
-                                        "/img/digitalpainting/digitalpainting-vid-14-a.mp4"
-                                    ],
-                                    "date":"$30",
-                                    "medium":"charcoal",
-                                    "description":"lalalala"
-                                },
-                                {
-                                    "id": 15,
-                                    "category":"digital",
-                                    "subcategory": "digital-art",
-                                    "group": "digital-painting",
-                                    "title":"Blue Shorts",
-                                    "cover":"/img/digitalpainting/digitalpainting-vid-15-a.mp4",
-                                    "images":[
-                                    ],
-                                    "videos":[
-                                        "/img/digitalpainting/digitalpainting-vid-15-a.mp4"
-                                    ],
-                                    "date":"$30",
-                                    "medium":"charcoal",
-                                    "description":"lalalala"
-                                },
-                                {
-                                    "id": 16,
-                                    "category":"digital",
-                                    "subcategory": "digital-art",
-                                    "group": "digital-painting",
-                                    "title":"Blue Shorts",
-                                    "cover":"/img/digitalpainting/digitalpainting-vid-16-a.mp4",
-                                    "images":[
-                                    ],
-                                    "videos":[
-                                        "/img/digitalpainting/digitalpainting-vid-16-a.mp4"
-                                    ],
-                                    "date":"$30",
-                                    "medium":"charcoal",
-                                    "description":"lalalala"
                                 }
                             ]
                         }
@@ -424,51 +327,6 @@
                                     "date": "2022",
                                     "medium": "Unity / C#",
                                     "description": "a prototype of a mobile sudoku app with custom UX/UI and game elements"
-                                },
-                                {
-                                    "id": 6,
-                                    "category": "digital",
-                                    "subcategory": "code",
-                                    "group": "unity",
-                                    "title": "Empty 1",
-                                    "cover": "/img/unity/unity-vid-5-a.mp4",
-                                    "images": [],
-                                    "videos": [
-                                        "/img/unity/unity-vid-5-a.mp4"
-                                    ],
-                                    "date": "Empty 1",
-                                    "medium": "Empty 1",
-                                    "description": "Empty 1"
-                                },
-                                {
-                                    "id": 7,
-                                    "category": "digital",
-                                    "subcategory": "code",
-                                    "group": "unity",
-                                    "title": "Empty 2",
-                                    "cover": "/img/unity/unity-vid-5-a.mp4",
-                                    "images": [],
-                                    "videos": [
-                                        "/img/unity/unity-vid-5-a.mp4"
-                                    ],
-                                    "date": "Empty 2",
-                                    "medium": "Empty 2",
-                                    "description": "Empty 2"
-                                },
-                                {
-                                    "id": 8,
-                                    "category": "digital",
-                                    "subcategory": "code",
-                                    "group": "unity",
-                                    "title": "Empty 3",
-                                    "cover": "/img/unity/unity-vid-5-a.mp4",
-                                    "images": [],
-                                    "videos": [
-                                        "/img/unity/unity-vid-5-a.mp4"
-                                    ],
-                                    "date": "Empty 3",
-                                    "medium": "Empty 3",
-                                    "description": "Empty 3"
                                 }
                             ]
                         },
@@ -480,10 +338,10 @@
                                     "subcategory": "code",
                                     "group": "web",
                                     "title": "Bouncy",
-                                    "cover": "/img/web/web-vid-1-a.mp4",
+                                    "cover": "/img/web/web-1-a.mp4",
                                     "images": [],
                                     "videos": [
-                                        "/img/web/web-vid-1-a.mp4"
+                                        "/img/web/web-1-a.mp4"
                                     ],
                                     "date": "2022",
                                     "medium": "Unity / C#",
@@ -495,10 +353,10 @@
                                     "subcategory": "code",
                                     "group": "web",
                                     "title": "Dimensions",
-                                    "cover": "/img/web/web-vid-2-a.mp4",
+                                    "cover": "/img/web/web-2-a.mp4",
                                     "images": [],
                                     "videos": [
-                                        "/img/web/web-vid-2-a.mp4"
+                                        "/img/web/web-2-a.mp4"
                                     ],
                                     "date": "2022",
                                     "medium": "Unity / C#",
@@ -510,89 +368,14 @@
                                     "subcategory": "code",
                                     "group": "web",
                                     "title": "Floppy Fish",
-                                    "cover": "/img/web/web-vid-3-a.mp4",
+                                    "cover": "/img/web/web-3-a.mp4",
                                     "images": [],
                                     "videos": [
-                                        "/img/web/web-vid-3-a.mp4"
+                                        "/img/web/web-3-a.mp4"
                                     ],
                                     "date": "2018",
                                     "medium": "JGrasp / Java",
                                     "description": "my first code project! a recreation of Flappy Bird using original artwork"
-                                },
-                                {
-                                    "id": 4,
-                                    "category": "digital",
-                                    "subcategory": "code",
-                                    "group": "web",
-                                    "title": "Selection Ring",
-                                    "cover": "/img/web/web-vid-4-a.mp4",
-                                    "images": [],
-                                    "videos": [
-                                        "/img/web/web-vid-4-a.mp4"
-                                    ],
-                                    "date": "2022",
-                                    "medium": "Unity / C#",
-                                    "description": "a study in programmatic interaction design"
-                                },
-                                {
-                                    "id": 5,
-                                    "category": "digital",
-                                    "subcategory": "code",
-                                    "group": "web",
-                                    "title": "Sudoku",
-                                    "cover": "/img/web/web-vid-5-a.mp4",
-                                    "images": [],
-                                    "videos": [
-                                        "/img/web/web-vid-5-a.mp4"
-                                    ],
-                                    "date": "2022",
-                                    "medium": "Unity / C#",
-                                    "description": "a prototype of a mobile sudoku app with custom UX/UI and game elements"
-                                },
-                                {
-                                    "id": 6,
-                                    "category": "digital",
-                                    "subcategory": "code",
-                                    "group": "web",
-                                    "title": "Empty 1",
-                                    "cover": "/img/web/web-vid-5-a.mp4",
-                                    "images": [],
-                                    "videos": [
-                                        "/img/web/web-vid-5-a.mp4"
-                                    ],
-                                    "date": "Empty 1",
-                                    "medium": "Empty 1",
-                                    "description": "Empty 1"
-                                },
-                                {
-                                    "id": 7,
-                                    "category": "digital",
-                                    "subcategory": "code",
-                                    "group": "web",
-                                    "title": "Empty 2",
-                                    "cover": "/img/web/web-vid-5-a.mp4",
-                                    "images": [],
-                                    "videos": [
-                                        "/img/web/web-vid-5-a.mp4"
-                                    ],
-                                    "date": "Empty 2",
-                                    "medium": "Empty 2",
-                                    "description": "Empty 2"
-                                },
-                                {
-                                    "id": 8,
-                                    "category": "digital",
-                                    "subcategory": "code",
-                                    "group": "web",
-                                    "title": "Empty 3",
-                                    "cover": "/img/web/web-vid-5-a.mp4",
-                                    "images": [],
-                                    "videos": [
-                                        "/img/web/web-vid-5-a.mp4"
-                                    ],
-                                    "date": "Empty 3",
-                                    "medium": "Empty 3",
-                                    "description": "Empty 3"
                                 }
                             ]
                         }
@@ -649,215 +432,6 @@
                                     "date":"2020",
                                     "medium":"Infinite Painter",
                                     "description":"drugs are bad"
-                                },
-                                {
-                                    "id": 4,
-                                    "category":"digital",
-                                    "subcategory": "design",
-                                    "group": "graphic-design",
-                                    "title":"Falling",
-                                    "cover":"/img/graphicdesign/graphicdesign-4-a.jpg",
-                                    "images":[
-                                        "/img/graphicdesign/graphicdesign-4-a.jpg"
-                                    ],
-                                    "videos":[
-                                    ],
-                                    "date":"2020",
-                                    "medium":"Infinite Painter",
-                                    "description":"where do we go from here?"
-                                },
-                                {
-                                    "id": 5,
-                                    "category":"digital",
-                                    "subcategory": "design",
-                                    "group": "graphic-design",
-                                    "title":"Fish Me",
-                                    "cover":"/img/graphicdesign/graphicdesign-5-a.jpg",
-                                    "images":[
-                                        "/img/graphicdesign/graphicdesign-5-a.jpg"
-                                    ],
-                                    "videos":[
-                                    ],
-                                    "date":"2019",
-                                    "medium":"Infinite Painter",
-                                    "description":"me but like a fish"
-                                },
-                                {
-                                    "id": 6,
-                                    "category":"digital",
-                                    "subcategory": "design",
-                                    "group": "graphic-design",
-                                    "title":"Triz",
-                                    "cover":"/img/graphicdesign/graphicdesign-6-a.jpg",
-                                    "images":[
-                                        "/img/graphicdesign/graphicdesign-6-a.jpg"
-                                    ],
-                                    "videos":[
-                                    ],
-                                    "date":"2020",
-                                    "medium":"Infinite Painter",
-                                    "description":"my friend Isabel"
-                                },
-                                {
-                                    "id": 7,
-                                    "category":"digital",
-                                    "subcategory": "design",
-                                    "group": "graphic-design",
-                                    "title":"In My Room",
-                                    "cover":"/img/graphicdesign/graphicdesign-7-a.jpg",
-                                    "images":[
-                                        "/img/graphicdesign/graphicdesign-7-a.jpg"
-                                    ],
-                                    "videos":[
-                                    ],
-                                    "date":"2020",
-                                    "medium":"Infinite Painter",
-                                    "description":"my freshman year college dorm room"
-                                },
-                                {
-                                    "id": 8,
-                                    "category":"digital",
-                                    "subcategory": "design",
-                                    "group": "graphic-design",
-                                    "title":"Free Ross",
-                                    "cover":"/img/graphicdesign/graphicdesign-8-a.jpg",
-                                    "images":[
-                                        "/img/graphicdesign/graphicdesign-8-a.jpg"
-                                    ],
-                                    "videos":[
-                                    ],
-                                    "date":"2019",
-                                    "medium":"Infinite Painter",
-                                    "description":"free Ross Ulbricht, the only of numerous Silk Road founders to be serving life in prison for non-violent crimes"
-                                },
-                                {
-                                    "id": 9,
-                                    "category":"digital",
-                                    "subcategory": "design",
-                                    "group": "graphic-design",
-                                    "title":"Dreams",
-                                    "cover":"/img/graphicdesign/graphicdesign-9-a.jpg",
-                                    "images":[
-                                        "/img/graphicdesign/graphicdesign-9-a.jpg"
-                                    ],
-                                    "videos":[
-                                    ],
-                                    "date":"2022",
-                                    "medium":"charcoal",
-                                    "description":"lalalala"
-                                },
-                                {
-                                    "id": 10,
-                                    "category":"digital",
-                                    "subcategory": "design",
-                                    "group": "graphic-design",
-                                    "title":"Blue Shorts",
-                                    "cover":"/img/graphicdesign/graphicdesign-10-a.jpg",
-                                    "images":[
-                                        "/img/graphicdesign/graphicdesign-10-a.jpg"
-                                    ],
-                                    "videos":[
-                                    ],
-                                    "date":"$30",
-                                    "medium":"charcoal",
-                                    "description":"lalalala"
-                                },
-                                {
-                                    "id": 11,
-                                    "category":"digital",
-                                    "subcategory": "design",
-                                    "group": "graphic-design",
-                                    "title":"Blue Shorts",
-                                    "cover":"/img/graphicdesign/graphicdesign-vid-11-a.mp4",
-                                    "images":[
-                                    ],
-                                    "videos":[
-                                        "/img/graphicdesign/graphicdesign-vid-11-a.mp4"
-                                    ],
-                                    "date":"$30",
-                                    "medium":"charcoal",
-                                    "description":"lalalala"
-                                },
-                                {
-                                    "id": 12,
-                                    "category":"digital",
-                                    "subcategory": "design",
-                                    "group": "graphic-design",
-                                    "title":"Blue Shorts",
-                                    "cover":"/img/graphicdesign/graphicdesign-vid-12-a.mp4",
-                                    "images":[
-                                    ],
-                                    "videos":[
-                                        "/img/graphicdesign/graphicdesign-vid-12-a.mp4"
-                                    ],
-                                    "date":"$30",
-                                    "medium":"charcoal",
-                                    "description":"lalalala"
-                                },
-                                {
-                                    "id": 13,
-                                    "category":"digital",
-                                    "subcategory": "design",
-                                    "group": "graphic-design",
-                                    "title":"Blue Shorts",
-                                    "cover":"/img/graphicdesign/graphicdesign-13-a.jpg",
-                                    "images":[
-                                    ],
-                                    "videos":[
-                                        "/img/graphicdesign/graphicdesign-vid-13-a.mp4",
-                                        "/img/graphicdesign/graphicdesign-vid-13-b.mp4"
-                                    ],
-                                    "date":"$30",
-                                    "medium":"charcoal",
-                                    "description":"lalalala"
-                                },
-                                {
-                                    "id": 14,
-                                    "category":"digital",
-                                    "subcategory": "design",
-                                    "group": "graphic-design",
-                                    "title":"Blue Shorts",
-                                    "cover":"/img/graphicdesign/graphicdesign-vid-14-a.mp4",
-                                    "images":[
-                                    ],
-                                    "videos":[
-                                        "/img/graphicdesign/graphicdesign-vid-14-a.mp4"
-                                    ],
-                                    "date":"$30",
-                                    "medium":"charcoal",
-                                    "description":"lalalala"
-                                },
-                                {
-                                    "id": 15,
-                                    "category":"digital",
-                                    "subcategory": "design",
-                                    "group": "graphic-design",
-                                    "title":"Blue Shorts",
-                                    "cover":"/img/graphicdesign/graphicdesign-vid-15-a.mp4",
-                                    "images":[
-                                    ],
-                                    "videos":[
-                                        "/img/graphicdesign/graphicdesign-vid-15-a.mp4"
-                                    ],
-                                    "date":"$30",
-                                    "medium":"charcoal",
-                                    "description":"lalalala"
-                                },
-                                {
-                                    "id": 16,
-                                    "category":"digital",
-                                    "subcategory": "design",
-                                    "group": "graphic-design",
-                                    "title":"Blue Shorts",
-                                    "cover":"/img/graphicdesign/graphicdesign-vid-16-a.mp4",
-                                    "images":[
-                                    ],
-                                    "videos":[
-                                        "/img/graphicdesign/graphicdesign-vid-16-a.mp4"
-                                    ],
-                                    "date":"$30",
-                                    "medium":"charcoal",
-                                    "description":"lalalala"
                                 }
                             ]
                         },
@@ -907,81 +481,6 @@
                                     "date": "2018",
                                     "medium": "JGrasp / Java",
                                     "description": "my first code project! a recreation of Flappy Bird using original artwork"
-                                },
-                                {
-                                    "id": 4,
-                                    "category": "digital",
-                                    "subcategory": "design",
-                                    "group": "ux-ui",
-                                    "title": "Selection Ring",
-                                    "cover": "/img/uxui/uxui-vid-4-a.mp4",
-                                    "images": [],
-                                    "videos": [
-                                        "/img/uxui/uxui-vid-4-a.mp4"
-                                    ],
-                                    "date": "2022",
-                                    "medium": "Unity / C#",
-                                    "description": "a study in programmatic interaction design"
-                                },
-                                {
-                                    "id": 5,
-                                    "category": "digital",
-                                    "subcategory": "design",
-                                    "group": "ux-ui",
-                                    "title": "Sudoku",
-                                    "cover": "/img/uxui/uxui-vid-5-a.mp4",
-                                    "images": [],
-                                    "videos": [
-                                        "/img/uxui/uxui-vid-5-a.mp4"
-                                    ],
-                                    "date": "2022",
-                                    "medium": "Unity / C#",
-                                    "description": "a prototype of a mobile sudoku app with custom UX/UI and game elements"
-                                },
-                                {
-                                    "id": 6,
-                                    "category": "digital",
-                                    "subcategory": "design",
-                                    "group": "ux-ui",
-                                    "title": "Empty 1",
-                                    "cover": "/img/uxui/uxui-vid-5-a.mp4",
-                                    "images": [],
-                                    "videos": [
-                                        "/img/uxui/uxui-vid-5-a.mp4"
-                                    ],
-                                    "date": "Empty 1",
-                                    "medium": "Empty 1",
-                                    "description": "Empty 1"
-                                },
-                                {
-                                    "id": 7,
-                                    "category": "digital",
-                                    "subcategory": "design",
-                                    "group": "ux-ui",
-                                    "title": "Empty 2",
-                                    "cover": "/img/uxui/uxui-vid-5-a.mp4",
-                                    "images": [],
-                                    "videos": [
-                                        "/img/uxui/uxui-vid-5-a.mp4"
-                                    ],
-                                    "date": "Empty 2",
-                                    "medium": "Empty 2",
-                                    "description": "Empty 2"
-                                },
-                                {
-                                    "id": 8,
-                                    "category": "digital",
-                                    "subcategory": "design",
-                                    "group": "ux-ui",
-                                    "title": "Empty 3",
-                                    "cover": "/img/uxui/uxui-vid-5-a.mp4",
-                                    "images": [],
-                                    "videos": [
-                                        "/img/uxui/uxui-vid-5-a.mp4"
-                                    ],
-                                    "date": "Empty 3",
-                                    "medium": "Empty 3",
-                                    "description": "Empty 3"
                                 }
                             ]
                         }
@@ -1462,21 +961,6 @@
                                     "date": "$30",
                                     "medium": "charcoal",
                                     "description": "lalalala"
-                                },
-                                {
-                                    "id": 8,
-                                    "category": "physical",
-                                    "subcategory": "clothes",
-                                    "group": "sewing",
-                                    "title": "Blue Shorts",
-                                    "cover": "/img/sewing/sewing-8-a.jpg",
-                                    "images": [
-                                        "/img/sewing/sewing-8-a.jpg"
-                                    ],
-                                    "videos": [],
-                                    "date": "$30",
-                                    "medium": "charcoal",
-                                    "description": "lalalala"
                                 }
                             ]
                         }
@@ -1486,13 +970,7 @@
         }
     },
     "about": {
-        "group": "dead-entrance",
-        "title": "about me"
-    },
-    "info": {
-        "store-name": "DeadEntrance",
-        "description": "Simple chaos.",
-        "thankyou": "Thank you for shopping with us!",
-        "thankyou-message": "Come again soon"
+        "name": "Kali Ryder",
+        "bio": "I am Kali"
     }
 }
