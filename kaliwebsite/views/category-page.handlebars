@@ -2,17 +2,16 @@
 <div class="section-divider" id="about"></div>
 <h1 class="color3 dawningOfANewDay">{{category}}</h1>
 
-<!--image gallery : items-->
-{{#if categoryData.items}}
+{{#if randomItemArray}}
 <div class="section-divider" id="gallery"></div>
 <div class="row">
-    {{#each categoryData.items}}
+    {{#each randomItemArray.item}}
         <div class="col-3">
             <!--gallery item-->
             <div class="col-12 col-md-6 col-lg-3 mb-4">
                 <div class="media-container">
                     {{#if cover}}
-                        <a href="/item/{{category}}/{{subcategory}}/{{group}}/{{id}}" class="gallery-img">
+                        <a href="/subcategory/{{category}}/{{subcategory}}" class="gallery-img">
                             {{#isVideo cover}}
                                 <video controls>
                                     <source src="{{cover}}" type="video/mp4">
@@ -24,12 +23,14 @@
                         </a>
                     {{/if}}
                 </div>
+                <div>
+                    {{#if subcategory}}
+                        <h1 class="color3 dawningOfANewDay">{{subcategory}}</h1>
+                    {{/if}}
+                </div>
             </div>
-            <h5>{{title}}</h5>
-            <h7>{{date}}</h7>
         </div>
-  {{/each}}
-</div>
+    {{/each}}
 {{/if}}
 
 <!--footer-->

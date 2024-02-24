@@ -11,8 +11,8 @@
             <!--gallery item-->
             <div class="col-12 col-md-6 col-lg-3 mb-4">
                 <div class="media-container">
-                    {{#if this.cover}}
-                        <a href="/item/{{this.id}}" class="gallery-img">
+                    {{#if cover}}
+                        <a href="/item/{{id}}" class="gallery-img">
                             {{#isVideo cover}}
                                 <video controls>
                                     <source src="{{cover}}" type="video/mp4">
@@ -25,12 +25,13 @@
                     {{/if}}
                 </div>
             </div>
-            <h5>{{this.title}}</h5>
-            <h7>{{this.date}}</h7>
+            <h5>{{title}}</h5>
+            <h7>{{date}}</h7>
         </div>
   {{/each}}
 </div>
 {{/if}}
+{{else}} <h1>No Item Found</h1>
 
 <!--footer-->
 <footer>

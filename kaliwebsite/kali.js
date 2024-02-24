@@ -76,6 +76,7 @@ app.get('/',(req,res)=>{
 //route for item pages
 app.get('/item/:category/:subcategory/:group/:id', (req, res) => {
     const { category, subcategory, group, id } = req.params;
+
     //retrieve items data from group
     const items = data.categories[category].subcategories[subcategory].groups[group].items;
     //isolate item
@@ -97,21 +98,27 @@ app.get('/item/:category/:subcategory/:group/:id', (req, res) => {
 });
 
 //route for subcategory pages
-app.get('/:category/:subcategory', (req, res) => {
+app.get('/subcategory/:category/:subcategory', (req, res) => {
     const { category, subcategory } = req.params;
     //retrieve subcategory data
-    const subcategoryData = data.categories[category].subcategories[subcategory];
+    const subcategoryData = getAllItemsFromSubcategory(category, subcategory);
     //render subcategory page
-    res.render('subcategory-page', { subcategory, subcategoryData });
+    res.render('subcategory-page', { subcategory: subcategory, subcategoryData: subcategoryData });
 });
 
 //route for category pages
-app.get('/:category', (req, res) => {
+app.get('/category/:category', (req, res) => {
     const { category } = req.params;
-    //retrieve category data
-    const categoryData = getAllItemsFromCategory(category);
+    //create array of subcategories
+    const subcategoryArray = [];
+    //create array of random items for each subcategory, idx matches subcategoryArray
+    const randomItemArray = [];
+    for (const subcategory in category.subcategories) {
+        subcategoryArray.concat(subcategory);
+        randomItemArray.concat(chooseRandomItems(getAllItemsFromSubcategory(category, subcategory)), 1);
+    }
     //render category page
-    res.render('category-page', { category, categoryData });
+    res.render('category-page', { category: category, subcategoryArray: subcategoryArray, randomItemArray: randomItemArray });
 });
 
 //route for about page
@@ -119,7 +126,7 @@ app.get('/about',(req,res)=>{
     //retrieve about data
     const aboutData = data.about;
     //render about page
-    res.render('about-page',{ aboutData })
+    res.render('about-page',{ aboutData: aboutData })
 })
 
 //error handling app.use() basic express route 
