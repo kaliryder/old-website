@@ -7,7 +7,7 @@
 <div class="space-block"></div>
 
 <!--name block-->
-<div class="name-block">
+<div class="name-block">h
     <div class="row">
         <div class="letter-end-space"></div>
         <!-- letter K -->
@@ -35,13 +35,13 @@
                         Your browser does not support the video tag.
                     </video>
                 {{else}}
-                    <img src="{{clothesArtRandomItem.cover}}" alt="{{clothesRandomItem.title}}" class="letter-media img-thumbnail img-fluid">
+                    <img src="{{clothesRandomItem.cover}}" alt="{{clothesRandomItem.title}}" class="letter-media img-thumbnail img-fluid">
                 {{/isVideo}}
             </a>
         </div>
         <div class="letter-space"></div>
         <!-- letter L -->
-        <div class="letter media-container" style="background-image: url('{{digitalArtRandomItem.cover}}');">
+        <div class="letter" style="background-image: url('{{digitalArtRandomItem.cover}}');">
             <a href="/item/digital/digital-art/{{digitalArtRandomItem.group}}/{{digitalArtRandomItem.id}}">
                 <img src="/img/misc/letter-l.PNG" alt="L" class="letter-mask">
                 {{#isVideo digitalArtRandomItem.cover}}
@@ -57,7 +57,7 @@
         <div class="letter-space"></div>
         <!-- letter I -->
         <div class="letter" style="background-image: url('{{codeRandomItem.cover}}');">
-            <a href="/item/physical/physical-art/{{codeRandomItem.group}}/{{codeRandomItem.id}}">
+            <a href="/item/digital/digital-art/{{codeRandomItem.group}}/{{codeRandomItem.id}}">
                 <img src="/img/misc/letter-i.PNG" alt="I" class="letter-mask">
                 {{#isVideo codeRandomItem.cover}}
                     <video controls>
@@ -82,37 +82,38 @@
 </footer>
 
 <script>
+    const screenHeight = window.innerHeight;
+    console.log(screenHeight);
+    const screenWidth = window.innerWidth;
+    console.log(screenWidth);
+    const navItemCount = 4;
+    const navSpaceSize = (screenWidth / 24);
+    const x = screenWidth;
+    const y = screenHeight;
+    const n = navItemCount;
+    const s = navSpaceSize;
+    const spaceBlockSizeHeight = 5;
+    const spaceBlockSizeWidth = 5;
+
     function calculateSizes() {
-        const screenHeight = window.innerHeight;
-        const screenWidth = window.innerWidth;
-        const navItemCount = navItems.Length;
-        const navSpaceSize = (screenWidth / 24);
-        const x = screenWidth;
-        const y = screenHeight;
-        const n = navItemCount;
-        const s = navSpaceSize;
-
-        const spaceBlockSizeHeight = ;
-        const spaceBlockSizeWidth = ;
-
         calculateNavSizes();
         calculateNameSizes();
     }
     function calculateNavSizes() {
-        const navBlockSizeHeight = (1/6)y;
+        const navBlockSizeHeight = (1/6)*y;
         const navBlockSizeWidth = x;
 
-            const logoSizeHeight = (1/6)y;
-            const logoSizeWidth = (1/6)x;
+            const logoSizeHeight = (1/6)*y;
+            const logoSizeWidth = (1/6)*x;
 
-            const navBarSizeHeight = (1/6)y;
-            const navBarSizeWidth = (5/6)x;
+            const navBarSizeHeight = (1/6)*y;
+            const navBarSizeWidth = (5/6)*x;
 
-                const navSpaceSizeHeight = (1/6)y;
+                const navSpaceSizeHeight = (1/6)*y;
                 const navSpaceSizeWidth = s;
 
-                const navItemSizeHeight = (1/6)y;
-                const navItemSizeWidth = ((((5/6)x)-(s(n+1)))/n);
+                const navItemSizeHeight = (1/6)*y;
+                const navItemSizeWidth = ((((5/6)*x)-(s*(n+1)))/n);
 
         //update CSS variables
         //update nav-block
@@ -133,23 +134,23 @@
     }
 
     function calculateNameSizes() {
-        const nameBlockSizeHeight = (2/3)y;
+        const nameBlockSizeHeight = (2/3)*y;
         const nameBlockSizeWidth = x;
 
-            const letterEndSpaceSizeHeight = (2/3)y;
-            const letterEndSpaceSizeWidth = (5/48)x;
+            const letterEndSpaceSizeHeight = (2/3)*y;
+            const letterEndSpaceSizeWidth = (5/48)*x;
 
-            const letterSizeHeight = (2/3)y;
-            const letterSizeWidth = (1/6)x;
+            const letterSizeHeight = (2/3)*y;
+            const letterSizeWidth = (1/6)*x;
 
-                const letterMaskSizeHeight = (2/3)y;
-                const letterMaskSizeWidth = (1/6)x;
+                const letterMaskSizeHeight = (2/3)*y;
+                const letterMaskSizeWidth = (1/6)*x;
 
-                const letterMediaSizeHeight = (2/3)y;
-                const letterMediaSizeWidth = (1/6)x;
+                const letterMediaSizeHeight = (2/3)*y;
+                const letterMediaSizeWidth = (1/6)*x;
 
-            const letterSpaceSizeHeight = (2/3)y;
-            const letterSpaceSizeWidth = (1/24)x;
+            const letterSpaceSizeHeight = (2/3)*y;
+            const letterSpaceSizeWidth = (1/24)*x;
 
         //update CSS variables
         //update name-block
