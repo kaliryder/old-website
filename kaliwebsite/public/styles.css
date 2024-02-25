@@ -1,3 +1,6 @@
+/* font variables */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;500&family=Dawning+of+a+New+Day&family=Gwendolyn:wght@400;700&family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+
 :root {
     /* nav-bar variables */
     --nav-bar-size-height: 0px;
@@ -89,9 +92,6 @@
         height: var(--letter-space-size-height);
         width: var(--letter-space-size-width);
     }
-
-/* font variables */
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;500&family=Dawning+of+a+New+Day&family=Gwendolyn:wght@400;700&family=Nanum+Myeongjo:wght@400;700;800&display=swap');
 
 /* fonts */
 .nanumMyeongjo-light {font-family: 'Nanum Myeongjo', serif; font-weight: 400}
