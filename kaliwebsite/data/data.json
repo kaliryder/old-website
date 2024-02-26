@@ -977,19 +977,23 @@
         "navItems": [
             {
                 "name": "Home",
-                "link": "/"
+                "link": "/",
+                "image": "/img/misc/nav-home.png"
             },
             {
                 "name": "Digital",
-                "link": "/category/digital"
+                "link": "/category/digital",
+                "image": "/img/misc/nav-digital.png"
             },
             {
                 "name": "Physical",
-                "link": "/category/physical"
+                "link": "/category/physical",
+                "image": "/img/misc/nav-physical.png"
             },
             {
                 "name": "About",
-                "link": "/about"
+                "link": "/about",
+                "image": "/img/misc/nav-about.png"
             }
         ] 
     }

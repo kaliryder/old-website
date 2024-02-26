@@ -12,7 +12,9 @@
             <ul class="nav-bar">
                 {{#each navItems}}
                     <li class="nav-item">
-                        <a href={{this.link}} class="nav-link">{{this.name}}</a>
+                        <a href={{this.link}} class="nav-link">
+                            <img src="{{this.image}}" alt="{{this.title}}" class="nav-item">
+                        </a>
                     </li>
                     <div class="nav-space"></div>
                 {{/each}}

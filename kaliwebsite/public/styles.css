@@ -67,11 +67,10 @@
         .nav-item {
             height: var(--nav-item-size-height);
             width: var(--nav-item-size-width);
-
-            /* margin-right: var(--nav-space-size-width); This will add space between the nav items */
         }
-        /* .nav-item:last-child {
-            margin-right: 0; /* This removes the margin from the last item to avoid extra space at the end */
+        /* .nav-image {
+            
+        } */
         .logo, .nav-space, .nav-bar {
             flex: none; /* This ensures that these elements do not grow or shrink */
         }
@@ -95,34 +94,36 @@
         height: var(--letter-size-height);
         width: var(--letter-size-width);
     }
-        .letter-mask {
-            height: var(--letter-mask-size-height);
-            width: var(--letter-mask-size-width);
-            position: relative; /* or absolute, depending on layout */
-            z-index: 2;
-            overflow: hidden;
-        }
-        .letter-media {
-            height: var(--letter-media-size-height);
-            width: var(--letter-media-size-width);
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-size: cover;
-            z-index: 1;
-          }
-          .letter-media img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-          }
-          .letter-media video {
-            height: 100%; /* Ensure full height is covered */
-            object-fit: cover;
-            object-position: center center;
-          }
+            .letter-mask {
+                position: relative;
+                overflow: hidden;
+                /* Set the size of the letter-mask appropriately */
+                height: var(--letter-mask-size-height);
+                width: var(--letter-mask-size-width);
+                z-index: 2;
+            }
+            
+            .letter-media {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                width: 100%;
+                height: 100%;
+                /*background-size: cover;*/
+                object-fit: cover;
+                object-position: center center;
+                z-index: 1;
+            }
+            
+            .letter-media video {
+                width: 100%;
+                height: 100%;
+                /* Ensures the video covers the full area and maintains aspect ratio */
+                object-fit: cover;
+                object-position: center center;
+            }
     .letter-space {
         height: var(--letter-space-size-height);
         width: var(--letter-space-size-width);
