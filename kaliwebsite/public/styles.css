@@ -100,14 +100,11 @@
             width: var(--letter-mask-size-width);
             position: relative; /* or absolute, depending on layout */
             z-index: 2;
+            overflow: hidden;
         }
-        /* .letter-media {
+        .letter-media {
             height: var(--letter-media-size-height);
             width: var(--letter-media-size-width);
-            position: absolute;
-            z-index: 1;
-        } */
-        .letter-media {
             position: absolute;
             top: 0;
             left: 0;
@@ -116,11 +113,15 @@
             background-size: cover;
             z-index: 1;
           }
-          
-          .letter-media video {
+          .letter-media img {
             width: 100%;
             height: 100%;
             object-fit: cover;
+          }
+          .letter-media video {
+            height: 100%; /* Ensure full height is covered */
+            object-fit: cover;
+            object-position: center center;
           }
     .letter-space {
         height: var(--letter-space-size-height);
