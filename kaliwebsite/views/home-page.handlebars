@@ -29,63 +29,69 @@
     <div class="row">
         <div class="letter-end-space"></div>
         <!-- letter K -->
-        <div class="letter" style="background-image: url('{{physicalArtRandomItem.cover}}');">
-            <a href="/item/physical/physical-art/{{physicalArtRandomItem.group}}/{{physicalArtRandomItem.id}}">
+        <div class="letter">
+            <div class="letter-mask">
                 <img src="/img/misc/letter-k.PNG" alt="K" class="letter-mask">
                 {{#isVideo physicalArtRandomItem.cover}}
-                    <video controls>
-                        <source src="{{physicalArtRandomItem.cover}}" type="video/mp4" class="letter-media">
-                        Your browser does not support the video tag.
+                    <!-- if cover is a video -->
+                    <video class="letter-media" autoplay loop muted>
+                    <source src="{{physicalArtRandomItem.cover}}" type="video/mp4">
                     </video>
                 {{else}}
-                    <img src="{{physicalArtRandomItem.cover}}" alt="{{physicalArtRandomItem.title}}" class="letter-media img-thumbnail img-fluid">
+                    <!-- if cover is an image -->
+                    {{!-- <div class="letter-media" style="background-image: url('{{physicalArtRandomItem.cover}}');"></div> --}}
+                    <img src="{{physicalArtRandomItem.cover}}" 
+                    alt="{{physicalArtRandomItem.title}}" class="letter-media">
                 {{/isVideo}}
-            </a>
+            </div>
         </div>
         <div class="letter-space"></div>
-        <!-- letter A -->
-        <div class="letter" style="background-image: url('{{clothesRandomItem.cover}}');">
-            <a href="/item/physical/clothes/{{clothesRandomItem.group}}/{{clothesRandomItem.id}}">
+        <!-- letter A-->
+        <div class="letter">
+            <div class="letter-mask">
                 <img src="/img/misc/letter-a.PNG" alt="A" class="letter-mask">
                 {{#isVideo clothesRandomItem.cover}}
-                    <video controls>
-                        <source src="{{clothesRandomItem.cover}}" type="video/mp4">
-                        Your browser does not support the video tag.
+                    <!-- if cover is a video -->
+                    <video class="letter-media" autoplay loop muted>
+                    <source src="{{clothesRandomItem.cover}}" type="video/mp4">
                     </video>
                 {{else}}
-                    <img src="{{clothesRandomItem.cover}}" alt="{{clothesRandomItem.title}}" class="letter-media img-thumbnail img-fluid">
+                    <!-- if cover is an image -->
+                    <div class="letter-media" style="background-image: url('{{clothesRandomItem.cover}}');"></div>
                 {{/isVideo}}
-            </a>
+            </div>
         </div>
         <div class="letter-space"></div>
-        <!-- letter L -->
-        <div class="letter" style="background-image: url('{{digitalArtRandomItem.cover}}');">
-            <a href="/item/digital/digital-art/{{digitalArtRandomItem.group}}/{{digitalArtRandomItem.id}}">
+        <!-- letter L-->
+        <div class="letter">
+            <div class="letter-mask">
                 <img src="/img/misc/letter-l.PNG" alt="L" class="letter-mask">
                 {{#isVideo digitalArtRandomItem.cover}}
-                    <video controls>
-                        <source src="{{digitalArtRandomItem.cover}}" type="video/mp4">
-                        Your browser does not support the video tag.
+                    <!-- if cover is a video -->
+                    <video class="letter-media" autoplay loop muted>
+                    <source src="{{digitalArtRandomItem.cover}}" type="video/mp4">
                     </video>
                 {{else}}
-                    <img src="{{digitalArtRandomItem.cover}}" alt="{{digitalArtRandomItem.title}}" class="letter-media img-thumbnail img-fluid">
+                    <!-- if cover is an image -->
+                    <div class="letter-media" style="background-image: url('{{digitalArtRandomItem.cover}}');"></div>
                 {{/isVideo}}
-            </a>
+            </div>
         </div>
         <div class="letter-space"></div>
-        <!-- letter I -->
-        <div class="letter" style="background-image: url('{{codeRandomItem.cover}}');">
-            <a href="/item/digital/digital-art/{{codeRandomItem.group}}/{{codeRandomItem.id}}">
+        <!-- letter I-->
+        <div class="letter">
+            <div class="letter-mask">
                 <img src="/img/misc/letter-i.PNG" alt="I" class="letter-mask">
                 {{#isVideo codeRandomItem.cover}}
-                    <video controls>
-                        <source src="{{codeRandomItem.cover}}" type="video/mp4">
-                        Your browser does not support the video tag.
+                    <!-- if cover is a video -->
+                    <video class="letter-media" autoplay loop muted>
+                    <source src="{{codeRandomItem.cover}}" type="video/mp4">
                     </video>
                 {{else}}
-                    <img src="{{codeRandomItem.cover}}" alt="{{codeRandomItem.title}}" class="letter-media img-thumbnail img-fluid">
+                    <!-- if cover is an image -->
+                    <div class="letter-media" style="background-image: url('{{codeRandomItem.cover}}');"></div>
                 {{/isVideo}}
-            </a>
+            </div>
         </div>
         <div class="letter-end-space"></div>
     </div>

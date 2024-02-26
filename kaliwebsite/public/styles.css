@@ -98,11 +98,30 @@
         .letter-mask {
             height: var(--letter-mask-size-height);
             width: var(--letter-mask-size-width);
+            position: relative; /* or absolute, depending on layout */
+            z-index: 2;
         }
-        .letter-media {
+        /* .letter-media {
             height: var(--letter-media-size-height);
             width: var(--letter-media-size-width);
-        }
+            position: absolute;
+            z-index: 1;
+        } */
+        .letter-media {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            z-index: 1;
+          }
+          
+          .letter-media video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
     .letter-space {
         height: var(--letter-space-size-height);
         width: var(--letter-space-size-width);

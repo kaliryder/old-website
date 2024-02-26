@@ -72,11 +72,11 @@ app.get('/',(req,res)=>{
     //navbar data
     const navItems = data.nav.navItems;
 
-    //one random item for each subcategory
-    const physicalArtRandomItem = chooseRandomItems(getAllItemsFromSubcategory("physical", "physical-art"), 1);
-    const clothesRandomItem = chooseRandomItems(getAllItemsFromSubcategory("physical", "clothes"), 1);
-    const digitalArtRandomItem = chooseRandomItems(getAllItemsFromSubcategory("digital", "digital-art"), 1);
-    const codeRandomItem = chooseRandomItems(getAllItemsFromSubcategory("digital", "code"), 1);
+    //one random item for each subcategory;
+    const physicalArtRandomItem = chooseRandomItems(getAllItemsFromSubcategory("physical", "physical-art"), 1)[0];
+    const clothesRandomItem = chooseRandomItems(getAllItemsFromSubcategory("physical", "clothes"), 1)[0];
+    const digitalArtRandomItem = chooseRandomItems(getAllItemsFromSubcategory("digital", "digital-art"), 1)[0];
+    const codeRandomItem = chooseRandomItems(getAllItemsFromSubcategory("digital", "code"), 1)[0];
 
     //render home page
     res.render('home-page',{ physicalArtRandomItem, clothesRandomItem, digitalArtRandomItem, codeRandomItem, navItems })
