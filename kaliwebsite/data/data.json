@@ -972,5 +972,25 @@
     "about": {
         "name": "Kali Ryder",
         "bio": "I am Kali"
+    },
+    "nav": {
+        "navItems": [
+            {
+                "name": "Home",
+                "link": "/"
+            },
+            {
+                "name": "Digital",
+                "link": "/category/digital"
+            },
+            {
+                "name": "Physical",
+                "link": "/category/physical"
+            },
+            {
+                "name": "About",
+                "link": "/about"
+            }
+        ] 
     }
 }

@@ -70,12 +70,7 @@ function getAllItemsFromSubcategory(categoryName, subcategoryName) {
 //route for home page
 app.get('/',(req,res)=>{
     //navbar data
-    const navItems = [
-        { label: 'Home', link: '/' },
-        { label: 'Digital', link: '/category/digital' },
-        { label: 'Physical', link: '/category/physical' },
-        { label: 'About', link: '/about' },
-    ];
+    const navItems = data.nav.navItems;
 
     //one random item for each subcategory
     const physicalArtRandomItem = chooseRandomItems(getAllItemsFromSubcategory("physical", "physical-art"), 1);

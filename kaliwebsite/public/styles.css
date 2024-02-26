@@ -43,10 +43,18 @@
 .nav-block {
     height: var(--nav-block-size-height);
     width: var(--nav-block-size-width);
+    
+    /* create a flexbox container */
+    display: flex; 
 }
     .nav-bar {
         height: var(--nav-bar-size-height);
         width: var(--nav-bar-size-width);
+
+        display: flex; /* This will create a horizontal row for your nav items */
+        list-style-type: none; /* This removes the bullets from the list */
+        padding: 0; /* This removes default padding */
+        margin: 0; /* This removes default margin */
     }
         .logo {
             height: var(--logo-size-height);
@@ -59,6 +67,13 @@
         .nav-item {
             height: var(--nav-item-size-height);
             width: var(--nav-item-size-width);
+
+            /* margin-right: var(--nav-space-size-width); This will add space between the nav items */
+        }
+        /* .nav-item:last-child {
+            margin-right: 0; /* This removes the margin from the last item to avoid extra space at the end */
+        .logo, .nav-space, .nav-bar {
+            flex: none; /* This ensures that these elements do not grow or shrink */
         }
 
 /* space variables */
