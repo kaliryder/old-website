@@ -970,8 +970,8 @@
         }
     },
     "about": {
-        "name": "Kali Ryder",
-        "bio": "I am Kali"
+        "link": "/img/misc/about-header.png",
+        "bio": "Hiiiiiiiiiiii"
     },
     "nav": {
         "navItems": [
@@ -1024,6 +1024,10 @@
             {
                 "subcategory": "code",
                 "link": "/img/misc/code-header.png"
+            },
+            {
+                "subcategory": "design",
+                "link": "/img/misc/design-header.png"
             }
         ]
     }

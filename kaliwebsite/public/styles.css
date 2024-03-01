@@ -154,40 +154,11 @@
 .gwendolyn-bold {font-family: 'Gwendolyn', cursive; font-weight: 700}
 .archivoNarrow-bold {font-family: 'Archivo Narrow', sans-serif; font-weight: 500}
 
-/* colors */
-.color1 {
-    background-color: yellow;
+/* headers */
+.header-img {
+    /*height: var(--nav-block-size-height);*/
+    width: var(--nav-block-size-width);
 }
-.color2 {
-    background-color: greenyellow;
-}
-.color3 {
-    background-color: #E2FDFF;
-}
-.color4 {
-    background-color: cyan;
-}
-
-/* navbar
-.container-fluid {
-    padding: 1rem;
-}
-.nav-content {
-    padding: 1rem;
-}
-.nav-item:hover {
-    color: black;
-    background-color: #D1EAFF;
-}
-.navbar-logo img {
-    padding-bottom: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
-.d-flex {
-    padding: 2rem;
-    padding-left: 3rem;
-} */
 
 /* item page */
 .title {

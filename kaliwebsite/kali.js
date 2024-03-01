@@ -115,6 +115,7 @@ app.get('/subcategory/:category/:subcategory', (req, res) => {
 //route for category pages
 app.get('/category/:category', (req, res) => {
     const { category } = req.params;
+    const thisHeader = headers.categories.find(cat => cat.category === category);
     //create array of subcategories
     let subcategoryArray = [];
     //create array of random items for each subcategory, idx matches subcategoryArray
@@ -125,7 +126,7 @@ app.get('/category/:category', (req, res) => {
     }
 
     //render category page
-    res.render('category-page', { category: category, subcategoryArray: subcategoryArray, randomItemArray: randomItemArray, navItems });
+    res.render('category-page', { category: category, subcategoryArray: subcategoryArray, randomItemArray: randomItemArray, navItems, header: thisHeader });
 });
 
 //route for about page
@@ -133,7 +134,7 @@ app.get('/about',(req,res)=>{
     //retrieve about data
     const aboutData = data.about;
     //render about page
-    res.render('about-page',{ aboutData: aboutData, navItems });
+    res.render('about-page',{ data: aboutData, navItems });
 })
 
 //error handling app.use() basic express route 
