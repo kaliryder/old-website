@@ -996,5 +996,35 @@
                 "image": "/img/misc/nav-about.png"
             }
         ] 
+    },
+    "headers": {
+        "categories": [
+            {
+                "category": "physical",
+                "link": "/img/misc/physical-header.png"
+            },
+            {
+                "category": "digital",
+                "link": "/img/misc/digital-header.png"
+            }
+        ],
+        "subcategories": [
+            {
+                "subcategory": "physical-art",
+                "link": "/img/misc/physical-art-header.png"
+            },
+            {
+                "subcategory": "clothes",
+                "link": "/img/misc/clothes-header.png"
+            },
+            {
+                "subcategory": "digital-art",
+                "link": "/img/misc/digital-art-header.png"
+            },
+            {
+                "subcategory": "code",
+                "link": "/img/misc/code-header.png"
+            }
+        ]
     }
 }

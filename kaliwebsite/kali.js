@@ -12,6 +12,7 @@ const port = process.env.port || 3000
 //read and store json data
 const data = JSON.parse(fs.readFileSync('data/data.json', 'utf-8'));
 const navItems = data.nav.navItems;
+const headers = data.headers;
 
 //handlebars
 //configuration with custom helper
@@ -60,7 +61,7 @@ function getAllItemsFromSubcategory(categoryName, subcategoryName) {
     for (const group in subcategory.groups) {
         allItems = allItems.concat(subcategory.groups[group].items);
     }
-    
+
     return allItems;
 }
 
@@ -104,10 +105,11 @@ app.get('/item/:category/:subcategory/:group/:id', (req, res) => {
 //route for subcategory pages
 app.get('/subcategory/:category/:subcategory', (req, res) => {
     const { category, subcategory } = req.params;
+    const thisHeader = headers.subcategories.find(subcat => subcat.subcategory === subcategory);
     //retrieve subcategory data
     const subcategoryData = getAllItemsFromSubcategory(category, subcategory);
     //render subcategory page
-    res.render('subcategory-page', { subcategory: subcategory, subcategoryData: subcategoryData, navItems });
+    res.render('subcategory-page', { subcategory: subcategory, subcategoryData: subcategoryData, navItems, header: thisHeader });
 });
 
 //route for category pages
@@ -121,8 +123,6 @@ app.get('/category/:category', (req, res) => {
         subcategoryArray = subcategoryArray.concat(subcategory);
         randomItemArray = randomItemArray.concat(chooseRandomItems(getAllItemsFromSubcategory(category, subcategory), 1));
     }
-
-    console.log("category: " + category + " subcategoryArray: " + subcategoryArray[0] + " randomItemArray: " + randomItemArray[0].title);
 
     //render category page
     res.render('category-page', { category: category, subcategoryArray: subcategoryArray, randomItemArray: randomItemArray, navItems });
