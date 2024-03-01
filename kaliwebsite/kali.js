@@ -3,18 +3,18 @@ const express = require('express');
 const expressHandlebars = require('express-handlebars');
 const fs = require('fs');
 const app = express();
-
 //set up static files and URL encoding
 app.use(express.static(__dirname + '/public'));
 app.use(express.urlencoded({ extended: true }));
-
-//read and store data.json
-const data = JSON.parse(fs.readFileSync('data/data.json', 'utf-8'));
-
 //setup port
 const port = process.env.port || 3000
 
-//handlebars configuration with custom helper
+//read and store json data
+const data = JSON.parse(fs.readFileSync('data/data.json', 'utf-8'));
+const navItems = data.nav.navItems;
+
+//handlebars
+//configuration with custom helper
 const hbs = expressHandlebars.create({
     defaultLayout: 'main',
     helpers: {
@@ -22,18 +22,17 @@ const hbs = expressHandlebars.create({
             if (filename && typeof filename === 'string') {
                 return filename.endsWith('.mp4') ? options.fn(this) : options.inverse(this);
             } else {
-                // Handle the case where filename is undefined or not a string
-                // You can choose to render nothing or some default content
+                // handle filename undefined or not a string
                 return options.inverse(this);
             }
         }
     }
 });
-
 //apply handlebars engine and set view engine
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
+//functions
 //choose a random subset of items
 function chooseRandomItems(allItems, numItems) {
     //spread operator creates temp copy of allItems, sorts and assigns to shuffledItems
@@ -41,7 +40,6 @@ function chooseRandomItems(allItems, numItems) {
     //slice selected first numItems of shuffled allItems array
     return shuffledItems.slice(0, numItems);
 }
-
 //gets all items from a category
 function getAllItemsFromCategory(categoryName) {
     const category = data.categories[categoryName];
@@ -54,7 +52,6 @@ function getAllItemsFromCategory(categoryName) {
     }
     return allItems;
 }
-
 //gets all items from a subcategory
 function getAllItemsFromSubcategory(categoryName, subcategoryName) {
     const subcategory = data.categories[categoryName].subcategories[subcategoryName];
@@ -63,15 +60,13 @@ function getAllItemsFromSubcategory(categoryName, subcategoryName) {
     for (const group in subcategory.groups) {
         allItems = allItems.concat(subcategory.groups[group].items);
     }
-
+    
     return allItems;
 }
 
+//routes
 //route for home page
 app.get('/',(req,res)=>{
-    //navbar data
-    const navItems = data.nav.navItems;
-
     //one random item for each subcategory;
     const physicalArtRandomItem = chooseRandomItems(getAllItemsFromSubcategory("physical", "physical-art"), 1)[0];
     const clothesRandomItem = chooseRandomItems(getAllItemsFromSubcategory("physical", "clothes"), 1)[0];
@@ -100,7 +95,7 @@ app.get('/item/:category/:subcategory/:group/:id', (req, res) => {
             randomOtherItems = chooseRandomItems(items, 3);
         }
         //render item page
-        res.render('item-page', { otherItems: randomOtherItems, item: item });
+        res.render('item-page', { otherItems: randomOtherItems, item: item, navItems });
     } else {
         res.status(404).send('Item not found');
     }
@@ -112,7 +107,7 @@ app.get('/subcategory/:category/:subcategory', (req, res) => {
     //retrieve subcategory data
     const subcategoryData = getAllItemsFromSubcategory(category, subcategory);
     //render subcategory page
-    res.render('subcategory-page', { subcategory: subcategory, subcategoryData: subcategoryData });
+    res.render('subcategory-page', { subcategory: subcategory, subcategoryData: subcategoryData, navItems });
 });
 
 //route for category pages
@@ -130,7 +125,7 @@ app.get('/category/:category', (req, res) => {
     console.log("category: " + category + " subcategoryArray: " + subcategoryArray[0] + " randomItemArray: " + randomItemArray[0].title);
 
     //render category page
-    res.render('category-page', { category: category, subcategoryArray: subcategoryArray, randomItemArray: randomItemArray });
+    res.render('category-page', { category: category, subcategoryArray: subcategoryArray, randomItemArray: randomItemArray, navItems });
 });
 
 //route for about page
@@ -138,20 +133,20 @@ app.get('/about',(req,res)=>{
     //retrieve about data
     const aboutData = data.about;
     //render about page
-    res.render('about-page',{ aboutData: aboutData })
+    res.render('about-page',{ aboutData: aboutData, navItems });
 })
 
 //error handling app.use() basic express route 
 app.use((req,res) => {
-    res.status(404)
-    res.render('404')
+    res.status(404);
+    res.render('404', { navItems });
 })
 
 //server error 500
 app.use((error,req,res,next) => {
-    console.log(error.message)
-    res.status(500)
-    res.render('500') 
+    console.log(error.message);
+    res.status(500);
+    res.render('500', { navItems }); 
 }) 
 
 //setup listener

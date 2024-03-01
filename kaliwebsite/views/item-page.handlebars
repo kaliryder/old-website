@@ -1,6 +1,10 @@
+<div>
+    {{>nav}}
+</div>
+
 <!--header-->
 <div class="section-divider" id="about"></div>
-<h1 class="color1 dawningOfANewDay">{{item.title}}</h1>
+<h1 class="title">{{item.title}}</h1>
 
 <!-- display details of the selected item -->
 {{#if item}}
@@ -12,7 +16,7 @@
                 <div class="media-container">
                     {{#isVideo item.cover}}
                         <video controls>
-                            <source src="{{item.cover}}" type="video/mp4">                    
+                            <source src="{{item.cover}}" type="video/mp4">            
                             Your browser does not support the video tag.
                         </video>
                         {{else}}

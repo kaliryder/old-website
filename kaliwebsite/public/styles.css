@@ -37,6 +37,22 @@
 
         --letter-space-size-height: 0px;
         --letter-space-size-width: 0px;
+    
+        /* partial navbar */
+
+        /* nav-bar variables */
+        --partial-nav-bar-size-height: 0px;
+        --nav-bar-size-width: 0px;
+
+        --partial-logo-size-height: 0px;
+        --partial-logo-size-width: 0px;
+
+        --partial-nav-space-size-height: 0px;
+        --partial-nav-space-size-width: 0px;
+
+        --partial-nav-item-size-height: 0px;
+        --partial-nav-item-size-width: 0px;
+        
 }
   
 /* nav variables */
@@ -171,6 +187,11 @@
 .d-flex {
     padding: 2rem;
     padding-left: 3rem;
+}
+
+/* item page */
+.title {
+    color: red;
 }
 
 /* basic tags */
