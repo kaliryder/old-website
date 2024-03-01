@@ -33,66 +33,73 @@
         <!-- letter K -->
         <div class="letter">
             <div class="letter-mask">
-                <img src="/img/misc/letter-k.PNG" alt="K" class="letter-mask">
-                {{#isVideo physicalArtRandomItem.cover}}
-                    <!-- if cover is a video -->
-                    <video class="letter-media" autoplay loop muted>
-                    <source src="{{physicalArtRandomItem.cover}}" type="video/mp4">
-                    </video>
-                {{else}}
-                    <!-- if cover is an image -->
-                    {{!-- <div class="letter-media" style="background-image: url('{{physicalArtRandomItem.cover}}');"></div> --}}
-                    <img src="{{physicalArtRandomItem.cover}}" 
-                    alt="{{physicalArtRandomItem.title}}" class="letter-media">
-                {{/isVideo}}
+                <a href="/subcategory/physical/physical-art">
+                    <img src="/img/misc/letter-k.PNG" alt="K" class="letter-mask">
+                    {{#isVideo physicalArtRandomItem.cover}}
+                        <!-- if cover is a video -->
+                        <video class="letter-media" autoplay loop muted>
+                        <source src="{{physicalArtRandomItem.cover}}" type="video/mp4">
+                        </video>
+                    {{else}}
+                        <!-- if cover is an image -->
+                        <img src="{{physicalArtRandomItem.cover}}" 
+                        alt="{{physicalArtRandomItem.title}}" class="letter-media">
+                    {{/isVideo}}
+                </a>
             </div>
         </div>
         <div class="letter-space"></div>
         <!-- letter A-->
         <div class="letter">
             <div class="letter-mask">
-                <img src="/img/misc/letter-a.PNG" alt="A" class="letter-mask">
-                {{#isVideo clothesRandomItem.cover}}
-                    <!-- if cover is a video -->
-                    <video class="letter-media" autoplay loop muted>
-                    <source src="{{clothesRandomItem.cover}}" type="video/mp4">
-                    </video>
-                {{else}}
-                    <!-- if cover is an image -->
-                    <div class="letter-media" style="background-image: url('{{clothesRandomItem.cover}}');"></div>
-                {{/isVideo}}
+                <a href="/subcategory/physical/clothes">
+                    <img src="/img/misc/letter-a.PNG" alt="A" class="letter-mask">
+                    {{#isVideo clothesRandomItem.cover}}
+                        <!-- if cover is a video -->
+                        <video class="letter-media" autoplay loop muted>
+                        <source src="{{clothesRandomItem.cover}}" type="video/mp4">
+                        </video>
+                    {{else}}
+                        <!-- if cover is an image -->
+                        <div class="letter-media" style="background-image: url('{{clothesRandomItem.cover}}');"></div>
+                    {{/isVideo}}
+                </a>
             </div>
         </div>
         <div class="letter-space"></div>
         <!-- letter L-->
-        <div class="letter">
-            <div class="letter-mask">
-                <img src="/img/misc/letter-l.PNG" alt="L" class="letter-mask">
-                {{#isVideo digitalArtRandomItem.cover}}
-                    <!-- if cover is a video -->
-                    <video class="letter-media" autoplay loop muted>
-                    <source src="{{digitalArtRandomItem.cover}}" type="video/mp4">
-                    </video>
-                {{else}}
-                    <!-- if cover is an image -->
-                    <div class="letter-media" style="background-image: url('{{digitalArtRandomItem.cover}}');"></div>
-                {{/isVideo}}
-            </div>
+        <div class="letter letter-container">
+                <div class="letter-mask">
+                    <a href="/subcategory/digital/digital-art">
+                        <img src="/img/misc/letter-l.PNG" alt="L" class="letter-mask">
+                        {{#isVideo digitalArtRandomItem.cover}}
+                            <!-- if cover is a video -->
+                            <video class="letter-media" autoplay loop muted>
+                            <source src="{{digitalArtRandomItem.cover}}" type="video/mp4">
+                            </video>
+                        {{else}}
+                            <!-- if cover is an image -->
+                            <div class="letter-media" style="background-image: url('{{digitalArtRandomItem.cover}}');"></div>
+                        {{/isVideo}}
+                    </a>
+                </div>
         </div>
         <div class="letter-space"></div>
         <!-- letter I-->
         <div class="letter">
             <div class="letter-mask">
-                <img src="/img/misc/letter-i.PNG" alt="I" class="letter-mask">
-                {{#isVideo codeRandomItem.cover}}
-                    <!-- if cover is a video -->
-                    <video class="letter-media" autoplay loop muted>
-                    <source src="{{codeRandomItem.cover}}" type="video/mp4">
-                    </video>
-                {{else}}
-                    <!-- if cover is an image -->
-                    <div class="letter-media" style="background-image: url('{{codeRandomItem.cover}}');"></div>
-                {{/isVideo}}
+                <a href="/subcategory/digital/code">
+                    <img src="/img/misc/letter-i.PNG" alt="I" class="letter-mask">
+                    {{#isVideo codeRandomItem.cover}}
+                        <!-- if cover is a video -->
+                        <video class="letter-media" autoplay loop muted>
+                        <source src="{{codeRandomItem.cover}}" type="video/mp4">
+                        </video>
+                    {{else}}
+                        <!-- if cover is an image -->
+                        <div class="letter-media" style="background-image: url('{{codeRandomItem.cover}}');"></div>
+                    {{/isVideo}}
+                </a>
             </div>
         </div>
         <div class="letter-end-space"></div>

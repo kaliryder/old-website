@@ -94,6 +94,10 @@
         height: var(--letter-size-height);
         width: var(--letter-size-width);
     }
+    .letter-container {
+        height: var(--letter-size-height);
+        width: var(--letter-size-width);
+    }
             .letter-mask {
                 position: relative;
                 overflow: hidden;
