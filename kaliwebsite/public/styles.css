@@ -81,12 +81,11 @@
             width: var(--nav-space-size-width);
         }
         .nav-item {
-            height: var(--nav-item-size-height);
+            /* height: var(--nav-item-size-height);
+            min-width: var(--nav-item-size-width); */
             width: var(--nav-item-size-width);
+            max-height: var(--nav-item-size-height);
         }
-        /* .nav-image {
-            
-        } */
         .logo, .nav-space, .nav-bar {
             flex: none; /* This ensures that these elements do not grow or shrink */
         }
