@@ -27,11 +27,14 @@
     --item-height: 0px;
     --item-width: 0px;
 
-    /* item variables */
-    /* --num-columns: 0px;
-    --num-rows: 0px;
-    --num-items: 0px;
-    --total-screen-height: 0px; */
+    --item-content-block-height: 0px;
+    --item-content-block-width: 0px;
+    --item-end-space-height: 0px;
+    --item-end-space-width: 0px;
+    --item-content-height: 0px;
+    --item-content-width: 0px;
+    --item-text-height: 0px;
+    --item-text-width: 0px;
     
 }
 
@@ -84,10 +87,6 @@
     height: var(--items-block-height);
     width: var(--items-block-width);
 }
-.row {
-    height: var(--items-block-height);
-    width: var(--items-block-width);
-}
 
 .end-space {
     height: var(--end-space-height);
@@ -102,39 +101,31 @@
     width: var(--item-width);
 }
 
-/* gallery */
+/* item content block */
 
-.gallery-img img {
-    object-fit: cover;
-    height: 20rem;
-    aspect-ratio: 1/1;
+.item-content-block {
+    height: var(--item-content-block-height);
+    width: var(--item-content-block-width);
 }
-
-.card-img-top {
-    object-fit: cover;
-    height: 20rem;
-    aspect-ratio: 1/1;
+.item-end-space {
+    height: var(--item-end-space-height);
+    width: var(--item-end-space-width);
 }
-
-.card-text {
-    padding: 2rem;
-}
-
-.img-thumbnail {
-    height: 30rem;
-    display: block;
-    margin: auto;
-}
-
-.media-container {
-    width: var(--item-width);
-    width: var(--item-height);
-    /* padding: 10px; */
+.item-content {
+    height: var(--item-content-height);
+    width: var(--item-content-width);
     overflow: hidden;
 }
+.item-content img, .item-content video {
+    width: 100%; /* fill container width */
+    height: 100%; /* fill container height */
+    object-fit: cover; /* cover container + preserve aspect ratio */
+}
+.item-text {
+    height: var(--item-text-height);
+    width: var(--item-text-width);
+}
 
-.media-container img, .media-container video {
-    width: 100%; /* Scale to fill the container width */
-    height: 100%; /* Scale to fill the container height */
-    object-fit: cover; /* Cover the container while preserving aspect ratio */
+h3 {
+    text-align: center;
 }

@@ -43,20 +43,25 @@
             {{#if this}}
                 {{#each this}} 
                     <div class="item">
-                        <div class="media-container">
-                            {{#if cover}}
-                                <a href="/item/{{category}}/{{subcategory}}/{{group}}/{{id}}" class="gallery-img">
-                                    {{#isVideo cover}}
-                                        <video controls>
-                                            <source src="{{cover}}" type="video/mp4">
-                                            Your browser does not support the video tag.
-                                        </video>
-                                        {{else}}
-                                            <img src="{{cover}}" alt="{{title}}" class="img-thumbnail">
-                                    {{/isVideo}}
-                                </a>
-                            {{/if}}
+                        <div class="row item-content-block">
+                            <div class="item-end-space"></div>
+                            <div class="item-content">
+                                {{#if cover}}
+                                    <a href="/item/{{category}}/{{subcategory}}/{{group}}/{{id}}" class="item-content">
+                                        {{#isVideo cover}}
+                                            <video autoplay loop muted>
+                                                <source src="{{cover}}" type="video/mp4" class="item-content">
+                                                Your browser does not support the video tag.
+                                            </video>
+                                            {{else}}
+                                                <img src="{{cover}}" alt="{{title}}" class="item-content">
+                                        {{/isVideo}}
+                                    </a>
+                                {{/if}}
+                            </div>
+                            <div class="item-end-space"></div>
                         </div>
+                        <h3 class="item-text">{{title}}</h3>
                     </div>
                     <div class="item-space"></div>
                 {{/each}}
