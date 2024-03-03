@@ -1,10 +1,47 @@
-<div>
-    {{>nav}}
+<!--nav block-->
+<nav class="nav" role="navigation">
+    <div class="nav-block">
+        {{!-- <div class="row"> --}}
+            <!-- logo -->
+            <div class="logo">
+                <a href="/">
+                    <img src="/img/misc/logo.png" alt="Logo" class="logo">
+                </a>
+            </div>
+            <div class="nav-space"></div>
+            <ul class="nav-bar">
+                {{#each navItems}}
+                    <li class="nav-item">
+                        <a href={{this.link}} class="nav-link">
+                            <img src="{{this.image}}" alt="{{this.title}}" class="nav-item">
+                        </a>
+                    </li>
+                    <div class="nav-space"></div>
+                {{/each}}
+            </ul>
+        {{!-- </div> --}}
+    </div>
+</nav>
+
+<!--title block-->
+<div class="title-block">
+    <!--header-->
+    <img src="{{header.link}}" alt="{{header.subcategory}}" class="header-img">
 </div>
 
-<!--header-->
-<div class="section-divider" id="about"></div>
-<img src="{{header.link}}" alt="{{header.subcategory}}" class="header-img">
+<!--space block-->
+<div class="space-block"></div>
+
+<!--items block-->
+<div class="items-block">
+    <div class="row">
+        <div class="end-space"></div>
+        <div class="item-space"></div>
+        <div class="item">
+            <img src="/img/misc/logo.png" alt="">
+        </div>
+    </div>
+</div>
 
 {{#if randomItemArray}}
 <div class="section-divider" id="gallery"></div>

@@ -14,6 +14,9 @@ const data = JSON.parse(fs.readFileSync('data/data.json', 'utf-8'));
 const navItems = data.nav.navItems;
 const headers = data.headers;
 
+//gallery variables
+const numColumns = 2;
+
 //handlebars
 //configuration with custom helper
 const hbs = expressHandlebars.create({
@@ -108,8 +111,21 @@ app.get('/subcategory/:category/:subcategory', (req, res) => {
     const thisHeader = headers.subcategories.find(subcat => subcat.subcategory === subcategory);
     //retrieve subcategory data
     const subcategoryData = getAllItemsFromSubcategory(category, subcategory);
+    //create 2d array for item gallery rows
+    const numItems = subcategoryData.length;
+    const numRows = Math.ceil(numItems / numColumns);
+    let rowArray = [];
+    let itemCounter = 0;
+    for (let r = 0; r < numRows; r++) {
+        rowArray[r] = [];
+        for (let c = 0; c < numColumns; c++) {
+            rowArray[r][c] = subcategoryData[itemCounter];
+            itemCounter++;
+        }
+    }
+
     //render subcategory page
-    res.render('subcategory-page', { subcategory: subcategory, subcategoryData: subcategoryData, navItems, header: thisHeader });
+    res.render('subcategory-page', { layout: 'gallery.handlebars', subcategory: subcategory, subcategoryData: subcategoryData, navItems, header: thisHeader, rowArray });
 });
 
 //route for category pages

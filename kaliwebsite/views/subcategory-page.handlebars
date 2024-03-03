@@ -1,39 +1,69 @@
-<div>
-    {{>nav}}
-</div>
-
-<!--header-->
-<div class="section-divider" id="about"></div>
-<img src="{{header.link}}" alt="{{header.subcategory}}" class="header-img">
-
-<!--image gallery : items-->
-{{#if subcategoryData}}
-<div class="section-divider" id="gallery"></div>
-<div class="row">
-    {{#each  subcategoryData}}
-        <div class="col-3">
-            <!--gallery item-->
-            <div class="col-12 col-md-6 col-lg-3 mb-4">
-                <div class="media-container">
-                    {{#if cover}}
-                        <a href="/item/{{category}}/{{subcategory}}/{{group}}/{{id}}" class="gallery-img">
-                            {{#isVideo cover}}
-                                <video controls>
-                                    <source src="{{cover}}" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                                {{else}}
-                                    <img src="{{cover}}" alt="{{title}}" class="img-thumbnail">
-                            {{/isVideo}}
-                        </a>
-                    {{/if}}
-                </div>
+<!--nav block-->
+<nav class="nav" role="navigation">
+    <div class="nav-block">
+        {{!-- <div class="row"> --}}
+            <!-- logo -->
+            <div class="logo">
+                <a href="/">
+                    <img src="/img/misc/logo.png" alt="Logo" class="logo">
+                </a>
             </div>
-            <h5>{{title}}</h5>
-            <h7>{{date}}</h7>
-        </div>
-  {{/each}}
+            <div class="nav-space"></div>
+            <ul class="nav-bar">
+                {{#each navItems}}
+                    <li class="nav-item">
+                        <a href={{this.link}} class="nav-link">
+                            <img src="{{this.image}}" alt="{{this.title}}" class="nav-item">
+                        </a>
+                    </li>
+                    <div class="nav-space"></div>
+                {{/each}}
+            </ul>
+        {{!-- </div> --}}
+    </div>
+</nav>
+
+<!--title block-->
+<div class="title-block">
+    <!--header-->
+    <img src="{{header.link}}" alt="{{header.subcategory}}" class="title-block header-img">
 </div>
+
+<!--space block-->
+<div class="space-block"></div>
+
+<!-- check if rowArray exists and is not empty -->
+{{#if rowArray}}
+    <!-- iterate through each row in rowArray -->
+    {{#each rowArray}}
+        <div class="row items-block">
+            <div class="end-space"></div>
+            <div class="item-space"></div>
+            <!-- iterate through each item in the current row -->
+            {{#if this}}
+                {{#each this}} 
+                    <div class="item">
+                        <div class="media-container">
+                            {{#if cover}}
+                                <a href="/item/{{category}}/{{subcategory}}/{{group}}/{{id}}" class="gallery-img">
+                                    {{#isVideo cover}}
+                                        <video controls>
+                                            <source src="{{cover}}" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                        {{else}}
+                                            <img src="{{cover}}" alt="{{title}}" class="img-thumbnail">
+                                    {{/isVideo}}
+                                </a>
+                            {{/if}}
+                        </div>
+                    </div>
+                    <div class="item-space"></div>
+                {{/each}}
+            {{/if}}
+            <div class="end-space"></div>
+        </div>
+    {{/each}}
 {{/if}}
 
 <!--footer-->

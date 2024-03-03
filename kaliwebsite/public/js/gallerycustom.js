@@ -9,8 +9,7 @@ const titleBlockHeightPercentage = (1/6);
 const spaceBlockHeightPercentage = (1/12);
 const endSpaceWidthPercentage = (1/12);
 const itemSpaceWidthPercentage = (1/24);
-const numColumns = 3;
-const numItems = 6;
+const numColumns = 2;
 
 /* nav variables */
 const navItemCount = 4;
@@ -59,43 +58,52 @@ function calculateNavSizes() {
 }
 
 function calculateItemSizes() {
-    const nameBlockSizeHeight = (2/3)*y;
-    const nameBlockSizeWidth = x;
+    const endSpaceWidth = endSpaceWidthPercentage * screenWidth;
+    const itemSpaceWidth = itemSpaceWidthPercentage * screenWidth;
 
-        const letterEndSpaceSizeHeight = (2/3)*y;
-        const letterEndSpaceSizeWidth = (5/48)*x;
+    const itemWidth = (((screenWidth-(2*endSpaceWidth))-((numColumns+1)*itemSpaceWidth))/numColumns);
 
-        const letterSizeHeight = (2/3)*y;
-        const letterSizeWidth = (1/6)*x;
+    const itemHeight = itemWidth;
+    const endSpaceHeight = itemWidth;
+    const itemSpaceHeight = itemWidth;
 
-            const letterMaskSizeHeight = (2/3)*y;
-            const letterMaskSizeWidth = (1/6)*x;
+    const navBlockHeight = navBlockHeightPercentage * screenHeight;
+    const navBlockWidth = screenWidth;
 
-            const letterMediaSizeHeight = (2/3)*y;
-            const letterMediaSizeWidth = (1/6)*x;
+    const titleBlockHeight = titleBlockHeightPercentage * screenHeight;
+    const titleBlockWidth = screenWidth;
 
-        const letterSpaceSizeHeight = (2/3)*y;
-        const letterSpaceSizeWidth = (1/24)*x;
+    const spaceBlockHeight = spaceBlockHeightPercentage * screenHeight;
+    const spaceBlockWidth = screenWidth;
 
-    //update CSS variables
-    //update name-block
-    document.documentElement.style.setProperty('--name-block-size-height', `${nameBlockSizeHeight}px`);
-    document.documentElement.style.setProperty('--name-block-size-width', `${nameBlockSizeWidth}px`);
-        //update letter-end-space
-        document.documentElement.style.setProperty('--letter-end-space-size-height', `${letterEndSpaceSizeHeight}px`);
-        document.documentElement.style.setProperty('--letter-end-space-size-width', `${letterEndSpaceSizeWidth}px`);
-        //update letter
-        document.documentElement.style.setProperty('--letter-size-height', `${letterSizeHeight}px`);
-        document.documentElement.style.setProperty('--letter-size-width', `${letterSizeWidth}px`);
-            //update letter-mask
-            document.documentElement.style.setProperty('--letter-mask-size-height', `${letterMaskSizeHeight}px`);
-            document.documentElement.style.setProperty('--letter-mask-size-width', `${letterMaskSizeWidth}px`);
-            //update letter-media
-            document.documentElement.style.setProperty('--letter-media-size-height', `${letterMediaSizeHeight}px`);
-            document.documentElement.style.setProperty('--letter-media-size-width', `${letterMediaSizeWidth}px`);
-        //update letter-space
-        document.documentElement.style.setProperty('--letter-space-size-height', `${letterSpaceSizeHeight}px`);
-        document.documentElement.style.setProperty('--letter-space-size-width', `${letterSpaceSizeWidth}px`);
+    const itemsBlockHeight = itemWidth;
+    const itemsBlockWidth = screenWidth;
+
+    //update block css variables
+
+    //update nav-block
+    document.documentElement.style.setProperty('--nav-block-height', `${navBlockHeight}px`);
+    document.documentElement.style.setProperty('--nav-block-width', `${navBlockWidth}px`);
+    //update title-block
+    document.documentElement.style.setProperty('--title-block-height', `${titleBlockHeight}px`);
+    document.documentElement.style.setProperty('--title-block-width', `${titleBlockWidth}px`);
+    //update space-block
+    document.documentElement.style.setProperty('--space-block-height', `${spaceBlockHeight}px`);
+    document.documentElement.style.setProperty('--space-block-width', `${spaceBlockWidth}px`);
+    //update items-block
+    document.documentElement.style.setProperty('--items-block-height', `${itemsBlockHeight}px`);
+    document.documentElement.style.setProperty('--items-block-width', `${itemsBlockWidth}px`);
+
+    //update items css variables
+    //update end-space
+    document.documentElement.style.setProperty('--end-space-height', `${endSpaceHeight}px`);
+    document.documentElement.style.setProperty('--end-space-width', `${endSpaceWidth}px`);
+    //update item-space
+    document.documentElement.style.setProperty('--item-space-height', `${itemSpaceHeight}px`);
+    document.documentElement.style.setProperty('--item-space-width', `${itemSpaceWidth}px`);
+    //update item
+    document.documentElement.style.setProperty('--item-height', `${itemHeight}px`);
+    document.documentElement.style.setProperty('--item-width', `${itemWidth}px`);
 }
 
 // Calculate sizes on initial load and on window resize

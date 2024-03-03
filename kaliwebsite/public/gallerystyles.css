@@ -28,10 +28,10 @@
     --item-width: 0px;
 
     /* item variables */
-    --num-columns: 0px;
+    /* --num-columns: 0px;
     --num-rows: 0px;
     --num-items: 0px;
-    --total-screen-height: 0px;
+    --total-screen-height: 0px; */
     
 }
 
@@ -81,6 +81,10 @@
     width: var(--space-block-width);
 }
 .items-block {
+    height: var(--items-block-height);
+    width: var(--items-block-width);
+}
+.row {
     height: var(--items-block-height);
     width: var(--items-block-width);
 }
