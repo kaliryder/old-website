@@ -1,0 +1,99 @@
+:root {
+    /* nav-bar variables */
+    --nav-bar-size-height: 0px;
+    --nav-bar-size-width: 0px;
+        --logo-size-height: 0px;
+        --logo-size-width: 0px;
+        --nav-space-size-height: 0px;
+        --nav-space-size-width: 0px;
+        --nav-item-size-height: 0px;
+        --nav-item-size-width: 0px;
+
+    /* block variables */
+    --nav-block-height: 0px;
+    --nav-block-width: 0px;
+    --title-block-height: 0px;
+    --title-block-width: 0px;
+    --space-block-height: 0px;
+    --space-block-width: 0px;
+    --items-block-height: 0px;
+    --items-block-width: 0px;
+
+    /* items-block variables */
+    --end-space-block-height: 0px;
+    --end-space-block-width: 0px;
+    --item-space-block-height: 0px;
+    --item-space-block-width: 0px;
+    --item-height: 0px;
+    --item-width: 0px;
+
+    /* item variables */
+    --num-columns: 0px;
+    --num-rows: 0px;
+    --num-items: 0px;
+    --total-screen-height: 0px;
+    
+}
+
+/* nav variables */
+.nav-block {
+    height: var(--nav-block-size-height);
+    width: var(--nav-block-size-width);
+    
+    /* create a flexbox container */
+    display: flex; 
+}
+    .nav-bar {
+        height: var(--nav-bar-size-height);
+        width: var(--nav-bar-size-width);
+
+        display: flex; /* create horizontal row for nav items */
+        list-style-type: none; /* removes bullets from list */
+        padding: 0;
+        margin: 0;
+    }
+        .logo {
+            height: var(--logo-size-height);
+            width: var(--logo-size-width);
+        }
+        .nav-space {
+            height: var(--nav-space-size-height);
+            width: var(--nav-space-size-width);
+        }
+        .nav-item {
+            width: var(--nav-item-size-width);
+            max-height: var(--nav-item-size-height);
+        }
+        .logo, .nav-space, .nav-bar {
+            flex: none; /* ensures elements do not grow or shrink */
+        }
+
+.nav-block {
+    height: var(--nav-block-height);
+    width: var(--nav-block-width);
+}
+.title-block {
+    height: var(--title-block-height);
+    width: var(--title-block-width);
+}
+.space-block {
+    height: var(--space-block-height);
+    width: var(--space-block-width);
+}
+.items-block {
+    height: var(--items-block-height);
+    width: var(--items-block-width);
+}
+
+.end-space {
+    height: var(--end-space-height);
+    width: var(--end-space-width);
+}
+.item-space {
+    height: var(--item-space-height);
+    width: var(--item-space-width);
+}
+.item {
+    height: var(--item-height);
+    width: var(--item-width);
+}
