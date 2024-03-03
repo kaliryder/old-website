@@ -101,3 +101,40 @@
     height: var(--item-height);
     width: var(--item-width);
 }
+
+/* gallery */
+
+.gallery-img img {
+    object-fit: cover;
+    height: 20rem;
+    aspect-ratio: 1/1;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 20rem;
+    aspect-ratio: 1/1;
+}
+
+.card-text {
+    padding: 2rem;
+}
+
+.img-thumbnail {
+    height: 30rem;
+    display: block;
+    margin: auto;
+}
+
+.media-container {
+    width: var(--item-width);
+    width: var(--item-height);
+    /* padding: 10px; */
+    overflow: hidden;
+}
+
+.media-container img, .media-container video {
+    width: 100%; /* Scale to fill the container width */
+    height: 100%; /* Scale to fill the container height */
+    object-fit: cover; /* Cover the container while preserving aspect ratio */
+}

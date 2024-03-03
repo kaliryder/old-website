@@ -15,7 +15,7 @@ const navItems = data.nav.navItems;
 const headers = data.headers;
 
 //gallery variables
-const numColumns = 2;
+const numColumns = 3;
 
 //handlebars
 //configuration with custom helper
@@ -140,9 +140,21 @@ app.get('/category/:category', (req, res) => {
         subcategoryArray = subcategoryArray.concat(subcategory);
         randomItemArray = randomItemArray.concat(chooseRandomItems(getAllItemsFromSubcategory(category, subcategory), 1));
     }
+    //create 2d array for item gallery rows
+    const numItems = randomItemArray.length;
+    const numRows = Math.ceil(numItems / numColumns);
+    let rowArray = [];
+    let itemCounter = 0;
+    for (let r = 0; r < numRows; r++) {
+        rowArray[r] = [];
+        for (let c = 0; c < numColumns; c++) {
+            rowArray[r][c] = randomItemArray[itemCounter];
+            itemCounter++;
+        }
+    }
 
     //render category page
-    res.render('category-page', { category: category, subcategoryArray: subcategoryArray, randomItemArray: randomItemArray, navItems, header: thisHeader });
+    res.render('category-page', { layout: 'gallery.handlebars', category: category, subcategoryArray: subcategoryArray, randomItemArray: randomItemArray, navItems, header: thisHeader, rowArray });
 });
 
 //route for about page

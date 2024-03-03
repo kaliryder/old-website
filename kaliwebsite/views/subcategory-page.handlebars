@@ -23,19 +23,19 @@
     </div>
 </nav>
 
+<div class="space-block"></div>
+
 <!--title block-->
 <div class="title-block">
     <!--header-->
     <img src="{{header.link}}" alt="{{header.subcategory}}" class="title-block header-img">
 </div>
 
-<!--space block-->
-<div class="space-block"></div>
-
 <!-- check if rowArray exists and is not empty -->
 {{#if rowArray}}
     <!-- iterate through each row in rowArray -->
     {{#each rowArray}}
+        <div class="space-block"></div>
         <div class="row items-block">
             <div class="end-space"></div>
             <div class="item-space"></div>
@@ -65,6 +65,8 @@
         </div>
     {{/each}}
 {{/if}}
+
+<div class="space-block"></div>
 
 <!--footer-->
 <footer>

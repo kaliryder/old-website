@@ -9,7 +9,7 @@ const titleBlockHeightPercentage = (1/6);
 const spaceBlockHeightPercentage = (1/12);
 const endSpaceWidthPercentage = (1/12);
 const itemSpaceWidthPercentage = (1/24);
-const numColumns = 2;
+const numColumns = 3;
 
 /* nav variables */
 const navItemCount = 4;
