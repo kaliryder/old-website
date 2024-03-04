@@ -2,7 +2,7 @@
   "name": "kaliwebsite",
   "version": "1.0.0",
   "description": "kali's website",
-  "main": "website.js",
+  "main": "kali.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
