@@ -78,7 +78,7 @@ app.get('/',(req,res)=>{
     const codeRandomItem = chooseRandomItems(getAllItemsFromSubcategory("digital", "code"), 1)[0];
 
     //render home page
-    res.render('home-page',{ physicalArtRandomItem, clothesRandomItem, digitalArtRandomItem, codeRandomItem, navItems })
+    res.render('home-page',{ layout: 'home.handlebars', physicalArtRandomItem, clothesRandomItem, digitalArtRandomItem, codeRandomItem, navItems })
 })
 
 //route for item pages

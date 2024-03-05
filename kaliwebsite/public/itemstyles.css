@@ -169,6 +169,12 @@
     .content {
         height: var(--content-height);
         width: var(--content-width);
+        overflow: hidden;
+    }
+    .content img, .content video {
+        width: 100%; /* fill container width */
+        height: 100%; /* fill container height */
+        object-fit: cover; /* cover container + preserve aspect ratio */
     }
 
     /* right-content-stack styles */

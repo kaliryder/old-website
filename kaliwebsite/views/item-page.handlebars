@@ -1,7 +1,6 @@
 <!--nav block-->
 <nav class="nav" role="navigation">
     <div class="nav-block">
-        {{!-- <div class="row"> --}}
             <!-- logo -->
             <div class="logo">
                 <a href="/">
@@ -19,7 +18,6 @@
                     <div class="nav-space"></div>
                 {{/each}}
             </ul>
-        {{!-- </div> --}}
     </div>
 </nav>
 
@@ -29,10 +27,10 @@
     <h1 class="title-block">{{item.title}}</h1>
 </div>
 
-<div class="row item-block">
+<div class="item-block">
     <div class="item-block-end-space"></div>
     <div class="item-block-padding-space"></div>
-    <div class="col left-content-stack">
+    <div class="left-content-stack">
         <div class="left-content-stack-padding-space"></div>
         <div class="left-content-stack-medium">
             <h3>{{item.medium}}</h3>
@@ -45,7 +43,7 @@
     <div class="item-block-padding-space"></div>
     <div class="content">
         {{#if item.cover}}
-                <div class="media-container">
+                <div class="content">
                     {{#isVideo item.cover}}
                         <video controls>
                             <source src="{{item.cover}}" type="video/mp4" class="content">            
@@ -58,7 +56,7 @@
             {{/if}}
     </div>
     <div class="item-block-padding-space"></div>
-    <div class="col right-content-stack">
+    <div class="right-content-stack">
         <div class="right-content-stack-padding-space"></div>
         <div class="right-content-stack-title">
             <h3>{{item.title}}</h3>
@@ -83,14 +81,14 @@
         {{#each additionalMedia}}
             <div class="additional-media-block-padding-space"></div>
             <div class="additional-media">
-                <div class="media-container">
+                <div class="content">
                     {{#isVideo item.cover}}
                         <video controls>
-                            <source src="{{this}}" type="video/mp4" class="additional-media">            
+                            <source src="{{this}}" type="video/mp4" class="content">            
                             Your browser does not support the video tag.
                         </video>
                         {{else}}
-                            <img src="{{this}}" alt="{{item.title}}" class="additional-media">
+                            <img src="{{this}}" alt="{{item.title}}" class="content">
                     {{/isVideo}}
                 </div>
             </div>
@@ -103,7 +101,9 @@
 <div class="space-block"></div>
 
 <div class="text-block">
-    <h2>More {{item.subcategory}}</h2>
+    <div class="text-block-end-space"></div>
+    <h2 class="text-block">More {{item.subcategory}}</h2>
+    <div class="text-block-end-space"></div>
 </div>
 
 <div class="space-block"></div>
@@ -114,14 +114,14 @@
         {{#each additionalItems}}
             <div class="additional-items-block-padding-space"></div>
             <div class="additional-item">
-                <div class="media-container">
+                <div class="content">
                     {{#isVideo this.cover}}
                         <video controls>
-                            <source src="{{this.cover}}" type="video/mp4" class="additional-item">
+                            <source src="{{this.cover}}" type="video/mp4" class="content">
                             Your browser does not support the video tag.
                         </video>
                         {{else}}
-                            <img src="{{this.cover}}" alt="{{this.title}}" class="additional-item">
+                            <img src="{{this.cover}}" alt="{{this.title}}" class="content">
                     {{/isVideo}}
                 </div>
             </div>
