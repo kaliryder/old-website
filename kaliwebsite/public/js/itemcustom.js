@@ -84,16 +84,16 @@ function calculateNavSizes() {
 }
 
 function calculateBlockSizes() {
-    const navBlockHeight = (1/6)*screenHeight;
+    const navBlockHeight = navBlockHeightPercentage*screenHeight;
     const navBlockWidth = screenWidth;
-    const titleBlockHeight = (1/6)*screenHeight;
+    const titleBlockHeight = titleBlockHeightPercentage*screenHeight;
     const titleBlockWidth = screenWidth;
-    const spaceBlockHeight = (1/12)*screenHeight;
+    const spaceBlockHeight = spaceBlockHeightPercentage*screenHeight;
     const spaceBlockWidth = screenWidth;
-    const textBlockHeight = (1/12)*screenHeight;
+    const textBlockHeight = textBlockHeightPercentage*screenHeight;
     const textBlockWidth = screenWidth;
-    const textBlockEndSpaceHeight = (1/12)*screenHeight;
-    const textBlockEndSpaceWidth = (5/12)*screenWidth;
+    const textBlockEndSpaceHeight = textBlockHeight;
+    const textBlockEndSpaceWidth = textBlockEndSpaceWidthPercentage*screenWidth;
 
     //update nav-block
     document.documentElement.style.setProperty('--nav-block-height', `${navBlockHeight}px`);
@@ -115,35 +115,35 @@ function calculateBlockSizes() {
 }
 
 function calculateItemBlockSizes() {
-    const itemBlockHeight = ;
-    const itemBlockWidth = ;
-    const itemBlockEndSpaceHeight = ;
-    const itemBlockEndSpaceWidth = ;
-    const itemBlockPaddingSpaceHeight = ;
-    const itemBlockPaddingSpaceWidth = ;
+    const itemBlockHeight = itemBlockHeightPercentage*screenHeight;
+    const itemBlockWidth = screenWidth;
+    const itemBlockEndSpaceHeight = itemBlockHeight;
+    const itemBlockEndSpaceWidth = itemBlockEndSpaceWidthPercentage*screenWidth;
+    const itemBlockPaddingSpaceHeight = itemBlockHeight;
+    const itemBlockPaddingSpaceWidth = itemBlockPaddingSpaceWidthPercentage*screenWidth;
 
-    const leftContentStackHeight = ;
-    const leftContentStackWidth = ;
-    const leftContentStackPaddingSpaceHeight = ;
-    const leftContentStackPaddingSpaceWidth = ;
-    const leftContentStackMediumHeight = ;
-    const leftContentStackMediumWidth = ;
-    const leftContentStackDateHeight = ;
-    const leftContentStackDateWidth = ;
+    const leftContentStackHeight = itemBlockHeight;
+    const leftContentStackWidth = (screenWidth - 2*itemBlockEndSpaceWidth - 4*itemBlockPaddingSpaceWidth)/4;
+    const leftContentStackPaddingSpaceHeight = leftContentStackPaddingSpaceHeightPercentage*leftContentStackHeight;
+    const leftContentStackPaddingSpaceWidth = leftContentStackWidth;
+    const leftContentStackMediumHeight = leftContentStackMediumHeightPercentage*leftContentStackHeight;
+    const leftContentStackMediumWidth = leftContentStackWidth;
+    const leftContentStackDateHeight = leftContentStackDateHeightPercentage*leftContentStackHeight;
+    const leftContentStackDateWidth = leftContentStackWidth;
 
-    const contentHeight = ;
-    const contentWidth = ;
+    const contentHeight = itemBlockHeight;
+    const contentWidth = (screenWidth - 2*itemBlockEndSpaceWidth - 4*itemBlockPaddingSpaceWidth)/2;
 
-    const rightContentStackHeight = ;
-    const rightContentStackWidth = ;
-    const rightContentStackPaddingSpaceHeight = ;
-    const rightContentStackPaddingSpaceWidth = ;
-    const rightContentStackTitleHeight = ;
-    const rightContentStackTitleWidth = ;
-    const rightContentStackGroupHeight = ;
-    const rightContentStackGroupWidth = ;
-    const rightContentStackDescriptionHeight = ;
-    const rightContentStackDescriptionWidth = ;
+    const rightContentStackHeight = itemBlockHeight;
+    const rightContentStackWidth = (screenWidth - 2*itemBlockEndSpaceWidth - 4*itemBlockPaddingSpaceWidth)/4;
+    const rightContentStackPaddingSpaceHeight = rightContentStackPaddingSpaceHeightPercentage*rightContentStackHeight;
+    const rightContentStackPaddingSpaceWidth = rightContentStackWidth;
+    const rightContentStackTitleHeight = rightContentStackTitleHeightPercentage*rightContentStackHeight;
+    const rightContentStackTitleWidth = rightContentStackWidth;
+    const rightContentStackGroupHeight = rightContentStackGroupHeightPercentage*rightContentStackHeight;
+    const rightContentStackGroupWidth = rightContentStackWidth;
+    const rightContentStackDescriptionHeight = rightContentStackDescriptionHeightPercentage*rightContentStackHeight;
+    const rightContentStackDescriptionWidth = rightContentStackWidth;
 
     //update item-block
     document.documentElement.style.setProperty('--item-block-height', `${itemBlockHeight}px`);
@@ -190,10 +190,50 @@ function calculateItemBlockSizes() {
     
 }
 function calculateAdditionalMediaBlockSizes() {
+    const additionalMediaBlockHeight = additionalMediaBlockHeightPercentage*screenHeight;
+    const additionalMediaBlockWidth = screenWidth;
+        const additionalMediaBlockEndSpaceHeight = additionalMediaBlockHeight;
+        const additionalMediaBlockEndSpaceWidth = additionalMediaBlockEndSpaceWidthPercentage*additionalMediaBlockWidth;
+        const additionalMediaBlockPaddingSpaceHeight = additionalMediaBlockHeight;
+        const additionalMediaBlockPaddingSpaceWidth = additionalItemsBlockPaddingSpaceWidthPercentage*additionalMediaBlockWidth;
+        const additionalMediaHeight = additionalMediaBlockHeight;
+        const additionalMediaWidth = (additionalMediaBlockWidth-(2*additionalMediaBlockEndSpaceWidth)-((numAdditionalMedia+1)(additionalMediaBlockPaddingSpaceWidth)))/numAdditionalMedia;
     
+    //update additional-media-block
+    document.documentElement.style.setProperty('--additional-media-block-height', `${additionalMediaBlockHeight}px`);
+    document.documentElement.style.setProperty('--additional-media-block-width', `${additionalMediaBlockWidth}px`);
+        //update additional-media-block-end-space
+        document.documentElement.style.setProperty('--additional-media-block-end-space-height', `${additionalMediaBlockEndSpaceHeight}px`);
+        document.documentElement.style.setProperty('--additional-media-block-end-space-width', `${additionalMediaBlockEndSpaceWidth}px`);
+        //update additional-media-block-padding-space
+        document.documentElement.style.setProperty('--additional-media-block-padding-space-height', `${additionalMediaBlockPaddingSpaceHeight}px`);
+        document.documentElement.style.setProperty('--additional-media-block-padding-space-width', `${additionalMediaBlockPaddingSpaceWidth}px`);
+        //update additional-media
+        document.documentElement.style.setProperty('--additional-media-height', `${additionalMediaHeight}px`);
+        document.documentElement.style.setProperty('--additional-media-width', `${additionalMediaWidth}px`);
 }
 function calculateAdditionalItemsBlockSizes() {
-
+    const additionalItemsBlockHeight = additionalItemsBlockHeightPercentage*screenHeight;
+    const additionalItemsBlockWidth = screenWidth;
+        const additionalItemsBlockEndSpaceHeight = additionalItemsBlockHeight;
+        const additionalItemsBlockEndSpaceWidth = additionalItemsBlockEndSpaceWidthPercentage*additionalItemsBlockWidth;
+        const additionalItemsBlockPaddingSpaceHeight = additionalItemsBlockHeight;
+        const additionalItemsBlockPaddingSpaceWidth = additionalItemsBlockPaddingSpaceWidthPercentage*additionalItemsBlockWidth;
+        const additionalItemHeight = additionalItemsBlockHeight;
+        const additionalItemWidth = (additionalItemsBlockWidth-(2*additionalItemsBlockEndSpaceWidth)-((numAdditionalItems+1)*(additionalItemsBlockPaddingSpaceWidth)))/numAdditionalItems;
+    
+    //update additional-items-block
+    document.documentElement.style.setProperty('--additional-items-block-height', `${additionalItemsBlockHeight}px`);
+    document.documentElement.style.setProperty('--additional-items-block-width', `${additionalItemsBlockWidth}px`);
+        //update additional-items-block-end-space
+        document.documentElement.style.setProperty('--additional-items-block-end-space-height', `${additionalItemsBlockEndSpaceHeight}px`);
+        document.documentElement.style.setProperty('--additional-items-block-end-space-width', `${additionalItemsBlockEndSpaceWidth}px`);
+        //update additional-items-block-padding-space
+        document.documentElement.style.setProperty('--additional-items-block-padding-space-height', `${additionalItemsBlockPaddingSpaceHeight}px`);
+        document.documentElement.style.setProperty('--additional-items-block-padding-space-width', `${additionalItemsBlockPaddingSpaceWidth}px`);
+        //update additional-item
+        document.documentElement.style.setProperty('--additional-item-height', `${additionalItemHeight}px`);
+        document.documentElement.style.setProperty('--additional-item-width', `${additionalItemWidth}px`);
 }
 
 // Calculate sizes on initial load and on window resize
