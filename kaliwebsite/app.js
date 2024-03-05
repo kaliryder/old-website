@@ -90,16 +90,26 @@ app.get('/item/:category/:subcategory/:group/:id', (req, res) => {
     //isolate item
     const item = items.find(item => item.id.toString() === id);
     if (item) {
+        //add all images, videos and cover to additionalMedia
+        let additionalMedia = [];
+        for (const image in item.images) {
+            additionalMedia = additionalMedia.concat(image);
+        }
+        for (const video in item.videos) {
+            additionalMedia = additionalMedia.concat(video);
+        }
+        additionalMedia = additionalMedia.concat(item.cover);
+
         //choose four random items from the other items (DEBUG: exclude item)
         const numItems = items.length;
-        var randomOtherItems;
+        var additionalItems;
         if (numItems < 4) {
-            randomOtherItems = chooseRandomItems(items, numItems);
+            additionalItems = chooseRandomItems(items, numItems);
         } else {
-            randomOtherItems = chooseRandomItems(items, 3);
+            additionalItems = chooseRandomItems(items, 3);
         }
         //render item page
-        res.render('item-page', { otherItems: randomOtherItems, item: item, navItems });
+        res.render('item-page', { layout: 'item.handlebars', item, additionalItems, additionalMedia, navItems });
     } else {
         res.status(404).send('Item not found');
     }

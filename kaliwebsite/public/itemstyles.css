@@ -134,6 +134,7 @@
 .item-block {
     height: var(--item-block-height);
     width: var(--item-block-width);
+    display: flex;
 }
 .item-block-end-space {
     height: var(--item-block-end-space-height);
@@ -231,3 +232,9 @@
         height: var(--additional-item-height);
         width: var(--additional-item-width);
     }
+
+/* general styles */
+
+h3 {
+    text-align: center;
+}
