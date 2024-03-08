@@ -89,16 +89,27 @@ app.get('/item/:category/:subcategory/:group/:id', (req, res) => {
     const items = data.categories[category].subcategories[subcategory].groups[group].items;
     //isolate item
     const item = items.find(item => item.id.toString() === id);
+
     if (item) {
-        //add all images, videos and cover to additionalMedia
+        //add all additional images and videos (links) into an array
         let additionalMedia = [];
-        for (const image in item.images) {
-            additionalMedia = additionalMedia.concat(image);
+        let isEmpty = true;
+        // check if item.images is not empty and then add all its elements to additionalMedia
+        if (item.images.length !== 0) {
+            additionalMedia = additionalMedia.concat(item.images);
+            isEmpty = false;
         }
-        for (const video in item.videos) {
-            additionalMedia = additionalMedia.concat(video);
+
+        // check if item.videos is not empty and then add all its elements to additionalMedia
+        if (item.videos.length !== 0) {
+            additionalMedia = additionalMedia.concat(item.videos);
+            isEmpty = false;
         }
-        additionalMedia = additionalMedia.concat(item.cover);
+
+        // add item.cover to additionalMedia
+        if(!isEmpty) {
+            additionalMedia = additionalMedia.concat(item.cover);
+        }
 
         //choose four random items from the other items (DEBUG: exclude item)
         const numItems = items.length;
@@ -108,8 +119,12 @@ app.get('/item/:category/:subcategory/:group/:id', (req, res) => {
         } else {
             additionalItems = chooseRandomItems(items, 3);
         }
+
+        // Default additionalMedia to an empty array if it's not provided
+        const media = additionalMedia || [];   
+
         //render item page
-        res.render('item-page', { layout: 'item.handlebars', item, additionalItems, additionalMedia, navItems });
+        res.render('item-page', { layout: 'item.handlebars', item, additionalItems, additionalMedia: media, navItems });
     } else {
         res.status(404).send('Item not found');
     }

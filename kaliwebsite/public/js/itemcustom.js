@@ -197,7 +197,7 @@ function calculateAdditionalMediaBlockSizes() {
         const additionalMediaBlockPaddingSpaceHeight = additionalMediaBlockHeight;
         const additionalMediaBlockPaddingSpaceWidth = additionalItemsBlockPaddingSpaceWidthPercentage*additionalMediaBlockWidth;
         const additionalMediaHeight = additionalMediaBlockHeight;
-        const additionalMediaWidth = (additionalMediaBlockWidth-(2*additionalMediaBlockEndSpaceWidth)-((numAdditionalMedia+1)(additionalMediaBlockPaddingSpaceWidth)))/numAdditionalMedia;
+        const additionalMediaWidth = (additionalMediaBlockWidth-(2*additionalMediaBlockEndSpaceWidth)-((numAdditionalMedia+1)*(additionalMediaBlockPaddingSpaceWidth)))/numAdditionalMedia;
     
     //update additional-media-block
     document.documentElement.style.setProperty('--additional-media-block-height', `${additionalMediaBlockHeight}px`);

@@ -13,9 +13,11 @@
                                     "group": "animation",
                                     "title": "Bouncy",
                                     "cover": "/img/animation/animation-vid-1-a.mp4",
-                                    "images": [],
+                                    "images": []
+                                    ,
                                     "videos": [
-                                        "/img/animation/animation-vid-1-a.mp4"
+                                        "/img/animation/animation-vid-1-a.mp4",
+                                        "/img/animation/animation-vid-2-a.mp4"
                                     ],
                                     "date": "2022",
                                     "medium": "Unity / C#",
@@ -318,15 +320,30 @@
                                     "category": "digital",
                                     "subcategory": "code",
                                     "group": "unity",
-                                    "title": "Sudoku",
-                                    "cover": "/img/unity/unity-vid-5-a.mp4",
+                                    "title": "Fourth Dimension World",
+                                    "cover": "/img/unity/unity-vid-6-a.mp4",
                                     "images": [],
                                     "videos": [
-                                        "/img/unity/unity-vid-5-a.mp4"
+                                        "/img/unity/unity-vid-6-a.mp4"
                                     ],
-                                    "date": "2022",
+                                    "date": "2024",
                                     "medium": "Unity / C#",
-                                    "description": "a prototype of a mobile sudoku app with custom UX/UI and game elements"
+                                    "description": "a virtual worlds assignment"
+                                },
+                                {
+                                    "id": 6,
+                                    "category": "digital",
+                                    "subcategory": "code",
+                                    "group": "unity",
+                                    "title": "Fourth Dimension World",
+                                    "cover": "/img/unity/unity-vid-6-a.mp4",
+                                    "images": [],
+                                    "videos": [
+                                        "/img/unity/unity-vid-6-a.mp4"
+                                    ],
+                                    "date": "2024",
+                                    "medium": "Unity / C#",
+                                    "description": "virtual worlds assignment"
                                 }
                             ]
                         },
@@ -502,7 +519,8 @@
                                     "title": "Alexa",
                                     "cover": "/img/paper/paper-1-a.jpg",
                                     "images": [
-                                        "/img/paper/paper-1-a.jpg"
+                                        "/img/paper/paper-1-a.jpg",
+                                        "/img/paper/paper-2-a.jpg"
                                     ],
                                     "videos": [],
                                     "date": "2018",

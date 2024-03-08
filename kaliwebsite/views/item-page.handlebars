@@ -43,17 +43,15 @@
     <div class="item-block-padding-space"></div>
     <div class="content">
         {{#if item.cover}}
-                <div class="content">
-                    {{#isVideo item.cover}}
-                        <video controls>
-                            <source src="{{item.cover}}" type="video/mp4" class="content">            
-                            Your browser does not support the video tag.
-                        </video>
-                        {{else}}
-                            <img src="{{item.cover}}" alt="{{item.title}}" class="content">
-                    {{/isVideo}}
-                </div>
-            {{/if}}
+            {{#isVideo item.cover}}
+                <video controls>
+                    <source src="{{item.cover}}" type="video/mp4" class="content-video">            
+                        Your browser does not support the video tag.
+                </video>
+            {{else}}
+                <img src="{{item.cover}}" alt="{{item.title}}" class="content-image">
+            {{/isVideo}}
+        {{/if}}
     </div>
     <div class="item-block-padding-space"></div>
     <div class="right-content-stack">
@@ -75,28 +73,52 @@
 
 <div class="space-block"></div>
 
-<div class="additional-media-block">
-    <div class="additional-media-block-end-space"></div>
-    {{#if additionalMedia}}
+{{!-- {{#if additionalMedia}}
+    <div class="additional-media-block">
+        <div class="additional-media-block-end-space"></div>
+        {{#if additionalMedia}}
+            {{#each additionalMedia}}
+                <div class="additional-media-block-padding-space"></div>
+                <div class="additional-media">
+                    <div class="content">
+                        {{#isVideo item.cover}}
+                            <video controls>
+                                <source src="{{this}}" type="video/mp4" class="content">            
+                                Your browser does not support the video tag.
+                            </video>
+                            {{else}}
+                                <img src="{{this}}" alt="{{item.title}}" class="content">
+                        {{/isVideo}}
+                    </div>
+                </div>
+            {{/each}}
+        {{/if}}
+        <div class="additional-media-block-padding-space"></div>
+        <div class="additional-media-block-end-space"></div>
+    </div>
+{{/if}} --}}
+
+{{#if additionalMedia}}
+    <div class="additional-media-block">
+        <div class="additional-media-block-end-space"></div>
         {{#each additionalMedia}}
             <div class="additional-media-block-padding-space"></div>
             <div class="additional-media">
-                <div class="content">
-                    {{#isVideo item.cover}}
-                        <video controls>
-                            <source src="{{this}}" type="video/mp4" class="content">            
-                            Your browser does not support the video tag.
-                        </video>
-                        {{else}}
-                            <img src="{{this}}" alt="{{item.title}}" class="content">
-                    {{/isVideo}}
-                </div>
+                <!-- Use a common class "media-content" and add specific classes "video-content" or "image-content" -->
+                {{#isVideo this}}
+                    <video controls class="media-content video-content">
+                        <source src="{{this}}" type="video/mp4">            
+                        Your browser does not support the video tag.
+                    </video>
+                {{else}}
+                    <img src="{{this}}" alt="{{../item.title}}" class="media-content image-content">
+                {{/isVideo}}
             </div>
         {{/each}}
-    {{/if}}
-    <div class="additional-media-block-padding-space"></div>
-    <div class="additional-media-block-end-space"></div>
-</div>
+        <div class="additional-media-block-padding-space"></div>
+        <div class="additional-media-block-end-space"></div>
+    </div>
+{{/if}}
 
 <div class="space-block"></div>
 
@@ -115,14 +137,16 @@
             <div class="additional-items-block-padding-space"></div>
             <div class="additional-item">
                 <div class="content">
-                    {{#isVideo this.cover}}
+                    <a href="/item/{{this.category}}/{{this.subcategory}}/{{this.group}}/{{this.id}}">
+                        {{#isVideo this.cover}}
                         <video controls>
                             <source src="{{this.cover}}" type="video/mp4" class="content">
                             Your browser does not support the video tag.
                         </video>
                         {{else}}
                             <img src="{{this.cover}}" alt="{{this.title}}" class="content">
-                    {{/isVideo}}
+                        {{/isVideo}}
+                    </a>
                 </div>
             </div>
         {{/each}}
@@ -132,3 +156,6 @@
 </div>
 
 <div class="space-block"></div>
+
+<script src="/js/itemimages.js"></script>
+<script src="/js/itemcustom.js"></script>

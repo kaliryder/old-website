@@ -112,9 +112,10 @@
     height: var(--nav-block-height);
     width: var(--nav-block-width);
 }
-.title-block {
+.title-block h1 {
     height: var(--title-block-height);
     width: var(--title-block-width);
+    text-align: center;
 }
 .space-block {
     height: var(--space-block-height);
@@ -123,6 +124,11 @@
 .text-block {
     height: var(--text-block-height);
     width: var(--text-block-width);
+}
+.text-block h2 {
+    height: var(--text-block-height);
+    width: var(--text-block-width);
+    text-align: center;
 }
 .text-block-end-space {
     height: var(--text-block-end-space-height);
@@ -190,6 +196,12 @@
     .right-content-stack-title {
         height: var(--right-content-stack-title-height);
         width: var(--right-content-stack-title-width);
+        position: relative;
+    }
+    .right-content-stack-title h3 {
+        width: var(--right-content-stack-title-width);
+        position: absolute;
+        bottom: 0;
     }
     .right-content-stack-group {
         height: var(--right-content-stack-group-height);
@@ -198,6 +210,9 @@
     .right-content-stack-description {
         height: var(--right-content-stack-description-height);
         width: var(--right-content-stack-description-width);
+        display: flex;
+        align-items: center;
+        justify-content:center;
     }
 
 
@@ -206,6 +221,7 @@
     .additional-media-block {
         height: var(--additional-media-block-height);
         width: var(--additional-media-block-width);
+        display: flex;
     }
     .additional-media-block-end-space {
         height: var(--additional-media-block-end-space-height);
@@ -217,7 +233,13 @@
     }
     .additional-media {
         height: var(--additional-media-height);
-        width: var(--additional-media-width);
+        width: var(--additional-media-height);
+        overflow: hidden;
+    }
+    .additional-media img, .additional-media video {
+        height: var(--additional-media-height);
+        width: var(--additional-media-height);
+        overflow: hidden;
     }
 
     /* additional-items-block styles */
@@ -225,6 +247,7 @@
     .additional-items-block {
         height: var(--additional-items-block-height);
         width: var(--additional-items-block-width);
+        display: flex;
     }
     .additional-items-block-end-space {
         height: var(--additional-items-block-end-space-height);
@@ -236,11 +259,17 @@
     }
     .additional-item {
         height: var(--additional-item-height);
-        width: var(--additional-item-width);
+        width: var(--additional-item-height);
+        overflow: hidden;
+    }
+    .additional-item img, .additional-item video {
+        height: var(--additional-item-height);
+        width: var(--additional-item-height);
+        overflow: hidden;
     }
 
 /* general styles */
 
-h3 {
+h3, h4 {
     text-align: center;
 }
