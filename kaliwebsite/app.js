@@ -1,24 +1,26 @@
-//express and handlebars setup
+// express and handlebars setup
 const express = require('express');
 const expressHandlebars = require('express-handlebars');
 const fs = require('fs');
 const app = express();
-//set up static files and URL encoding
+
+// set up static files and URL encoding
 app.use(express.static(__dirname + '/public'));
 app.use(express.urlencoded({ extended: true }));
-//setup port
+
+// setup port
 const port = process.env.port || 3000
 
-//read and store json data
+// read and store json data
 const data = JSON.parse(fs.readFileSync('data/data.json', 'utf-8'));
 const navItems = data.nav.navItems;
 const headers = data.headers;
 
-//gallery variables
+// gallery variables
 const numColumns = 3;
 
-//handlebars
-//configuration with custom helper
+// handlebars
+// configuration with custom helper
 const hbs = expressHandlebars.create({
     defaultLayout: 'main',
     helpers: {
@@ -32,23 +34,23 @@ const hbs = expressHandlebars.create({
         }
     }
 });
-//apply handlebars engine and set view engine
+// apply handlebars engine and set view engine
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
-//functions
-//choose a random subset of items
+// functions
+// choose a random subset of items
 function chooseRandomItems(allItems, numItems) {
-    //spread operator creates temp copy of allItems, sorts and assigns to shuffledItems
+    // spread operator creates temp copy of allItems, sorts and assigns to shuffledItems
     const shuffledItems = [...allItems].sort(() => 0.5 - Math.random());
-    //slice selected first numItems of shuffled allItems array
+    // slice selected first numItems of shuffled allItems array
     return shuffledItems.slice(0, numItems);
 }
-//gets all items from a category
+// gets all items from a category
 function getAllItemsFromCategory(categoryName) {
     const category = data.categories[categoryName];
     let allItems = [];
-    //parse through and concatonate all items
+    // parse through and concatonate all items
     for (const subcategory in category.subcategories) {
         for(const group in subcategory.groups) {
             allItems = allItems.concat(category.subcategories[subcategory].groups[group].items);
@@ -56,7 +58,7 @@ function getAllItemsFromCategory(categoryName) {
     }
     return allItems;
 }
-//gets all items from a subcategory
+// gets all items from a subcategory
 function getAllItemsFromSubcategory(categoryName, subcategoryName) {
     const subcategory = data.categories[categoryName].subcategories[subcategoryName];
     let allItems = [];
@@ -68,50 +70,39 @@ function getAllItemsFromSubcategory(categoryName, subcategoryName) {
     return allItems;
 }
 
-//routes
-//route for home page
+// routes
+// route for home page
 app.get('/',(req,res)=>{
-    //one random item for each subcategory;
+    // one random item for each subcategory;
     const physicalArtRandomItem = chooseRandomItems(getAllItemsFromSubcategory("physical", "physical-art"), 1)[0];
     const clothesRandomItem = chooseRandomItems(getAllItemsFromSubcategory("physical", "clothes"), 1)[0];
     const digitalArtRandomItem = chooseRandomItems(getAllItemsFromSubcategory("digital", "digital-art"), 1)[0];
     const codeRandomItem = chooseRandomItems(getAllItemsFromSubcategory("digital", "code"), 1)[0];
 
-    //render home page
+    // render home page
     res.render('home-page',{ layout: 'home.handlebars', physicalArtRandomItem, clothesRandomItem, digitalArtRandomItem, codeRandomItem, navItems })
 })
 
-//route for item pages
+// route for item pages
 app.get('/item/:category/:subcategory/:group/:id', (req, res) => {
     const { category, subcategory, group, id } = req.params;
 
     //retrieve items data from group
     const items = data.categories[category].subcategories[subcategory].groups[group].items;
-    //isolate item
+    // isolate item
     const item = items.find(item => item.id.toString() === id);
 
     if (item) {
-        //add all additional images and videos (links) into an array
+        // add all additional images and videos (links) into an array
         let additionalMedia = [];
-        let isEmpty = true;
-        // check if item.images is not empty and then add all its elements to additionalMedia
         if (item.images.length !== 0) {
             additionalMedia = additionalMedia.concat(item.images);
-            isEmpty = false;
         }
-
-        // check if item.videos is not empty and then add all its elements to additionalMedia
         if (item.videos.length !== 0) {
             additionalMedia = additionalMedia.concat(item.videos);
-            isEmpty = false;
         }
 
-        // add item.cover to additionalMedia
-        if(!isEmpty) {
-            additionalMedia = additionalMedia.concat(item.cover);
-        }
-
-        //choose four random items from the other items (DEBUG: exclude item)
+        // choose four random items from the other items (DEBUG: exclude item)
         const numItems = items.length;
         var additionalItems;
         if (numItems < 4) {
@@ -120,7 +111,7 @@ app.get('/item/:category/:subcategory/:group/:id', (req, res) => {
             additionalItems = chooseRandomItems(items, 3);
         }
 
-        // Default additionalMedia to an empty array if it's not provided
+        // default additionalMedia to an empty array if it's not provided
         const media = additionalMedia || [];   
 
         //render item page
