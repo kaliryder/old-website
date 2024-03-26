@@ -4,6 +4,7 @@
   "description": "kali's website",
   "main": "kali.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kali Wood Ryder",
