@@ -11,77 +11,122 @@
                                     "category": "digital",
                                     "subcategory": "digital-art",
                                     "group": "animation",
-                                    "title": "Bouncy",
+                                    "title": "Clouds",
                                     "cover": "/img/animation/animation-vid-1-a.mp4",
                                     "images": []
                                     ,
                                     "videos": [
-                                        "/img/animation/animation-vid-1-a.mp4",
-                                        "/img/animation/animation-vid-2-a.mp4"
+                                        "/img/animation/animation-vid-1-a.mp4"
                                     ],
-                                    "date": "2022",
-                                    "medium": "Unity / C#",
-                                    "description": "a Unity physics study using all original artwork as materials"
+                                    "date": "2021",
+                                    "medium": "Edited on iPhone",
+                                    "description": "a music video animation for a friend"
                                 },
                                 {
                                     "id": 2,
                                     "category": "digital",
                                     "subcategory": "digital-art",
                                     "group": "animation",
-                                    "title": "Dimensions",
+                                    "title": "Gandalf",
                                     "cover": "/img/animation/animation-vid-2-a.mp4",
                                     "images": [],
                                     "videos": [
                                         "/img/animation/animation-vid-2-a.mp4"
                                     ],
-                                    "date": "2022",
-                                    "medium": "Unity / C#",
-                                    "description": "a trip through dimensions"
+                                    "date": "2021",
+                                    "medium": "frame-by-frame animation",
+                                    "description": "a commissioned animation of a friend"
                                 },
                                 {
                                     "id": 3,
                                     "category": "digital",
                                     "subcategory": "digital-art",
                                     "group": "animation",
-                                    "title": "Floppy Fish",
+                                    "title": "Morph",
                                     "cover": "/img/animation/animation-vid-3-a.mp4",
                                     "images": [],
                                     "videos": [
                                         "/img/animation/animation-vid-3-a.mp4"
                                     ],
-                                    "date": "2018",
-                                    "medium": "JGrasp / Java",
-                                    "description": "my first code project! a recreation of Flappy Bird using original artwork"
+                                    "date": "2022",
+                                    "medium": "frame-by-frame animation",
+                                    "description": "just another morph"
                                 },
                                 {
                                     "id": 4,
                                     "category": "digital",
                                     "subcategory": "digital-art",
                                     "group": "animation",
-                                    "title": "Selection Ring",
+                                    "title": "She Fell",
                                     "cover": "/img/animation/animation-vid-4-a.mp4",
                                     "images": [],
                                     "videos": [
                                         "/img/animation/animation-vid-4-a.mp4"
                                     ],
-                                    "date": "2022",
-                                    "medium": "Unity / C#",
-                                    "description": "a study in programmatic interaction design"
+                                    "date": "2018",
+                                    "medium": "edited on iPhone",
+                                    "description": "a high school art project exploring effects of psychedelics on the human psyche"
                                 },
                                 {
                                     "id": 5,
                                     "category": "digital",
                                     "subcategory": "digital-art",
                                     "group": "animation",
-                                    "title": "Sudoku",
+                                    "title": "Bottle Guy",
                                     "cover": "/img/animation/animation-vid-5-a.mp4",
                                     "images": [],
                                     "videos": [
                                         "/img/animation/animation-vid-5-a.mp4"
                                     ],
                                     "date": "2022",
-                                    "medium": "Unity / C#",
-                                    "description": "a prototype of a mobile sudoku app with custom UX/UI and game elements"
+                                    "medium": "frame-by-frame animation",
+                                    "description": "my bottle guy"
+                                },
+                                {
+                                    "id": 6,
+                                    "category": "digital",
+                                    "subcategory": "digital-art",
+                                    "group": "animation",
+                                    "title": "Fruit Morph",
+                                    "cover": "/img/animation/animation-vid-6-a.mp4",
+                                    "images": [],
+                                    "videos": [
+                                        "/img/animation/animation-vid-5-a.mp4",
+                                        "/img/animation/animation-vid-5-b.mp4"
+                                    ],
+                                    "date": "2022",
+                                    "medium": "frame-by-frame animation",
+                                    "description": "just morphing fruits"
+                                },
+                                {
+                                    "id": 7,
+                                    "category": "digital",
+                                    "subcategory": "digital-art",
+                                    "group": "animation",
+                                    "title": "Chicken Tortillas",
+                                    "cover": "/img/animation/animation-vid-7-a.mp4",
+                                    "images": [],
+                                    "videos": [
+                                        "/img/animation/animation-vid-7-a.mp4"
+                                    ],
+                                    "date": "2018",
+                                    "medium": "Illustrator video edit",
+                                    "description": "I don't know why I called this Chicken Tortillas but I'm sticking with it"
+                                },
+                                {
+                                    "id": 8,
+                                    "category": "digital",
+                                    "subcategory": "digital-art",
+                                    "group": "animation",
+                                    "title": "Buddy Morph",
+                                    "cover": "/img/animation/animation-vid-8-a.mp4",
+                                    "images": [],
+                                    "videos": [
+                                        "/img/animation/animation-vid-8-a.mp4"
+                                    ],
+                                    "date": "2020",
+                                    "medium": "frame-by-frame animation",
+                                    "description": "just another morph"
                                 }
                             ]
                         },
@@ -346,55 +391,6 @@
                                     "description": "virtual worlds assignment"
                                 }
                             ]
-                        },
-                        "web" : {
-                            "items" : [
-                                {
-                                    "id": 1,
-                                    "category": "digital",
-                                    "subcategory": "code",
-                                    "group": "web",
-                                    "title": "Bouncy",
-                                    "cover": "/img/web/web-1-a.jpg",
-                                    "images": [],
-                                    "videos": [
-                                        "/img/web/web-1-a.jpg"
-                                    ],
-                                    "date": "2022",
-                                    "medium": "Unity / C#",
-                                    "description": "a Unity physics study using all original artwork as materials"
-                                },
-                                {
-                                    "id": 2,
-                                    "category": "digital",
-                                    "subcategory": "code",
-                                    "group": "web",
-                                    "title": "Dimensions",
-                                    "cover": "/img/web/web-2-a.jpg",
-                                    "images": [],
-                                    "videos": [
-                                        "/img/web/web-2-a.jpg"
-                                    ],
-                                    "date": "2022",
-                                    "medium": "Unity / C#",
-                                    "description": "a trip through dimensions"
-                                },
-                                {
-                                    "id": 3,
-                                    "category": "digital",
-                                    "subcategory": "code",
-                                    "group": "web",
-                                    "title": "Floppy Fish",
-                                    "cover": "/img/web/web-3-a.jpg",
-                                    "images": [],
-                                    "videos": [
-                                        "/img/web/web-3-a.jpg"
-                                    ],
-                                    "date": "2018",
-                                    "medium": "JGrasp / Java",
-                                    "description": "my first code project! a recreation of Flappy Bird using original artwork"
-                                }
-                            ]
                         }
                     }
                 },
@@ -449,55 +445,6 @@
                                     "date":"2020",
                                     "medium":"Infinite Painter",
                                     "description":"drugs are bad"
-                                }
-                            ]
-                        },
-                        "ux-ui" : {
-                            "items" : [
-                                {
-                                    "id": 1,
-                                    "category": "digital",
-                                    "subcategory": "design",
-                                    "group": "ux-ui",
-                                    "title": "Bouncy",
-                                    "cover": "/img/ux-ui/uxui-vid-1-a.mp4",
-                                    "images": [],
-                                    "videos": [
-                                        "/img/ux-ui/uxui-vid-1-a.mp4"
-                                    ],
-                                    "date": "2022",
-                                    "medium": "Unity / C#",
-                                    "description": "a Unity physics study using all original artwork as materials"
-                                },
-                                {
-                                    "id": 2,
-                                    "category": "digital",
-                                    "subcategory": "design",
-                                    "group": "ux-ui",
-                                    "title": "Dimensions",
-                                    "cover": "/img/ux-ui/uxui-vid-2-a.mp4",
-                                    "images": [],
-                                    "videos": [
-                                        "/img/ux-ui/uxui-vid-2-a.mp4"
-                                    ],
-                                    "date": "2022",
-                                    "medium": "Unity / C#",
-                                    "description": "a trip through dimensions"
-                                },
-                                {
-                                    "id": 3,
-                                    "category": "digital",
-                                    "subcategory": "design",
-                                    "group": "ux-ui",
-                                    "title": "Floppy Fish",
-                                    "cover": "/img/ux-ui/uxui-vid-3-a.mp4",
-                                    "images": [],
-                                    "videos": [
-                                        "/img/ux-ui/uxui-vid-3-a.mp4"
-                                    ],
-                                    "date": "2018",
-                                    "medium": "JGrasp / Java",
-                                    "description": "my first code project! a recreation of Flappy Bird using original artwork"
                                 }
                             ]
                         }
@@ -824,55 +771,6 @@
                 },
                 "clothes" : {
                     "groups" : {
-                        "dead-entrance" : {
-                            "items" : [
-                                {
-                                    "id": 1,
-                                    "category": "physical",
-                                    "subcategory": "clothes",
-                                    "group": "dead-entrance",
-                                    "title": "Blue Shorts",
-                                    "cover": "/img/dead-entrance/dead-entrance-1-a.jpg",
-                                    "images": [
-                                        "/img/dead-entrance/dead-entrance-1-a.jpg"
-                                    ],
-                                    "videos": [],
-                                    "date": "$30",
-                                    "medium": "charcoal",
-                                    "description": "lalalala"
-                                },
-                                {
-                                    "id": 2,
-                                    "category": "physical",
-                                    "subcategory": "clothes",
-                                    "group": "dead-entrance",
-                                    "title": "Blue Shorts",
-                                    "cover": "/img/dead-entrance/dead-entrance-2-a.jpg",
-                                    "images": [
-                                        "/img/dead-entrance/dead-entrance-2-a.jpg"
-                                    ],
-                                    "videos": [],
-                                    "date": "$30",
-                                    "medium": "charcoal",
-                                    "description": "lalalala"
-                                },
-                                {
-                                    "id": 3,
-                                    "category": "physical",
-                                    "subcategory": "clothes",
-                                    "group": "dead-entrance",
-                                    "title": "Blue Shorts",
-                                    "cover": "/img/dead-entrance/dead-entrance-3-a.jpg",
-                                    "images": [
-                                        "/img/dead-entrance/dead-entrance-3-a.jpg"
-                                    ],
-                                    "videos": [],
-                                    "date": "$30",
-                                    "medium": "charcoal",
-                                    "description": "lalalala"
-                                }
-                            ]
-                        },
                         "sewing" : {
                             "items" : [
                                 {
