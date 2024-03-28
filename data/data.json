@@ -12,11 +12,11 @@
                                     "subcategory": "digital-art",
                                     "group": "animation",
                                     "title": "Clouds",
-                                    "cover": "/img/animation/animation-vid-1-a.mp4",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/animation/animation-vid-1-a.mp4",
                                     "images": []
                                     ,
                                     "videos": [
-                                        "/img/animation/animation-vid-1-a.mp4"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/animation/animation-vid-1-a.mp4"
                                     ],
                                     "date": "2021",
                                     "medium": "Edited on iPhone",
@@ -28,10 +28,10 @@
                                     "subcategory": "digital-art",
                                     "group": "animation",
                                     "title": "Gandalf",
-                                    "cover": "/img/animation/animation-vid-2-a.mp4",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/animation/animation-vid-2-a.mp4",
                                     "images": [],
                                     "videos": [
-                                        "/img/animation/animation-vid-2-a.mp4"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/animation/animation-vid-2-a.mp4"
                                     ],
                                     "date": "2021",
                                     "medium": "frame-by-frame animation",
@@ -43,10 +43,10 @@
                                     "subcategory": "digital-art",
                                     "group": "animation",
                                     "title": "Morph",
-                                    "cover": "/img/animation/animation-vid-3-a.mp4",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/animation/animation-vid-3-a.mp4",
                                     "images": [],
                                     "videos": [
-                                        "/img/animation/animation-vid-3-a.mp4"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/animation/animation-vid-3-a.mp4"
                                     ],
                                     "date": "2022",
                                     "medium": "frame-by-frame animation",
@@ -58,10 +58,10 @@
                                     "subcategory": "digital-art",
                                     "group": "animation",
                                     "title": "She Fell",
-                                    "cover": "/img/animation/animation-vid-4-a.mp4",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/animation/animation-vid-4-a.mp4",
                                     "images": [],
                                     "videos": [
-                                        "/img/animation/animation-vid-4-a.mp4"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/animation/animation-vid-4-a.mp4"
                                     ],
                                     "date": "2018",
                                     "medium": "edited on iPhone",
@@ -73,10 +73,10 @@
                                     "subcategory": "digital-art",
                                     "group": "animation",
                                     "title": "Bottle Guy",
-                                    "cover": "/img/animation/animation-vid-5-a.mp4",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/animation/animation-vid-5-a.mp4",
                                     "images": [],
                                     "videos": [
-                                        "/img/animation/animation-vid-5-a.mp4"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/animation/animation-vid-5-a.mp4"
                                     ],
                                     "date": "2022",
                                     "medium": "frame-by-frame animation",
@@ -88,11 +88,11 @@
                                     "subcategory": "digital-art",
                                     "group": "animation",
                                     "title": "Fruit Morph",
-                                    "cover": "/img/animation/animation-vid-6-a.mp4",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/animation/animation-vid-6-a.mp4",
                                     "images": [],
                                     "videos": [
-                                        "/img/animation/animation-vid-5-a.mp4",
-                                        "/img/animation/animation-vid-5-b.mp4"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/animation/animation-vid-5-a.mp4",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/animation/animation-vid-5-b.mp4"
                                     ],
                                     "date": "2022",
                                     "medium": "frame-by-frame animation",
@@ -104,10 +104,10 @@
                                     "subcategory": "digital-art",
                                     "group": "animation",
                                     "title": "Chicken Tortillas",
-                                    "cover": "/img/animation/animation-vid-7-a.mp4",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/animation/animation-vid-7-a.mp4",
                                     "images": [],
                                     "videos": [
-                                        "/img/animation/animation-vid-7-a.mp4"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/animation/animation-vid-7-a.mp4"
                                     ],
                                     "date": "2018",
                                     "medium": "Illustrator video edit",
@@ -119,10 +119,10 @@
                                     "subcategory": "digital-art",
                                     "group": "animation",
                                     "title": "Buddy Morph",
-                                    "cover": "/img/animation/animation-vid-8-a.mp4",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/animation/animation-vid-8-a.mp4",
                                     "images": [],
                                     "videos": [
-                                        "/img/animation/animation-vid-8-a.mp4"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/animation/animation-vid-8-a.mp4"
                                     ],
                                     "date": "2020",
                                     "medium": "frame-by-frame animation",
@@ -138,9 +138,9 @@
                                     "subcategory": "digital-art",
                                     "group": "digital-painting",
                                     "title":"Collective",
-                                    "cover":"/img/digital-painting/digitalpainting-1-a.png",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-1-a.png",
                                     "images":[
-                                        "/img/digital-painting/digitalpainting-1-a.png"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-1-a.png"
                                     ],
                                     "videos":[
                                     ],
@@ -154,9 +154,9 @@
                                     "subcategory": "digital-art",
                                     "group": "digital-painting",
                                     "title":"Dead Entrance Logo",
-                                    "cover":"/img/digital-painting/digitalpainting-2-a.jpg",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-2-a.jpg",
                                     "images":[
-                                        "/img/digital-painting/digitalpainting-2-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-2-a.jpg"
                                     ],
                                     "videos":[
                                     ],
@@ -170,9 +170,9 @@
                                     "subcategory": "digital-art",
                                     "group": "digital-painting",
                                     "title":"Devil Calling",
-                                    "cover":"/img/digital-painting/digitalpainting-3-a.jpg",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-3-a.jpg",
                                     "images":[
-                                        "/img/digital-painting/digitalpainting-3-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-3-a.jpg"
                                     ],
                                     "videos":[
                                     ],
@@ -186,9 +186,9 @@
                                     "subcategory": "digital-art",
                                     "group": "digital-painting",
                                     "title":"Falling",
-                                    "cover":"/img/digital-painting/digitalpainting-4-a.png",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-4-a.png",
                                     "images":[
-                                        "/img/digital-painting/digitalpainting-4-a.png"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-4-a.png"
                                     ],
                                     "videos":[
                                     ],
@@ -202,9 +202,9 @@
                                     "subcategory": "digital-art",
                                     "group": "digital-painting",
                                     "title":"Fish Me",
-                                    "cover":"/img/digital-painting/digitalpainting-5-a.jpg",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-5-a.jpg",
                                     "images":[
-                                        "/img/digital-painting/digitalpainting-5-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-5-a.jpg"
                                     ],
                                     "videos":[
                                     ],
@@ -218,9 +218,9 @@
                                     "subcategory": "digital-art",
                                     "group": "digital-painting",
                                     "title":"Triz",
-                                    "cover":"/img/digital-painting/digitalpainting-6-a.png",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-6-a.png",
                                     "images":[
-                                        "/img/digital-painting/digitalpainting-6-a.png"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-6-a.png"
                                     ],
                                     "videos":[
                                     ],
@@ -234,9 +234,9 @@
                                     "subcategory": "digital-art",
                                     "group": "digital-painting",
                                     "title":"In My Room",
-                                    "cover":"/img/digital-painting/digitalpainting-7-a.png",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-7-a.png",
                                     "images":[
-                                        "/img/digital-painting/digitalpainting-7-a.png"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-7-a.png"
                                     ],
                                     "videos":[
                                     ],
@@ -250,9 +250,9 @@
                                     "subcategory": "digital-art",
                                     "group": "digital-painting",
                                     "title":"Free Ross",
-                                    "cover":"/img/digital-painting/digitalpainting-8-a.jpg",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-8-a.jpg",
                                     "images":[
-                                        "/img/digital-painting/digitalpainting-8-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-8-a.jpg"
                                     ],
                                     "videos":[
                                     ],
@@ -266,9 +266,9 @@
                                     "subcategory": "digital-art",
                                     "group": "digital-painting",
                                     "title":"Dreams",
-                                    "cover":"/img/digital-painting/digitalpainting-9-a.jpg",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-9-a.jpg",
                                     "images":[
-                                        "/img/digital-painting/digitalpainting-9-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-9-a.jpg"
                                     ],
                                     "videos":[
                                     ],
@@ -282,9 +282,9 @@
                                     "subcategory": "digital-art",
                                     "group": "digital-painting",
                                     "title":"Blue Shorts",
-                                    "cover":"/img/digital-painting/digitalpainting-10-a.png",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-10-a.png",
                                     "images":[
-                                        "/img/digital-painting/digitalpainting-10-a.png"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-10-a.png"
                                     ],
                                     "videos":[
                                     ],
@@ -306,10 +306,10 @@
                                     "subcategory": "code",
                                     "group": "unity",
                                     "title": "Bouncy",
-                                    "cover": "/img/unity/unity-vid-1-a.mp4",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/unity/unity-vid-1-a.mp4",
                                     "images": [],
                                     "videos": [
-                                        "/img/unity/unity-vid-1-a.mp4"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/unity/unity-vid-1-a.mp4"
                                     ],
                                     "date": "2022",
                                     "medium": "Unity / C#",
@@ -321,10 +321,10 @@
                                     "subcategory": "code",
                                     "group": "unity",
                                     "title": "Dimensions",
-                                    "cover": "/img/unity/unity-vid-2-a.mp4",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/unity/unity-vid-2-a.mp4",
                                     "images": [],
                                     "videos": [
-                                        "/img/unity/unity-vid-2-a.mp4"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/unity/unity-vid-2-a.mp4"
                                     ],
                                     "date": "2022",
                                     "medium": "Unity / C#",
@@ -336,10 +336,10 @@
                                     "subcategory": "code",
                                     "group": "unity",
                                     "title": "Floppy Fish",
-                                    "cover": "/img/unity/unity-vid-3-a.mp4",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/unity/unity-vid-3-a.mp4",
                                     "images": [],
                                     "videos": [
-                                        "/img/unity/unity-vid-3-a.mp4"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/unity/unity-vid-3-a.mp4"
                                     ],
                                     "date": "2018",
                                     "medium": "JGrasp / Java",
@@ -351,10 +351,10 @@
                                     "subcategory": "code",
                                     "group": "unity",
                                     "title": "Selection Ring",
-                                    "cover": "/img/unity/unity-vid-4-a.mp4",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/unity/unity-vid-4-a.mp4",
                                     "images": [],
                                     "videos": [
-                                        "/img/unity/unity-vid-4-a.mp4"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/unity/unity-vid-4-a.mp4"
                                     ],
                                     "date": "2022",
                                     "medium": "Unity / C#",
@@ -366,10 +366,10 @@
                                     "subcategory": "code",
                                     "group": "unity",
                                     "title": "Fourth Dimension World",
-                                    "cover": "/img/unity/unity-vid-6-a.mp4",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/unity/unity-vid-6-a.mp4",
                                     "images": [],
                                     "videos": [
-                                        "/img/unity/unity-vid-6-a.mp4"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/unity/unity-vid-6-a.mp4"
                                     ],
                                     "date": "2024",
                                     "medium": "Unity / C#",
@@ -381,10 +381,10 @@
                                     "subcategory": "code",
                                     "group": "unity",
                                     "title": "Fourth Dimension World",
-                                    "cover": "/img/unity/unity-vid-6-a.mp4",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/unity/unity-vid-6-a.mp4",
                                     "images": [],
                                     "videos": [
-                                        "/img/unity/unity-vid-6-a.mp4"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/unity/unity-vid-6-a.mp4"
                                     ],
                                     "date": "2024",
                                     "medium": "Unity / C#",
@@ -404,9 +404,9 @@
                                     "subcategory": "design",
                                     "group": "graphic-design",
                                     "title":"Collective",
-                                    "cover":"/img/graphic-design/graphicdesign-1-a.jpg",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/graphicdesign-1-a.jpg",
                                     "images":[
-                                        "/img/graphic-design/graphicdesign-1-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/graphicdesign-1-a.jpg"
                                     ],
                                     "videos":[
                                     ],
@@ -420,9 +420,9 @@
                                     "subcategory": "design",
                                     "group": "graphic-design",
                                     "title":"Dead Entrance Logo",
-                                    "cover":"/img/graphic-design/graphicdesign-2-a.jpg",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/graphicdesign-2-a.jpg",
                                     "images":[
-                                        "/img/graphic-design/graphicdesign-2-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/graphicdesign-2-a.jpg"
                                     ],
                                     "videos":[
                                     ],
@@ -436,9 +436,9 @@
                                     "subcategory": "design",
                                     "group": "graphic-design",
                                     "title":"Devil Calling",
-                                    "cover":"/img/graphic-design/graphicdesign-3-a.jpg",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/graphicdesign-3-a.jpg",
                                     "images":[
-                                        "/img/graphic-design/graphicdesign-3-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/graphicdesign-3-a.jpg"
                                     ],
                                     "videos":[
                                     ],
@@ -464,10 +464,10 @@
                                     "subcategory": "physical-art",
                                     "group": "paper",
                                     "title": "Alexa",
-                                    "cover": "/img/paper/paper-1-a.jpg",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-1-a.jpg",
                                     "images": [
-                                        "/img/paper/paper-1-a.jpg",
-                                        "/img/paper/paper-2-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-1-a.jpg",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-2-a.jpg"
                                     ],
                                     "videos": [],
                                     "date": "2018",
@@ -480,9 +480,9 @@
                                     "subcategory": "physical-art",
                                     "group": "paper",
                                     "title": "Cherry",
-                                    "cover": "/img/paper/paper-2-a.jpg",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-2-a.jpg",
                                     "images": [
-                                        "/img/paper/paper-2-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-2-a.jpg"
                                     ],
                                     "videos": [],
                                     "date": "2018",
@@ -495,9 +495,9 @@
                                     "subcategory": "physical-art",
                                     "group": "paper",
                                     "title": "Hadley",
-                                    "cover": "/img/paper/paper-3-a.jpg",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-3-a.jpg",
                                     "images": [
-                                        "/img/paper/paper-3-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-3-a.jpg"
                                     ],
                                     "videos": [],
                                     "date": "2018",
@@ -510,9 +510,9 @@
                                     "subcategory": "physical-art",
                                     "group": "paper",
                                     "title": "Playtime",
-                                    "cover": "/img/paper/paper-4-a.png",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-4-a.png",
                                     "images": [
-                                        "/img/paper/paper-4-a.png"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-4-a.png"
                                     ],
                                     "videos": [],
                                     "date": "2021",
@@ -525,9 +525,9 @@
                                     "subcategory": "physical-art",
                                     "group": "paper",
                                     "title": "Jenna",
-                                    "cover": "/img/paper/paper-5-a.jpg",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-5-a.jpg",
                                     "images": [
-                                        "/img/paper/paper-5-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-5-a.jpg"
                                     ],
                                     "videos": [],
                                     "date": "2018",
@@ -540,9 +540,9 @@
                                     "subcategory": "physical-art",
                                     "group": "paper",
                                     "title": "JP",
-                                    "cover": "/img/paper/paper-6-a.jpg",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-6-a.jpg",
                                     "images": [
-                                        "/img/paper/paper-6-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-6-a.jpg"
                                     ],
                                     "videos": [],
                                     "date": "2018",
@@ -555,9 +555,9 @@
                                     "subcategory": "physical-art",
                                     "group": "paper",
                                     "title": "Lauren",
-                                    "cover": "/img/paper/paper-7-a.jpg",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-7-a.jpg",
                                     "images": [
-                                        "/img/paper/paper-7-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-7-a.jpg"
                                     ],
                                     "videos": [],
                                     "date": "2018",
@@ -570,9 +570,9 @@
                                     "subcategory": "physical-art",
                                     "group": "paper",
                                     "title": "Clown Lean",
-                                    "cover": "/img/paper/paper-8-a.jpg",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-8-a.jpg",
                                     "images": [
-                                        "/img/paper/paper-8-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-8-a.jpg"
                                     ],
                                     "videos": [],
                                     "date": "2023",
@@ -585,9 +585,9 @@
                                     "subcategory": "physical-art",
                                     "group": "paper",
                                     "title": "Milk Shoe",
-                                    "cover": "/img/paper/paper-9-a.jpg",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-9-a.jpg",
                                     "images": [
-                                        "/img/paper/paper-9-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-9-a.jpg"
                                     ],
                                     "videos": [],
                                     "date": "2018",
@@ -600,9 +600,9 @@
                                     "subcategory": "physical-art",
                                     "group": "paper",
                                     "title": "Snake Mouse",
-                                    "cover": "/img/paper/paper-10-a.png",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-10-a.png",
                                     "images": [
-                                        "/img/paper/paper-10-a.png"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-10-a.png"
                                     ],
                                     "videos": [],
                                     "date": "2021",
@@ -615,9 +615,9 @@
                                     "subcategory": "physical-art",
                                     "group": "paper",
                                     "title": "Hungry",
-                                    "cover": "/img/paper/paper-11-a.jpg",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-11-a.jpg",
                                     "images": [
-                                        "/img/paper/paper-11-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-11-a.jpg"
                                     ],
                                     "videos": [],
                                     "date": "2021",
@@ -630,9 +630,9 @@
                                     "subcategory": "physical-art",
                                     "group": "paper",
                                     "title": "Why",
-                                    "cover": "/img/paper/paper-12-a.jpg",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-12-a.jpg",
                                     "images": [
-                                        "/img/paper/paper-12-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-12-a.jpg"
                                     ],
                                     "videos": [],
                                     "date": "2021",
@@ -645,9 +645,9 @@
                                     "subcategory": "physical-art",
                                     "group": "paper",
                                     "title": "Why",
-                                    "cover": "/img/paper/paper-13-a.jpg",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-13-a.jpg",
                                     "images": [
-                                        "/img/paper/paper-13-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-13-a.jpg"
                                     ],
                                     "videos": [],
                                     "date": "2021",
@@ -664,9 +664,9 @@
                                     "subcategory": "physical-art",
                                     "group": "sculpture",
                                     "title": "Monkey Head",
-                                    "cover": "/img/sculpture/sculpture-1-a.png",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-1-a.png",
                                     "images": [
-                                        "/img/sculpture/sculpture-1-a.png"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-1-a.png"
                                     ],
                                     "videos": [],
                                     "date": "2021",
@@ -679,9 +679,9 @@
                                     "subcategory": "physical-art",
                                     "group": "sculpture",
                                     "title": "Teddy Bear",
-                                    "cover": "/img/sculpture/sculpture-2-a.png",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-2-a.png",
                                     "images": [
-                                        "/img/sculpture/sculpture-2-a.png"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-2-a.png"
                                     ],
                                     "videos": [],
                                     "date": "2021",
@@ -694,12 +694,12 @@
                                     "subcategory": "physical-art",
                                     "group": "sculpture",
                                     "title": "8s",
-                                    "cover": "/img/sculpture/sculpture-3-a.png",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-3-a.png",
                                     "images": [
-                                        "/img/sculpture/sculpture-3-a.png"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-3-a.png"
                                     ],
                                     "videos": [
-                                        "/img/sculpture/sculpture-vid-3-a.mp4"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-vid-3-a.mp4"
                                     ],
                                     "date": "2021",
                                     "medium": "metal",
@@ -711,9 +711,9 @@
                                     "subcategory": "physical-art",
                                     "group": "sculpture",
                                     "title": "Kevin",
-                                    "cover": "/img/sculpture/sculpture-4-a.jpg",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-4-a.jpg",
                                     "images": [
-                                        "/img/sculpture/sculpture-4-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-4-a.jpg"
                                     ],
                                     "videos": [],
                                     "date": "2021",
@@ -726,9 +726,9 @@
                                     "subcategory": "physical-art",
                                     "group": "sculpture",
                                     "title": "Double Lips",
-                                    "cover": "/img/sculpture/sculpture-5-a.png",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-5-a.png",
                                     "images": [
-                                        "/img/sculpture/sculpture-5-a.png"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-5-a.png"
                                     ],
                                     "videos": [],
                                     "date": "2021",
@@ -741,9 +741,9 @@
                                     "subcategory": "physical-art",
                                     "group": "sculpture",
                                     "title": "Nah She's Good",
-                                    "cover": "/img/sculpture/sculpture-6-a.png",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-6-a.png",
                                     "images": [
-                                        "/img/sculpture/sculpture-6-a.png"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-6-a.png"
                                     ],
                                     "videos": [],
                                     "date": "2022",
@@ -756,9 +756,9 @@
                                     "subcategory": "physical-art",
                                     "group": "sculpture",
                                     "title": "Tall Doll",
-                                    "cover": "/img/sculpture/sculpture-7-a.png",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-7-a.png",
                                     "images": [
-                                        "/img/sculpture/sculpture-7-a.png"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-7-a.png"
                                     ],
                                     "videos": [],
                                     "date": "2023",
@@ -779,9 +779,9 @@
                                     "subcategory": "clothes",
                                     "group": "sewing",
                                     "title": "Blue Shorts",
-                                    "cover": "/img/sewing/sewing-1-a.jpg",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/sewing-1-a.jpg",
                                     "images": [
-                                        "/img/sewing/sewing-1-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/sewing-1-a.jpg"
                                     ],
                                     "videos": [],
                                     "date": "$30",
@@ -794,9 +794,9 @@
                                     "subcategory": "clothes",
                                     "group": "sewing",
                                     "title": "Blue Shorts",
-                                    "cover": "/img/sewing/sewing-2-a.jpg",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/sewing-2-a.jpg",
                                     "images": [
-                                        "/img/sewing/sewing-2-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/sewing-2-a.jpg"
                                     ],
                                     "videos": [],
                                     "date": "$30",
@@ -809,9 +809,9 @@
                                     "subcategory": "clothes",
                                     "group": "sewing",
                                     "title": "Blue Shorts",
-                                    "cover": "/img/sewing/sewing-3-a.jpg",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/sewing-3-a.jpg",
                                     "images": [
-                                        "/img/sewing/sewing-3-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/sewing-3-a.jpg"
                                     ],
                                     "videos": [],
                                     "date": "$30",
@@ -824,9 +824,9 @@
                                     "subcategory": "clothes",
                                     "group": "sewing",
                                     "title": "Blue Shorts",
-                                    "cover": "/img/sewing/sewing-4-a.jpg",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/sewing-4-a.jpg",
                                     "images": [
-                                        "/img/sewing/sewing-4-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/sewing-4-a.jpg"
                                     ],
                                     "videos": [],
                                     "date": "$30",
@@ -839,9 +839,9 @@
                                     "subcategory": "clothes",
                                     "group": "sewing",
                                     "title": "Blue Shorts",
-                                    "cover": "/img/sewing/sewing-5-a.jpg",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/sewing-5-a.jpg",
                                     "images": [
-                                        "/img/sewing/sewing-5-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/sewing-5-a.jpg"
                                     ],
                                     "videos": [],
                                     "date": "$30",
@@ -854,9 +854,9 @@
                                     "subcategory": "clothes",
                                     "group": "sewing",
                                     "title": "Blue Shorts",
-                                    "cover": "/img/sewing/sewing-6-a.jpg",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/sewing-6-a.jpg",
                                     "images": [
-                                        "/img/sewing/sewing-6-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/sewing-6-a.jpg"
                                     ],
                                     "videos": [],
                                     "date": "$30",
@@ -869,9 +869,9 @@
                                     "subcategory": "clothes",
                                     "group": "sewing",
                                     "title": "Blue Shorts",
-                                    "cover": "/img/sewing/sewing-7-a.jpg",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/sewing-7-a.jpg",
                                     "images": [
-                                        "/img/sewing/sewing-7-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/sewing-7-a.jpg"
                                     ],
                                     "videos": [],
                                     "date": "$30",
@@ -886,7 +886,7 @@
         }
     },
     "about": {
-        "link": "/img/misc/about-header.png",
+        "link": "https://d1m8q0wflsfke6.cloudfront.net/img/misc/about-header.png",
         "bio": "Hiiiiiiiiiiii"
     },
     "nav": {
@@ -894,22 +894,22 @@
             {
                 "name": "Home",
                 "link": "/",
-                "image": "/img/misc/nav-home.png"
+                "image": "https://d1m8q0wflsfke6.cloudfront.net/img/misc/nav-home.png"
             },
             {
                 "name": "Digital",
                 "link": "/category/digital",
-                "image": "/img/misc/nav-digital.png"
+                "image": "https://d1m8q0wflsfke6.cloudfront.net/img/misc/nav-digital.png"
             },
             {
                 "name": "Physical",
                 "link": "/category/physical",
-                "image": "/img/misc/nav-physical.png"
+                "image": "https://d1m8q0wflsfke6.cloudfront.net/img/misc/nav-physical.png"
             },
             {
                 "name": "About",
                 "link": "/about",
-                "image": "/img/misc/nav-about.png"
+                "image": "https://d1m8q0wflsfke6.cloudfront.net/img/misc/nav-about.png"
             }
         ] 
     },
@@ -917,33 +917,33 @@
         "categories": [
             {
                 "category": "physical",
-                "link": "/img/misc/physical-header.png"
+                "link": "https://d1m8q0wflsfke6.cloudfront.net/img/misc/physical-header.png"
             },
             {
                 "category": "digital",
-                "link": "/img/misc/digital-header.png"
+                "link": "https://d1m8q0wflsfke6.cloudfront.net/img/misc/digital-header.png"
             }
         ],
         "subcategories": [
             {
                 "subcategory": "physical-art",
-                "link": "/img/misc/physical-art-header.png"
+                "link": "https://d1m8q0wflsfke6.cloudfront.net/img/misc/physical-art-header.png"
             },
             {
                 "subcategory": "clothes",
-                "link": "/img/misc/clothes-header.png"
+                "link": "https://d1m8q0wflsfke6.cloudfront.net/img/misc/clothes-header.png"
             },
             {
                 "subcategory": "digital-art",
-                "link": "/img/misc/digital-art-header.png"
+                "link": "https://d1m8q0wflsfke6.cloudfront.net/img/misc/digital-art-header.png"
             },
             {
                 "subcategory": "code",
-                "link": "/img/misc/code-header.png"
+                "link": "https://d1m8q0wflsfke6.cloudfront.net/img/misc/code-header.png"
             },
             {
                 "subcategory": "design",
-                "link": "/img/misc/design-header.png"
+                "link": "https://d1m8q0wflsfke6.cloudfront.net/img/misc/design-header.png"
             }
         ]
     }
