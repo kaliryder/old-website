@@ -445,48 +445,66 @@
                                     "category":"digital",
                                     "subcategory": "design",
                                     "group": "graphic-design",
-                                    "title":"Collective",
-                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/graphicdesign-1-a.jpg",
+                                    "title":"Prisons",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-1-a.PNG",
                                     "images":[
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/graphicdesign-1-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-1-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-1-b.png"
                                     ],
                                     "videos":[
                                     ],
-                                    "date":"2019",
-                                    "medium":"pen, acrylic, digital remaster",
-                                    "description":"a fun scene"
+                                    "date":"2023",
+                                    "medium":"Adobe Illustrator",
+                                    "description":"a graphic for the Miami Hurricane depicting unfair financial discrepencies between prisons"
                                 },
                                 {
                                     "id": 2,
                                     "category":"digital",
                                     "subcategory": "design",
                                     "group": "graphic-design",
-                                    "title":"Dead Entrance Logo",
-                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/graphicdesign-2-a.jpg",
+                                    "title":"Dead Entrance Pop-Up Shop Poster",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-2-a.png",
                                     "images":[
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/graphicdesign-2-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-2-a.png"
                                     ],
                                     "videos":[
                                     ],
                                     "date":"2023",
-                                    "medium":"Adobe Illustrator",
-                                    "description":"a logo for my clothing brand Dead Entrance"
+                                    "medium":"Adobe Illustrator + Adobe InDesign",
+                                    "description":"a poster for a pop up shop that never happened"
                                 },
                                 {
                                     "id": 3,
                                     "category":"digital",
                                     "subcategory": "design",
                                     "group": "graphic-design",
-                                    "title":"Devil Calling",
-                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/graphicdesign-3-a.jpg",
+                                    "title":"Gun Control",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-3-a.png",
                                     "images":[
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/graphicdesign-3-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-3-a.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-3-b.png"
                                     ],
                                     "videos":[
                                     ],
-                                    "date":"2020",
-                                    "medium":"Infinite Painter",
-                                    "description":"drugs are bad"
+                                    "date":"2023",
+                                    "medium":"Adobe Illustrator",
+                                    "description":"a graphic for the Miami Hurricane depicting protest for gun control"
+                                },
+                                {
+                                    "id": 4,
+                                    "category":"digital",
+                                    "subcategory": "design",
+                                    "group": "graphic-design",
+                                    "title":"In Defense of the Midwest",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-4-a.png",
+                                    "images":[
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-4-a.png"
+                                    ],
+                                    "videos":[
+                                    ],
+                                    "date":"2023",
+                                    "medium":"Adobe Illustrator",
+                                    "description":"a graphic for the Miami Hurricane about the Midwestern states of the US"
                                 }
                             ]
                         }
