@@ -137,160 +137,202 @@
                                     "category":"digital",
                                     "subcategory": "digital-art",
                                     "group": "digital-painting",
-                                    "title":"Collective",
-                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-1-a.png",
+                                    "title":"Blue Day",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-1-a.png",
                                     "images":[
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-1-a.png"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-1-a.png"
                                     ],
                                     "videos":[
                                     ],
-                                    "date":"2019",
-                                    "medium":"pen, acrylic, digital remaster",
-                                    "description":"a fun scene"
+                                    "date":"2022",
+                                    "medium":"Apple Pencil on iPad: Infinite Painter",
+                                    "description":"a favorite doodle"
                                 },
                                 {
                                     "id": 2,
                                     "category":"digital",
                                     "subcategory": "digital-art",
                                     "group": "digital-painting",
-                                    "title":"Dead Entrance Logo",
-                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-2-a.jpg",
+                                    "title":"SC",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-2-a.png",
                                     "images":[
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-2-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-2-a.png"
                                     ],
                                     "videos":[
                                     ],
                                     "date":"2023",
-                                    "medium":"Adobe Illustrator",
-                                    "description":"a logo for my clothing brand Dead Entrance"
+                                    "medium":"paper, digitally remastered",
+                                    "description":"a doodle"
                                 },
                                 {
                                     "id": 3,
                                     "category":"digital",
                                     "subcategory": "digital-art",
                                     "group": "digital-painting",
-                                    "title":"Devil Calling",
-                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-3-a.jpg",
+                                    "title":"Lights",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-3-b.png",
                                     "images":[
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-3-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-3-b.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-3-c.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-3-d.png"
                                     ],
                                     "videos":[
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-vid-3-a.mp4"
                                     ],
-                                    "date":"2020",
+                                    "date":"2022",
                                     "medium":"Infinite Painter",
-                                    "description":"drugs are bad"
+                                    "description":"drawn in Infinite Painter, edited in Glitché"
                                 },
                                 {
                                     "id": 4,
                                     "category":"digital",
                                     "subcategory": "digital-art",
                                     "group": "digital-painting",
-                                    "title":"Falling",
-                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-4-a.png",
+                                    "title":"Shade",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-4-a.png",
                                     "images":[
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-4-a.png"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-4-a.png"
                                     ],
                                     "videos":[
                                     ],
-                                    "date":"2020",
+                                    "date":"2021",
                                     "medium":"Infinite Painter",
-                                    "description":"where do we go from here?"
+                                    "description":"playing with darkness, texture and color"
                                 },
                                 {
                                     "id": 5,
                                     "category":"digital",
                                     "subcategory": "digital-art",
                                     "group": "digital-painting",
-                                    "title":"Fish Me",
-                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-5-a.jpg",
+                                    "title":"Yes!",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-5-a.png",
                                     "images":[
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-5-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-5-a.png"
                                     ],
                                     "videos":[
                                     ],
-                                    "date":"2019",
+                                    "date":"2021",
                                     "medium":"Infinite Painter",
-                                    "description":"me but like a fish"
+                                    "description":"just drawing"
                                 },
                                 {
                                     "id": 6,
                                     "category":"digital",
                                     "subcategory": "digital-art",
                                     "group": "digital-painting",
-                                    "title":"Triz",
-                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-6-a.png",
+                                    "title":"Free Ross",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-6-a.png",
                                     "images":[
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-6-a.png"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-6-a.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-6-b.png"
                                     ],
                                     "videos":[
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-vid-6-c.mp4"
                                     ],
-                                    "date":"2020",
+                                    "date":"2019",
                                     "medium":"Infinite Painter",
-                                    "description":"my friend Isabel"
+                                    "description":"a portrait of Ross Ulbricht, calling for his clemency"
                                 },
                                 {
                                     "id": 7,
                                     "category":"digital",
                                     "subcategory": "digital-art",
                                     "group": "digital-painting",
-                                    "title":"In My Room",
-                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-7-a.png",
+                                    "title":"Devil Calling",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-7-a.png",
                                     "images":[
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-7-a.png"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-7-a.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-7-b.png"
                                     ],
                                     "videos":[
                                     ],
-                                    "date":"2020",
+                                    "date":"2021",
                                     "medium":"Infinite Painter",
-                                    "description":"my freshman year college dorm room"
+                                    "description":"drugs are bad"
                                 },
                                 {
                                     "id": 8,
                                     "category":"digital",
                                     "subcategory": "digital-art",
                                     "group": "digital-painting",
-                                    "title":"Free Ross",
-                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-8-a.jpg",
+                                    "title":"Cryptic Landscaping",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-8-a.jpg",
                                     "images":[
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-8-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-8-a.jpg",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-8-b.jpg"
                                     ],
                                     "videos":[
                                     ],
-                                    "date":"2019",
+                                    "date":"2022",
                                     "medium":"Infinite Painter",
-                                    "description":"free Ross Ulbricht, the only of numerous Silk Road founders to be serving life in prison for non-violent crimes"
+                                    "description":"playing with light and texture, as usual"
                                 },
                                 {
                                     "id": 9,
                                     "category":"digital",
                                     "subcategory": "digital-art",
                                     "group": "digital-painting",
-                                    "title":"Dreams",
-                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-9-a.jpg",
+                                    "title":"Triz",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-9-a.jpg",
                                     "images":[
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-9-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-9-a.jpg",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-9-b.jpg"
                                     ],
                                     "videos":[
                                     ],
-                                    "date":"2022",
-                                    "medium":"charcoal",
-                                    "description":"lalalala"
+                                    "date":"2021",
+                                    "medium":"Infinite Painter",
+                                    "description":"a commissioned portrait of a friend"
                                 },
                                 {
                                     "id": 10,
                                     "category":"digital",
                                     "subcategory": "digital-art",
                                     "group": "digital-painting",
-                                    "title":"Blue Shorts",
-                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-10-a.png",
+                                    "title":"Hug",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-10-a.png",
                                     "images":[
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digitalpainting-10-a.png"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-10-a.png"
                                     ],
                                     "videos":[
                                     ],
-                                    "date":"$30",
-                                    "medium":"charcoal",
-                                    "description":"lalalala"
+                                    "date":"2020",
+                                    "medium":"Infinite Painter",
+                                    "description":"affection abstraction"
+                                },
+                                {
+                                    "id": 11,
+                                    "category":"digital",
+                                    "subcategory": "digital-art",
+                                    "group": "digital-painting",
+                                    "title":"Scribbles",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-11-a.png",
+                                    "images":[
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-11-a.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-11-b.png"
+                                    ],
+                                    "videos":[
+                                    ],
+                                    "date":"2023",
+                                    "medium":"Infinite Painter",
+                                    "description":"scribbling is cathartic"
+                                },
+                                {
+                                    "id": 12,
+                                    "category":"digital",
+                                    "subcategory": "digital-art",
+                                    "group": "digital-painting",
+                                    "title":"Scribbles",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-12-a.png",
+                                    "images":[
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-12-a.png"
+                                    ],
+                                    "videos":[
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/digital-painting/digital-painting-vid-12-b.mp4"
+                                    ],
+                                    "date":"2021",
+                                    "medium":"Infinite Painter",
+                                    "description":"commissioned portrait for a friend's small business"
                                 }
                             ]
                         }
