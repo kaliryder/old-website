@@ -504,7 +504,188 @@
                                     ],
                                     "date":"2023",
                                     "medium":"Adobe Illustrator",
-                                    "description":"a graphic for the Miami Hurricane about the Midwestern states of the US"
+                                    "description":"a graphic for the Miami Hurricane about the midwestern states of the US"
+                                },
+                                {
+                                    "id": 5,
+                                    "category":"digital",
+                                    "subcategory": "design",
+                                    "group": "graphic-design",
+                                    "title":"Period Poverty",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-5-a.png",
+                                    "images":[
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-5-a.png"
+                                    ],
+                                    "videos":[
+                                    ],
+                                    "date":"2023",
+                                    "medium":"Adobe Illustrator",
+                                    "description":"a graphic for the Miami Hurricane about inaccessible pricing of period products"
+                                },
+                                {
+                                    "id": 6,
+                                    "category":"digital",
+                                    "subcategory": "design",
+                                    "group": "graphic-design",
+                                    "title":"Dupes",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-6-a.png",
+                                    "images":[
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-6-a.png"
+                                    ],
+                                    "videos":[
+                                    ],
+                                    "date":"2023",
+                                    "medium":"Adobe Illustrator",
+                                    "description":"a graphic for the Miami Hurricane about product dupes on TikTok"
+                                },
+                                {
+                                    "id": 7,
+                                    "category":"digital",
+                                    "subcategory": "design",
+                                    "group": "graphic-design",
+                                    "title":"Rocky",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-7-a.png",
+                                    "images":[
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-7-a.png"
+                                    ],
+                                    "videos":[
+                                    ],
+                                    "date":"2023",
+                                    "medium":"Adobe Illustrator",
+                                    "description":"a portrait of Rocky, my amazing Swiss Mountain Dog. I seriously love that dog so much it's insane"
+                                },
+                                {
+                                    "id": 8,
+                                    "category":"digital",
+                                    "subcategory": "design",
+                                    "group": "graphic-design",
+                                    "title":"Dead Entrance",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-8-a.png",
+                                    "images":[
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-8-a.png"
+                                    ],
+                                    "videos":[
+                                    ],
+                                    "date":"2023",
+                                    "medium":"Adobe Illustrator",
+                                    "description":"a title graphic for my clothing brand, Dead Entrance"
+                                },
+                                {
+                                    "id": 9,
+                                    "category":"digital",
+                                    "subcategory": "design",
+                                    "group": "graphic-design",
+                                    "title":"The Case Against SigEp",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-9-a.png",
+                                    "images":[
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-9-a.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-9-b.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-9-c.png"
+                                    ],
+                                    "videos":[
+                                    ],
+                                    "date":"2023",
+                                    "medium":"Adobe Illustrator",
+                                    "description":"a graphic for the Miami Hurricane about a fraternity controversy"
+                                },
+                                {
+                                    "id": 10,
+                                    "category":"digital",
+                                    "subcategory": "design",
+                                    "group": "graphic-design",
+                                    "title":"VR Ethics",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-10-a.png",
+                                    "images":[
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-10-a.png"
+                                    ],
+                                    "videos":[
+                                    ],
+                                    "date":"2023",
+                                    "medium":"Adobe Illustrator",
+                                    "description":"a graphic for the Miami Hurricane about virtual reality ethics"
+                                },
+                                {
+                                    "id": 12,
+                                    "category":"digital",
+                                    "subcategory": "design",
+                                    "group": "graphic-design",
+                                    "title":"3 Dust Jackets",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-12-a.png",
+                                    "images":[
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-12-a.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-12-b.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-12-c.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-12-d.png"
+                                    ],
+                                    "videos":[
+                                    ],
+                                    "date":"2023",
+                                    "medium":"Adobe Illustrator + Dall-E imagery",
+                                    "description":"a dust jacket design for an imaginary book trilogy"
+                                },
+                                {
+                                    "id": 13,
+                                    "category":"digital",
+                                    "subcategory": "design",
+                                    "group": "graphic-design",
+                                    "title":"RPDR Quiz Logo",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-13-a.png",
+                                    "images":[
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-13-a.png"
+                                    ],
+                                    "videos":[
+                                    ],
+                                    "date":"2023",
+                                    "medium":"Adobe Illustrator",
+                                    "description":"a logo for my RuPaul's Drag Race Quiz website"
+                                },
+                                {
+                                    "id": 14,
+                                    "category":"digital",
+                                    "subcategory": "design",
+                                    "group": "graphic-design",
+                                    "title":"Feeling Okay?",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-14-a.png",
+                                    "images":[
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-14-a.png"
+                                    ],
+                                    "videos":[
+                                    ],
+                                    "date":"2023",
+                                    "medium":"Adobe Illustrator",
+                                    "description":"a random graphic that I like"
+                                },
+                                {
+                                    "id": 15,
+                                    "category":"digital",
+                                    "subcategory": "design",
+                                    "group": "graphic-design",
+                                    "title":"Period Poverty",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-15-a.png",
+                                    "images":[
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-15-a.png"
+                                    ],
+                                    "videos":[
+                                    ],
+                                    "date":"2023",
+                                    "medium":"Adobe Illustrator",
+                                    "description":"a graphic for the Miami Hurricane about DeSantis policies"
+                                },
+                                {
+                                    "id": 16,
+                                    "category":"digital",
+                                    "subcategory": "design",
+                                    "group": "graphic-design",
+                                    "title":"Community",
+                                    "cover":"https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-16-a.png",
+                                    "images":[
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/graphic-design/design-16-a.png"
+                                    ],
+                                    "videos":[
+                                    ],
+                                    "date":"2023",
+                                    "medium":"Adobe Illustrator",
+                                    "description":"a graphic for the Miami Hurricane about diversity in community"
                                 }
                             ]
                         }
