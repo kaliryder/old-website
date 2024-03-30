@@ -704,31 +704,33 @@
                                     "category": "physical",
                                     "subcategory": "physical-art",
                                     "group": "paper",
-                                    "title": "Alexa",
-                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-1-a.jpg",
+                                    "title": "Contagion",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-1-a.png",
                                     "images": [
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-1-a.jpg",
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-2-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-1-a.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-1-b.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-1-c.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-1-d.png"
                                     ],
                                     "videos": [],
-                                    "date": "2018",
-                                    "medium": "charcoal, graphite, acrylic",
-                                    "description": "my friend Alexa"
+                                    "date": "2019",
+                                    "medium": "colored ink and acrylic",
+                                    "description": "an abstract painting, winner of a Scholastic Gold Key"
                                 },
                                 {
                                     "id": 2,
                                     "category": "physical",
                                     "subcategory": "physical-art",
                                     "group": "paper",
-                                    "title": "Cherry",
-                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-2-a.jpg",
+                                    "title": "Why?",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-2-a.png",
                                     "images": [
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-2-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-2-a.png"
                                     ],
                                     "videos": [],
-                                    "date": "2018",
-                                    "medium": "charcoal, graphite, acrylic",
-                                    "description": "real skin"
+                                    "date": "2021",
+                                    "medium": "watercolor and ink",
+                                    "description": "just another abstraction"
                                 },
                                 {
                                     "id": 3,
@@ -736,9 +738,11 @@
                                     "subcategory": "physical-art",
                                     "group": "paper",
                                     "title": "Hadley",
-                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-3-a.jpg",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-3-a.png",
                                     "images": [
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-3-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-3-a.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-3-b.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-3-c.png"
                                     ],
                                     "videos": [],
                                     "date": "2018",
@@ -750,150 +754,267 @@
                                     "category": "physical",
                                     "subcategory": "physical-art",
                                     "group": "paper",
-                                    "title": "Playtime",
+                                    "title": "Collective",
                                     "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-4-a.png",
                                     "images": [
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-4-a.png"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-4-a.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-4-b.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-4-c.png"
                                     ],
                                     "videos": [],
-                                    "date": "2021",
-                                    "medium": "graphite",
-                                    "description": "realism study for my Intro to Drawing class"
+                                    "date": "2020",
+                                    "medium": "acrylic on paper, digital remaster",
+                                    "description": "a collective"
                                 },
                                 {
                                     "id": 5,
                                     "category": "physical",
                                     "subcategory": "physical-art",
                                     "group": "paper",
-                                    "title": "Jenna",
-                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-5-a.jpg",
+                                    "title": "Clown Lean",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-5-a.png",
                                     "images": [
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-5-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-5-a.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-5-b.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-5-c.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-5-d.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-5-e.png"
                                     ],
                                     "videos": [],
-                                    "date": "2018",
-                                    "medium": "charcoal, graphite, acrylic",
-                                    "description": "my friend Jenna"
+                                    "date": "2022",
+                                    "medium": "pencil, marker, watercolor on paper",
+                                    "description": "Yung Lean as a clown"
                                 },
                                 {
                                     "id": 6,
                                     "category": "physical",
                                     "subcategory": "physical-art",
                                     "group": "paper",
-                                    "title": "JP",
-                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-6-a.jpg",
+                                    "title": "Pop",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-6-a.png",
                                     "images": [
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-6-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-6-a.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-6-b.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-6-c.png"
                                     ],
                                     "videos": [],
-                                    "date": "2018",
-                                    "medium": "ink, relief prints, collage",
-                                    "description": "a collage abstracting my friend JP"
+                                    "date": "2023",
+                                    "medium": "paint markers and collage",
+                                    "description": "putting old magazines to good use"
                                 },
                                 {
                                     "id": 7,
                                     "category": "physical",
                                     "subcategory": "physical-art",
                                     "group": "paper",
-                                    "title": "Lauren",
-                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-7-a.jpg",
+                                    "title": "Soothed",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-7-a.png",
                                     "images": [
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-7-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-7-a.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-7-b.png"
                                     ],
                                     "videos": [],
-                                    "date": "2018",
-                                    "medium": "charcoal, graphite, acrylic",
-                                    "description": "my friend Lauren"
+                                    "date": "2021",
+                                    "medium": "watercolor on paper",
+                                    "description": "how I was feeling that day"
                                 },
                                 {
                                     "id": 8,
                                     "category": "physical",
                                     "subcategory": "physical-art",
                                     "group": "paper",
-                                    "title": "Clown Lean",
-                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-8-a.jpg",
+                                    "title": "USPS",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-8-a.png",
                                     "images": [
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-8-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-8-a.png"
                                     ],
                                     "videos": [],
-                                    "date": "2023",
-                                    "medium": "graphite, watercolor, marker",
-                                    "description": "mirrored clown Yung Lean"
+                                    "date": "2018",
+                                    "medium": "collage and acrylic on paper",
+                                    "description": "a collage study inspired by the US Postal Service"
                                 },
                                 {
                                     "id": 9,
                                     "category": "physical",
                                     "subcategory": "physical-art",
                                     "group": "paper",
-                                    "title": "Milk Shoe",
-                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-9-a.jpg",
+                                    "title": "Snake Mouse",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-9-a.png",
                                     "images": [
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-9-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-9-a.png"
                                     ],
                                     "videos": [],
-                                    "date": "2018",
-                                    "medium": "relief print, ink",
-                                    "description": "abstraction of my friend Jenna"
+                                    "date": "2020",
+                                    "medium": "graphite on paper",
+                                    "description": "study for an Intro to Drawing class"
                                 },
                                 {
                                     "id": 10,
                                     "category": "physical",
                                     "subcategory": "physical-art",
                                     "group": "paper",
-                                    "title": "Snake Mouse",
+                                    "title": "Jenna",
                                     "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-10-a.png",
                                     "images": [
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-10-a.png"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-10-a.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-10-b.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-10-c.png"
                                     ],
                                     "videos": [],
-                                    "date": "2021",
-                                    "medium": "graphite",
-                                    "description": "abstraction study for my Intro to Drawing class"
+                                    "date": "2018",
+                                    "medium": "graphite, charcoal, acrylic on paper",
+                                    "description": "portrait of a friend"
                                 },
                                 {
                                     "id": 11,
                                     "category": "physical",
                                     "subcategory": "physical-art",
                                     "group": "paper",
-                                    "title": "Hungry",
-                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-11-a.jpg",
+                                    "title": "Blot",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-11-a.png",
                                     "images": [
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-11-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-11-a.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-11-b.png"
                                     ],
                                     "videos": [],
-                                    "date": "2021",
-                                    "medium": "watercolor",
-                                    "description": "I was hungry"
+                                    "date": "2023",
+                                    "medium": "paint marker on paper",
+                                    "description": "a fun abstraction"
                                 },
                                 {
                                     "id": 12,
                                     "category": "physical",
                                     "subcategory": "physical-art",
                                     "group": "paper",
-                                    "title": "Why",
-                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-12-a.jpg",
+                                    "title": "JP",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-12-a.png",
                                     "images": [
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-12-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-12-a.png"
                                     ],
                                     "videos": [],
-                                    "date": "2021",
-                                    "medium": "watercolor",
-                                    "description": "trust the process"
+                                    "date": "2018",
+                                    "medium": "collage and relief prints on paper",
+                                    "description": "an abstract portrait of a friend"
                                 },
                                 {
                                     "id": 13,
                                     "category": "physical",
                                     "subcategory": "physical-art",
                                     "group": "paper",
-                                    "title": "Why",
-                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-13-a.jpg",
+                                    "title": "Thought So",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-13-a.png",
                                     "images": [
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-13-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-13-a.png"
                                     ],
                                     "videos": [],
                                     "date": "2021",
-                                    "medium": "watercolor",
-                                    "description": "trust the process"
+                                    "medium": "marker on paper",
+                                    "description": "just doodling"
+                                },
+                                {
+                                    "id": 14,
+                                    "category": "physical",
+                                    "subcategory": "physical-art",
+                                    "group": "paper",
+                                    "title": "Thought So",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-13-a.png",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-13-a.png"
+                                    ],
+                                    "videos": [],
+                                    "date": "2021",
+                                    "medium": "marker on paper",
+                                    "description": "just doodling"
+                                },
+                                {
+                                    "id": 13,
+                                    "category": "physical",
+                                    "subcategory": "physical-art",
+                                    "group": "paper",
+                                    "title": "Thought So",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-13-a.png",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-13-a.png"
+                                    ],
+                                    "videos": [],
+                                    "date": "2021",
+                                    "medium": "marker on paper",
+                                    "description": "just doodling"
+                                },
+                                {
+                                    "id": 13,
+                                    "category": "physical",
+                                    "subcategory": "physical-art",
+                                    "group": "paper",
+                                    "title": "Thought So",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-13-a.png",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-13-a.png"
+                                    ],
+                                    "videos": [],
+                                    "date": "2021",
+                                    "medium": "marker on paper",
+                                    "description": "just doodling"
+                                },
+                                {
+                                    "id": 13,
+                                    "category": "physical",
+                                    "subcategory": "physical-art",
+                                    "group": "paper",
+                                    "title": "Thought So",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-13-a.png",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-13-a.png"
+                                    ],
+                                    "videos": [],
+                                    "date": "2021",
+                                    "medium": "marker on paper",
+                                    "description": "just doodling"
+                                },
+                                {
+                                    "id": 13,
+                                    "category": "physical",
+                                    "subcategory": "physical-art",
+                                    "group": "paper",
+                                    "title": "Thought So",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-13-a.png",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-13-a.png"
+                                    ],
+                                    "videos": [],
+                                    "date": "2021",
+                                    "medium": "marker on paper",
+                                    "description": "just doodling"
+                                },
+                                {
+                                    "id": 13,
+                                    "category": "physical",
+                                    "subcategory": "physical-art",
+                                    "group": "paper",
+                                    "title": "Thought So",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-13-a.png",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-13-a.png"
+                                    ],
+                                    "videos": [],
+                                    "date": "2021",
+                                    "medium": "marker on paper",
+                                    "description": "just doodling"
+                                },
+                                {
+                                    "id": 13,
+                                    "category": "physical",
+                                    "subcategory": "physical-art",
+                                    "group": "paper",
+                                    "title": "Thought So",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-13-a.png",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-13-a.png"
+                                    ],
+                                    "videos": [],
+                                    "date": "2021",
+                                    "medium": "marker on paper",
+                                    "description": "just doodling"
                                 }
                             ]
                         },
