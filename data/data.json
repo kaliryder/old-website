@@ -1291,105 +1291,431 @@
                                     "category": "physical",
                                     "subcategory": "clothes",
                                     "group": "sewing",
-                                    "title": "Blue Shorts",
-                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/sewing-1-a.jpg",
+                                    "title": "Jean Collage Top",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-1-a.PNG",
                                     "images": [
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/sewing-1-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-1-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-1-b.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-1-c.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-1-d.PNG"
                                     ],
                                     "videos": [],
-                                    "date": "$30",
-                                    "medium": "charcoal",
-                                    "description": "lalalala"
+                                    "date": "2022",
+                                    "medium": "upcycled denim",
+                                    "description": "a versatile top"
                                 },
                                 {
                                     "id": 2,
                                     "category": "physical",
                                     "subcategory": "clothes",
                                     "group": "sewing",
-                                    "title": "Blue Shorts",
-                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/sewing-2-a.jpg",
+                                    "title": "Stripey Dress",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-2-a.PNG",
                                     "images": [
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/sewing-2-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-2-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-2-b.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-2-c.png"
                                     ],
                                     "videos": [],
-                                    "date": "$30",
-                                    "medium": "charcoal",
-                                    "description": "lalalala"
+                                    "date": "2022",
+                                    "medium": "upcycled tank tops",
+                                    "description": "my first ever dress"
                                 },
                                 {
                                     "id": 3,
                                     "category": "physical",
                                     "subcategory": "clothes",
                                     "group": "sewing",
-                                    "title": "Blue Shorts",
-                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/sewing-3-a.jpg",
+                                    "title": "Circle Top",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-3-a.PNG",
                                     "images": [
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/sewing-3-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-3-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-3-b.PNG"
                                     ],
                                     "videos": [],
-                                    "date": "$30",
-                                    "medium": "charcoal",
-                                    "description": "lalalala"
+                                    "date": "2022",
+                                    "medium": "upcycled t-shirt",
+                                    "description": "experimenting with different tank top styles"
                                 },
                                 {
                                     "id": 4,
                                     "category": "physical",
                                     "subcategory": "clothes",
                                     "group": "sewing",
-                                    "title": "Blue Shorts",
-                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/sewing-4-a.jpg",
+                                    "title": "Pika of the Apes Tank",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-4-a.PNG",
                                     "images": [
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/sewing-4-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-4-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-4-b.png"
                                     ],
                                     "videos": [],
-                                    "date": "$30",
-                                    "medium": "charcoal",
-                                    "description": "lalalala"
+                                    "date": "2022",
+                                    "medium": "upcycled t-shirts",
+                                    "description": "graphic tank top"
                                 },
                                 {
                                     "id": 5,
                                     "category": "physical",
                                     "subcategory": "clothes",
                                     "group": "sewing",
-                                    "title": "Blue Shorts",
-                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/sewing-5-a.jpg",
+                                    "title": "Pink Lace-Up Tube",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-5-a.PNG",
                                     "images": [
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/sewing-5-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-5-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-5-b.PNG"
                                     ],
                                     "videos": [],
-                                    "date": "$30",
-                                    "medium": "charcoal",
-                                    "description": "lalalala"
+                                    "date": "2022",
+                                    "medium": "upcycled jacket, shoelace",
+                                    "description": "first of many lace-up tube tops"
                                 },
                                 {
                                     "id": 6,
                                     "category": "physical",
                                     "subcategory": "clothes",
                                     "group": "sewing",
-                                    "title": "Blue Shorts",
-                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/sewing-6-a.jpg",
+                                    "title": "Formal Dress",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-6-a.PNG",
                                     "images": [
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/sewing-6-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-6-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-6-b.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-6-c.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-6-d.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-6-e.png"
                                     ],
                                     "videos": [],
-                                    "date": "$30",
-                                    "medium": "charcoal",
-                                    "description": "lalalala"
+                                    "date": "2023",
+                                    "medium": "blue fabric, zipper, elastic band",
+                                    "description": "I patterned and sewed myself a dress for formal"
                                 },
                                 {
                                     "id": 7,
                                     "category": "physical",
                                     "subcategory": "clothes",
                                     "group": "sewing",
-                                    "title": "Blue Shorts",
-                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/sewing-7-a.jpg",
+                                    "title": "9 Jean Lace-Up",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-a.PNG",
                                     "images": [
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/sewing-7-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-b.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-c.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-d.png"
                                     ],
                                     "videos": [],
-                                    "date": "$30",
-                                    "medium": "charcoal",
-                                    "description": "lalalala"
+                                    "date": "2022",
+                                    "medium": "upcycled jeans",
+                                    "description": "these jeans were way too big on me but I loved the graphic"
+                                },
+                                {
+                                    "id": 8,
+                                    "category": "physical",
+                                    "subcategory": "clothes",
+                                    "group": "sewing",
+                                    "title": "Tie-Dye Multi Crop",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-8-a.PNG",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-8-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-8-b.PNG"
+                                    ],
+                                    "videos": [],
+                                    "date": "2022",
+                                    "medium": "upcycled tie-dyed scraps",
+                                    "description": "a fun crop"
+                                },
+                                {
+                                    "id": 9,
+                                    "category": "physical",
+                                    "subcategory": "clothes",
+                                    "group": "sewing",
+                                    "title": "Safety Pin Asymmetrical",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-9-a.PNG",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-9-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-9-b.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-9-c.png"
+                                    ],
+                                    "videos": [],
+                                    "date": "2022",
+                                    "medium": "upcycled shorts",
+                                    "description": "experimental top"
+                                },
+                                {
+                                    "id": 10,
+                                    "category": "physical",
+                                    "subcategory": "clothes",
+                                    "group": "sewing",
+                                    "title": "Bubble Bikini",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-10-a.PNG",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-10-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-10-b.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-10-c.png"
+                                    ],
+                                    "videos": [],
+                                    "date": "2022",
+                                    "medium": "upcycled skirt",
+                                    "description": "the skirt wasn't cute enough to keep intact"
+                                },
+                                {
+                                    "id": 11,
+                                    "category": "physical",
+                                    "subcategory": "clothes",
+                                    "group": "sewing",
+                                    "title": "Coogi Drop Jeans",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-11-a.PNG",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-11-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-11-b.PNG"
+                                    ],
+                                    "videos": [],
+                                    "date": "2022",
+                                    "medium": "upcycled jeans",
+                                    "description": "playing with transparency and fabric mixing"
+                                },
+                                {
+                                    "id": 12,
+                                    "category": "physical",
+                                    "subcategory": "clothes",
+                                    "group": "sewing",
+                                    "title": "DE Lace Asymmetrical",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-12-a.PNG",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-12-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-12-b.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-12-c.png"
+                                    ],
+                                    "videos": [],
+                                    "date": "2022",
+                                    "medium": "upcycled fabric, eyelets and shoelace",
+                                    "description": "this was shortly after I purchased my first grommet machine"
+                                },
+                                {
+                                    "id": 13,
+                                    "category": "physical",
+                                    "subcategory": "clothes",
+                                    "group": "sewing",
+                                    "title": "Bleach Tank",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-13-a.PNG",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-13-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-13-b.png"
+                                    ],
+                                    "videos": [],
+                                    "date": "2022",
+                                    "medium": "bleached tank top",
+                                    "description": "I didn't actually sew anything here, but I love putting bleach on black fabric"
+                                },
+                                {
+                                    "id": 14,
+                                    "category": "physical",
+                                    "subcategory": "clothes",
+                                    "group": "sewing",
+                                    "title": "Doors Lace-Up",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-14-a.PNG",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-14-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-14-b.PNG"
+                                    ],
+                                    "videos": [],
+                                    "date": "2022",
+                                    "medium": "upcycled t-shirt and shoelace",
+                                    "description": "Jim Morrison on a tube top"
+                                },
+                                {
+                                    "id": 15,
+                                    "category": "physical",
+                                    "subcategory": "clothes",
+                                    "group": "sewing",
+                                    "title": "DE Bleached Asymmetrical",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-15-a.PNG",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-15-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-15-b.PNG"
+                                    ],
+                                    "videos": [],
+                                    "date": "2022",
+                                    "medium": "upcycled fabric and bleach",
+                                    "description": "I like to put my imaginary brand name and bleach on everything, evidently"
+                                },
+                                {
+                                    "id": 16,
+                                    "category": "physical",
+                                    "subcategory": "clothes",
+                                    "group": "sewing",
+                                    "title": "Grid Lace-Up",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-a.PNG",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-b.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-c.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-d.png"
+                                    ],
+                                    "videos": [],
+                                    "date": "2022",
+                                    "medium": "upcycled jeans",
+                                    "description": "these jeans were way too big on me but I loved the graphic"
+                                },
+                                {
+                                    "id": 7,
+                                    "category": "physical",
+                                    "subcategory": "clothes",
+                                    "group": "sewing",
+                                    "title": "9 Jean Lace-Up",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-a.PNG",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-b.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-c.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-d.png"
+                                    ],
+                                    "videos": [],
+                                    "date": "2022",
+                                    "medium": "upcycled jeans",
+                                    "description": "these jeans were way too big on me but I loved the graphic"
+                                },
+                                {
+                                    "id": 7,
+                                    "category": "physical",
+                                    "subcategory": "clothes",
+                                    "group": "sewing",
+                                    "title": "9 Jean Lace-Up",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-a.PNG",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-b.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-c.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-d.png"
+                                    ],
+                                    "videos": [],
+                                    "date": "2022",
+                                    "medium": "upcycled jeans",
+                                    "description": "these jeans were way too big on me but I loved the graphic"
+                                },
+                                {
+                                    "id": 7,
+                                    "category": "physical",
+                                    "subcategory": "clothes",
+                                    "group": "sewing",
+                                    "title": "9 Jean Lace-Up",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-a.PNG",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-b.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-c.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-d.png"
+                                    ],
+                                    "videos": [],
+                                    "date": "2022",
+                                    "medium": "upcycled jeans",
+                                    "description": "these jeans were way too big on me but I loved the graphic"
+                                },
+                                {
+                                    "id": 7,
+                                    "category": "physical",
+                                    "subcategory": "clothes",
+                                    "group": "sewing",
+                                    "title": "9 Jean Lace-Up",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-a.PNG",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-b.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-c.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-d.png"
+                                    ],
+                                    "videos": [],
+                                    "date": "2022",
+                                    "medium": "upcycled jeans",
+                                    "description": "these jeans were way too big on me but I loved the graphic"
+                                },
+                                {
+                                    "id": 7,
+                                    "category": "physical",
+                                    "subcategory": "clothes",
+                                    "group": "sewing",
+                                    "title": "9 Jean Lace-Up",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-a.PNG",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-b.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-c.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-d.png"
+                                    ],
+                                    "videos": [],
+                                    "date": "2022",
+                                    "medium": "upcycled jeans",
+                                    "description": "these jeans were way too big on me but I loved the graphic"
+                                },
+                                {
+                                    "id": 7,
+                                    "category": "physical",
+                                    "subcategory": "clothes",
+                                    "group": "sewing",
+                                    "title": "9 Jean Lace-Up",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-a.PNG",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-b.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-c.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-d.png"
+                                    ],
+                                    "videos": [],
+                                    "date": "2022",
+                                    "medium": "upcycled jeans",
+                                    "description": "these jeans were way too big on me but I loved the graphic"
+                                },
+                                {
+                                    "id": 7,
+                                    "category": "physical",
+                                    "subcategory": "clothes",
+                                    "group": "sewing",
+                                    "title": "9 Jean Lace-Up",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-a.PNG",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-b.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-c.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-d.png"
+                                    ],
+                                    "videos": [],
+                                    "date": "2022",
+                                    "medium": "upcycled jeans",
+                                    "description": "these jeans were way too big on me but I loved the graphic"
+                                },
+                                {
+                                    "id": 7,
+                                    "category": "physical",
+                                    "subcategory": "clothes",
+                                    "group": "sewing",
+                                    "title": "9 Jean Lace-Up",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-a.PNG",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-b.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-c.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-d.png"
+                                    ],
+                                    "videos": [],
+                                    "date": "2022",
+                                    "medium": "upcycled jeans",
+                                    "description": "these jeans were way too big on me but I loved the graphic"
+                                },
+                                {
+                                    "id": 7,
+                                    "category": "physical",
+                                    "subcategory": "clothes",
+                                    "group": "sewing",
+                                    "title": "9 Jean Lace-Up",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-a.PNG",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-b.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-c.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sewing/clothes-7-d.png"
+                                    ],
+                                    "videos": [],
+                                    "date": "2022",
+                                    "medium": "upcycled jeans",
+                                    "description": "these jeans were way too big on me but I loved the graphic"
                                 }
                             ]
                         }
