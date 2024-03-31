@@ -1017,7 +1017,7 @@
                                     "title": "Milk Shoe",
                                     "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-20-a.png",
                                     "images": [
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-20-a.jpg",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-20-a",
                                         "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-20-b.png",
                                         "https://d1m8q0wflsfke6.cloudfront.net/img/paper/paper-20-c.png"
                                     ],
@@ -1035,15 +1035,20 @@
                                     "category": "physical",
                                     "subcategory": "physical-art",
                                     "group": "sculpture",
-                                    "title": "Monkey Head",
-                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-1-a.png",
+                                    "title": "Lanky Doll",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-1-a.PNG",
                                     "images": [
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-1-a.png"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-1-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-1-b.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-1-c.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-1-d.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-1-e.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-1-f.png"
                                     ],
                                     "videos": [],
-                                    "date": "2021",
-                                    "medium": "wood",
-                                    "description": "this piece made itself"
+                                    "date": "2022",
+                                    "medium": "wood, fabric, pillow stuffing, string",
+                                    "description": "my marrionette friend"
                                 },
                                 {
                                     "id": 2,
@@ -1051,9 +1056,13 @@
                                     "subcategory": "physical-art",
                                     "group": "sculpture",
                                     "title": "Teddy Bear",
-                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-2-a.png",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-2-a.PNG",
                                     "images": [
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-2-a.png"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-2-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-2-b.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-2-c.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-2-d.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-2-e.png]"
                                     ],
                                     "videos": [],
                                     "date": "2021",
@@ -1066,12 +1075,16 @@
                                     "subcategory": "physical-art",
                                     "group": "sculpture",
                                     "title": "8s",
-                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-3-a.png",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-3-a.PNG",
                                     "images": [
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-3-a.png"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-3-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-3-c.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-3-d.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-3-e.png"
                                     ],
                                     "videos": [
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-vid-3-a.mp4"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-vid-3-b.mp4",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-vid-3-f.mp4"
                                     ],
                                     "date": "2021",
                                     "medium": "metal",
@@ -1082,60 +1095,188 @@
                                     "category": "physical",
                                     "subcategory": "physical-art",
                                     "group": "sculpture",
-                                    "title": "Kevin",
-                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-4-a.jpg",
+                                    "title": "Monkey",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-4-a.PNG",
                                     "images": [
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-4-a.jpg"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-4-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-4-b.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-4-c.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-4-d.png"
                                     ],
                                     "videos": [],
-                                    "date": "2021",
-                                    "medium": "ceramic",
-                                    "description": "Kevin is a cockroach"
+                                    "date": "2022",
+                                    "medium": "wood",
+                                    "description": "this piece made itself"
                                 },
                                 {
                                     "id": 5,
                                     "category": "physical",
                                     "subcategory": "physical-art",
                                     "group": "sculpture",
-                                    "title": "Double Lips",
-                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-5-a.png",
+                                    "title": "Spider Me",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-5-a.PNG",
                                     "images": [
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-5-a.png"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-5-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-5-b.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-5-c.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-5-d.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-5-e.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-5-f.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-5-g.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-5-h.png"
                                     ],
                                     "videos": [],
-                                    "date": "2021",
-                                    "medium": "wood",
-                                    "description": "carved lips from wood"
+                                    "date": "2023",
+                                    "medium": "metal, plaster, paint markers, wire, fabric, stuffing, found objects",
+                                    "description": "rest in peace to my old self"
                                 },
                                 {
                                     "id": 6,
                                     "category": "physical",
                                     "subcategory": "physical-art",
                                     "group": "sculpture",
-                                    "title": "Nah She's Good",
-                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-6-a.png",
+                                    "title": "Glass Doll",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-6-a.PNG",
                                     "images": [
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-6-a.png"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-6-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-6-b.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-6-c.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-6-d.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-6-e.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-6-f.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-6-g.png"
                                     ],
                                     "videos": [],
-                                    "date": "2022",
-                                    "medium": "found mannequin head, paint, metal rod, marker, hot glue",
-                                    "description": "a de-and-re-construction of her"
+                                    "date": "2023",
+                                    "medium": "glass, string, doll parts",
+                                    "description": "she is you, she is me, everyone is scared of her"
                                 },
                                 {
                                     "id": 7,
                                     "category": "physical",
                                     "subcategory": "physical-art",
                                     "group": "sculpture",
-                                    "title": "Tall Doll",
-                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-7-a.png",
+                                    "title": "Nah She's Good",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-7-a.PNG",
                                     "images": [
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-7-a.png"
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-7-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-7-b.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-7-c.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-7-d.PNG"
+                                    ],
+                                    "videos": [],
+                                    "date": "2022",
+                                    "medium": "mannequin head, acrylic paint, thin metal rod, hot glue, marker",
+                                    "description": "she's okay!"
+                                },
+                                {
+                                    "id": 8,
+                                    "category": "physical",
+                                    "subcategory": "physical-art",
+                                    "group": "sculpture",
+                                    "title": "Going Going Going",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-8-a.PNG",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-8-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-8-c.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-8-d.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-8-e.png"
+                                    ],
+                                    "videos": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-vid-8-b.mp4"
+                                    ],
+                                    "date": "2023",
+                                    "medium": "lazy susan, glass, paint markers",
+                                    "description": "a study on motion and shadow"
+                                },
+                                {
+                                    "id": 9,
+                                    "category": "physical",
+                                    "subcategory": "physical-art",
+                                    "group": "sculpture",
+                                    "title": "Hand Scarf",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-9-a.PNG",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-9-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-9-b.PNG"
                                     ],
                                     "videos": [],
                                     "date": "2023",
-                                    "medium": "fabric, wood, string, thread, pillow stuffing",
-                                    "description": "my big marionette"
+                                    "medium": "fabric and beans",
+                                    "description": "just a hand scarf"
+                                },
+                                {
+                                    "id": 10,
+                                    "category": "physical",
+                                    "subcategory": "physical-art",
+                                    "group": "sculpture",
+                                    "title": "My Icosahedron",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-10-a.PNG",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-10-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-10-c.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-10-d.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-10-e.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-10-f.png"
+                                    ],
+                                    "videos": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-vid-10-b.mp4"
+                                    ],
+                                    "date": "2024",
+                                    "medium": "bristol board, hot glue, adafruit circuit playground express",
+                                    "description": "trying my hand at physical computing and paper crafts"
+                                },
+                                {
+                                    "id": 11,
+                                    "category": "physical",
+                                    "subcategory": "physical-art",
+                                    "group": "sculpture",
+                                    "title": "Hug",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-11-a.PNG",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-11-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-11-b.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-11-c.png"
+                                    ],
+                                    "videos": [],
+                                    "date": "2022",
+                                    "medium": "sweatshirt, beans, plastic bags, fabric",
+                                    "description": "it really does feel like a hug"
+                                },
+                                {
+                                    "id": 12,
+                                    "category": "physical",
+                                    "subcategory": "physical-art",
+                                    "group": "sculpture",
+                                    "title": "Kevin",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-12-a.PNG",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-12-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-12-b.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-12-c.png"
+                                    ],
+                                    "videos": [],
+                                    "date": "2022",
+                                    "medium": "clay",
+                                    "description": "Kevin is a roach"
+                                },
+                                {
+                                    "id": 13,
+                                    "category": "physical",
+                                    "subcategory": "physical-art",
+                                    "group": "sculpture",
+                                    "title": "Double Lips",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-13-a.PNG",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-13-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-13-b.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-13-c.png",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-13-d.png"
+                                    ],
+                                    "videos": [],
+                                    "date": "2022",
+                                    "medium": "wood",
+                                    "description": "lips on each side"
                                 }
                             ]
                         }
