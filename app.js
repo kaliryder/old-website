@@ -70,6 +70,16 @@ function getAllItemsFromSubcategory(categoryName, subcategoryName) {
     return allItems;
 }
 
+app.use((req, res, next) => {
+    if (/Mobi|Android/i.test(req.headers['user-agent'])) {
+        // Render the mobile landing page
+        res.render('mobile-landing');
+    } else {
+        // Continue with the rest of the middleware if not a mobile device
+        next();
+    }
+});
+
 // routes
 // route for home page
 app.get('/',(req,res)=>{
