@@ -1286,17 +1286,18 @@
                                     "title": "Drawing Machine",
                                     "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-14-a.PNG",
                                     "images": [
-                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-14-a.PNG",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-14-a.PNG"
+                                    ],
+                                    "videos": [
                                         "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-vid-14-b.mp4",
                                         "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-vid-14-c.mp4",
                                         "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-vid-14-d.mp4",
                                         "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-vid-14-e.mp4",
                                         "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-vid-14-f.mp4"
                                     ],
-                                    "videos": [],
-                                    "date": "2022",
-                                    "medium": "wood",
-                                    "description": "lips on each side"
+                                    "date": "2024",
+                                    "medium": "Adafruit Circuit Playground Express, 3D Print, various parts",
+                                    "description": "This drawing machine draws from random points. Here is the link to the code. https://github.com/kaliryder/physical-computing/blob/main/topleft.py Updates to come!"
                                 }
                             ]
                         }
