@@ -1277,6 +1277,24 @@
                                     "date": "2022",
                                     "medium": "wood",
                                     "description": "lips on each side"
+                                },
+                                {
+                                    "id": 14,
+                                    "category": "physical",
+                                    "subcategory": "physical-art",
+                                    "group": "sculpture",
+                                    "title": "Drawing Machine",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-14-a.PNG",
+                                    "images": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-vid-14-b.mp4",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-vid-14-c.mp4",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-vid-14-d.mp4",
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/sculpture/sculpture-vid-14-e.mp4"
+                                    ],
+                                    "videos": [],
+                                    "date": "2022",
+                                    "medium": "wood",
+                                    "description": "lips on each side"
                                 }
                             ]
                         }
