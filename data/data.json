@@ -431,6 +431,21 @@
                                     "date": "2024",
                                     "medium": "Unity / C#",
                                     "description": "virtual worlds assignment"
+                                },
+                                {
+                                    "id": 7,
+                                    "category": "digital",
+                                    "subcategory": "code",
+                                    "group": "unity",
+                                    "title": "M307",
+                                    "cover": "https://d1m8q0wflsfke6.cloudfront.net/img/unity/unity-7-a.png",
+                                    "images": [],
+                                    "videos": [
+                                        "https://d1m8q0wflsfke6.cloudfront.net/img/unity/unity-vid-7-b.mp4"
+                                    ],
+                                    "date": "2024",
+                                    "medium": "Unity / C#",
+                                    "description": "virtual worlds assignment - for my final project, I'm going to add more interactions, add an outro, make the room more detailed, add skyboxes and a better narrative"
                                 }
                             ]
                         }
