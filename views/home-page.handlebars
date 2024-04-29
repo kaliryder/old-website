@@ -52,16 +52,16 @@
         <!-- letter A-->
         <div class="letter">
             <div class="letter-mask">
-                <a href="/subcategory/physical/clothes">
+                <a href="/subcategory/digital/code">
                     <img src="https://d1m8q0wflsfke6.cloudfront.net/img/misc/letter-a.png" alt="A" class="letter-mask">
-                    {{#isVideo clothesRandomItem.cover}}
+                    {{#isVideo codeRandomItem.cover}}
                         <!-- if cover is a video -->
                         <video class="letter-media" autoplay loop muted>
-                        <source src="{{clothesRandomItem.cover}}" type="video/mp4">
+                        <source src="{{codeRandomItem.cover}}" type="video/mp4">
                         </video>
                     {{else}}
                         <!-- if cover is an image -->
-                        <div class="letter-media" style="background-image: url('{{clothesRandomItem.cover}}');"></div>
+                        <div class="letter-media" style="background-image: url('{{codeRandomItem.cover}}');"></div>
                     {{/isVideo}}
                 </a>
             </div>
